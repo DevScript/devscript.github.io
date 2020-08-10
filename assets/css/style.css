@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo {
   font-size: 30px;
   position: relative;
-  left: 100px;
+  left: 15%;
   margin-left: -65px;
   line-height: 1.5;
   font-weight: 700;
@@ -377,7 +377,6 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 55px;
   right: 15px;
-  bottom: 15px;
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
@@ -993,7 +992,7 @@ section {
   }*/
   #JOC1 .animated {
     -webkit-animation: none;
-    animation: none;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
   }
   #JOC1 .JOC1-img {
     text-align: center;
@@ -1094,7 +1093,7 @@ section {
 .footer {
   z-index: 1;
   position: absolute;
-  height: 80px;
+  height: 100px;
   width: 100%;
   bottom: 0;
 }
@@ -1127,7 +1126,6 @@ svg#curve {
   padding: 5px;
   margin-right: 25px;
   transform: translateY(200px);
-  
   transition: transform 1s cubic-bezier(.46, 1.48, .18, .81);
 }
 
@@ -1153,36 +1151,144 @@ svg#curve {
   width: 18px;
   margin-top: 4px;
   margin-left: 4px;
-  background-image: url(https://www.xink.io/wp-content/themes/xink/assets/images/icons/black/64/facebook_001.png);
-  background-position: center;
-  background-size: cover;
 }
 
 .connection.twitter .icon {
   height: 100%;
   width: 100%;
-  background-image: url(https://www.xink.io/wp-content/themes/xink/assets/images/icons/black/64/instagram_001.png);
-  background-position: center;
-  background-size: cover;
 }
 
 .connection.behance .icon {
   height: 100%;
   width: 100%;
-  background-image: url(https://www.xink.io/wp-content/themes/xink/assets/images/icons/black/64/twitter_001.png);
-  background-position: center;
-  background-size: cover;
 }
 
-.info {
-font-family: Inconsolata;
+.live-detail {
+  font-family: Inconsolata;
   padding-left: 20px;
   transform: translateY(250px);
-
   transition: transform 1s cubic-bezier(.31,1.21,.64,1.02);
 }
 
-.card:hover .info {
+.info, .yt-live {
+  width: 50%;
+  height:64px;
+  float: left;
+}
+.yt-live {
+  padding-top: 7.5%;
+}
+
+.social-button {
+	display: inline-block;
+	border-radius: 50%;
+	background-color: #8c8c8c;
+	background-color: rgba(140,140,140,0.75);
+	color: #fff;
+	border: 0 none;
+	padding: 0;
+	text-align: center;
+	width: 3em;
+	height: 3em;
+	line-height: 3em;
+	position: relative;
+	transition: all 0.25s ease-in-out;
+}
+
+.social-button:hover {
+	background-color: #e44848;
+	color: #fff;
+}
+
+.social-button:hover:before {
+	animation: social-button-beat 1.5s ease-out infinite;
+}
+
+.social-button:hover:after {
+	animation: social-button-beat 1.5s ease-out 0.4s infinite;
+}
+
+.social-button:before,
+.social-button:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background-color: #e44848;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	opacity: 0;
+	transition: all 0.25s ease-in-out;
+}
+
+@-moz-keyframes social-button-beat {
+	0% {
+		opacity: 0.8;
+		transform: scale(1);
+	}
+
+	70% {
+		opacity: 0;
+		transform: scale(1.5);
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes social-button-beat {
+	0% {
+		opacity: 0.8;
+		transform: scale(1);
+	}
+
+	70% {
+		opacity: 0;
+		transform: scale(1.5);
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@-o-keyframes social-button-beat {
+	0% {
+		opacity: 0.8;
+		transform: scale(1);
+	}
+
+	70% {
+		opacity: 0;
+		transform: scale(1.5);
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes social-button-beat {
+	0% {
+		opacity: 0.8;
+		transform: scale(1);
+	}
+
+	70% {
+		opacity: 0;
+		transform: scale(1.5);
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.card:hover .live-detail {
   transform: translateY(0px);
 }
 
@@ -2470,11 +2576,17 @@ section.community .community-grid .peeps .small-crowd {
 }
 
 section.community .community-grid .peeps .crowd {
-  position: absolute;
   bottom: 0;
   left: 23%;
   width: 63%;
-  max-width: 850px;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 991px) {
+section.community .community-grid .peeps .crowd {
+  width: 100%;
+  height: 75%;
+}
 }
 
 section.community .community-grid .peeps .animated {
@@ -2596,8 +2708,7 @@ section.community .community-grid .peeps .animated {
 /* Footer social icons */
 
 .footer-distributed .footer-icons{
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin: 40px 25px;
 }
 
 .footer-distributed .footer-icons a{
@@ -2706,7 +2817,9 @@ section.community .community-grid .peeps .animated {
   padding: 10px;
   outline: none;
 }
-
+.input-container button {
+  margin: auto;
+}
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 1000px) {

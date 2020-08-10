@@ -305,10 +305,18 @@
                   <animate xlink:href="#p" attributeName="d" to="M0,200 Q80,100 400,200 V150 H0 V50" fill="freeze"
                     begin="dummyRect.mouseout" dur="0.15s" id="bounceOut" />
                 </svg>
+                <div class="live-detail">
                 <div class="info">
                   <div class="name">Game Development Series</div>
                   <div class="job">By - Ishan Vohra</div>
                 </div>
+                <div class="text-center text-large yt-live">
+                  <a href="https://www.youtube.com/channel/UCQWgtNSqWGu_PJFQqAiCSNw" class="social-button" target="_blank">
+                    <span class="fa fa-lg fa-youtube"></span>
+                  </a>
+                </div>
+              </div>
+                
               </div>
               <div class="card-blur"></div>
             </div>
@@ -324,7 +332,7 @@
       <div class="section-title">
         <h1>Upcoming Events</h1><br><br>
       </div>
-      <div class="container" data-aos="fade-up">
+      <div class="container upcoming" data-aos="fade-up">
 
         <div class="row">
 
@@ -825,7 +833,6 @@
       </div>
     </section><!-- End Counts Section -->
 
-    <link rel="stylesheet" href=".css">
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients section-bg align-items-center">
       <div class="container" data-aos="zoom-in">
@@ -973,8 +980,7 @@
           <h4>150 online<span class="bullet"> • </span><span>now</span></h4>
         </div><a class="button" href="https://discord.gg/2VbhqM" target="blank"><button class="join_btn join_btn--ghost">Enter Chat</button></a>
       </div>
-      <div class="peeps"><img class="peep crowd animated" src="assets/img/peep-crowd.svg" loading="lazy"><img
-          class="peep small-crowd" src="/static/art/peep-small-crowd.svg" loading="lazy"></div>
+      <div class="peeps"><img class="peep crowd animated" src="assets/img/peep-crowd.svg" loading="lazy"></div>
     </div>
   </section>
 
@@ -993,11 +999,11 @@
 
       <div class="footer-icons">
 
+        <a href="https://www.linkedin.com/company/devscripts/"><i class="fa fa-youtube"></i></a>
         <a href="https://www.linkedin.com/company/devscripts/"><i class="fa fa-linkedin"></i></a>
         <a href="https://www.github.com/DevScript/"><i class="fa fa-github"></i></a>
         <a href="https://www.instagram.com/devscript.tech/"><i class="fa fa-instagram"></i></a>
         <a href="https://www.twitter.com/The_DevScript"><i class="fa fa-twitter"></i></a>
-        <a href="https://discord.gg/2VbhqM"><i class="fab fa-discord"></i></a>
         <a href="https://t.me/DevScript"><i class="fa fa-telegram"></i></a>
 
       </div>
@@ -1024,7 +1030,9 @@
           <i class="fa fa-comment icon"></i>
           <textarea name="message" placeholder="Message"></textarea>
         </div>
-        <button>Send</button>
+        <div class="input-container">
+          <button>Send</button>
+        </div>
 
       </form>
 
@@ -1038,7 +1046,10 @@
   <!-- ==============================================
 		FOOTER
 		=============================================== -->
-  <div id="preloader"></div>
+    <div class="spinner">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
+    </div>
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
   <button class="btn btn-chat"> <img src="assets/img/chat-bot.ico" alt="" srcset=""> </button>
 
