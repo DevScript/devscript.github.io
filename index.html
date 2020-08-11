@@ -10,59 +10,42 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.ico" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="static/img/favicon.ico" rel="icon">
 
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-  <!--link href="//db.onlinewebfonts.com/c/ef07dc22e614f5520aeed02f4ee75e58?family=Exo+2" rel="stylesheet"
-    type="text/css" /-->
-
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Rowdies:wght@700&family=Sora:wght@600&family=Sriracha&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="static/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="static/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="static/css/style.css" rel="stylesheet">
 
-  <style type="text/css">
-    p {
-      font-family: Exo+2;
-      font-weight: thin;
-      font-size: 16px;
-    }
-  </style>
 </head>
 
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
+  <header id="header" class="fixed-top">
     <div class="container-fluid">
-
+      
       <div class="row justify-content-center">
         <div class="d-flex align-items-center justify-content-between">
           <h1 class="logo"><a href="index.html">DevScript</a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          <!-- <a href="index.html" class="logo"><img src="static/img/logo.png" alt="" class="img-fluid"></a>-->
 
           <nav class="nav-menu d-none d-lg-block">
             <ul>
-              <!-- <li class="active"><a href="index.html">Home</a></li> -->
-              <!-- <li><a href="#services">Services</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#pricing">Pricing</a></li> -->
-              <li class="drop-down"><a><button class="join_btn btn--dropdown join_btn--action">Events</button></a>
+              <!--li class="drop-down span"><a>Events<span class="caret"></span></a>
                 <ul>
                   <li><a href="#featured-services">Upcoming Events</a></li>
-                  <li><a href="#services">Past Events</a></li>
+                  <li><a href="#services">Past Events</a></li-->
                   <!-- <li class="drop-down"><a href="#services"></a>Past Events</a></li> -->
                   <!-- <ul>
                       <li><a href="#">Deep Drop Down 1</a></li>
@@ -75,16 +58,14 @@
                   <li><a href="#">Drop Down 2</a></li>
                   <li><a href="#">Drop Down 3</a></li>
                   <li><a href="#">Drop Down 4</a></li>-->
-                </ul>
-              </li>
-              <li><a href="#JOC"><button class="join_btn join_btn--action">Our Bootcamps</button></a></li>
-              <li><a href="#JOC"><button class="join_btn join_btn--action">Join Our Community</button></a></li>
-              <!-- <li><a href="#JOC"class="get-started-btn scrollto">Join our Community</a></li> -->
-              <!-- <li><a href="#
-">Contact</a></li> -->
+                <!--/ul>
+              </li-->
+              <li class="span"><a href="#JOC">Join Our Community</a></li>
+              <li class="span"><a href="#live-event">Live Events</a></li>
+              <li class="span"><a href="#upcoming-event">Upcoming Events</a></li>
+              <li class="span"><a href="#past-event">Past Events</a></li>
             </ul>
           </nav><!-- .nav-menu -->
-          <!-- <a href="#about" class="get-started-btn scrollto">Get Started</a> -->
         </div>
       </div>
 
@@ -126,7 +107,7 @@
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/services.png" class="img-fluid animated" alt="">
+            <img src="static/img/services.png" class="img-fluid animated" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
             data-aos-delay="100">
@@ -187,10 +168,10 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">
-              <h1 class="title is-2  lg:text-left sm:text-left  mb-2  "><strong><u> BECOME A CAMPUS REPRESENTATIVE </u></strong></h1>
+              <h3><strong><u style="font-family: 'Acme', sans-serif;"> BECOME A CAMPUS REPRESENTATIVE </u></strong></h3>
               <p>Campus Representative program at DevScript is aimed at identifying energetic, passionate tech geeks  who aspire to take the initiative and make a mark. Be the face & voice of DevScript at your campus.</p>
 
-              <strong>Roles and Responsibilities of DevScript Representatives :</strong>
+              <strong><h4>Roles and Responsibilities of DevScript Representatives :</h4></strong>
               
                 <li>Connect with other ambassadors, share resources and get recognized globally.</li>
                 <li>Get students to attend workshops, to enhance their skills set for future job assistance from our
@@ -204,7 +185,7 @@
                 target="_blank" class="btn-get-started scrollto">Apply Now</a>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 JOC1-img">
-              <img src="assets/img/campus1.jpg" class="img-fluid animated" alt="">
+              <img src="static/img/campus-ambassador-1.jpg" class="img-fluid animated" alt="">
             </div>
           </div>
         </div>
@@ -218,17 +199,17 @@
 
             <div class="row justify-content-between">
               <div class="col-lg-5 d-flex align-items-center justify-content-center JOC2-img">
-                <img src="assets/img/counselling.png" class="img-fluid animated" alt="" data-aos="zoom-in">
+                <img src="static/img/counselling.png" class="img-fluid animated" alt="" data-aos="zoom-in">
               </div>
               <div class="col-lg-6 pt-5 pt-lg-0"><br><br><br>
-                <h1 class="title is-2  lg:text-left sm:text-left  mb-2"><strong><u> BECOME A MENTOR</u></strong> </h1>
+                <h3><strong><u style="font-family: 'Acme', sans-serif;"> BECOME A MENTOR </u></strong></h3>
 
                 <div class="row" data-aos="fade-up" data-aos-delay="100">
                   <p>You’ll be the catalyst for motivating students to achieve and fulfil their tech-dreams.
                     You can change two lives- <strong>‘Yours and Theirs’</strong>. So, if you think you’ve domain
                     knowledge and are ready to guide others<br>
                   <p>
-                  <h3><u><i>Domains are:</i></u></h3>
+                  <h4><u><i>Domains are:</i></u></h4>
                   </p>
                   <div class="domain-container">
                     <div class="domain_left">
@@ -242,7 +223,7 @@
                     </div>
                     <div class="domain_right">
                       <ul><strong>
-                          <li>Security</li>
+                          <li>Cyber Security</li>
                           <li>Blockchain</li>
                           <li>DevOps</li>
                           <li>Cloud Computing</li>
@@ -261,7 +242,7 @@
         </section><!-- End JOC2 Section -->
     </section>
 
-    <section id="featured-services" class="featured-services">
+    <section id="live-event" class="featured-services">
 
       <div class="section-title">
         <h1>Live Event</h1><br><br>
@@ -270,7 +251,7 @@
 
         <div class="row">
           <div class="col-sm d-flex align-items-stretch mb-5 mb-lg-0">
-            <div id="curve" class="card" style="background-image: url(assets/img/Live.jpeg);">
+            <div id="curve" class="card" style="background-image: url(static/img/Live.jpeg);">
               <div class="footer">
                 <div class="connections">
                   <div class="connection facebook">
@@ -308,7 +289,7 @@
                 <div class="live-detail">
                 <div class="info">
                   <div class="name">Game Development Series</div>
-                  <div class="job">By - Ishan Vohra</div>
+                  <div class="host">By - Ishan Vohra</div>
                 </div>
                 <div class="text-center text-large yt-live">
                   <a href="https://www.youtube.com/channel/UCQWgtNSqWGu_PJFQqAiCSNw" class="social-button" target="_blank">
@@ -327,7 +308,7 @@
 
 
     <!-- ======= Featured Services Section ======= -->
-    <section id="featured-services" class="featured-services">
+    <section id="upcoming-event" class="featured-services">
 
       <div class="section-title">
         <h1>Upcoming Events</h1><br><br>
@@ -338,16 +319,20 @@
 
           <div class="col-lg-3 col-md-6">
             <ul>
-              <li class="booking-card" style="background-image: url(assets/img/Upcoming.jpeg);">
+              <li class="booking-card" style="background-image: url(static/img/upcoming/demo2.png);">
+                <div class="book-container">
+                  <!--span class="badge badge-pill badge-primary-desat badge-float badge-float-outside">
+                  1st Aug @ 4:30 pm
+                </span-->
                 <div class="book-container">
                   <div class="content">
-                    <button class="btn">Register</button>
+                    <button class="btn">Coming Soon</button>
                   </div>
                 </div>
                 <div class="informations-container">
-                  <h2 class="title">Game Development Series</h2>
-                  <p class="sub-title">By - Ishan Vohra</p>
-                  <div class="more-information">
+                  <h2 class="title">Will Be Announced Soon</h2>
+                  <p class="sub-title"> </p><br>
+                  <!--div class="more-information">
                     <div class="info-and-date-container">
                       <div class="box date">
                         <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -358,22 +343,26 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div-->
               </li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6">
             <ul>
-              <li class="booking-card" style="background-image: url(assets/img/Upcoming.jpeg);">
+              <li class="booking-card" style="background-image: url(static/img/upcoming/demo2.png);">
+                <div class="book-container">
+                  <!--span class="badge badge-pill badge-primary-desat badge-float badge-float-outside">
+                  1st Aug @ 4:30 pm
+                </span-->
                 <div class="book-container">
                   <div class="content">
-                    <button class="btn">Register</button>
+                    <button class="btn">Coming Soon</button>
                   </div>
                 </div>
                 <div class="informations-container">
-                  <h2 class="title">Game Development Series</h2>
-                  <p class="sub-title">By - Ishan Vohra</p>
-                  <div class="more-information">
+                  <h2 class="title">Will Be Announced Soon</h2>
+                  <p class="sub-title"> </p><br>
+                  <!--div class="more-information">
                     <div class="info-and-date-container">
                       <div class="box date">
                         <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -384,22 +373,26 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div-->
               </li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6">
             <ul>
-              <li class="booking-card" style="background-image: url(assets/img/Upcoming.jpeg);">
+              <li class="booking-card" style="background-image: url(static/img/upcoming/demo2.png);">
+                <div class="book-container">
+                  <!--span class="badge badge-pill badge-primary-desat badge-float badge-float-outside">
+                  1st Aug @ 4:30 pm
+                </span-->
                 <div class="book-container">
                   <div class="content">
-                    <button class="btn">Register</button>
+                    <button class="btn">Coming Soon</button>
                   </div>
                 </div>
                 <div class="informations-container">
-                  <h2 class="title">Game Development Series</h2>
-                  <p class="sub-title">By - Ishan Vohra</p>
-                  <div class="more-information">
+                  <h2 class="title">Will Be Announced Soon</h2>
+                  <p class="sub-title"> </p><br>
+                  <!--div class="more-information">
                     <div class="info-and-date-container">
                       <div class="box date">
                         <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -410,22 +403,26 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div-->
               </li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6">
             <ul>
-              <li class="booking-card" style="background-image: url(assets/img/Upcoming.jpeg);">
+              <li class="booking-card" style="background-image: url(static/img/upcoming/demo2.png);">
+                <div class="book-container">
+                  <!--span class="badge badge-pill badge-primary-desat badge-float badge-float-outside">
+                  1st Aug @ 4:30 pm
+                </span-->
                 <div class="book-container">
                   <div class="content">
-                    <button class="btn">Register</button>
+                    <button class="btn">Coming Soon</button>
                   </div>
                 </div>
                 <div class="informations-container">
-                  <h2 class="title">Game Development Series</h2>
-                  <p class="sub-title">By - Ishan Vohra</p>
-                  <div class="more-information">
+                  <h2 class="title">Will Be Announced Soon</h2>
+                  <p class="sub-title"> </p><br>
+                  <!--div class="more-information">
                     <div class="info-and-date-container">
                       <div class="box date">
                         <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -436,7 +433,7 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div-->
               </li>
             </ul>
           </div>
@@ -447,59 +444,54 @@
 
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <section id="past-event" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <div class="section-title">
             <h1>Past Events</h1><br><br>
           </div>
-          <!-- <h3>Check our <span>Past Events</span></h3>
-         <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>-->
         </div>
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <a href="#popup1"><i class="fa fa-arrows-alt" style="float:right;"></i></a>
-              <div class="icon"><i class="ionicons ion-code-working" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="https://www.youtube.com/channel/UCQWgtNSqWGu_PJFQqAiCSNw">Game Session</h4></a>
-              <h6>Game Session</h6>
+              <div class="icon"><i class="fas fa-gamepad"></i></div>
+              <h4 class="title"><a target="_blank" href="https://www.youtube.com/watch?v=3QBMphdVjQM">FPS using Unreal Engine</h4></a>
+              <h6>This session was organised on 1st August 2020 at 03:00 PM in collaboration with Microsoft Student Partners.</h6>
               </p>
               <h6 style="text-align:left;"><u>Speaker</u></h6>
               <div class="col-sm-12 col-md-12 col-lg-12">
                 <p class="techStack">Ishan Vohra</p>
-                <!-- <p class="techStack">Firebase</p>
-                <p class="techStack">SQLite</p> -->
               </div>
             </div>
             <div id="popup1" class="popup-container">
               <div class="popup-content">
                 <a href="#pop" class="close">&times;</a>
-                <h3>Game Session &nbsp;<a href="https://www.youtube.com/channel/UCQWgtNSqWGu_PJFQqAiCSNw" class="github"><i
-                      class="fa fa-youtube"></i></a></h3>
+                <h3>FPS using Unreal Engine &nbsp;<a target="_blank" href="https://www.youtube.com/channel/UCQWgtNSqWGu_PJFQqAiCSNw"><i class="fa fa-youtube"></i></a></h3>
                 <div class="container">
                   <div class="row">
-                    <div class="col-sm-12 col-md-7 col-lg-7">
-                      <iframe width="420" height="300" src="https://www.youtube.com/embed/DiHD6igmg38?"
+                    <div class="col">
+                      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3QBMphdVjQM"
                         allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen"
                         msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen"
                         webkitallowfullscreen="webkitallowfullscreen"></iframe>
                     </div>
-                    <div class="col-sm-12 col-md-5 col-lg-5">
+                    <!-- <div class="col-sm-12 col-md-5 col-lg-5">
                       <h5 style="text-align:left;"><u>Description</u></h5>
-                      <p>Game session on A social app for book lovers to share book reviews and recommendations and to
-                        discover new books based on their chosen genre.A social app for book lovers to share book
-                        reviews and recommendations and to discover new books based on their chosen genre.A social app
-                        for book lovers to share book reviews and recommendations and to discover new books based on
-                        their chosen genre. A social app for book lovers to share book reviews and recommendations and
-                        to discover new books based on their chosen genre.</p>
+                      <p>Through the event participants got in depth knowledge about: </p>
+                      <p>Creating a project <br>
+                      UI Overview<br>
+                      Materials<br>
+                      Creating Enemy AI<br>
+                      Landscape Editing</p>
                       <div class="col-sm-12 col-md-12 col-lg-12">
 
                         <p class="techStack">Flutter</p>
                         <p class="techStack">Firebase</p>
                         <p class="techStack">SQLite</p>
                       </div>
-                    </div>
+                    </div> -->
 
                   </div>
                 </div>
@@ -507,284 +499,96 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <a href="#popup1"><i class="fa fa-arrows-alt" style="float:right;"></i></a>
-              <div class="icon"><i class="ionicons ion-code-working" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="https://www.youtube.com/channel/UCQWgtNSqWGu_PJFQqAiCSNw">Game Session</h4></a>
-              <h6>Game Session</h6>
-              </p>
-              <h6 style="text-align:left;"><u>Speaker</u></h6>
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <p class="techStack">Ishan Vohra</p>
-                <!-- <p class="techStack">Firebase</p>
-                <p class="techStack">SQLite</p> -->
-              </div>
-            </div>
-            <div id="popup1" class="popup-container">
-              <div class="popup-content">
-                <a href="#pop" class="close">&times;</a>
-                <h3>Building Personal Portfolio Website &nbsp;<a href="https://www.youtube.com/channel/UCQWgtNSqWGu_PJFQqAiCSNw" class="github"><i
-                      class="fa fa-youtube"></i></a></h3>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-7 col-lg-7">
-                      <iframe width="420" height="300" src="https://www.youtube.com/embed/DiHD6igmg38?"
-                        allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen"
-                        msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen"
-                        webkitallowfullscreen="webkitallowfullscreen"></iframe>
-                    </div>
-                    <div class="col-sm-12 col-md-5 col-lg-5">
-                      <h5 style="text-align:left;"><u>Description</u></h5>
-                      <p>Game session on A social app for book lovers to share book reviews and recommendations and to
-                        discover new books based on their chosen genre.A social app for book lovers to share book
-                        reviews and recommendations and to discover new books based on their chosen genre.A social app
-                        for book lovers to share book reviews and recommendations and to discover new books based on
-                        their chosen genre. A social app for book lovers to share book reviews and recommendations and
-                        to discover new books based on their chosen genre.</p>
-                      <div class="col-sm-12 col-md-12 col-lg-12">
-
-                        <p class="techStack">Flutter</p>
-                        <p class="techStack">Firebase</p>
-                        <p class="techStack">SQLite</p>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <a href="#popup1"><i class="fa fa-arrows-alt" style="float:right;"></i></a>
-              <div class="icon"><i class="ionicons ion-code-working" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="https://www.youtube.com/channel/UCQWgtNSqWGu_PJFQqAiCSNw">Game Session</h4></a>
-              <h6>Game Session</h6>
-              </p>
-              <h6 style="text-align:left;"><u>Speaker</u></h6>
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <p class="techStack">Ishan Vohra</p>
-                <!-- <p class="techStack">Firebase</p>
-                <p class="techStack">SQLite</p> -->
-              </div>
-            </div>
-            <div id="popup1" class="popup-container">
-              <div class="popup-content">
-                <a href="#pop" class="close">&times;</a>
-                <h3>Session Git and GitHub &nbsp;<a href="https://www.youtube.com/channel/UCQWgtNSqWGu_PJFQqAiCSNw" class="github"><i
-                      class="fa fa-youtube"></i></a></h3>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-7 col-lg-7">
-                      <iframe width="420" height="300" src="https://www.youtube.com/embed/DiHD6igmg38?"
-                        allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen"
-                        msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen"
-                        webkitallowfullscreen="webkitallowfullscreen"></iframe>
-                    </div>
-                    <div class="col-sm-12 col-md-5 col-lg-5">
-                      <h5 style="text-align:left;"><u>Description</u></h5>
-                      <p>Game session on A social app for book lovers to share book reviews and recommendations and to
-                        discover new books based on their chosen genre.A social app for book lovers to share book
-                        reviews and recommendations and to discover new books based on their chosen genre.A social app
-                        for book lovers to share book reviews and recommendations and to discover new books based on
-                        their chosen genre. A social app for book lovers to share book reviews and recommendations and
-                        to discover new books based on their chosen genre.</p>
-                      <div class="col-sm-12 col-md-12 col-lg-12">
-
-                        <p class="techStack">Flutter</p>
-                        <p class="techStack">Firebase</p>
-                        <p class="techStack">SQLite</p>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!--div class="col-sm-12 col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <a href="#popup2"><i class="fa fa-arrows-alt" style="float:right;"></i></a>
-              <div class="icon"><i class="ionicons ion-code-working" style="color: #ff689b;"></i></div>
-              <h5 class="title"><a href="https://github.com/CheshtaK/bookface">Bookface</h5></a>
-              <h6 style="text-align:left;"><u>Description</u></h6>
-              <p>A social app for book lovers to share book reviews and recommendations and ...</p>
-              <h6 style="text-align:left;"><u>Tech Stack</u></h6>
+              <div class="icon"><i class="fa fa-html5"></i></div>
+              <h4 class="title"><a target="_blank" href="https://www.youtube.com/watch?v=x0Rs9B3kcd8">Building portfolio website</h4></a>
+              <h6>The session was organised on 18th july at 11:30 am in collaboration with Microsoft Student Partners, sponsored by LetsUpgrade and ISCAP.</h6>
+              </p>
+              <h6 style="text-align:left;"><u>Speaker</u></h6>
               <div class="col-sm-12 col-md-12 col-lg-12">
-                <p class="techStack">Flutter</p>
+                <p class="techStack">Praveen Kumar Purushottam</p>
               </div>
             </div>
             <div id="popup2" class="popup-container">
               <div class="popup-content">
                 <a href="#pop" class="close">&times;</a>
-                <h3>Bookface&nbsp;<a href="https://github.com/CheshtaK/bookface" class="github"><i
-                      class="fa fa-github"></i></a></h3>
+                <h3>Building Personal Portfolio Website &nbsp;<a target="_blank" href="https://www.youtube.com/channel/UCQWgtNSqWGu_PJFQqAiCSNw"><i class="fa fa-youtube"></i></a></h3>
                 <div class="container">
                   <div class="row">
-                    <div class="col-sm-12 col-md-7 col-lg-7">
+                    <div class="col">
+                      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/x0Rs9B3kcd8"
+                        allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen"
+                        msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen"
+                        webkitallowfullscreen="webkitallowfullscreen"></iframe>
+                    </div>
+                    <!-- <div class="col-sm-12 col-md-5 col-lg-5">
                       <h5 style="text-align:left;"><u>Description</u></h5>
-                      <p>A social app for book lovers to share book reviews and recommendations and to discover new
-                        books
-                        based on their chosen genre.</p>
-                    </div>
-
-                    <div class="col-sm-12 col-md-5 col-lg-5">
-                      <h5 style="text-align:left;"><u>Tech Stack</u></h5>
+                      <p>Highlights of the session</p>
+                      <ul>
+                          <li>Hands on session </li>
+                          <li>A basic idea of HTML, CSS,JavaScript was given</li>
+                          <li>Assignment were provided to increase further knowledge</li>
+                      </ul>
                       <div class="col-sm-12 col-md-12 col-lg-12">
+
                         <p class="techStack">Flutter</p>
-                      </div><br>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm-12 col-md-7 col-lg-7">
-                            <u>Owner</u><br>Cheshta Kwatra<br><a href="https://github.com/CheshtaK" class="github"><i
-                                class="fa fa-github"></i></a> &nbsp; <a href="www.linkedin.com/in/cheshtak"
-                              class="linkedin"><i class="fa fa-linkedin"></i></a></p>
-
-                          </div>
-                          <div class="col-sm-12 col-md-5 col-lg-5">
-                            <u>Mentors</u><br>Komal Pal<br><a href="https://github.com/Komal7209" class="github"><i
-                                class="fa fa-github"></i></a> &nbsp; <a
-                              href="https://www.linkedin.com/in/komal-pal-8a9a82155/" class="linkedin"><i
-                                class="fa fa-linkedin"></i></a>
-                            <br>Himanshu Sharma<br><a href="https://github.com/himanshusharma89" class="github"><i
-                                class="fa fa-github"></i></a> &nbsp; <a
-                              href="https://www.linkedin.com/in/himanshusharma89/" class="linkedin"><i
-                                class="fa fa-linkedin"></i></a>
-                          </div>
-                        </div>
+                        <p class="techStack">Firebase</p>
+                        <p class="techStack">SQLite</p>
                       </div>
+                    </div> -->
 
-                    </div>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
-
           <div class="col-sm-12 col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <a href="#popup3"><i class="fa fa-arrows-alt" style="float:right;"></i></a>
-              <div class="icon"><i class="ionicons ion-code-working" style="color: #ff689b;"></i></div>
-              <h5 class="title"><a href="https://github.com/UtkarshChaurasia/COVID-19-A-boon-for-nature">COVID-19: Boon
-                  For Nature</h5></a>
-              <h6 style="text-align:left;"><u>Description</u></h6>
-              <p>Analysis of the datasets available and predict the impact of improved air quality on...</p>
-              <h6 style="text-align:left;"><u>Tech Stack</u></h6>
+              <div class="icon"><i class="fa fa-github"></i></div>
+              <h4 class="title"><a target="_blank" href="https://www.youtube.com/watch?v=9XkAIgmYVFA">Session on Git and GitHub</h4></a>
+              <h6>A session on Git and GitHub was organised on 11th July 2020 at 4:30 p.m. in collaboration with Microsoft Student Partners and sponsored by LetsUpgrade.</h6>
+              </p>
+              <h6 style="text-align:left;"><u>Speaker</u></h6>
               <div class="col-sm-12 col-md-12 col-lg-12">
-                <p class="techStack">Data Science</p>
-                <p class="techStack">ML</p>
+                <p class="techStack">Abhishek Singh</p>
+                <p class="techStack">Rohit Ashiwal</p>
               </div>
             </div>
             <div id="popup3" class="popup-container">
               <div class="popup-content">
                 <a href="#pop" class="close">&times;</a>
-                <h3>COVID-19: Boon For Nature&nbsp;<a
-                    href="https://github.com/UtkarshChaurasia/COVID-19-A-boon-for-nature" class="github"><i
-                      class="fa fa-github"></i></a></h3>
+                <h3>Session on Git and GitHub &nbsp;<a target="_blank" href="https://www.youtube.com/channel/UCQWgtNSqWGu_PJFQqAiCSNw"><i class="fa fa-youtube"></i></a></h3>
                 <div class="container">
                   <div class="row">
-                    <div class="col-sm-12 col-md-7 col-lg-7">
+                    <div class="col">
+                      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/9XkAIgmYVFA"
+                        allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen"
+                        msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen"
+                        webkitallowfullscreen="webkitallowfullscreen"></iframe>
+                    </div>
+                    <!--div class="col-sm-12 col-md-5 col-lg-5">
                       <h5 style="text-align:left;"><u>Description</u></h5>
-                      <p>Analysis of the datasets available and predict the impact of improved air quality on the
-                        overall
-                        ecosystem, such as by how far the melting of polar ice will be pushed which was originally
-                        predicted in 2100. The positive aspect of this pandemic could be an
-                        eye-opener to reanalyze the parameters which play a vital role in a healthier environment. This
-                        might encourage people to keep the air immaculate once this lockdown is over.</p>
-                    </div>
+                      <p>Highlights of the Session:<br>Through the event participants got in depth knowledge about </p>
+                      <ul>
+                          <li>Version control System</li>
+                          <li>Difference between Git and Github</li>
+                          <li>Working with repositories</li>
+                      </ul>
+                      < <div class="col-sm-12 col-md-12 col-lg-12">
 
-                    <div class="col-sm-12 col-md-5 col-lg-5">
-                      <h5 style="text-align:left;"><u>Tech Stack</u></h5>
-                      <div class="col-sm-12 col-md-12 col-lg-12">
-                        <p class="techStack">Data Science</p>
-                        <p class="techStack">ML</p>
-                      </div><br>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm-12 col-md-7 col-lg-7">
-                            <u>Owner</u><br>Utkarsh Chaurasia<br><a href="https://github.com/UtkarshChaurasia"
-                              class="github"><i class="fa fa-github"></i></a> &nbsp; <a
-                              href="https://www.linkedin.com/in/utkarsh-chaurasia-a4b76a17b/" class="linkedin"><i
-                                class="fa fa-linkedin"></i></a></p>
+                        <p class="techStack">Flutter</p>
+                        <p class="techStack">Firebase</p>
+                        <p class="techStack">SQLite</p>
+                      </div> >
+                    </div-->
 
-                          </div>
-                          <div class="col-sm-12 col-md-5 col-lg-5">
-                            <u>Mentors</u><br>Shivan Kumar<br><a href="https://github.com/Shivan118" class="github"><i
-                                class="fa fa-github"></i></a> &nbsp; <a
-                              href="https://www.linkedin.com/in/shivan-kumar//" class="linkedin"><i
-                                class="fa fa-linkedin"></i></a>
-                            <br>Ankit Dobhal<br><a href="https://github.com/ankitdobhal" class="github"><i
-                                class="fa fa-github"></i></a> &nbsp; <a
-                              href="https://www.linkedin.com/in/ankit-dobhal-aa237015b/" class="linkedin"><i
-                                class="fa fa-linkedin"></i></a>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
                   </div>
                 </div>
-
               </div>
             </div>
-          </div-->
-          <!-- <div class="row">
-         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-           <div class="icon-box">
-             <div class="icon"><i class="bx bxl-dribbble"></i></div>
-             <h4><a href="">Lorem Ipsum</a></h4>
-             <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-             <div class="btn-wrap">
-              <a href="#" class="btn-buy">Buy Now</a>
-            </div>
-           </div>
-         </div>
-
-         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-           <div class="icon-box">
-             <div class="icon"><i class="bx bx-file"></i></div>
-             <h4><a href="">Sed ut perspiciatis</a></h4>
-             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-           </div>
-         </div>
-
-         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-           <div class="icon-box">
-             <div class="icon"><i class="bx bx-tachometer"></i></div>
-             <h4><a href="">Magni Dolores</a></h4>
-             <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-           </div>
-         </div>
-
-         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-           <div class="icon-box">
-             <div class="icon"><i class="bx bx-world"></i></div>
-             <h4><a href="">Nemo Enim</a></h4>
-             <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-           </div>
-         </div>
-
-         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-           <div class="icon-box">
-             <div class="icon"><i class="bx bx-slideshow"></i></div>
-             <h4><a href="">Dele cardo</a></h4>
-             <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-           </div>
-         </div>
-
-         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-           <div class="icon-box">
-             <div class="icon"><i class="bx bx-arch"></i></div>
-             <h4><a href="">Divera don</a></h4>
-             <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-           </div>
-         </div>
-
-       </div>
-
-     </div> -->
+          </div>
     </section><!-- End Services Section -->
 
     <!-- ======= Counts Section ======= -->
@@ -845,36 +649,24 @@
         <div class="row">
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/LU.png" class="img-fluid" alt="LetsUpgrade">
+            <img src="static/img/clients/LU.png" class="img-fluid" alt="LetsUpgrade">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/ISCAP.jpeg" class="img-fluid" alt="ISCAP">
+            <img src="static/img/clients/ISCAP.jpeg" class="img-fluid" alt="ISCAP">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/NeoVantium.png" class="img-fluid" alt="NeoVantium">
+            <img src="static/img/clients/NeoVantium black.png" class="img-fluid" alt="NeoVantium">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/geeks.png" class="img-fluid" alt="Geeks">
+            <img src="static/img/clients/geeks.png" class="img-fluid" alt="Geeks">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/cblogo.png" class="img-fluid" alt="CodingBlocks">
+            <img src="static/img/clients/cblogo.png" class="img-fluid" alt="CodingBlocks">
           </div>
-
-          <!-- <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div> -->
 
         </div>
 
@@ -897,7 +689,7 @@
         <div class="owl-carousel testimonials-carousel">
 
           <div class="testimonial-item">
-            <img src="assets/img/testimonials/winner.PNG" class="testimonial-img" alt="">
+            <img src="static/img/testimonials/winner.PNG" class="testimonial-img" alt="">
             <h3>Sakshi Thakur</h3>
             <h4>Winner of Scripto-Mania 1.0</h4>
             <p>
@@ -907,8 +699,8 @@
             </p>
           </div>
 
-          <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+          <!--div class="testimonial-item">
+            <img src="static/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
             <h3>Sara Wilsson</h3>
             <h4>Designer</h4>
             <p>
@@ -920,7 +712,7 @@
           </div>
 
           <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+            <img src="static/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
             <h3>Jena Karlis</h3>
             <h4>Store Owner</h4>
             <p>
@@ -932,7 +724,7 @@
           </div>
 
           <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+            <img src="static/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
             <h3>Matt Brandon</h3>
             <h4>Freelancer</h4>
             <p>
@@ -944,7 +736,7 @@
           </div>
 
           <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <img src="static/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
             <h3>John Larson</h3>
             <h4>Entrepreneur</h4>
             <p>
@@ -953,7 +745,7 @@
               labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
-          </div>
+          </div-->
 
         </div>
 
@@ -980,7 +772,7 @@
           <h4>150 online<span class="bullet"> • </span><span>now</span></h4>
         </div><a class="button" href="https://discord.gg/2VbhqM" target="blank"><button class="join_btn join_btn--ghost">Enter Chat</button></a>
       </div>
-      <div class="peeps"><img class="peep crowd animated" src="assets/img/peep-crowd.svg" loading="lazy"></div>
+      <div class="peeps"><img class="peep crowd animated" src="static/img/peep-crowd.svg" loading="lazy"></div>
     </div>
   </section>
 
@@ -993,7 +785,7 @@
 
     <div class="footer-left">
 
-      <img src="assets/img/logo.png">
+      <img src="static/img/logo.png">
 
       <br><br><br><br>
 
@@ -1008,12 +800,16 @@
 
       </div>
 
+      <div class="footer-mail" style="width: 100% ">
+        <p>Mail Us @ <a href="mailto:team@devscript.tech">team@devscript.tech</a></p>
+      </div>
+
     </div>
 
     <div class="footer-right">
       <h1 style="text-align:center;">Contact Us</h1><br><br>
 
-      <form action="/" method="post">
+      <form action="mailto:devscript.community@gmail.com" method="GET" enctype="text/plain">
         <div class="input-container">
           <i class="fa fa-user icon"></i>
           <input type="text" name="name" placeholder="Name">
@@ -1023,7 +819,7 @@
           <input type="text" name="email" placeholder="Email">
         </div>
         <div class="input-container">
-          <i class="fa fa-envelope icon"></i>
+          <i class="fa fa-pencil-square icon"></i>
           <input type="text" name="subject" placeholder="Subject">
         </div>
         <div class="input-container">
@@ -1046,38 +842,34 @@
   <!-- ==============================================
 		FOOTER
 		=============================================== -->
-  <div id="preloader"></div>
+    <div id="preloader"></div>
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-  <button class="btn btn-chat"> <img src="assets/img/chat-bot.ico" alt="" srcset=""> </button>
+  <button class="btn btn-chat"> <img src="static/img/chat-bot.ico" alt="" srcset=""> </button>
 
   <div class="chat-bot">
     <button class="close-chat">x</button>
-    <iframe allow="microphone;" width="250" height="350"
-      src="https://console.dialogflow.com/api-client/demo/embedded/0ce652d5-38cb-4f00-b730-e277ca2b5b13">
+    <iframe allow="microphone;" width= "100%" height="350"
+      src="https://console.dialogflow.com/api-client/demo/embedded/fd46ac01-525a-4956-ab47-77c1ccf55b04">
     </iframe>
 
   </div>
-  <script src="assets/js/action.js"></script>
-
-<!-- Start of HubSpot Embed Code -->
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8248827.js"></script>
-<!-- End of HubSpot Embed Code -->
+  <script src="static/js/action.js"></script>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="static/vendor/jquery/jquery.min.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="static/vendor/php-email-form/validate.js"></script>
+  <script src="static/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="static/vendor/counterup/counterup.min.js"></script>
+  <script src="static/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/vendor/venobox/venobox.min.js"></script>
+  <script src="static/vendor/aos/aos.js"></script>
 
   <script src="https://kit.fontawesome.com/ea57b534a3.js" crossorigin="anonymous"></script>
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <!-- Template Main JS File -->
+  <script src="static/js/main.js"></script>
 
 </body>
 
