@@ -166,11 +166,20 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-scrolled, #header.header-inner-pages {
   background: #0f0f0f;
 }
-
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
 #header .logo {
   font-size: 30px;
   position: relative;
-  left: 15%;
+  left: 10%;
   margin-left: -65px;
   line-height: 1.5;
   font-weight: 700;
@@ -182,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 70px;
 }
 
 @media (max-width: 992px) {
@@ -488,10 +497,11 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg3.jpg") top center;
+  background: url("../img/hero-bg2.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -664,14 +674,10 @@ section {
   padding: 60px 0;
   overflow: hidden;
 }
-/*
-.section-bg {
-}*/
 
 .section-title {
   text-align: center;
   padding-bottom: 30px;
-  /*background-color: #f6f9fe;*/
 }
 
 .section-title h1 {
@@ -1008,9 +1014,6 @@ section {
 }
 
 @media (max-width: 991px) {
-  /*#JOC1 {
-    height: calc(100vh - 72px);
-  }*/
   #JOC1 .animated {
     -webkit-animation: none;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -1121,6 +1124,9 @@ section {
   height: 100px;
   width: 100%;
   bottom: 0;
+}
+#curve img{
+  height:inherit;
 }
 
 svg#curve {
@@ -1748,7 +1754,7 @@ h2 {
   border-radius: 10px;
   margin: 0 10px 40px 10px;
   background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  box-shadow: 0 10px 29px 0 #1A73E8;
   transition: all 0.3s ease-in-out;
   text-align: center;
 }
