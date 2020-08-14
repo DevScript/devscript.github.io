@@ -944,6 +944,10 @@ section {
   color: #fff;
   background: #1A73E8;
 }
+
+.JOC2-img {
+  margin-top: 10%;
+}
 @media (max-width: 991px) {
   .JOC2 .JOC2-img img {
     max-width: 70%;
