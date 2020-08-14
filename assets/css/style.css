@@ -506,6 +506,19 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+.video-background {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+.caption {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
 #hero span{
   color: #1A73E8;
 }
