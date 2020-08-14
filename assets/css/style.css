@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   #header {
     border: 20;
-    padding: 15px 0;
+/*     padding: 15px 0; */
   }
   #header .logo {
     font-size: 30px;
