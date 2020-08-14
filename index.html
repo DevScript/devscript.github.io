@@ -2,8 +2,19 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175461719-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-175461719-1');
+</script>
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
 
   <title>DevScript</title>
   <meta content="" name="description">
@@ -29,6 +40,9 @@
 </head>
 
 <body>
+  <div style="height: 0">
+   <embed src="assets/sound.mp3"  loop="true" autostart="true" >
+  </div>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">  
@@ -92,7 +106,7 @@
       <div class="video-background">
         <div class="video-wrap">
           <div id="video">
-            <video id="bgvid" autoplay loop playsinline>
+            <video id="bgvid" autoplay loop muted playsinline>
               <source src="assets/Starfield-Fly-Through.mp4" type="video/mp4">
             </video>
           </div>
