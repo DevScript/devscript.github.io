@@ -7,7 +7,7 @@ body {
 }
 
 * {
-  font-family: 'Sriracha', cursive;
+  font-family: 'Roboto Slab', serif;
 }
 
 a {
@@ -21,7 +21,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Acme', sans-serif;
+  font-family: 'Arvo', serif;
 }
 
 /*--------------------------------------------------------------
@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   padding: 25px 3px;
   font-weight: 600;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Arvo', serif;
 }
 
 .nav-menu > ul > li > a:before {
@@ -302,7 +302,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu .drop-down > a:after {
   content:"\ea99";
-  font-family: 'Acme', sans-serif;
+  font-family: 'Arvo', serif;
   padding-left: 5px;
 }
 
@@ -323,7 +323,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu .drop-down .drop-down > a:after {
   content: "\eaa0";
-  font-family: 'Acme', sans-serif;
+  font-family: 'Arvo', serif;
   position: absolute;
   right: 15px;
 }
@@ -422,7 +422,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav .drop-down > a:after {
   content: "\ea99";
-  font-family: 'Acme', sans-serif;
+  font-family: 'Arvo', serif;
   padding-left: 10px;
   position: absolute;
   right: 15px;
@@ -501,7 +501,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-/*   background: top center; */
+  background: url("../img/hero-bg2.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -652,7 +652,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   white-space: nowrap;
   cursor: pointer;
-  font-family: 'Rowdies', cursive;
+  font-family: 'Arvo', serif;
   font-size: 14px;
 }
 }
@@ -932,7 +932,7 @@ section {
   padding: 15px;
 }
 #JOC2 .btn-get-started {
-  font-family: 'Rowdies', cursive;
+  font-family: 'Arvo', serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -976,7 +976,7 @@ section {
 
 
 #JOC1 .btn-get-started {
-  font-family: 'Rowdies', cursive;
+  font-family: 'Arvo', serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1342,13 +1342,13 @@ svg#curve {
 }
 
 .name {
-  font-family: 'Acme', sans-serif;
+  font-family: 'Arvo', serif;
   font-size: 1.1rem;
   padding-top: 15px;
 }
 
 .host {
-  font-family: 'Sora', sans-serif;
+  font-family: 'Arvo', serif;
   margin-top: 10px;
 }
 
@@ -1409,6 +1409,19 @@ h2 {
     outline:0;
     box-shadow:0 0 0 0 rgba(108,138,236,.5)
 }
+.badge-danger{
+    color:#fff;
+    background-color:#df4759
+}
+.badge-danger:focus,.badge-danger:hover{
+    color:#fff;
+    background-color:#cf2438
+}
+.badge-danger.focus,.badge-danger:focus{
+    outline:0;
+    box-shadow:0 0 0 0 rgba(223,71,89,.5)
+}
+
 .badge-float{
     position:absolute;
     z-index:1000
@@ -1417,6 +1430,9 @@ h2 {
     top:-.1rem;
     right:-.1rem
 }
+ .upcoming ul{
+  width: inherit;
+ }
 
  ul .booking-card {
    position: relative;
@@ -1489,7 +1505,7 @@ h2 {
    padding-bottom: 10px;
    margin-bottom: 10px;
    font-weight: bold;
-   font-size: 1.2em;
+   font-size: 1.1em;
 }
  ul .booking-card .informations-container .title::after {
    content: '';
@@ -1655,7 +1671,7 @@ h2 {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Arvo', serif;
   font-size: 14px;
 }
 .clients{
@@ -1911,6 +1927,16 @@ h2 {
   padding: 20px;
   float: left;
 }  
+
+
+/* Sponsors */
+
+.partners {
+  margin: auto;
+}
+.partners img{
+  max-width: 150px;
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -2704,7 +2730,7 @@ section.community .community-grid .peeps .animated {
   text-align: center;
   white-space: nowrap;
   cursor: pointer;
-  font-family: 'Rowdies', cursive;
+  font-family: 'Arvo', serif;
   font-size: 14px;
 }
 
