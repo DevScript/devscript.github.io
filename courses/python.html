@@ -1,9 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175461719-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-175461719-1');
+</script>
+
+  
     <title>Python for Beginners - DevScript</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="title" content="DevScript Community">
+    <meta name="description" content="Started on 7th July,2020 we are a vibrant knowledge society, passionate to bring a deep sense of technology for you to thrive in the real world. DevScript community provides a platform for talented and motivated students who are interested in domains like Machine Learning, Game Development, Embedded Systems and other techno-savvy fields.">
+    <meta name="keywords" content="Community, Learning, Practical, Development, Software, Data Structure, Algorithm, Session, Project, Open-Source, Full Stack, MERN Stack, Machine Learning, Web Development, Data Science, Artificial Intelligence, Students, College, University, Partners, Coding, Programming, Hacking, Automation">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="1 days">
+    <meta name="author" content="DevScript">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "DevScript",
+  "url": "https://devscript.tech/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.google.com/search?q=communitydevscript{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
     <!-- Favicons -->
     <link href="../assets/img/favicon.ico" rel="icon">
 	  
@@ -27,7 +60,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
 	    <div class="container d-flex align-items-center">
-	    	<a class="navbar-brand" href="../index.html">DevScript</a>
+	    	<a class="navbar-brand" href="../">DevScript</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -36,8 +69,9 @@
 	        <ul class="navbar-nav ml-auto">
 	        	<li class="nav-item"><a href="./courses.html" class="nav-link pl-0">Home</a></li>
 	        	<li class="nav-item"><a href="#syllabus" class="nav-link">Syllabus</a></li>
-	        	<li class="nav-item"><a href="#teachers" class="nav-link">Teacher</a></li>
-	          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+	        	<li class="nav-item"><a href="#teachers" class="nav-link">Instructors</a></li>
+	          <li class="nav-item"><a href="https://discord.gg/uutnrnc" target="blank" class="nav-link">Join our Community</a></li>
+
 	        </ul>
 	      </div>
 	    </div>
@@ -50,10 +84,10 @@
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-sm-12 ftco-animate text-center banner">
             <h1 class="mb-2 bread">Python for Beginners</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="./index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span><a href="courses.html">Courses <i class="ion-ios-arrow-forward"></i></a> Python for Beginners </span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="./">Home <i class="ion-ios-arrow-forward"></i></a></span> <span><a href="courses.html">Courses <i class="ion-ios-arrow-forward"></i></a> Python for Beginners </span></p>
             <div class="row justify-content-center">
               <div class="col-sm-4 p-3" align="center">
-                <a href="https://drive.google.com/file/d/1M4V4XpVtPw8z3DbHKOiouhWmEEMvQEAv/view?usp=sharing" download="Test"><div class="btn btn-primary"> View Brochure </div></a>
+                <a href="https://drive.google.com/file/d/1-VLLsL51VRItjFjODI88DE_e4Itd3FS9/view"><div class="btn btn-primary"> View Brochure </div></a>
               </div>
               <div class="col-sm-4 p-3" align="center">
                 <a href="https://pages.razorpay.com/pl_FROFjpU0isfpQ1/view" target="_blank">
@@ -114,7 +148,7 @@
             </ul>
         </div>
           <div class="col-lg-6 wrap-about py-5 pr-md-4 ftco-animate">
-            <img src="./images/top-py-companies2.jpg" alt="" class="img-fluid">
+            <img src="./images/top-py-companies2.jpg" alt="top-py-companies" class="img-fluid">
         </div>
       </div>
     </section>
@@ -126,10 +160,10 @@
             <h2 class="mb-4 my_head">Syllabus</h2>
           </div>
         </div>
-        <div class="row" id="app">
+        <div class="row justify-content-around" id="app">
           <div v-for="card in cards" class="col-lg-4 col-sm-6">
             <div class="syllabus-box flex-fill">
-              <h4><a href="">{{card.title}}</a></h4>
+              <h4>{{card.title}}</h4>
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-sm-12">
@@ -149,25 +183,25 @@
       <div class="container">
         <div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4 my_head"><span> Projects </span></h2>
+            <h2 class="mb-4 my_head"> Projects </h2>
           </div>
         </div>
-        <div class="row justify-content-center mb-5 pb-2 ftco-animate" id="proj">
+        <div class="row justify-content-around mb-5 pb-2 ftco-animate" id="proj">
           <div class="col-sm-12 col-md-4 col-lg-4" align="center">
             <div class="proj_card">
               <div class="face face1">
                 <div class="content">
                   <div class="icon">
-                    <img src="./images/proj/python.png">
+                    <img src="./images/proj/tic-tac-toe_py.jpg" alt="tic-tac-toe_py">
                   </div>
                 </div>
               </div>
               <div class="face face2">
                 <div class="content">
                   <h3>
-                    <p> Project Title </p>
+                    <p> Tic Tac Toe </p>
                   </h3>
-                  <p>Project Info.</p>
+                  <p>Build a game where two players take turns marking the 3×3 grid with X and O symbols. One who gets three marks in a horizontal, vertical, or diagonal row wins.</p>
                 </div>
               </div>
             </div>
@@ -177,16 +211,16 @@
               <div class="face face1">
                 <div class="content">
                   <div class="icon">
-                    <img src="./images/proj/python.png">
+                    <img src="./images/proj/guess_the_number_py.jpg" alt="guess_the_number_py">
                   </div>
                 </div>
               </div>
               <div class="face face2">
                 <div class="content">
                   <h3>
-                    <p> Project Title </p>
+                    <p> Guess The Number </p>
                   </h3>
-                  <p>Project Info.</p>
+                  <p>Make a Project which should generate a random number between, let’s say, 0 and 100. The player then needs to guess what that number is.</p>
                 </div>
               </div>
             </div>
@@ -196,17 +230,31 @@
               <div class="face face1">
                 <div class="content">
                   <div class="icon">
-                    <img src="./images/proj/python.png">
+                    <img src="./images/proj/horoscope_py.png" alt="horoscope_py">
                   </div>
                 </div>
               </div>
               <div class="face face2">
                 <div class="content">
                   <h3>
-                    <p> Project Title </p>
+                    <p> HOROSCOPE </p>
                   </h3>
-                  <p>Project Info.</p>
+                  <p>Create a simple horoscope program that asks the user for their star sign and outputs a fun horoscope for them.</p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-around mb-5 pb-2 ftco-animate" id="big_proj">
+          <div class="col-sm-12" align="center">
+            <div class="blog-card">
+              <div class="meta">
+                <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+              </div>
+              <div class="description">
+                <h1>Major Project</h1>
+                <!-- <h2>Opening a door to the future</h2> -->
+                <p> Will Be Announced Soon!!!</p>
               </div>
             </div>
           </div>
@@ -221,19 +269,19 @@
             <h2 class="mb-4 my_head"><span>Our</span> Instructors</h2>
           </div>
         </div>  
-        <div class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-around">
           <div class="col-md-6 col-lg-3 ftco-animate">
             <div class="staff">
               <div class="img-wrap d-flex align-items-stretch">
-                <div class="img align-self-stretch" style="background-image: url(./images/instructor/rohit.jpg);"></div>
+                <div class="img align-self-stretch" style="background-image: url(./images/instructor/abhishek.jpg);"></div>
               </div>
               <div class="text pt-3 text-center">
-                <h3>Rohit Ashiwal</h3>
-                <span class="position mb-2">IIT-Roorke</span>
+                <h3>Abhishek Singh</h3>
+                <span class="position mb-2">Co-Founder of DevScript</span>
                 <div class="faded">
                   <p>Instructor at DevScript</p>
                   <ul class="ftco-social text-center">
-                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/rohit-ashiwal/" target="_blank"><span class="icon-linkedin-square"></span></a></li>
+                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/vedantkhairnar/" target="_blank"><span class="icon-linkedin-square"></span></a></li>
                   </ul>
                 </div>
               </div>
@@ -246,11 +294,28 @@
               </div>
               <div class="text pt-3 text-center">
                 <h3>Vedant Khairnar</h3>
-                <span class="position mb-2">Founder of NeoVantium</span>
+                <span class="position mb-2">Founder of NeoVantium,&nbsp&nbsp Co-Founder of DevScript</span>
                 <div class="faded">
                   <p>Beta Microsoft Student Ambassador</p>
                   <ul class="ftco-social text-center">
                     <li class="ftco-animate"><a href="https://www.linkedin.com/in/vedantkhairnar/" target="_blank"><span class="icon-linkedin-square"></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 ftco-animate">
+            <div class="staff">
+              <div class="img-wrap d-flex align-items-stretch">
+                <div class="img align-self-stretch" style="background-image: url(./images/instructor/rohit.jpg);"></div>
+              </div>
+              <div class="text pt-3 text-center">
+                <h3>Rohit Ashiwal</h3>
+                <span class="position mb-2">IIT-Roorke</span>
+                <div class="faded">
+                  <p>Instructor at DevScript</p>
+                  <ul class="ftco-social text-center">
+                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/rohit-ashiwal/" target="_blank"><span class="icon-linkedin-square"></span></a></li>
                   </ul>
                 </div>
               </div>
@@ -295,7 +360,7 @@
 
     <div class="footer-left">
 
-      <img src="./images/logo.png">
+      <img src="./images/logo.png" alt="logo">
 
       <br><br><br><br>
 
