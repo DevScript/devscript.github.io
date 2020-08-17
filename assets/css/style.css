@@ -1430,11 +1430,8 @@ h2 {
     top:-.1rem;
     right:-.1rem
 }
- .upcoming ul{
-  width: inherit;
- }
 
- ul .booking-card {
+  .booking-card {
    position: relative;
    height: 400px;
    display: flex;
@@ -1453,7 +1450,7 @@ h2 {
    color: #0a4870;
    transition: 0.3s;
 }
- ul .booking-card::before {
+  .booking-card::before {
    content: '';
    position: absolute;
    top: 0;
@@ -1463,10 +1460,10 @@ h2 {
    background: rgba(10, 72, 112, 0);
    transition: 0.3s;
 }
- ul .booking-card .book-container {
+  .booking-card .book-container {
    height: 300px;
 }
- ul .booking-card .book-container .content {
+  .booking-card .book-container .content {
    position: relative;
    opacity: 0;
    display: flex;
@@ -1477,7 +1474,7 @@ h2 {
    transform: translateY(-200px);
    transition: 0.3s;
 }
- ul .booking-card .book-container .content .btn {
+  .booking-card .book-container .content .btn {
    border: 3px solid white;
    padding: 10px 15px;
    background: none;
@@ -1488,26 +1485,26 @@ h2 {
    cursor: pointer;
    transition: 0.3s;
 }
- ul .booking-card .book-container .content .btn:hover {
+  .booking-card .book-container .content .btn:hover {
    background: white;
    border: 0px solid white;
    color: #0a4870;
 }
- ul .booking-card .informations-container {
+  .booking-card .informations-container {
    flex: 1 0 auto;
    padding: 20px;
    background: #f0f0f0;
    transform: translateY(180px);
    transition: 0.3s;
 }
- ul .booking-card .informations-container .title {
+  .booking-card .informations-container .title {
    position: relative;
    padding-bottom: 10px;
    margin-bottom: 10px;
    font-weight: bold;
    font-size: 1.1em;
 }
- ul .booking-card .informations-container .title::after {
+  .booking-card .informations-container .title::after {
    content: '';
    position: absolute;
    bottom: 0;
@@ -1518,14 +1515,14 @@ h2 {
    margin: auto;
    background: #0a4870;
 }
- ul .booking-card .informations-container .more-information {
+  .booking-card .informations-container .more-information {
    opacity: 0;
    transition: 0.3s;
 }
- ul .booking-card .informations-container .more-information .info-and-date-container {
+  .booking-card .informations-container .more-information .info-and-date-container {
    display: flex;
 }
- ul .booking-card .informations-container .more-information .info-and-date-container .box {
+  .booking-card .informations-container .more-information .info-and-date-container .box {
    flex: 1 0;
    padding: 15px;
    margin-top: 20px;
@@ -1536,43 +1533,43 @@ h2 {
    font-weight: bold;
    font-size: 0.9em;
 }
- ul .booking-card .informations-container .more-information .info-and-date-container .box .icon {
+  .booking-card .informations-container .more-information .info-and-date-container .box .icon {
    margin-bottom: 5px;
 }
- ul .booking-card .informations-container .more-information .info-and-date-container .box.info {
+  .booking-card .informations-container .more-information .info-and-date-container .box.info {
    color: #ec992c;
    margin-right: 10px;
 }
- ul .booking-card .informations-container .more-information .disclaimer {
+  .booking-card .informations-container .more-information .disclaimer {
    margin-top: 20px;
    font-size: 0.8em;
    color: #7d7d7d;
 }
- ul .booking-card:hover::before {
+  .booking-card:hover::before {
    background: rgba(10, 72, 112, 0.6);
 }
- ul .booking-card:hover .book-container .content {
+  .booking-card:hover .book-container .content {
    opacity: 1;
    transform: translateY(0px);
 }
- ul .booking-card:hover .informations-container {
+  .booking-card:hover .informations-container {
    transform: translateY(0px);
 }
- ul .booking-card:hover .informations-container .more-information {
+  .booking-card:hover .informations-container .more-information {
    opacity: 1;
 }
  @media (max-width: 768px) {
-   ul .booking-card::before {
+    .booking-card::before {
      background: rgba(10, 72, 112, 0.6);
   }
-   ul .booking-card .book-container .content {
+    .booking-card .book-container .content {
      opacity: 1;
      transform: translateY(0px);
   }
-   ul .booking-card .informations-container {
+    .booking-card .informations-container {
      transform: translateY(0px);
   }
-   ul .booking-card .informations-container .more-information {
+    .booking-card .informations-container .more-information {
      opacity: 1;
   }
 }
