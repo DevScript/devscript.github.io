@@ -39,8 +39,16 @@ var myObject = new Vue({
         topic: 'conditional if, elif, else, nested if, flow control, Ternary Operator' 
       },
       { 
+        title: 'File and Error Handling', 
+        topic: 'Working of open() function, Working of read() mode, Creating a file using write() mode, Working of append() mode, try, catch, except' 
+      },
+      { 
+        title: 'Functions', 
+        topic: 'Defining and Calling of a Function, Function Arguments, The pass and return statement, The Anonymous Functions' 
+      },
+      { 
         title: 'Strings', 
-        topic: 'Traversal, concatenation, repetition, membership, functions/methods' 
+        topic: 'Traversal, concatenation, repetition, membership, functions and methods' 
       },
       { 
         title: 'Lists', 
@@ -60,7 +68,10 @@ var myObject = new Vue({
       },
       { 
         title: 'Introduction to Python modules', 
-        topic: 'math module, random module, statistics module' 
+        topic: 'What is a Module, Types of Module - math module, random module, statistics module' 
+      },
+      { 
+        title: 'Daily Assignments Based on Learning and Weekly Interesting Projects'
       },]
   }
 })
