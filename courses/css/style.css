@@ -9,6 +9,15 @@
   color: #1A73E8;
  }*/
 
+ span.shade {
+  background: linear-gradient(to right, #1ae8cb7a , white);
+  border-radius: 55px;
+ }
+
+ .banner {
+  background: #00000078;
+ }
+
  #proj  {
     display: flex;
     justify-content: space-between;
@@ -8375,9 +8384,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     right: 0;
     bottom: 0;
-    content: '';
-    opacity: .3;
-    background: #f1453d; }
+    content: ''; }
   .hero-wrap.hero-wrap-2 {
     height: 350px; }
     .hero-wrap.hero-wrap-2 .slider-text {
