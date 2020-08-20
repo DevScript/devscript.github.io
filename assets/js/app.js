@@ -81,7 +81,7 @@ function renderCert(doc){
 
 	table.appendChild(desc);
 	
-	desc_title.textContent = 'Email ID: ';
+	desc_title.textContent = 'Description: ';
 	desc_content.textContent = doc.data().desc;
 	desc.appendChild(desc_title);
 	desc.appendChild(desc_content);
