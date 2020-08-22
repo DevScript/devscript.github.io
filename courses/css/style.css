@@ -4,6 +4,29 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+/* price */
+.price {
+  width: 75px;
+  height: 75px;
+  position: fixed;
+  display: none;
+  left: 15px;
+  bottom: 15px;
+  z-index: 99999;
+  background: #1A73E8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  border-radius: 50%;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.price:hover {
+  background: #3284f1;
+  color: #fff;
+}
 
 /* verify page */
 .verify-box {
