@@ -3,18 +3,6 @@ var myObject = new Vue({
   data: {
     cards: [
       { 
-        title: 'Computer Systems and Organisation - I', 
-        topic: 'Basic computer organisation, Types of software, Memory Units, Boolean logic' 
-      },
-      { 
-        title: 'Computer Systems and Organisation - II', 
-        topic: 'Number System, Encoding Schemes, Concept of Compiler and Interpreter, Operating System' 
-      },
-      { 
-        title: 'Computational Thinking and Programming', 
-        topic: 'Introduction to Problem solving, flowchart, pseudo-code' 
-      },
-      { 
         title: 'Introduction to Python', 
         topic: 'Basics of Python programming, data-types, process of writing a program, Interactive & Script mode' 
       },
