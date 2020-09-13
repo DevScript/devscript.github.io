@@ -3,7 +3,7 @@ var vid_id = 'wQ3bfnD5PB4';
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("Sept 14, 2020 01:38:25").getTime();
+var countDownDate = new Date("Sept 14, 2020 19:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
