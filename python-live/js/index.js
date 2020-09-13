@@ -4,16 +4,14 @@ var vid_id = 'wQ3bfnD5PB4';
 
 // Set the date we're counting down to
 var countDownDate = new Date("Sept 14, 2020 19:00:00").getTime();
-console.log('Current=>', countDownDate); 
+
 // Update the count down every 1 second
 var x = setInterval(function () {
 	// Get today's date and time
 	var now = new Date().getTime();
-	console.log('now=>', now); 
 	
 	// Find the distance between now and the count down date
 	var distance = countDownDate - now;
-	console.log('distance=>', distance); 
 
 	// Time calculations for days, hours, minutes and seconds
 	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
