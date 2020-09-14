@@ -3,7 +3,7 @@ var vid_id = 'BXwwLF6VHu4';
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("Sept 14, 2020 19:00:00").getTime();
+var countDownDate = new Date("Sept 14, 2020 18:50:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -34,11 +34,7 @@ var x = setInterval(function () {
 		var cover_child = cover.lastElementChild;
 
 		cover.removeChild(cover_child);
-
-		while (timer_child) {
-			timer.removeChild(timer_child);
-			timer_child = timer.lastElementChild;
-		}
+		timer.remove(); 
 
 		var iframe = document.createElement("iframe");
 		iframe.src = "https://www.youtube.com/embed/"+vid_id;
