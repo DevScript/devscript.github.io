@@ -1,9 +1,8 @@
 //YT video id
 var vid_id = 'BXwwLF6VHu4';
 
-
 // Set the date we're counting down to
-var countDownDate = new Date("Sept 14, 2020 18:50:00").getTime();
+var countDownDate = new Date("Sept 15, 2020 18:50:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {

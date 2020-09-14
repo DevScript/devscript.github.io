@@ -206,7 +206,6 @@ a {
 }
 
 .event-user-info {
-	cursor: pointer;
     display: flex;
     flex-flow: row;
     overflow: hidden;
@@ -285,7 +284,7 @@ a {
 
 .event-prev-title {
     padding-left: 10px;
-    text-align: center;
+    justify-content: space-around;
     display: flex;
     flex-direction: row;
     box-shadow: 4px 4px 20px -10px #00000078;
