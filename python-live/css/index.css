@@ -7,6 +7,10 @@ a {
     text-decoration: none !important;
 }
 
+iframe {
+    width: -webkit-fill-available;
+}
+
 .header {
 	position: relative;
     overflow: hidden;
