@@ -267,8 +267,33 @@ a {
     font-size: 24px;
 }
 
+.event-resource {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+}
+
+.event-resource > .event-action-title {
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.fa-arrow-right {
+    margin-right: 10px;
+    font-size: 28px !important;
+    color: #9B9B9B !important;
+}
+
+.event-resource .social-icon {
+    font-size: 32px;
+}
+
 .social-icon:hover {
     color: black;
+}
+
+.fa-arrow-right: hover {
+    color: #9B9B9B !important;
 }
 
 .event-previous {
@@ -282,13 +307,24 @@ a {
     padding-right: 5px;
 }
 
+.event-prev-container {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: row;
+    box-shadow: 4px 4px 20px -10px #00000078;
+    justify-content: space-around;
+}
+
 .event-prev-title {
     padding-left: 10px;
     justify-content: space-around;
     display: flex;
     flex-direction: row;
-    box-shadow: 4px 4px 20px -10px #00000078;
-    margin-bottom: 20px;
+}
+
+.day {
+    padding-right: 10px;
+    border-right: 1px solid;
 }
 
 .event-prev-title > .social-icon {
@@ -301,6 +337,10 @@ a {
     font-size: 24px;
 }
 
-.event-prev-title:hover > .social-icon {
+.event-prev-title:hover > .fa-youtube {
     color: red;
+}
+
+.event-prev-title:hover > .fa-github {
+    color: #000;
 }
