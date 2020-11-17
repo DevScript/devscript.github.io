@@ -458,10 +458,9 @@ p a,
 // 7. Navigation
 // --------------------------------------------------*/
 nav .logo {
-  max-height: 45px;
-  max-width: 110px;
+  height: 67px;
   position: absolute;
-  top: -15px;
+  top: -24px;
   opacity: 1;
 }
 nav .text-right {
@@ -770,8 +769,9 @@ nav .container {
     padding-bottom: 0px;
   }
   nav .logo {
-    max-width: 90px;
-    top: -2px;
+    height: 67px;
+    max-height: unset;
+    top: -24px;
   }
   nav .logo-dark {
     opacity: 1 !important;
@@ -3566,3 +3566,114 @@ body {
     transform:translateX(25%);
   }
 }
+
+/*  preloader */
+
+.preloader{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.bars-common{
+  height: 4vw;
+  width: 1vw;
+  margin: auto;
+  position: absolute;
+  box-shadow: 0 0 0 0.1vw cyan, 0 0 1vw 0 cyan, inset 0 0 0.5vw 0 cyan;
+}
+
+.bar-one{
+  left: 0;
+  right: 4vw;
+  top: 0;
+  bottom:0;
+  animation: barAnim 1s .33s ease infinite;
+}
+
+.bar-two{
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom:0;
+  animation: barAnim 1s .66s ease infinite;
+}
+
+.bar-three{
+  left: 4vw;
+  right: 0;
+  top: 0;
+  bottom:0;
+  animation: barAnim 1s .99s ease infinite;
+}
+
+@keyframes barAnim{
+  0%,
+  100%{
+      box-shadow: 0 0 0 0.1vw cyan, 0 0 1vw 0 cyan, inset 0 0 0.5vw 0 cyan;
+  }
+  50%{
+      box-shadow: 0 0 0 0.1vw magenta, 0 0 1vw 0 magenta, inset 0 0 0.5vw 0 magenta;
+  }
+}
+
+.squares-common{
+  height: 8vw;
+  width: 8vw;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom:0;
+  box-shadow: 0 0 0 0.1vw cyan, 0 0 1vw 0 cyan, inset 0 0 0.5vw 0 cyan;
+}
+
+.square-one{
+  animation: squareOne 4s .99s ease infinite;
+}
+
+@keyframes  squareOne{
+  from{
+      transform: rotate(0deg);
+  }
+  to{
+      transform: rotate(-180deg);
+  }
+}
+
+.square-two{
+  animation: squareTwo 4s .99s ease infinite;
+}
+
+@keyframes  squareTwo{
+  from{
+      transform: rotate(0deg);
+  }
+  to{
+      transform: rotate(180deg);
+  }
+}
+
+/* custom scroll bar */
+  /* width */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
