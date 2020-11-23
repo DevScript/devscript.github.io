@@ -1280,7 +1280,7 @@ a:visited {
 }
 
 a:hover {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 1);
 }
 
 .gray {
@@ -2854,7 +2854,7 @@ blockquote {
 }
 
 .sponsor-heading, .sponsor-start {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   font-family: Montserrat, sans-serif;
   align-content: center;
@@ -2862,10 +2862,11 @@ blockquote {
   justify-content: center;
   margin: 50px 0px 30px 0;
   text-transform: uppercase;
+  line-height: 1;
 }
 
 .sponsor-start {
-  font-size: 38px;
+  font-size: 42px;
   color: #169797;
 }
 
@@ -2913,8 +2914,12 @@ blockquote {
   /*width: 50%;*/
 }
 
-.general-sponsor {
+.general-sponsor, .silver-sponsor {
   justify-content: center;
+}
+
+.silver-sponsor {
+  align-items: center;
 }
 
 .past-sponsor img {
@@ -3832,4 +3837,38 @@ body {
   display: none;
   padding-top: 50px;
     text-align: center;
+}
+
+/* horizontal socials */
+.discord, .telegram {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex-direction: column;
+}
+.discord {
+  background: #2a55f3;
+}
+.telegram {
+  background: #ef4925;
+}
+.social-icon{
+  font-size: 10rem;
+}
+.social-text {
+  font-size: 2rem;
+  opacity: 0;
+  visibility: hidden;
+}
+.discord:hover div, .telegram:hover div{
+ visibility: visible;
+ opacity: 1;
+}
+.discord:hover .social-icon, .telegram:hover .social-icon{
+  color: #fff;
+ position: relative;
+ top: -20px;
 }

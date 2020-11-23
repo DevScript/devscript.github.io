@@ -1,4 +1,22 @@
-.tmm-team .item-square {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .tmm-team .item-square {
     background-color: #fff;
     text-align: center;
     border-right: 1px solid #c5c5c4;

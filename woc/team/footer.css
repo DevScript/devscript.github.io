@@ -1,5 +1,5 @@
 .footer-distributed {
-  background: rgb(255, 255, 255);
+  background: #000 ;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -28,7 +28,7 @@
 /* Footer links */
 
 .footer-distributed .footer-links {
-  color: #ffffff;
+  color: #efefef;
   margin: 0 0 10px;
   padding: 0;
 }
@@ -60,10 +60,10 @@
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #fffdfd;
+  background-color: #33383b;
   border-radius: 2px;
   font-size: 20px;
-  color: radial-gradient( #f3f3f3 50%,#d6249f 60%,#285AEB 30%);
+  color: #fff;
   text-align: center;
   line-height: 35px;
   margin-right: 3px;
@@ -81,6 +81,10 @@
   vertical-align: top;
   margin: 15px 42px 0 0;
   color: #ffffff;
+}
+.footer-down {
+  text-align: center;
+  height: 30px;
 }
 *:after, *:before {
     size: 34px;
