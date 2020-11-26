@@ -7,18 +7,20 @@
   text-align: left;
   padding: 50px 60px 20px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 /* Footer left */
 
 .footer-distributed .footer-left {
-  float: left;
+  text-align: center;
 }
 
 /* The company logo */
 
 .footer-distributed .footer-left img {
-  height: 300px;
+  max-height: 300px;
 }
 
 .footer-distributed h3 span {
@@ -48,13 +50,6 @@
   margin: 0;
 }
 
-/* Footer social icons */
-
-.footer-distributed .footer-icons,
-.footer-distributed .footer-mail {
-  margin: 20px 25px;
-}
-
 .footer-distributed .footer-icons a {
   display: inline-block;
   width: 35px;
@@ -70,22 +65,8 @@
   margin-bottom: 5px;
 }
 
-/* Footer Right */
-
-.footer-distributed .footer-right {
-  float: right;
-}
-
-.footer-distributed .footer-right p {
-  display: inline-block;
-  vertical-align: top;
-  margin: 15px 42px 0 0;
-  color: #ffffff;
-}
 .footer-down {
   text-align: center;
   height: 30px;
-}
-*:after, *:before {
-    size: 34px;
+  background: #000;
 }
