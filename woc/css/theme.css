@@ -3854,6 +3854,12 @@ body {
   line-height: 1.5;
 }
 
+.flip-box .internship ul {
+  text-align: left;
+  list-style: disc;
+  padding: 0 25px;
+}
+
 .flip-box:hover .flip-box-back {
   -ms-transform: rotateY(0deg);
   -webkit-transform: rotateY(0deg);
