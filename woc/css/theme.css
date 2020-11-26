@@ -3745,6 +3745,14 @@ body {
     line-height: 1;
 }
 
+.timer:after {
+  content:'+';
+    font-weight: 700;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
 
 /*.count::after {
     background: #fff;
