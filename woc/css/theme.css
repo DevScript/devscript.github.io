@@ -2942,12 +2942,12 @@ body {
 }
 @media (min-width: 600px) {
   .page-content {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media (min-width: 800px) {
   .page-content {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -3547,7 +3547,7 @@ body {
   margin-top: 20px;
   padding: 0;
   /* margin-right: 70px; */
-  display: none;
+  display: block;
   height: 100%;
   justify-content: center;
   align-items: center;
@@ -3646,7 +3646,7 @@ body {
     padding: 0;
     margin-right: auto;
     width: 90%;
-    display: none;
+    display: block;
   }
 
   .option-company-main-event {

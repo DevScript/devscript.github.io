@@ -373,6 +373,8 @@ function verify_otp(verify_data) {
             document.querySelector('.otp_confirm').style.display = 'block'
             document.querySelector('#verify_otp').style.display = 'none'
 
+
+
         } else {
             document.querySelectorAll('.otp-warning')[1].innerHTML = '*OTP Not Match';
         }
