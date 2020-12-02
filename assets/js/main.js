@@ -9,6 +9,12 @@
 !(function ($) {
   "use strict";
 
+  if($(window).width() > 768) {
+    $('.event-banner')[0].src = './assets/img/events/hackNagpurBannerLong.png'
+  } else {
+    $('.event-banner')[0].src = './assets/img/events/hackNagpurBanner.png'
+  }
+
   // Preloader
   $(window).on("load", function () {
     if ($("#preloader").length) {
