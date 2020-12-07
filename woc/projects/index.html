@@ -17,68 +17,73 @@
   <meta name="twitter:description" content="DevScript official handle">
   <meta name="twitter:creator" content="@The_DevScript">
   <meta name="twitter:image" content="https://devscript.tech/assets/img/logo.png">
+  <link rel="icon" type="image/ico" href="img/WOC-logo.png" />
 
+  <link href="../css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-	<video autoplay muted loop id="myVideo">
-	  <source src="img/Snow.mp4" type="video/mp4">
-	</video>
-	<div class="col-sm-12 col-lg-2 text-right">
-            <a href="../" class="header title" style="font-size: 12px">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                BACK TO HOME PAGE
-              </a>
-        </div>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-12 header">
-				<h3 class='title' style="font-size: 50px">                
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>Projects</h3><br>
-			</div>
-		</div>
-		<div class="project-grid"></div>
-	</div>
-	<div class="footer-distributed">
-      <div class="footer-left">
-        <img src="img/logo.png" alt="logo">
-        <div class="footer-icons">
-          <a href="https://www.youtube.com/c/devscript/"><i class="fa fa-youtube"></i></a>
-          <a href="https://www.linkedin.com/company/devscripts/"><i class="fa fa-linkedin"></i></a>
-          <a href="https://www.github.com/DevScript/"><i class="fa fa-github"></i></a>
-          <a href="https://www.instagram.com/devscript.tech/"><i class="fa fa-instagram"></i></a>
-          <a href="https://www.twitter.com/The_DevScript"><i class="fa fa-twitter"></i></a>
-          <a href="https://t.me/DevScript"><i class="bx bxl-telegram"></i></a>
-        </div>
-        <div class="footer-mail" style="width: 100% ">
-          <p>Mail Us @ <a href="">team@devscript.tech</a></p>
-        </div>
-      </div>
-      <div class="footer-right">
-      </div>
-    </div>
-    <footer class="footer-down">
-      <p class="footer-company-name">&copy; 2020 DevScript. All Right Reserved</p>
-    </footer>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-	<script src='./main.js'></script>
-	<script>
-		$('.project-grid').masonry({
-		  itemSelector: '.project-card',
-		  columnWidth: 25,
-		  gutter: 50,
-		  fitWidth: true
-		});
+  <video autoplay muted loop id="myVideo">
+    <source src="img/Snow.mp4" type="video/mp4">
+  </video>
+  <div class="nav-container">
+    <nav class="overlay-nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img alt="Logo" class="logo" src="../img/logo.png">
+            <!-- <img alt="Logo" class="logo logo-dark"> -->
+          </div>
+          <div class="col-md-10 text-right">
+            <ul class="menu">
+              <li><a href="https://devscript.tech/" target="_self">DevScript</a></li>
+              <!-- <li><a href=" " target="_self">Apply </a></li> -->
+              <li><a class="inner-link" href="../#schedule" target="_self">Schedule</a></li>
+              <li><a class="inner-link" href="../#register" target="_self">Register</a></li>
+              <!-- <li><a class="inner-link" href="#prizes" target="_self">Prizes</a></li> -->
+              <li><a class="inner-link" href="../#faq" target="_self">FAQ</a></li>
+              <!-- <li><a href='#mentors' target="_self">Speakers</a></li> -->
+              <li><a href='../team/' target="_self">Our Team</a></li>
+              <li><a href='http://bit.ly/DWOC_COC' target="_self">Code Of Conduct</a></li>
 
-	</script>
+              <li class="social-link"><a href="https://www.twitter.com/The_DevScript" target="_self"><i
+                    class="fab fa-twitter fa-lg"></i></a></li>
+              <li class="social-link"><a href="https://www.github.com/DevScript/" target="_self"><i
+                    class="fab fa-github fa-lg"></i></a></li>
+              <li class="social-link" style="margin-right:0 !important"><a
+                  href="https://www.linkedin.com/company/devscripts/" target="_self"><i
+                    class="fab fa-linkedin fa-lg"></i></a></li>
+            </ul>
+            <div class="mobile-menu-toggle"><i class="icon icon_menu"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-border"></div>
+    </nav>
+  </div>
+  
+  <div class="container-fluid" id='projects'>
+    <div class="row d-flex justify-content-center">
+    <div class="project-grid"></div>
+    </div>
+  </div>
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src='./main.js'></script>
+
+  <script>
+    $('.project-grid').masonry({
+      itemSelector: '.project-card',
+      columnWidth: 25,
+      gutter: 50,
+      fitWidth: true
+    });
+
+  </script>
 </body>
 </html>
