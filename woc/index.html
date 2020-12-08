@@ -445,15 +445,15 @@
         <div class="col-md-12 col-12">
           <form method='POST' class="form-group form-event-inner mx-auto" id='register_form'>
             <h4 class="text-center event-form-heading">Register</h4>
-              <input type="text" id='name'  class="form-control event-form-main"  placeholder="Full Name" />
+              <input type="text" id='name' required class="form-control event-form-main"  placeholder="Full Name" />
               <br />
-              <input type="email" id='email'  class="form-control event-form-main event-form-main"  placeholder="Email ID" />
+              <input type="email" id='email' required class="form-control event-form-main event-form-main"  placeholder="Email ID" />
               <br />
-              <input type="text" id='mobile_number'  class="form-control event-form-main"  placeholder="Mobile Number" maxLength="16" />
+              <input type="text" id='mobile_number' required class="form-control event-form-main"  placeholder="Mobile Number" maxLength="16" />
               <br />
               <div class="row no-gutters">
                   <div class="col-md-6 col-12">
-                      <select class="form-control event-form-main select-event" id='state'>
+                      <select class="form-control event-form-main select-event" id='state' required>
                           <option class="option-company-main-event" value="State" >
                               State
                           </option>
@@ -568,17 +568,17 @@
                       </select>
                   </div>
                   <div class="col-md-6 col-12">
-                      <input type="text" id='city'  class="form-control event-form-main"  placeholder="Your City" />
+                      <input type="text" id='city' required class="form-control event-form-main"  placeholder="Your City" />
                   </div>
               </div>
               <br />
 
-              <input type="text" id='college'  class="form-control event-form-main"  placeholder="College Name" />
+              <input type="text" id='college' required class="form-control event-form-main"  placeholder="College Name" />
               <br />
               <div class="row no-gutters">
                   <div class="col-md-6 col-12">
-                      <select class="form-control select-event event-form-main "  placeholder="Year" id='year'>
-                          <option value="0">Year of Study</option>
+                      <select class="form-control select-event event-form-main" placeholder="Year" id='year' required>
+                          <option value="">Year of Study</option>
                           <option value="1">1st Year</option>
                           <option value="2">2nd Year</option>
                           <option value="3">3rd Year</option>
@@ -586,11 +586,11 @@
                       </select>
                   </div>
                   <div class="col-md-6 col-12">
-                      <input type="text" id='branch'  class="form-control event-form-main"  placeholder="Branch" />
+                      <input type="text" id='branch' required class="form-control event-form-main"  placeholder="Branch" />
                   </div>
               </div>
               <br />
-              <input type="text" id='github_id'  class="form-control event-form-main"  placeholder="Github ID" />
+              <input type="text" id='github_id' required class="form-control event-form-main"  placeholder="Github ID" />
               <br />
               <div class="row mx-auto text-center">
                 <p class="otp-warning">*OTP will be sent to your email.</p>
@@ -610,7 +610,6 @@
               </button>
             </div>
           </form>
-          <h1 class='otp_confirm'> Thanks for registering. Let the OpenSource be with You</p>
         </div>
       </div>
     </div>   
@@ -657,6 +656,7 @@
 
     <!----------------------------REGISTRATION CARDS END-------------------------->
     
+    <h1 class='otp_confirm' id='message'> Thanks for registering. Let the OpenSource be with You</h1>
 
     <section id="socials" class="social-section">
       <div class="container-fluid">

@@ -357,6 +357,8 @@ function register(register_data) {
             document.querySelector('.otp_confirm').innerHTML = response.data.status_message;
             document.querySelector('.otp_confirm').style.display = 'block'
             document.querySelector('#verify_otp').style.display = 'none'
+            var ele = document.getElementById("message"); 
+            ele.scrollIntoView({behavior: "smooth"});
 
             }
         })
@@ -372,6 +374,8 @@ function verify_otp(verify_data) {
         if(response.data.status === 200) {
             document.querySelector('.otp_confirm').style.display = 'block'
             document.querySelector('#verify_otp').style.display = 'none'
+            var ele = document.getElementById("message"); 
+            ele.scrollIntoView({behavior: "smooth"});
 
 
 
