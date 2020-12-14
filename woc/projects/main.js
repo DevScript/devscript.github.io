@@ -342,17 +342,13 @@ project_grid = document.querySelector('.project-grid')
   } else {
     project_image_link.src = data.img
   }
-
-  if(data.name == '') {
-    project_image_link.src = './img/github-user.png'
-  }
   if(data.name == 'Grokking-Machine-Learning') {
     project_image_link.src = './img/grokking_ML.png'
   }
   if(data.name == 'Portfolio-App-Template') {
     project_image_link.src = './img/portfolio_app_template.png'
   }
-  
+
   project_owner.innerHTML = data.author
   project_tags = 'Tags'
   project_link.innerHTML = data.name;
