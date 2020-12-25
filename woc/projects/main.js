@@ -288,7 +288,140 @@ projects = [
   stars: 0,
   type: "User",
   url: "https://github.com/Jayshah6699/datascience-mashup"
-}]
+},
+
+  {
+  desc: null,
+  forks: 0,
+  img: "https://avatars2.githubusercontent.com/u/1830380?v=4",
+  name: "Internship-LMS-FrontEnd",
+  owner: "praveenscience",
+  stars: 0,
+  type: "User",
+  url: "https://github.com/praveenscience/Internship-LMS-FrontEnd"
+},
+{
+  desc: "Painter is a canvas painting web app, where you can draw and express your creativity, and download your painting.",
+  forks: 9,
+  img: "https://avatars1.githubusercontent.com/u/44048080?v=4",
+  name: "Painter",
+  owner: "iamskab",
+  stars: 6,
+  type: "User",
+  url: "https://github.com/iamskab/Painter"
+},
+{
+  desc: "In this repo I will try to gather all of the projects related to data science with clean datasets and high accuracy models to solve real world problems.",
+  forks: 1,
+  img: "https://avatars0.githubusercontent.com/u/38597612?v=4",
+  name: "datascience-mashup",
+  owner: "Jayshah6699",
+  stars: 3,
+  type: "User",
+  url: "https://github.com/Jayshah6699/datascience-mashup"
+},
+{
+  desc: "Stock Market Analysis Platform",
+  forks: 0,
+  img: "https://avatars2.githubusercontent.com/u/54654484?v=4",
+  name: "stockinator",
+  owner: "ricardoprins",
+  stars: 0,
+  type: "User",
+  url: "https://github.com/ricardoprins/stockinator"
+},
+{
+  desc: "An Exciting Deep Learning Model that takes Real-time Video input, predicts the Facial Expressions of users and also does Graphical Visualization of the Expressions !",
+  forks: 1,
+  img: "https://avatars0.githubusercontent.com/u/57671048?v=4",
+  name: "Facial-Expression-Recognition-Classifier-Model",
+  owner: "SanjayMarreddi",
+  stars: 4,
+  type: "User",
+  url: "https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model"
+},
+{
+  desc: "Recognition of faces by various algorithms. Join Discord channel for discussion.",
+  forks: 11,
+  img: "https://avatars0.githubusercontent.com/u/57909583?v=4",
+  name: "Face-X",
+  owner: "akshitagupta15june",
+  stars: 10,
+  type: "User",
+  url: "https://github.com/akshitagupta15june/Face-X"
+},
+{
+  desc: "Hoaxify is a Fake News Classifier built using NLP Techniques.",
+  forks: 1,
+  img: "https://avatars3.githubusercontent.com/u/48143381?v=4",
+  name: "Hoaxify",
+  owner: "Femme-js",
+  stars: 0,
+  type: "User",
+  url: "https://github.com/Femme-js/Hoaxify"
+},
+{
+  desc: "A Python library that enables smooth keyword extraction from any text using the RAKE(Rapid Automatic Keyword Extraction) algorithm.",
+  forks: 13,
+  img: "https://avatars2.githubusercontent.com/u/49288068?v=4",
+  name: "rake_new2",
+  owner: "BALaka-18",
+  stars: 11,
+  type: "User",
+  url: "https://github.com/BALaka-18/rake_new2"
+},
+{
+  desc: "Women Safety Website",
+  forks: 0,
+  img: "https://avatars0.githubusercontent.com/u/69387608?v=4",
+  name: "Rescue",
+  owner: "swapnilsparsh",
+  stars: 0,
+  type: "User",
+  url: "https://github.com/swapnilsparsh/Rescue"
+},
+{
+  desc: "Randomly Exploring Computer Vision techniques to create eye catching art out of plain boring images!",
+  forks: 17,
+  img: "https://avatars2.githubusercontent.com/u/46641503?v=4",
+  name: "ArtCV",
+  owner: "smaranjitghose",
+  stars: 8,
+  type: "User",
+  url: "https://github.com/smaranjitghose/ArtCV"
+},
+{
+  desc: "An image classification app boilerplate to serve your deep learning models asap!",
+  forks: 8,
+  img: "https://avatars2.githubusercontent.com/u/46641503?v=4",
+  name: "img_ai_app_boilerplate",
+  owner: "smaranjitghose",
+  stars: 9,
+  type: "User",
+  url: "https://github.com/smaranjitghose/img_ai_app_boilerplate"
+},
+{
+  desc: "It is a web-app that help you track your coding status, showing it in form of dashboard. It also provides reminders to users for various competitive coding contests.",
+  forks: 6,
+  img: "https://avatars0.githubusercontent.com/u/36301481?v=4",
+  name: "hackstation",
+  owner: "ashishnagpal2498",
+  stars: 4,
+  type: "User",
+  url: "https://github.com/ashishnagpal2498/hackstation"
+},
+{
+  desc: "Real-time real-estate data prediction",
+  forks: 0,
+  img: "https://avatars1.githubusercontent.com/u/64522449?v=4",
+  name: "Realate",
+  owner: "deluminators",
+  stars: 2,
+  type: "Organization",
+  url: "https://github.com/deluminators/Realate"
+}
+
+]
 
 projects.forEach(data => {
 project_card = document.createElement('div')
