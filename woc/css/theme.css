@@ -4016,3 +4016,84 @@ form p{
 .end:after {
   border: none !important ;
 }
+
+/* Speakers */
+#speakers {
+  background-color: #010615;
+}
+.card-container {
+  background-color: #231E39;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+  color: #B3B8CD;
+  padding-top: 30px;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  margin: 40px 0;
+  padding-bottom: 30px;
+}
+
+.card-container .round {
+  border: 1px solid #03BFCB;
+  border-radius: 50%;
+  padding: 7px;
+  width: 150px;
+}
+
+.card-container h3 {
+  margin: 20px 0;
+}
+
+.skills {
+  background-color: #1F1A36;
+  text-align: left;
+  padding: 15px;
+}
+
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills ul li {
+  border: 1px solid #2D2747;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 7px 7px 0;
+  padding: 7px;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 25px;
+  list-style: none;
+  padding: 0 65px
+}
+
+.social li {
+  font-size: 20px;
+}
+
+button.primary {
+  background-color: #03BFCB;
+  border: 1px solid #03BFCB;
+  border-radius: 3px;
+  color: #231E39;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  padding: 10px 25px;
+}
+
+button.primary.ghost {
+  background-color: transparent;
+  color: #02899C;
+}
+
+button:hover {
+  font-weight: 700; 
+}

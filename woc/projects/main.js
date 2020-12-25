@@ -1,87 +1,97 @@
 projects = [
 {
   desc: "Appwrite is a secure end-to-end backend server for Web, Mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment 🚀",
-  forks: 550,
+  forks: 555,
   img: "https://avatars0.githubusercontent.com/u/25003669?v=4",
   name: "appwrite",
   owner: "appwrite",
-  stars: 3796,
+  stars: 3845,
   type: "Organization",
   url: "https://github.com/appwrite/appwrite"
 },
 {
-  desc: "Platform for building serverless applications and APIs (Node.js, React, GraphQL)",
-  forks: 299,
-  img: "https://avatars2.githubusercontent.com/u/3808429?v=4",
-  name: "webiny-js",
-  owner: "webiny",
-  stars: 3898,
-  type: "Organization",
-  url: "https://github.com/webiny/webiny-js"
-},
-{
   desc: "The open source Discord bot that solves all of your problems.",
-  forks: 191,
+  forks: 193,
   img: "https://avatars2.githubusercontent.com/u/39246832?v=4",
   name: "switchblade",
   owner: "SwitchbladeBot",
-  stars: 255,
+  stars: 261,
   type: "Organization",
   url: "https://github.com/SwitchbladeBot/switchblade"
 },
 {
-  desc: "MDN's Local Library with a whole lot of features (in development)",
-  forks: 2,
-  img: "https://avatars1.githubusercontent.com/u/17019944?v=4",
-  name: "express-locallibrary-tutorial",
-  owner: "Zircoz",
-  stars: 1,
+  desc: "Platform for building serverless applications and APIs (Node.js, React, GraphQL)",
+  forks: 303,
+  img: "https://avatars2.githubusercontent.com/u/3808429?v=4",
+  name: "webiny-js",
+  owner: "webiny",
+  stars: 4019,
+  type: "Organization",
+  url: "https://github.com/webiny/webiny-js"
+},
+{
+  desc: "A student's savior to submit those assignments by just typing them out and getting it handwritten on the go!",
+  forks: 86,
+  img: "https://avatars2.githubusercontent.com/u/46641503?v=4",
+  name: "doc2pen",
+  owner: "smaranjitghose",
+  stars: 72,
   type: "User",
-  url: "https://github.com/Zircoz/express-locallibrary-tutorial"
+  url: "https://github.com/smaranjitghose/doc2pen"
 },
 {
   desc: "Blogger is a basic blogging application which includes user to create an account and post their views.",
-  forks: 63,
+  forks: 67,
   img: "https://avatars3.githubusercontent.com/u/54139847?v=4",
   name: "Blogger",
   owner: "harsh-9in",
-  stars: 24,
+  stars: 28,
   type: "User",
   url: "https://github.com/harsh-9in/Blogger"
 },
 {
-  desc: "a simple yet powerful package manager",
-  forks: 2,
-  img: "https://avatars2.githubusercontent.com/u/72333447?v=4",
-  name: "appctl",
-  owner: "releax",
-  stars: 1,
-  type: "Organization",
-  url: "https://github.com/releax/appctl"
-},
-{
-  desc: "Bringing all Quantum Algorithms under one Roof ⚡",
-  forks: 7,
-  img: "https://avatars0.githubusercontent.com/u/65121169?v=4",
-  name: "QPowerAlgo",
-  owner: "QPower-Research",
-  stars: 4,
-  type: "Organization",
-  url: "https://github.com/QPower-Research/QPowerAlgo"
-},
-{
-  desc: "A real-time remote service to get the Keras callbacks to the telegram including the details of metrics--&gt;pip install tensorgram",
-  forks: 3,
-  img: "https://avatars1.githubusercontent.com/u/46109386?v=4",
-  name: "TensorGram",
-  owner: "ksdkamesh99",
-  stars: 56,
+  desc: "Scripts that will make you go WOW 😍💻 ",
+  forks: 170,
+  img: "https://avatars1.githubusercontent.com/u/47351025?v=4",
+  name: "Rotten-Scripts",
+  owner: "HarshCasper",
+  stars: 217,
   type: "User",
-  url: "https://github.com/ksdkamesh99/TensorGram"
+  url: "https://github.com/HarshCasper/Rotten-Scripts"
+},
+{
+  desc: "Bringing all Data Structures and Algorithms under one Roof ⚡",
+  forks: 377,
+  img: "https://avatars1.githubusercontent.com/u/65599589?v=4",
+  name: "NeoAlgo",
+  owner: "TesseractCoding",
+  stars: 235,
+  type: "Organization",
+  url: "https://github.com/TesseractCoding/NeoAlgo"
+},
+{
+  desc: "This repo aims to contain different machine learning use cases along with the descriptions to the model architectures",
+  forks: 5,
+  img: "https://avatars3.githubusercontent.com/u/52751963?v=4",
+  name: "Grokking-Machine-Learning",
+  owner: "Abhijit2505",
+  stars: 5,
+  type: "User",
+  url: "https://github.com/Abhijit2505/Grokking-Machine-Learning"
+},
+{
+  desc: "Developer Cheatsheets",
+  forks: 38,
+  img: "https://avatars1.githubusercontent.com/u/42309779?v=4",
+  name: "Cheat-Sheets",
+  owner: "VedantKhairnar",
+  stars: 37,
+  type: "User",
+  url: "https://github.com/VedantKhairnar/Cheat-Sheets"
 },
 {
   desc: "Blinker is an andorid app which will help People to Detect Colorblindness in them. It also provides recommended exercise by the Eye care experts.It will have a segment where you can read wonderful facts about our own most precious Eye.",
-  forks: 1,
+  forks: 3,
   img: "https://avatars2.githubusercontent.com/u/60515013?v=4",
   name: "Blinker",
   owner: "wayiam",
@@ -90,154 +100,34 @@ projects = [
   url: "https://github.com/wayiam/Blinker"
 },
 {
-  desc: "Senior Year Project - AIes (object detection API)",
-  forks: 2,
-  img: "https://avatars3.githubusercontent.com/u/25189336?v=4",
-  name: "AIes_object_detection",
-  owner: "Akashsindhu",
-  stars: 0,
-  type: "User",
-  url: "https://github.com/Akashsindhu/AIes_object_detection"
-},
-{
-  desc: "Face Mask Detection system based on computer vision and deep learning using OpenCV and Tensorflow/Keras",
-  forks: 281,
-  img: "https://avatars2.githubusercontent.com/u/29686102?v=4",
-  name: "Face-Mask-Detection",
-  owner: "chandrikadeb7",
-  stars: 608,
-  type: "User",
-  url: "https://github.com/chandrikadeb7/Face-Mask-Detection"
-},
-{
-  desc: "A personal portfolio application template.",
-  forks: 2,
-  img: "https://avatars3.githubusercontent.com/u/52751963?v=4",
-  name: "Portfolio-App-Template",
-  owner: "Abhijit2505",
-  stars: 6,
-  type: "User",
-  url: "https://github.com/Abhijit2505/Portfolio-App-Template"
-},
-{
-  desc: "Developer Cheatsheets",
-  forks: 35,
-  img: "https://avatars1.githubusercontent.com/u/42309779?v=4",
-  name: "Cheat-Sheets",
-  owner: "VedantKhairnar",
-  stars: 31,
-  type: "User",
-  url: "https://github.com/VedantKhairnar/Cheat-Sheets"
-},
-{
-  desc: "This repo aims to contain different machine learning use cases along with the descriptions to the model architectures",
-  forks: 3,
-  img: "https://avatars3.githubusercontent.com/u/52751963?v=4",
-  name: "Grokking-Machine-Learning",
-  owner: "Abhijit2505",
-  stars: 4,
-  type: "User",
-  url: "https://github.com/Abhijit2505/Grokking-Machine-Learning"
-},
-{
-  desc: null,
-  forks: 3,
-  img: "https://avatars3.githubusercontent.com/u/66358162?v=4",
-  name: "Q-Stream",
-  owner: "Q-Stream",
-  stars: 6,
-  type: "Organization",
-  url: "https://github.com/Q-Stream/Q-Stream"
-},
-{
-  desc: "Stack overflow command line client. Search and browse stack overflow without leaving the terminal :computer: ",
-  forks: 204,
-  img: "https://avatars2.githubusercontent.com/u/8397274?v=4",
-  name: "socli",
-  owner: "gautamkrishnar",
-  stars: 882,
-  type: "User",
-  url: "https://github.com/gautamkrishnar/socli"
-},
-{
-  desc: "This is the source code for tech_phantoms website",
-  forks: 38,
-  img: "https://avatars0.githubusercontent.com/u/61622105?v=4",
-  name: "Tech_Phantoms_website",
-  owner: "Tech-Phantoms",
-  stars: 33,
-  type: "Organization",
-  url: "https://github.com/Tech-Phantoms/Tech_Phantoms_website"
-},
-{
-  desc: "One great friend in our gadgets 💻📳📱",
-  forks: 6,
-  img: "https://avatars3.githubusercontent.com/u/53136674?v=4",
-  name: "AshTech-AI_Personal_Voice_Assistant",
-  owner: "Ash515",
-  stars: 11,
-  type: "User",
-  url: "https://github.com/Ash515/AshTech-AI_Personal_Voice_Assistant"
-},
-{
-  desc: "Scripts that will make you go WOW 😍💻 ",
-  forks: 163,
-  img: "https://avatars1.githubusercontent.com/u/47351025?v=4",
-  name: "Rotten-Scripts",
-  owner: "HarshCasper",
-  stars: 200,
-  type: "User",
-  url: "https://github.com/HarshCasper/Rotten-Scripts"
-},
-{
-  desc: "Bringing all Data Structures and Algorithms under one Roof ⚡",
-  forks: 364,
-  img: "https://avatars1.githubusercontent.com/u/65599589?v=4",
-  name: "NeoAlgo",
-  owner: "TesseractCoding",
-  stars: 222,
-  type: "Organization",
-  url: "https://github.com/TesseractCoding/NeoAlgo"
-},
-{
-  desc: "Official Website of HITK Tech Community 👩🏻‍💻👨🏻‍💻",
-  forks: 10,
-  img: "https://avatars2.githubusercontent.com/u/75066705?v=4",
-  name: "Community-Website",
-  owner: "HITK-TECH-Community",
-  stars: 5,
-  type: "Organization",
-  url: "https://github.com/HITK-TECH-Community/Community-Website"
-},
-{
   desc: "An interactive board with plugins focusing on replacing the need of multiple platforms for teaching, presenting, managing or explaining your ideas 🌎 ",
-  forks: 65,
+  forks: 75,
   img: "https://avatars0.githubusercontent.com/u/67165969?v=4",
   name: "canvasboard",
   owner: "Canvasbird",
-  stars: 118,
+  stars: 123,
   type: "Organization",
   url: "https://github.com/Canvasbird/canvasboard"
 },
 {
-  desc: "Collaborative space for developers, designers and artists to share and work with their ideas.",
-  forks: 0,
-  img: "https://avatars1.githubusercontent.com/u/62296756?v=4",
-  name: "idea-lab",
-  owner: "theupweb",
-  stars: 7,
+  desc: "World's first community management platform. And it's free!",
+  forks: 25,
+  img: "https://avatars2.githubusercontent.com/u/66256000?v=4",
+  name: "commudle-ng",
+  owner: "commudle",
+  stars: 67,
   type: "Organization",
-  url: "https://github.com/theupweb/idea-lab"
+  url: "https://github.com/commudle/commudle-ng"
 },
 {
-  desc: null,
-  forks: 1,
-  img: "https://avatars1.githubusercontent.com/u/38863530?v=4",
-  name: "Youtube-Dashboard",
-  owner: "shriyaMadan",
-  stars: 1,
-  type: "User",
-  url: "https://github.com/shriyaMadan/Youtube-Dashboard"
+  desc: "Official Website of HITK Tech Community 👩🏻‍💻👨🏻‍💻",
+  forks: 15,
+  img: "https://avatars2.githubusercontent.com/u/75066705?v=4",
+  name: "Community-Website",
+  owner: "HITK-TECH-Community",
+  stars: 8,
+  type: "Organization",
+  url: "https://github.com/HITK-TECH-Community/Community-Website"
 },
 {
   desc: "An open-source document scanner!",
@@ -250,55 +140,44 @@ projects = [
   url: "https://github.com/smaranjitghose/DocLense"
 },
 {
-  desc: "A student's savior to submit those assignments by just typing them out and getting it handwritten on the go!",
-  forks: 79,
-  img: "https://avatars2.githubusercontent.com/u/46641503?v=4",
-  name: "doc2pen",
-  owner: "smaranjitghose",
-  stars: 68,
-  type: "User",
-  url: "https://github.com/smaranjitghose/doc2pen"
-},
-{
-  desc: "Painter is a canvas painting web app, where you can draw and express your creativity, and download your painting.",
-  forks: 6,
-  img: "https://avatars1.githubusercontent.com/u/44048080?v=4",
-  name: "Painter",
-  owner: "iamskab",
-  stars: 2,
-  type: "User",
-  url: "https://github.com/iamskab/Painter"
-},
-{
-  desc: "World's first community management platform. And it's free!",
-  forks: 24,
-  img: "https://avatars2.githubusercontent.com/u/66256000?v=4",
-  name: "commudle-ng",
-  owner: "commudle",
-  stars: 66,
-  type: "Organization",
-  url: "https://github.com/commudle/commudle-ng"
-},
-{
   desc: "In this repo I will try to gather all of the projects related to data science with clean datasets and high accuracy models to solve real world problems.",
-  forks: 0,
+  forks: 1,
   img: "https://avatars0.githubusercontent.com/u/38597612?v=4",
   name: "datascience-mashup",
   owner: "Jayshah6699",
-  stars: 0,
+  stars: 3,
   type: "User",
   url: "https://github.com/Jayshah6699/datascience-mashup"
 },
-
-  {
-  desc: null,
-  forks: 0,
-  img: "https://avatars2.githubusercontent.com/u/1830380?v=4",
-  name: "Internship-LMS-FrontEnd",
-  owner: "praveenscience",
-  stars: 0,
+{
+  desc: "Face Mask Detection system based on computer vision and deep learning using OpenCV and Tensorflow/Keras",
+  forks: 297,
+  img: "https://avatars2.githubusercontent.com/u/29686102?v=4",
+  name: "Face-Mask-Detection",
+  owner: "chandrikadeb7",
+  stars: 632,
   type: "User",
-  url: "https://github.com/praveenscience/Internship-LMS-FrontEnd"
+  url: "https://github.com/chandrikadeb7/Face-Mask-Detection"
+},
+{
+  desc: "Collaborative space for developers, designers and artists to share and work with their ideas.",
+  forks: 0,
+  img: "https://avatars1.githubusercontent.com/u/62296756?v=4",
+  name: "idea-lab",
+  owner: "theupweb",
+  stars: 10,
+  type: "Organization",
+  url: "https://github.com/theupweb/idea-lab"
+},
+{
+  desc: "Helps in seeing your channel's stats",
+  forks: 1,
+  img: "https://avatars1.githubusercontent.com/u/38863530?v=4",
+  name: "Youtube-Dashboard",
+  owner: "shriyaMadan",
+  stars: 3,
+  type: "User",
+  url: "https://github.com/shriyaMadan/Youtube-Dashboard"
 },
 {
   desc: "Painter is a canvas painting web app, where you can draw and express your creativity, and download your painting.",
@@ -311,34 +190,44 @@ projects = [
   url: "https://github.com/iamskab/Painter"
 },
 {
-  desc: "In this repo I will try to gather all of the projects related to data science with clean datasets and high accuracy models to solve real world problems.",
-  forks: 1,
-  img: "https://avatars0.githubusercontent.com/u/38597612?v=4",
-  name: "datascience-mashup",
-  owner: "Jayshah6699",
-  stars: 3,
+  desc: "Stack overflow command line client. Search and browse stack overflow without leaving the terminal :computer: ",
+  forks: 205,
+  img: "https://avatars2.githubusercontent.com/u/8397274?v=4",
+  name: "socli",
+  owner: "gautamkrishnar",
+  stars: 884,
   type: "User",
-  url: "https://github.com/Jayshah6699/datascience-mashup"
+  url: "https://github.com/gautamkrishnar/socli"
 },
 {
-  desc: "Stock Market Analysis Platform",
-  forks: 0,
-  img: "https://avatars2.githubusercontent.com/u/54654484?v=4",
-  name: "stockinator",
-  owner: "ricardoprins",
-  stars: 0,
-  type: "User",
-  url: "https://github.com/ricardoprins/stockinator"
-},
-{
-  desc: "An Exciting Deep Learning Model that takes Real-time Video input, predicts the Facial Expressions of users and also does Graphical Visualization of the Expressions !",
-  forks: 1,
-  img: "https://avatars0.githubusercontent.com/u/57671048?v=4",
-  name: "Facial-Expression-Recognition-Classifier-Model",
-  owner: "SanjayMarreddi",
+  desc: "Bringing all Quantum Algorithms under one Roof ⚡",
+  forks: 7,
+  img: "https://avatars0.githubusercontent.com/u/65121169?v=4",
+  name: "QPowerAlgo",
+  owner: "QPower-Research",
   stars: 4,
+  type: "Organization",
+  url: "https://github.com/QPower-Research/QPowerAlgo"
+},
+{
+  desc: "This is the source code for tech_phantoms website",
+  forks: 40,
+  img: "https://avatars0.githubusercontent.com/u/61622105?v=4",
+  name: "Tech_Phantoms_website",
+  owner: "Tech-Phantoms",
+  stars: 33,
+  type: "Organization",
+  url: "https://github.com/Tech-Phantoms/Tech_Phantoms_website"
+},
+{
+  desc: "A real-time remote service to get the Keras callbacks to the telegram including the details of metrics--&gt;pip install tensorgram",
+  forks: 3,
+  img: "https://avatars1.githubusercontent.com/u/46109386?v=4",
+  name: "TensorGram",
+  owner: "ksdkamesh99",
+  stars: 57,
   type: "User",
-  url: "https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model"
+  url: "https://github.com/ksdkamesh99/TensorGram"
 },
 {
   desc: "Recognition of faces by various algorithms. Join Discord channel for discussion.",
@@ -349,6 +238,36 @@ projects = [
   stars: 10,
   type: "User",
   url: "https://github.com/akshitagupta15june/Face-X"
+},
+{
+  desc: "Senior Year Project - AIes (object detection API)",
+  forks: 3,
+  img: "https://avatars3.githubusercontent.com/u/25189336?v=4",
+  name: "AIes_object_detection",
+  owner: "Akashsindhu",
+  stars: 0,
+  type: "User",
+  url: "https://github.com/Akashsindhu/AIes_object_detection"
+},
+{
+  desc: "MDN's Local Library with a whole lot of features (in development)",
+  forks: 2,
+  img: "https://avatars1.githubusercontent.com/u/17019944?v=4",
+  name: "express-locallibrary-tutorial",
+  owner: "Zircoz",
+  stars: 1,
+  type: "User",
+  url: "https://github.com/Zircoz/express-locallibrary-tutorial"
+},
+{
+  desc: "An Exciting Deep Learning Model that takes Real-time Video input, predicts the Facial Expressions of users and also does Graphical Visualization of the Expressions !",
+  forks: 1,
+  img: "https://avatars0.githubusercontent.com/u/57671048?v=4",
+  name: "Facial-Expression-Recognition-Classifier-Model",
+  owner: "SanjayMarreddi",
+  stars: 4,
+  type: "User",
+  url: "https://github.com/SanjayMarreddi/Facial-Expression-Recognition-Classifier-Model"
 },
 {
   desc: "Hoaxify is a Fake News Classifier built using NLP Techniques.",
@@ -371,14 +290,14 @@ projects = [
   url: "https://github.com/BALaka-18/rake_new2"
 },
 {
-  desc: "Women Safety Website",
-  forks: 0,
-  img: "https://avatars0.githubusercontent.com/u/69387608?v=4",
-  name: "Rescue",
-  owner: "swapnilsparsh",
-  stars: 0,
-  type: "User",
-  url: "https://github.com/swapnilsparsh/Rescue"
+  desc: "a simple yet powerful package manager",
+  forks: 2,
+  img: "https://avatars2.githubusercontent.com/u/72333447?v=4",
+  name: "appctl",
+  owner: "releax",
+  stars: 2,
+  type: "Organization",
+  url: "https://github.com/releax/appctl"
 },
 {
   desc: "Randomly Exploring Computer Vision techniques to create eye catching art out of plain boring images!",
@@ -391,6 +310,36 @@ projects = [
   url: "https://github.com/smaranjitghose/ArtCV"
 },
 {
+  desc: "Women Safety Website",
+  forks: 0,
+  img: "https://avatars0.githubusercontent.com/u/69387608?v=4",
+  name: "Rescue",
+  owner: "swapnilsparsh",
+  stars: 0,
+  type: "User",
+  url: "https://github.com/swapnilsparsh/Rescue"
+},
+{
+  desc: null,
+  forks: 0,
+  img: "https://avatars2.githubusercontent.com/u/1830380?v=4",
+  name: "Internship-LMS-FrontEnd",
+  owner: "praveenscience",
+  stars: 0,
+  type: "User",
+  url: "https://github.com/praveenscience/Internship-LMS-FrontEnd"
+},
+{
+  desc: "Real-time real-estate data prediction",
+  forks: 0,
+  img: "https://avatars1.githubusercontent.com/u/64522449?v=4",
+  name: "Realate",
+  owner: "deluminators",
+  stars: 2,
+  type: "Organization",
+  url: "https://github.com/deluminators/Realate"
+},
+{
   desc: "An image classification app boilerplate to serve your deep learning models asap!",
   forks: 8,
   img: "https://avatars2.githubusercontent.com/u/46641503?v=4",
@@ -399,6 +348,16 @@ projects = [
   stars: 9,
   type: "User",
   url: "https://github.com/smaranjitghose/img_ai_app_boilerplate"
+},
+{
+  desc: "Stock Market Analysis Platform",
+  forks: 0,
+  img: "https://avatars2.githubusercontent.com/u/54654484?v=4",
+  name: "stockinator",
+  owner: "ricardoprins",
+  stars: 0,
+  type: "User",
+  url: "https://github.com/ricardoprins/stockinator"
 },
 {
   desc: "It is a web-app that help you track your coding status, showing it in form of dashboard. It also provides reminders to users for various competitive coding contests.",
@@ -411,17 +370,35 @@ projects = [
   url: "https://github.com/ashishnagpal2498/hackstation"
 },
 {
-  desc: "Real-time real-estate data prediction",
-  forks: 0,
-  img: "https://avatars1.githubusercontent.com/u/64522449?v=4",
-  name: "Realate",
-  owner: "deluminators",
-  stars: 2,
+  desc: "A personal portfolio application template.",
+  forks: 7,
+  img: "https://avatars3.githubusercontent.com/u/52751963?v=4",
+  name: "Portfolio-App-Template",
+  owner: "Abhijit2505",
+  stars: 7,
+  type: "User",
+  url: "https://github.com/Abhijit2505/Portfolio-App-Template"
+},
+{
+  desc: "One great friend in our gadgets 💻📳📱",
+  forks: 7,
+  img: "https://avatars3.githubusercontent.com/u/53136674?v=4",
+  name: "AshTech-AI_Personal_Voice_Assistant",
+  owner: "Ash515",
+  stars: 11,
+  type: "User",
+  url: "https://github.com/Ash515/AshTech-AI_Personal_Voice_Assistant"
+},
+{
+  desc: null,
+  forks: 3,
+  img: "https://avatars3.githubusercontent.com/u/66358162?v=4",
+  name: "Q-Stream",
+  owner: "Q-Stream",
+  stars: 6,
   type: "Organization",
-  url: "https://github.com/deluminators/Realate"
-}
-
-]
+  url: "https://github.com/Q-Stream/Q-Stream"
+}]
 
 projects.forEach(data => {
 project_card = document.createElement('div')
@@ -437,6 +414,8 @@ project_footer = document.createElement('footer')
 project_footer_row = document.createElement('div')
 project_repo_info_star = document.createElement('div')
 project_repo_info_fork = document.createElement('div')
+
+project_link.target = '_blank'
 
 project_card.classList.add('project-card')
 project_image.classList.add('project-image')
