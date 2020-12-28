@@ -91,13 +91,13 @@ projects = [
 },
 {
   desc: "'Upasthiti', marks checks presence. A Flask-based software built on computer vision libraries. It is an exclusive Attendance Management system with variety of features with PRE AND POST COVID utility. Check more in the Blog below!",
-  forks: 0,
-  img: "https://avatars3.githubusercontent.com/u/55204045?v=4",
-  name: "UPASTHITI",
-  owner: "Apoorve73",
-  stars: 1,
-  type: "User",
-  url: "https://github.com/Apoorve73/UPASTHITI"
+  forks: 1,
+  img: "https://avatars2.githubusercontent.com/u/76681122?v=4",
+  name: "Upasthiti-The-Real-Checker",
+  owner: "Upasthiti-Dev",
+  stars: 4,
+  type: "Organization",
+  url: "https://github.com/Upasthiti-Dev/Upasthiti-The-Real-Checker"
 },
 {
   desc: "Blinker is an andorid app which will help People to Detect Colorblindness in them. It also provides recommended exercise by the Eye care experts.It will have a segment where you can read wonderful facts about our own most precious Eye.",
