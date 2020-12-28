@@ -90,6 +90,16 @@ projects = [
   url: "https://github.com/VedantKhairnar/Cheat-Sheets"
 },
 {
+  desc: "'Upasthiti', marks checks presence. A Flask-based software built on computer vision libraries. It is an exclusive Attendance Management system with variety of features with PRE AND POST COVID utility. Check more in the Blog below!",
+  forks: 0,
+  img: "https://avatars3.githubusercontent.com/u/55204045?v=4",
+  name: "UPASTHITI",
+  owner: "Apoorve73",
+  stars: 1,
+  type: "User",
+  url: "https://github.com/Apoorve73/UPASTHITI"
+},
+{
   desc: "Blinker is an andorid app which will help People to Detect Colorblindness in them. It also provides recommended exercise by the Eye care experts.It will have a segment where you can read wonderful facts about our own most precious Eye.",
   forks: 3,
   img: "https://avatars2.githubusercontent.com/u/60515013?v=4",
@@ -398,6 +408,56 @@ projects = [
   stars: 6,
   type: "Organization",
   url: "https://github.com/Q-Stream/Q-Stream"
+},
+{
+  desc: "DEV_Script_WOC",
+  forks: 0,
+  img: "https://avatars3.githubusercontent.com/u/43617730?v=4",
+  name: "Surviellance-Bomb-Diffusion-Robot",
+  owner: "ssg8288",
+  stars: 2,
+  type: "User",
+  url: "https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot"
+},
+{
+  desc: "😻 Athavani/Memories is a full-stack MERN Tool built in order to save all your memories in a single place and rejoice them through the years. ",
+  forks: 8,
+  img: "https://avatars3.githubusercontent.com/u/64543913?v=4",
+  name: "Athavani",
+  owner: "Tejas1510",
+  stars: 3,
+  type: "User",
+  url: "https://github.com/Tejas1510/Athavani"
+},
+{
+  desc: "🦠COVID-19 Tracker to track cases in India,",
+  forks: 0,
+  img: "https://avatars3.githubusercontent.com/u/73512577?v=4",
+  name: "COVID-19-Tracker",
+  owner: "thinktocode",
+  stars: 1,
+  type: "User",
+  url: "https://github.com/thinktocode/COVID-19-Tracker"
+},
+{
+  desc: null,
+  forks: 9,
+  img: "https://avatars2.githubusercontent.com/u/15235122?v=4",
+  name: "Notifly",
+  owner: "rexdivakar",
+  stars: 16,
+  type: "User",
+  url: "https://github.com/rexdivakar/Notifly"
+},
+{
+  desc: "This repo is devoted for the complete solution of 450 questions provided by love Babbar. Those solutions are hosted for viewing purpose on below link",
+  forks: 3,
+  img: "https://avatars2.githubusercontent.com/u/56120084?v=4",
+  name: "Love-Babbar-450",
+  owner: "nlok5923",
+  stars: 2,
+  type: "User",
+  url: "https://github.com/nlok5923/Love-Babbar-450"
 }]
 
 projects.forEach(data => {
