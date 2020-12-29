@@ -448,16 +448,6 @@ projects = [
   stars: 16,
   type: "User",
   url: "https://github.com/rexdivakar/Notifly"
-},
-{
-  desc: "This repo is devoted for the complete solution of 450 questions provided by love Babbar. Those solutions are hosted for viewing purpose on below link",
-  forks: 3,
-  img: "https://avatars2.githubusercontent.com/u/56120084?v=4",
-  name: "Love-Babbar-450",
-  owner: "nlok5923",
-  stars: 2,
-  type: "User",
-  url: "https://github.com/nlok5923/Love-Babbar-450"
 }]
 
 projects.forEach(data => {
