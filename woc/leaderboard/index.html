@@ -1,0 +1,80 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>DWoC - Leaderboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DevScript Winter of Code">
+  <meta name="keywords" content="DevScript Winter of Code">
+  <meta name="owner" content="DevScript">
+  <meta property="og:title" content="DevScript Winter of Code" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://devscript.tech/assets/img/logo.png" />
+  <meta name="twitter:leaderboard" content="summary">
+  <meta name="twitter:site" content="@DevScript">
+  <meta name="twitter:title" content="DevScript">
+  <meta name="twitter:description" content="DWoC - Leaderboard">
+  <meta name="twitter:creator" content="@The_DevScript">
+  <meta name="twitter:image" content="https://devscript.tech/assets/img/logo.png">
+  <link rel="icon" type="image/ico" href="img/WOC-logo.png" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <video autoplay muted loop id="myVideo">
+    <source src="img/Snow.mp4" type="video/mp4">
+  </video>
+  <div class="nav-container">
+    <nav class="overlay-nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img alt="Logo" class="logo" src="../img/logo.png">
+            <!-- <img alt="Logo" class="logo logo-dark"> -->
+          </div>
+          <div class="col-md-10 text-right">
+            <ul class="menu">
+              <li><a href="https://devscript.tech/" target="_self">DevScript</a></li>
+              <!-- <li><a href=" " target="_self">Apply </a></li> -->
+              <li><a class="inner-link" href="../#schedule" target="_self">Schedule</a></li>
+              <li><a class="inner-link" href="../#register" target="_self">Register</a></li>
+              <!-- <li><a class="inner-link" href="#prizes" target="_self">Prizes</a></li> -->
+              <li><a class="inner-link" href="../#faq" target="_self">FAQ</a></li>
+              <!-- <li><a href='#mentors' target="_self">Speakers</a></li> -->
+              <li><a href='../team/' target="_self">Our Team</a></li>
+              <li><a href='http://bit.ly/DWOC_COC' target="_self">Code Of Conduct</a></li>
+
+              <li class="social-link"><a href="https://www.twitter.com/The_DevScript" target="_self"><i
+                    class="fab fa-twitter fa-lg"></i></a></li>
+              <li class="social-link"><a href="https://www.github.com/DevScript/" target="_self"><i
+                    class="fab fa-github fa-lg"></i></a></li>
+              <li class="social-link" style="margin-right:0 !important"><a
+                  href="https://www.linkedin.com/company/devscripts/" target="_self"><i
+                    class="fab fa-linkedin fa-lg"></i></a></li>
+            </ul>
+            <div class="mobile-menu-toggle"><i class="fas fa-bars"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-border"></div>
+    </nav>
+  </div>
+  
+  <section class='leaderboard-section' id="leaderboard">
+  </section>
+
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div id="pagination-wrapper-bottom" class='col-md-6 col-sm-12 d-flex justify-content-between'></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src='./main.js'></script>
+</body>
+</html>
