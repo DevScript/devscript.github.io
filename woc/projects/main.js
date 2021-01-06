@@ -70,16 +70,6 @@ projects = [
   url: "https://github.com/smaranjitghose/ArtCV"
 },
 {
-  desc: "Blinker is an andorid app which will help People to Detect Colorblindness in them. It also provides recommended exercise by the Eye care experts.It will have a segment where you can read wonderful facts about our own most precious Eye.",
-  forks: 8,
-  img: "https://avatars2.githubusercontent.com/u/60515013?v=4",
-  name: "Blinker",
-  owner: "wayiam",
-  stars: 4,
-  type: "User",
-  url: "https://github.com/wayiam/Blinker"
-},
-{
   desc: "World's first community management platform. And it's free!",
   forks: 31,
   img: "https://avatars2.githubusercontent.com/u/66256000?v=4",
@@ -218,16 +208,6 @@ projects = [
   stars: 13,
   type: "Organization",
   url: "https://github.com/theupweb/idea-lab"
-},
-{
-  desc: "MDN's Local Library with a whole lot of features (in development)",
-  forks: 3,
-  img: "https://avatars1.githubusercontent.com/u/17019944?v=4",
-  name: "express-locallibrary-tutorial",
-  owner: "Zircoz",
-  stars: 2,
-  type: "User",
-  url: "https://github.com/Zircoz/express-locallibrary-tutorial"
 },
 {
   desc: "Helps in seeing your channel's stats",
