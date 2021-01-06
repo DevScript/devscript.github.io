@@ -2,7 +2,7 @@
 
 ## You can contribute for any component if you think you can make better than the present one. We will be glad to have your contribution.
 
-## WHY TO CONTRIBUTE:
+## BENEFITS:
 
 - Every Contributer whose code will be merged will get the Certificate of Contribution.
 - They will be featured on the website as well as on the GitHub as a Contributor for DevScript's Website.
