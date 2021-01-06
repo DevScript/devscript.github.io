@@ -572,7 +572,7 @@ project_grid = document.querySelector('.project-grid')
   // console.log(project_card)
   project_grid.appendChild(project_card)
 
-  console.log(data)
+  //console.log(data)
 })
 
 if($(window).width() < 768) {
