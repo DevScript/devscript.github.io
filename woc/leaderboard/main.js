@@ -24,7 +24,6 @@ let scoreboard = ''
 buildLeaderBoard()
 
 function searchUser(value) {
-	console.log(value)
 	let filteredData = []
 	for(let i=0; i < userScore.length; i++) {
 		if(userScore[i].user.toLowerCase().includes(value.toLowerCase()))
