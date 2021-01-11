@@ -421,29 +421,28 @@ p {
   box-shadow: 0 4px 4px rgba(0,0,0,.5);
   color: #fff;
 }
+
 .text-primary{
   color: #00ff10 !important;
 }
+
 .bg-primary, .btn-primary{
   background: #d701e8 !important;  
 }
 
-
-
-/*.userCard:nth-child(3) {
-  background: linear-gradient(180deg,#13161e,#222836 48.96%,#13161e);
-  box-shadow: 0 4px 4px rgba(0,0,0,.5);
-  color: #fff;
-}
-.userCard:nth-child(3) .text-primary {
-  color: #f7335d !important;
-}
-
-.userCard:nth-child(3) .bg-primary, .btn-primary {
-  background: #f7335d!important;
-}
-*/
 .avatar {
   width: 45px;
   border-radius: 50%;
+}
+
+.fa-caret-up {
+  color: #00ff00;
+}
+
+.fa-caret-down {
+  color: #ff0000;
+}
+
+input {
+  position: relative;
 }
