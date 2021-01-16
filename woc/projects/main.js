@@ -15,7 +15,7 @@ projects = [
     "img": "https://avatars0.githubusercontent.com/u/25003669?v=4",
     "url": "https://github.com/appwrite/appwrite",
     "desc": "Appwrite is a secure end-to-end backend server for Web, Mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment 🚀",
-    "stars": 3917,
+    "stars": 3918,
     "forks": 563,
     "type": "Organization"
   },
@@ -35,8 +35,8 @@ projects = [
     "img": "https://avatars2.githubusercontent.com/u/29686102?v=4",
     "url": "https://github.com/chandrikadeb7/Face-Mask-Detection",
     "desc": "Face Mask Detection system based on computer vision and deep learning using OpenCV and Tensorflow/Keras",
-    "stars": 686,
-    "forks": 346,
+    "stars": 688,
+    "forks": 347,
     "type": "User"
   },
   {
@@ -45,7 +45,7 @@ projects = [
     "img": "https://avatars1.githubusercontent.com/u/65599589?v=4",
     "url": "https://github.com/TesseractCoding/NeoAlgo",
     "desc": "Bringing all Data Structures and Algorithms under one Roof ⚡",
-    "stars": 283,
+    "stars": 284,
     "forks": 430,
     "type": "Organization"
   },
@@ -95,7 +95,7 @@ projects = [
     "img": "https://avatars2.githubusercontent.com/u/1830380?v=4",
     "url": "https://github.com/praveenscience/Internship-LMS-FrontEnd",
     "desc": "We are in the mission of solving a crisis for a lot of small and medium enterprises, who are trying to recruit interns for their projects. This platform aims to onboard new interns, who have applied to the companies and help them understand the process and make the transition smooth.",
-    "stars": 111,
+    "stars": 112,
     "forks": 43,
     "type": "User"
   },
@@ -160,23 +160,23 @@ projects = [
     "type": "Organization"
   },
   {
+    "name": "FireShort",
+    "owner": "monizb",
+    "img": "https://avatars2.githubusercontent.com/u/46259712?v=4",
+    "url": "https://github.com/monizb/FireShort",
+    "desc": "A URL Shortener made using React.JS and Google Firestore",
+    "stars": 26,
+    "forks": 38,
+    "type": "User"
+  },
+  {
     "name": "hackstation",
     "owner": "ashishnagpal2498",
     "img": "https://avatars0.githubusercontent.com/u/36301481?v=4",
     "url": "https://github.com/ashishnagpal2498/hackstation",
     "desc": "It is a web-app that help you track your coding status, showing it in form of dashboard. It also provides reminders to users for various competitive coding contests.",
     "stars": 25,
-    "forks": 26,
-    "type": "User"
-  },
-  {
-    "name": "FireShort",
-    "owner": "monizb",
-    "img": "https://avatars2.githubusercontent.com/u/46259712?v=4",
-    "url": "https://github.com/monizb/FireShort",
-    "desc": "A URL Shortener made using React.JS and Google Firestore",
-    "stars": 25,
-    "forks": 38,
+    "forks": 27,
     "type": "User"
   },
   {
@@ -210,13 +210,23 @@ projects = [
     "type": "User"
   },
   {
+    "name": "AshTech-AI_Personal_Voice_Assistant",
+    "owner": "Ash515",
+    "img": "https://avatars3.githubusercontent.com/u/53136674?v=4",
+    "url": "https://github.com/Ash515/AshTech-AI_Personal_Voice_Assistant",
+    "desc": "One great friend in our gadgets 💻📳📱",
+    "stars": 19,
+    "forks": 29,
+    "type": "User"
+  },
+  {
     "name": "Grokking-Machine-Learning",
     "owner": "Abhijit2505",
     "img": "https://avatars3.githubusercontent.com/u/52751963?v=4",
     "url": "https://github.com/Abhijit2505/Grokking-Machine-Learning",
     "desc": "This repo aims to contain different machine learning use cases along with the descriptions to the model architectures",
     "stars": 19,
-    "forks": 19,
+    "forks": 18,
     "type": "User"
   },
   {
@@ -227,16 +237,6 @@ projects = [
     "desc": "A Python library that enables smooth keyword extraction from any text using the RAKE(Rapid Automatic Keyword Extraction) algorithm.",
     "stars": 19,
     "forks": 21,
-    "type": "User"
-  },
-  {
-    "name": "AshTech-AI_Personal_Voice_Assistant",
-    "owner": "Ash515",
-    "img": "https://avatars3.githubusercontent.com/u/53136674?v=4",
-    "url": "https://github.com/Ash515/AshTech-AI_Personal_Voice_Assistant",
-    "desc": "One great friend in our gadgets 💻📳📱",
-    "stars": 18,
-    "forks": 29,
     "type": "User"
   },
   {
@@ -267,6 +267,16 @@ projects = [
     "desc": "A Media Player which can run any online Video from different sites like YouTube, Twitch, etc.",
     "stars": 17,
     "forks": 14,
+    "type": "Organization"
+  },
+  {
+    "name": "Realate",
+    "owner": "deluminators",
+    "img": "https://avatars1.githubusercontent.com/u/64522449?v=4",
+    "url": "https://github.com/deluminators/Realate",
+    "desc": "Real-time real-estate data prediction engine",
+    "stars": 15,
+    "forks": 10,
     "type": "Organization"
   },
   {
@@ -345,7 +355,7 @@ projects = [
     "img": "https://avatars1.githubusercontent.com/u/43093686?v=4",
     "url": "https://github.com/harshsbais/Amazon-Price-Drop-Alert",
     "desc": "A python script that will send you an email when the price for specific items you followed on Amazon drops beneath a certain price you set.",
-    "stars": 10,
+    "stars": 11,
     "forks": 13,
     "type": "User"
   },
@@ -380,6 +390,16 @@ projects = [
     "type": "User"
   },
   {
+    "name": "ScanIt",
+    "owner": "mishraaditya595",
+    "img": "https://avatars0.githubusercontent.com/u/54946784?v=4",
+    "url": "https://github.com/mishraaditya595/ScanIt",
+    "desc": "The intelligent, effective, All-In-One Android Scanner",
+    "stars": 8,
+    "forks": 2,
+    "type": "User"
+  },
+  {
     "name": "DocLense",
     "owner": "smaranjitghose",
     "img": "https://avatars2.githubusercontent.com/u/46641503?v=4",
@@ -387,6 +407,16 @@ projects = [
     "desc": "An open-source document scanner!",
     "stars": 7,
     "forks": 11,
+    "type": "User"
+  },
+  {
+    "name": "Insider",
+    "owner": "Shyguy99",
+    "img": "https://avatars1.githubusercontent.com/u/47186922?v=4",
+    "url": "https://github.com/Shyguy99/Insider",
+    "desc": "An app to hide text data in a image implementing Steganography with AES algorithm",
+    "stars": 7,
+    "forks": 4,
     "type": "User"
   },
   {
@@ -430,6 +460,16 @@ projects = [
     "type": "User"
   },
   {
+    "name": "World-Covid-Tracker",
+    "owner": "Saikat-98",
+    "img": "https://avatars3.githubusercontent.com/u/30549072?v=4",
+    "url": "https://github.com/Saikat-98/World-Covid-Tracker",
+    "desc": "A world Covid Tracking site made completely on ReactJs, Firebase. The site shows data of confirmed, recovered and deaths of all the countries plotted on a world map. It also has some cool animations showing the top affected countries.",
+    "stars": 6,
+    "forks": 5,
+    "type": "User"
+  },
+  {
     "name": "stockinator",
     "owner": "ricardoprins",
     "img": "https://avatars2.githubusercontent.com/u/54654484?v=4",
@@ -447,6 +487,26 @@ projects = [
     "desc": "Senior Year Project - AIes (object detection API)",
     "stars": 5,
     "forks": 5,
+    "type": "User"
+  },
+  {
+    "name": "quizmaster-reloaded",
+    "owner": "djm-1",
+    "img": "https://avatars0.githubusercontent.com/u/54498482?v=4",
+    "url": "https://github.com/djm-1/quizmaster-reloaded",
+    "desc": "Online quiz hosting platform",
+    "stars": 5,
+    "forks": 0,
+    "type": "User"
+  },
+  {
+    "name": "Property-management-System-Django-Full-Stack-",
+    "owner": "IIITM-Jay",
+    "img": "https://avatars2.githubusercontent.com/u/65283880?v=4",
+    "url": "https://github.com/IIITM-Jay/Property-management-System-Django-Full-Stack-",
+    "desc": "The project deals with managing different layers of property on the basis of different parameters they acquire and can support with the facilities they accomplish, in order to ease with the searching and booking operations. The project is implemented using django due to its various incorporated features.",
+    "stars": 4,
+    "forks": 6,
     "type": "User"
   },
   {
@@ -477,6 +537,106 @@ projects = [
     "desc": "📲 Android Application that compares one GitHub profile with another.",
     "stars": 1,
     "forks": 5,
+    "type": "User"
+  },
+  {
+    "name": "Mlops_Task",
+    "owner": "Aasthajain123",
+    "img": "https://avatars2.githubusercontent.com/u/50754325?v=4",
+    "url": "https://github.com/Aasthajain123/Mlops_Task",
+    "desc": null,
+    "stars": 1,
+    "forks": 0,
+    "type": "User"
+  },
+  {
+    "name": "Pentesting-and-Hacking-Scripts",
+    "owner": "dscciem",
+    "img": "https://avatars2.githubusercontent.com/u/71657921?v=4",
+    "url": "https://github.com/dscciem/Pentesting-and-Hacking-Scripts",
+    "desc": "🚀 A curated collection of Pentesting and Hacking Scripts for Script Kiddie to Advanced Pentesters. 👨‍💻",
+    "stars": 1,
+    "forks": 2,
+    "type": "Organization"
+  },
+  {
+    "name": "Social-Distancing-Detector",
+    "owner": "rajpratyush",
+    "img": "https://avatars3.githubusercontent.com/u/53184883?v=4",
+    "url": "https://github.com/rajpratyush/Social-Distancing-Detector",
+    "desc": null,
+    "stars": 1,
+    "forks": 0,
+    "type": "User"
+  },
+  {
+    "name": "Telegram-EventManager-Bot",
+    "owner": "Novartus",
+    "img": "https://avatars3.githubusercontent.com/u/62197910?v=4",
+    "url": "https://github.com/Novartus/Telegram-EventManager-Bot",
+    "desc": "EventManagerBot is a bot which helps User/Organization to handle the registration and confirmation of RSVPs & Registrations of the users through Telegram with the help of MongoDB to manage the DataBase.",
+    "stars": 1,
+    "forks": 1,
+    "type": "User"
+  },
+  {
+    "name": "alphadoc",
+    "owner": "MLH-Fellowship",
+    "img": "https://avatars3.githubusercontent.com/u/65834464?v=4",
+    "url": "https://github.com/MLH-Fellowship/alphadoc",
+    "desc": "Automatic docstring generator that supports and generates a number of specified and widely used docstring style conventions for documentation in Python.",
+    "stars": 1,
+    "forks": 0,
+    "type": "Organization"
+  },
+  {
+    "name": "Digital_Hospital",
+    "owner": "khushi0302001",
+    "img": "https://avatars3.githubusercontent.com/u/62301468?v=4",
+    "url": "https://github.com/khushi0302001/Digital_Hospital",
+    "desc": null,
+    "stars": 0,
+    "forks": 1,
+    "type": "User"
+  },
+  {
+    "name": "Medvice",
+    "owner": "shatakshisingh24",
+    "img": "https://avatars2.githubusercontent.com/u/51313537?v=4",
+    "url": "https://github.com/shatakshisingh24/Medvice",
+    "desc": "Web Application to offer some advice by taking in the symptoms and telling probablity of a disease",
+    "stars": 0,
+    "forks": 0,
+    "type": "User"
+  },
+  {
+    "name": "Operationalizing-ML",
+    "owner": "vaibhavirohilla741",
+    "img": "https://avatars3.githubusercontent.com/u/62430272?v=4",
+    "url": "https://github.com/vaibhavirohilla741/Operationalizing-ML",
+    "desc": null,
+    "stars": 0,
+    "forks": 0,
+    "type": "User"
+  },
+  {
+    "name": "Text-transator",
+    "owner": "Saikat-98",
+    "img": "https://avatars3.githubusercontent.com/u/30549072?v=4",
+    "url": "https://github.com/Saikat-98/Text-transator",
+    "desc": null,
+    "stars": 0,
+    "forks": 0,
+    "type": "User"
+  },
+  {
+    "name": "EchoForMe",
+    "owner": "rsrkpatwari1234",
+    "img": "https://avatars3.githubusercontent.com/u/45709641?v=4",
+    "url": "https://github.com/rsrkpatwari1234/EchoForMe",
+    "desc": "A platform that will read the latest news or the desired text for you..",
+    "stars": 0,
+    "forks": 3,
     "type": "User"
   }
 ]
