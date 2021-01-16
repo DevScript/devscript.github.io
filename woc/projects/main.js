@@ -280,16 +280,6 @@ projects = [
     "type": "Organization"
   },
   {
-    "name": "Realate",
-    "owner": "deluminators",
-    "img": "https://avatars1.githubusercontent.com/u/64522449?v=4",
-    "url": "https://github.com/deluminators/Realate",
-    "desc": "Real-time real-estate data prediction engine",
-    "stars": 15,
-    "forks": 10,
-    "type": "Organization"
-  },
-  {
     "name": "img_ai_app_boilerplate",
     "owner": "smaranjitghose",
     "img": "https://avatars2.githubusercontent.com/u/46641503?v=4",
