@@ -5,7 +5,7 @@ projects = [
     "img": "https://avatars2.githubusercontent.com/u/3808429?v=4",
     "url": "https://github.com/webiny/webiny-js",
     "desc": "Platform for building serverless applications and APIs (Node.js, React, GraphQL)",
-    "stars": 4097,
+    "stars": 4098,
     "forks": 306,
     "type": "Organization"
   },
@@ -15,7 +15,7 @@ projects = [
     "img": "https://avatars0.githubusercontent.com/u/25003669?v=4",
     "url": "https://github.com/appwrite/appwrite",
     "desc": "Appwrite is a secure end-to-end backend server for Web, Mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment 🚀",
-    "stars": 3918,
+    "stars": 3928,
     "forks": 563,
     "type": "Organization"
   },
@@ -35,8 +35,8 @@ projects = [
     "img": "https://avatars2.githubusercontent.com/u/29686102?v=4",
     "url": "https://github.com/chandrikadeb7/Face-Mask-Detection",
     "desc": "Face Mask Detection system based on computer vision and deep learning using OpenCV and Tensorflow/Keras",
-    "stars": 688,
-    "forks": 347,
+    "stars": 692,
+    "forks": 351,
     "type": "User"
   },
   {
@@ -45,8 +45,8 @@ projects = [
     "img": "https://avatars1.githubusercontent.com/u/65599589?v=4",
     "url": "https://github.com/TesseractCoding/NeoAlgo",
     "desc": "Bringing all Data Structures and Algorithms under one Roof ⚡",
-    "stars": 284,
-    "forks": 430,
+    "stars": 286,
+    "forks": 432,
     "type": "Organization"
   },
   {
@@ -65,8 +65,18 @@ projects = [
     "img": "https://avatars1.githubusercontent.com/u/47351025?v=4",
     "url": "https://github.com/HarshCasper/Rotten-Scripts",
     "desc": "Scripts that will make you go WOW 😍💻 ",
-    "stars": 266,
-    "forks": 193,
+    "stars": 267,
+    "forks": 194,
+    "type": "User"
+  },
+  {
+    "name": "awesome-portfolio-websites",
+    "owner": "smaranjitghose",
+    "img": "https://avatars2.githubusercontent.com/u/46641503?v=4",
+    "url": "https://github.com/smaranjitghose/awesome-portfolio-websites",
+    "desc": "An open-source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world",
+    "stars": 196,
+    "forks": 231,
     "type": "User"
   },
   {
@@ -85,8 +95,8 @@ projects = [
     "img": "https://avatars2.githubusercontent.com/u/46641503?v=4",
     "url": "https://github.com/smaranjitghose/doc2pen",
     "desc": "A student's savior to submit those assignments by just typing them out and getting it handwritten on the go!",
-    "stars": 130,
-    "forks": 147,
+    "stars": 133,
+    "forks": 151,
     "type": "User"
   },
   {
@@ -95,7 +105,7 @@ projects = [
     "img": "https://avatars2.githubusercontent.com/u/1830380?v=4",
     "url": "https://github.com/praveenscience/Internship-LMS-FrontEnd",
     "desc": "We are in the mission of solving a crisis for a lot of small and medium enterprises, who are trying to recruit interns for their projects. This platform aims to onboard new interns, who have applied to the companies and help them understand the process and make the transition smooth.",
-    "stars": 112,
+    "stars": 111,
     "forks": 43,
     "type": "User"
   },
@@ -105,8 +115,8 @@ projects = [
     "img": "https://avatars1.githubusercontent.com/u/42309779?v=4",
     "url": "https://github.com/VedantKhairnar/Cheat-Sheets",
     "desc": "Developer Cheatsheets",
-    "stars": 97,
-    "forks": 88,
+    "stars": 101,
+    "forks": 89,
     "type": "User"
   },
   {
@@ -145,7 +155,7 @@ projects = [
     "img": "https://avatars3.githubusercontent.com/u/54139847?v=4",
     "url": "https://github.com/harsh-9in/Blogger",
     "desc": "Blogger is a basic blogging application which includes user to create an account and post their views.",
-    "stars": 36,
+    "stars": 38,
     "forks": 90,
     "type": "User"
   },
@@ -155,8 +165,8 @@ projects = [
     "img": "https://avatars2.githubusercontent.com/u/75066705?v=4",
     "url": "https://github.com/HITK-TECH-Community/Community-Website",
     "desc": "Official Website of HITK Tech Community 👩🏻‍💻👨🏻‍💻",
-    "stars": 33,
-    "forks": 83,
+    "stars": 32,
+    "forks": 84,
     "type": "Organization"
   },
   {
@@ -165,7 +175,7 @@ projects = [
     "img": "https://avatars2.githubusercontent.com/u/46259712?v=4",
     "url": "https://github.com/monizb/FireShort",
     "desc": "A URL Shortener made using React.JS and Google Firestore",
-    "stars": 26,
+    "stars": 27,
     "forks": 38,
     "type": "User"
   },
@@ -175,8 +185,8 @@ projects = [
     "img": "https://avatars0.githubusercontent.com/u/36301481?v=4",
     "url": "https://github.com/ashishnagpal2498/hackstation",
     "desc": "It is a web-app that help you track your coding status, showing it in form of dashboard. It also provides reminders to users for various competitive coding contests.",
-    "stars": 25,
-    "forks": 27,
+    "stars": 24,
+    "forks": 29,
     "type": "User"
   },
   {
@@ -196,7 +206,7 @@ projects = [
     "url": "https://github.com/akshitagupta15june/Face-X",
     "desc": "Demonstration of different algorithms and operations on faces . Join Discord channel for discussion.",
     "stars": 23,
-    "forks": 28,
+    "forks": 31,
     "type": "User"
   },
   {
@@ -206,7 +216,7 @@ projects = [
     "url": "https://github.com/Jayshah6699/datascience-mashup",
     "desc": "In this repo I will try to gather all of the projects related to data science with clean datasets and high accuracy models to solve real world problems.",
     "stars": 21,
-    "forks": 31,
+    "forks": 33,
     "type": "User"
   },
   {
@@ -226,7 +236,7 @@ projects = [
     "url": "https://github.com/Abhijit2505/Grokking-Machine-Learning",
     "desc": "This repo aims to contain different machine learning use cases along with the descriptions to the model architectures",
     "stars": 19,
-    "forks": 18,
+    "forks": 19,
     "type": "User"
   },
   {
@@ -240,6 +250,16 @@ projects = [
     "type": "User"
   },
   {
+    "name": "Notifly",
+    "owner": "rexdivakar",
+    "img": "https://avatars2.githubusercontent.com/u/15235122?v=4",
+    "url": "https://github.com/rexdivakar/Notifly",
+    "desc": null,
+    "stars": 19,
+    "forks": 12,
+    "type": "User"
+  },
+  {
     "name": "Rescue",
     "owner": "swapnilsparsh",
     "img": "https://avatars0.githubusercontent.com/u/69387608?v=4",
@@ -250,23 +270,13 @@ projects = [
     "type": "User"
   },
   {
-    "name": "Notifly",
-    "owner": "rexdivakar",
-    "img": "https://avatars2.githubusercontent.com/u/15235122?v=4",
-    "url": "https://github.com/rexdivakar/Notifly",
-    "desc": null,
-    "stars": 18,
-    "forks": 11,
-    "type": "User"
-  },
-  {
     "name": "Q-Stream",
     "owner": "Q-Stream",
     "img": "https://avatars3.githubusercontent.com/u/66358162?v=4",
     "url": "https://github.com/Q-Stream/Q-Stream",
     "desc": "A Media Player which can run any online Video from different sites like YouTube, Twitch, etc.",
     "stars": 17,
-    "forks": 14,
+    "forks": 15,
     "type": "Organization"
   },
   {
@@ -280,6 +290,16 @@ projects = [
     "type": "Organization"
   },
   {
+    "name": "idea-lab",
+    "owner": "theupweb",
+    "img": "https://avatars1.githubusercontent.com/u/62296756?v=4",
+    "url": "https://github.com/theupweb/idea-lab",
+    "desc": "Collaborative space for developers, designers and artists to share and work with their ideas.",
+    "stars": 14,
+    "forks": 15,
+    "type": "Organization"
+  },
+  {
     "name": "img_ai_app_boilerplate",
     "owner": "smaranjitghose",
     "img": "https://avatars2.githubusercontent.com/u/46641503?v=4",
@@ -290,16 +310,6 @@ projects = [
     "type": "User"
   },
   {
-    "name": "idea-lab",
-    "owner": "theupweb",
-    "img": "https://avatars1.githubusercontent.com/u/62296756?v=4",
-    "url": "https://github.com/theupweb/idea-lab",
-    "desc": "Collaborative space for developers, designers and artists to share and work with their ideas.",
-    "stars": 13,
-    "forks": 14,
-    "type": "Organization"
-  },
-  {
     "name": "QPowerAlgo",
     "owner": "QPower-Research",
     "img": "https://avatars0.githubusercontent.com/u/65121169?v=4",
@@ -308,6 +318,16 @@ projects = [
     "stars": 12,
     "forks": 12,
     "type": "Organization"
+  },
+  {
+    "name": "Amazon-Price-Drop-Alert",
+    "owner": "harshsbais",
+    "img": "https://avatars1.githubusercontent.com/u/43093686?v=4",
+    "url": "https://github.com/harshsbais/Amazon-Price-Drop-Alert",
+    "desc": "A python script that will send you an email when the price for specific items you followed on Amazon drops beneath a certain price you set.",
+    "stars": 12,
+    "forks": 13,
+    "type": "User"
   },
   {
     "name": "Athavani",
@@ -340,13 +360,13 @@ projects = [
     "type": "User"
   },
   {
-    "name": "Amazon-Price-Drop-Alert",
-    "owner": "harshsbais",
-    "img": "https://avatars1.githubusercontent.com/u/43093686?v=4",
-    "url": "https://github.com/harshsbais/Amazon-Price-Drop-Alert",
-    "desc": "A python script that will send you an email when the price for specific items you followed on Amazon drops beneath a certain price you set.",
-    "stars": 11,
-    "forks": 13,
+    "name": "COVID-19-Tracker",
+    "owner": "thinktocode",
+    "img": "https://avatars3.githubusercontent.com/u/73512577?v=4",
+    "url": "https://github.com/thinktocode/COVID-19-Tracker",
+    "desc": "🦠COVID-19 Tracker to track cases in India.",
+    "stars": 10,
+    "forks": 10,
     "type": "User"
   },
   {
@@ -356,7 +376,7 @@ projects = [
     "url": "https://github.com/shriyaMadan/Youtube-Dashboard",
     "desc": "Helps in seeing your channel's stats",
     "stars": 9,
-    "forks": 17,
+    "forks": 18,
     "type": "User"
   },
   {
@@ -370,23 +390,13 @@ projects = [
     "type": "User"
   },
   {
-    "name": "COVID-19-Tracker",
-    "owner": "thinktocode",
-    "img": "https://avatars3.githubusercontent.com/u/73512577?v=4",
-    "url": "https://github.com/thinktocode/COVID-19-Tracker",
-    "desc": "🦠COVID-19 Tracker to track cases in India.",
-    "stars": 9,
-    "forks": 10,
-    "type": "User"
-  },
-  {
     "name": "ScanIt",
     "owner": "mishraaditya595",
     "img": "https://avatars0.githubusercontent.com/u/54946784?v=4",
     "url": "https://github.com/mishraaditya595/ScanIt",
     "desc": "The intelligent, effective, All-In-One Android Scanner",
-    "stars": 8,
-    "forks": 2,
+    "stars": 9,
+    "forks": 5,
     "type": "User"
   },
   {
@@ -400,13 +410,23 @@ projects = [
     "type": "User"
   },
   {
+    "name": "Upasthiti-The-Real-Checker",
+    "owner": "Upasthiti-Dev",
+    "img": "https://avatars2.githubusercontent.com/u/76681122?v=4",
+    "url": "https://github.com/Upasthiti-Dev/Upasthiti-The-Real-Checker",
+    "desc": "'Upasthiti', marks checks presence. A Flask-based software built on computer vision libraries. It is an exclusive Attendance Management system with a variety of features with PRE AND POST COVID utility. Check more in the Demo below!",
+    "stars": 7,
+    "forks": 2,
+    "type": "Organization"
+  },
+  {
     "name": "Insider",
     "owner": "Shyguy99",
     "img": "https://avatars1.githubusercontent.com/u/47186922?v=4",
     "url": "https://github.com/Shyguy99/Insider",
     "desc": "An app to hide text data in a image implementing Steganography with AES algorithm",
     "stars": 7,
-    "forks": 4,
+    "forks": 5,
     "type": "User"
   },
   {
@@ -426,27 +446,7 @@ projects = [
     "url": "https://github.com/Femme-js/Hoaxify",
     "desc": "Hoaxify is a Fake News Classifier built using NLP Techniques.",
     "stars": 6,
-    "forks": 8,
-    "type": "User"
-  },
-  {
-    "name": "Upasthiti-The-Real-Checker",
-    "owner": "Upasthiti-Dev",
-    "img": "https://avatars2.githubusercontent.com/u/76681122?v=4",
-    "url": "https://github.com/Upasthiti-Dev/Upasthiti-The-Real-Checker",
-    "desc": "'Upasthiti', marks checks presence. A Flask-based software built on computer vision libraries. It is an exclusive Attendance Management system with a variety of features with PRE AND POST COVID utility. Check more in the Demo below!",
-    "stars": 6,
-    "forks": 2,
-    "type": "Organization"
-  },
-  {
-    "name": "World-Covid-Tracker",
-    "owner": "Saikat-98",
-    "img": "https://avatars3.githubusercontent.com/u/30549072?v=4",
-    "url": "https://github.com/Saikat-98/World-Covid-Tracker",
-    "desc": "A world Covid Tracking site made completely on ReactJs, Firebase. The site shows data of confirmed, recovered and deaths of all the countries plotted on a world map. It also has some cool animations showing the top affected countries.",
-    "stars": 6,
-    "forks": 5,
+    "forks": 10,
     "type": "User"
   },
   {
@@ -456,7 +456,17 @@ projects = [
     "url": "https://github.com/Saikat-98/World-Covid-Tracker",
     "desc": "A world Covid Tracking site made completely on ReactJs, Firebase. The site shows data of confirmed, recovered and deaths of all the countries plotted on a world map. It also has some cool animations showing the top affected countries.",
     "stars": 6,
-    "forks": 5,
+    "forks": 7,
+    "type": "User"
+  },
+  {
+    "name": "World-Covid-Tracker",
+    "owner": "Saikat-98",
+    "img": "https://avatars3.githubusercontent.com/u/30549072?v=4",
+    "url": "https://github.com/Saikat-98/World-Covid-Tracker",
+    "desc": "A world Covid Tracking site made completely on ReactJs, Firebase. The site shows data of confirmed, recovered and deaths of all the countries plotted on a world map. It also has some cool animations showing the top affected countries.",
+    "stars": 6,
+    "forks": 7,
     "type": "User"
   },
   {
@@ -486,7 +496,17 @@ projects = [
     "url": "https://github.com/djm-1/quizmaster-reloaded",
     "desc": "Online quiz hosting platform",
     "stars": 5,
-    "forks": 0,
+    "forks": 1,
+    "type": "User"
+  },
+  {
+    "name": "Mobile-Brower",
+    "owner": "sharmaumang001",
+    "img": "https://avatars0.githubusercontent.com/u/57462562?v=4",
+    "url": "https://github.com/sharmaumang001/Mobile-Brower",
+    "desc": "A full-fledged Mobile Browser. It has a great UI with a navigation bar and tab shifting facilities. It has facilities like AdBlock and Proxy(Under Built) for Best User Experience.",
+    "stars": 5,
+    "forks": 7,
     "type": "User"
   },
   {
@@ -496,7 +516,7 @@ projects = [
     "url": "https://github.com/IIITM-Jay/Property-management-System-Django-Full-Stack-",
     "desc": "The project deals with managing different layers of property on the basis of different parameters they acquire and can support with the facilities they accomplish, in order to ease with the searching and booking operations. The project is implemented using django due to its various incorporated features.",
     "stars": 4,
-    "forks": 6,
+    "forks": 7,
     "type": "User"
   },
   {
@@ -507,6 +527,16 @@ projects = [
     "desc": "This application is developed to provide quick access to previous year exam papers, syllabus and solutions of various universities like Kurukshetra University (KUK), Haryana State Board of Technical Education (HSBTE) with the functionalities like download many papers on a single click, sharing papers etc. ",
     "stars": 3,
     "forks": 5,
+    "type": "User"
+  },
+  {
+    "name": "Social-Distancing-Detector",
+    "owner": "rajpratyush",
+    "img": "https://avatars3.githubusercontent.com/u/53184883?v=4",
+    "url": "https://github.com/rajpratyush/Social-Distancing-Detector",
+    "desc": "Detect the social distance violations in real time using OpenCV and deep learning",
+    "stars": 3,
+    "forks": 4,
     "type": "User"
   },
   {
@@ -530,13 +560,23 @@ projects = [
     "type": "User"
   },
   {
+    "name": "Medvice",
+    "owner": "shatakshisingh24",
+    "img": "https://avatars2.githubusercontent.com/u/51313537?v=4",
+    "url": "https://github.com/shatakshisingh24/Medvice",
+    "desc": "Web Application to offer some advice by taking in the symptoms and telling probablity of a disease",
+    "stars": 1,
+    "forks": 2,
+    "type": "User"
+  },
+  {
     "name": "Mlops_Task",
     "owner": "Aasthajain123",
     "img": "https://avatars2.githubusercontent.com/u/50754325?v=4",
     "url": "https://github.com/Aasthajain123/Mlops_Task",
     "desc": null,
     "stars": 1,
-    "forks": 0,
+    "forks": 2,
     "type": "User"
   },
   {
@@ -550,23 +590,13 @@ projects = [
     "type": "Organization"
   },
   {
-    "name": "Social-Distancing-Detector",
-    "owner": "rajpratyush",
-    "img": "https://avatars3.githubusercontent.com/u/53184883?v=4",
-    "url": "https://github.com/rajpratyush/Social-Distancing-Detector",
-    "desc": null,
-    "stars": 1,
-    "forks": 0,
-    "type": "User"
-  },
-  {
     "name": "Telegram-EventManager-Bot",
     "owner": "Novartus",
     "img": "https://avatars3.githubusercontent.com/u/62197910?v=4",
     "url": "https://github.com/Novartus/Telegram-EventManager-Bot",
     "desc": "EventManagerBot is a bot which helps User/Organization to handle the registration and confirmation of RSVPs & Registrations of the users through Telegram with the help of MongoDB to manage the DataBase.",
     "stars": 1,
-    "forks": 1,
+    "forks": 2,
     "type": "User"
   },
   {
@@ -586,17 +616,7 @@ projects = [
     "url": "https://github.com/khushi0302001/Digital_Hospital",
     "desc": null,
     "stars": 0,
-    "forks": 1,
-    "type": "User"
-  },
-  {
-    "name": "Medvice",
-    "owner": "shatakshisingh24",
-    "img": "https://avatars2.githubusercontent.com/u/51313537?v=4",
-    "url": "https://github.com/shatakshisingh24/Medvice",
-    "desc": "Web Application to offer some advice by taking in the symptoms and telling probablity of a disease",
-    "stars": 0,
-    "forks": 0,
+    "forks": 2,
     "type": "User"
   },
   {
@@ -606,7 +626,7 @@ projects = [
     "url": "https://github.com/vaibhavirohilla741/Operationalizing-ML",
     "desc": null,
     "stars": 0,
-    "forks": 0,
+    "forks": 2,
     "type": "User"
   },
   {
@@ -626,7 +646,7 @@ projects = [
     "url": "https://github.com/rsrkpatwari1234/EchoForMe",
     "desc": "A platform that will read the latest news or the desired text for you..",
     "stars": 0,
-    "forks": 3,
+    "forks": 5,
     "type": "User"
   }
 ]
