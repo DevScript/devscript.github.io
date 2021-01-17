@@ -168,15 +168,15 @@ function buildLeaderBoard() {
                 </div>
                 <div class="col px-0">
                   <h4 class="text-primary text-uppercase fs-5">Lvl3</h4>
-                  <h3>${user.level3/6}</h3>
+                  <h3>${user.level3/7}</h3>
                 </div>
                 <div class="col px-0">
                   <h4 class="text-primary text-uppercase fs-5">Lvl4</h4>
-                  <h3>${user.level4/8}</h3>
+                  <h3>${user.level4/11}</h3>
                 </div>
                 <div class="col px-0">
                   <h4 class="text-primary text-uppercase fs-5">Lvl5</h4>
-                  <h3>${user.level5/10}</h3>
+                  <h3>${user.level5/16}</h3>
                 </div>
               </div>
             </div>
