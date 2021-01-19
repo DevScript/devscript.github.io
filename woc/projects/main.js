@@ -479,16 +479,16 @@ projects = [
     "forks": 6,
     "type": "User"
   },
-  {
-    "name": "AIes_object_detection",
-    "owner": "Akashsindhu",
-    "img": "https://avatars3.githubusercontent.com/u/25189336?v=4",
-    "url": "https://github.com/Akashsindhu/AIes_object_detection",
-    "desc": "Senior Year Project - AIes (object detection API)",
-    "stars": 5,
-    "forks": 5,
-    "type": "User"
-  },
+  // {
+  //   "name": "AIes_object_detection",
+  //   "owner": "Akashsindhu",
+  //   "img": "https://avatars3.githubusercontent.com/u/25189336?v=4",
+  //   "url": "https://github.com/Akashsindhu/AIes_object_detection",
+  //   "desc": "Senior Year Project - AIes (object detection API)",
+  //   "stars": 5,
+  //   "forks": 5,
+  //   "type": "User"
+  // },
   {
     "name": "quizmaster-reloaded",
     "owner": "djm-1",
