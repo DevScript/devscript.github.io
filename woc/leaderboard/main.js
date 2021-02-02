@@ -47,7 +47,7 @@ function pageButtons(pages) {
 	}
 	if (maxRight > pages) {
 	  maxLeft = pages - (state.window - 1)
-	  
+
 	  if (maxLeft < 1){
 	  	maxLeft = 1
 	  }
@@ -69,8 +69,8 @@ function pageButtons(pages) {
 	$('.page').click(function() {
 		scoreboard = ''
 		window.scroll({
-		  top: 0, 
-		  left: 0, 
+		  top: 0,
+		  left: 0,
 		  behavior: 'smooth'
 		});
 		state.page = Number($(this).val())
@@ -81,8 +81,8 @@ function pageButtons(pages) {
 
 
 function buildLeaderBoard() {
-	Array.prototype.getIndex = function(username) { 
-		for(const user in this){ 
+	Array.prototype.getIndex = function(username) {
+		for(const user in this){
 			if(this[user].user === username) return user
 		}
 	};
@@ -118,8 +118,10 @@ function buildLeaderBoard() {
             <img src=${userAvatar} class="avatar" alt="">
           </div>
           <div class="col-6 px-1 col-md-3">
-            <h2 class="d-none d-sm-inline d-md-none d-lg-inline"> ${user.user} </h2>
-            <h2 class="d-inline d-sm-none d-md-inline d-lg-none fs-4"> ${user.user} </h2>
+          	<a class="userLink" href="https://github.com/${user.user}" target="_blank">
+       		  <h2 class="d-none d-sm-inline d-md-none d-lg-inline"> ${user.user} </h2>
+              <h2 class="d-inline d-sm-none d-md-inline d-lg-none fs-4"> ${user.user} </h2>
+			</a>
           </div>
           <div class="col-md-4 col-lg-4 offset-lg-2 d-none d-md-block">
             <div class="text-center">

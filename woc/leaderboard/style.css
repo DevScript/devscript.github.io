@@ -422,12 +422,21 @@ p {
   color: #fff;
 }
 
+.userLink {
+  color: inherit;
+}
+
+.userLink:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 .text-primary{
   color: #00ff10 !important;
 }
 
 .bg-primary, .btn-primary{
-  background: #d701e8 !important;  
+  background: #d701e8 !important;
 }
 
 .avatar {
