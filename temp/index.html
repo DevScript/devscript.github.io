@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>DevScript</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.7/css/all.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="app" id="app">
+  <div class="tracks" :class="{isactive: isPlaylistActive}">
+    <ul class="tracks__list">
+      <li class="tracks__item" v-for="(item,index) in musicPlaylist" :class="{isactive: isCurrentSong(index)}">
+        <div class="tracks__info">
+          <h3 class="tracks__info-artist">{{item.artist}}</h3><span class="tracks__info-name">{{ item.title }}</span>
+        </div>
+        <button class="btn play btn--xs" @click="changeSong(index)" :class="{pause: isCurrentSong(index)}"></button>
+      </li>
+    </ul>
+  </div>
+  <div class="row app__head">
+    <button class="btn btn--small back"></button>
+    <button class="btn btn--small playlist" @click="togglePlaylist" :class="{isactive: isPlaylistActive}"></button>
+  </div>
+  <div class="row app__body">
+    <div class="album">
+      <div class="album__img" @load="onImageLoaded" :style="{ backgroundImage: `url(${musicPlaylist[currentSong].image})` }" :class="{isactive: isPlaylistActive}" :key="currentSong" ondragstart="return false"></div>
+      <div class="album__info" :class="{isactive: isPlaylistActive}">
+        <h3 class="album__info-name" :key="currentSong">{{ musicPlaylist[currentSong].artist }}</h3>
+        <p class="album__info-track" :key="currentSong">{{ musicPlaylist[currentSong].title }}</p>
+      </div>
+    </div>
+    <div class="progress" ref="progress" :class="{isactive: isPlaylistActive}">
+      <div class="progress__count"><span>{{ currentTime | fancyTimeFormat }}</span><span>{{ trackDuration | fancyTimeFormat }}</span></div>
+      <div class="progress__bar">
+        <div class="progress__bar-current" :style="{ width: currentProgressBar + '%' }"></div>
+        <div class="progress__bar-pin" :style="{ left: currentProgressBar + '%' }"></div>
+      </div>
+    </div>
+  </div>
+  <div class="row app__footer" :class="{isactive: isPlaylistActive}">
+    <button class="btn prev btn--big" @click="prevSong"></button>
+    <button class="btn play btn--big" @click="playAudio" :class="{pause: currentlyPlaying}"></button>
+    <button class="btn next btn--big" @click="nextSong"></button>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

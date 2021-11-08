@@ -1,0 +1,2231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>DevScript Winter of Code</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DevScript Winter of Code">
+  <meta name="keywords" content="DevScript Winter of Code">
+  <meta name="author" content="DevScript">
+  <meta property="og:title" content="DevScript Winter of Code" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://devscript.tech/assets/img/logo.png" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@DevScript">
+  <meta name="twitter:title" content="DevScript">
+  <meta name="twitter:description" content="DevScript official handle">
+  <meta name="twitter:creator" content="@The_DevScript">
+  <meta name="twitter:image" content="https://devscript.tech/assets/img/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/ico" href="img/WOC-logo.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/pe-icon-7-stroke.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel=stylesheet href="assets/libs/fontawesome/css/font-awesome.min.css" media=all />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oswald:400,700|Raleway:300,400" rel=stylesheet>
+  <link id=lgx-master-style rel=stylesheet href="assets/css/style-default.min.css" media=all />
+  <link rel=stylesheet href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Press+Start+2P&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@700&display=swap" rel="stylesheet">
+
+  <script>
+    document.getElementsByTagName("html")[0].class += " js";
+  </script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet"
+    type="text/css" media="all" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:100,200,2500' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="no-loader">
+
+  <div class="loader">
+    <div class="strip-holder">
+      <div class="strip-1"></div>
+      <div class="strip-2"></div>
+      <div class="strip-3"></div>
+    </div>
+  </div>
+  <a id="top"></a>
+  <div class="nav-container">
+    <nav class="overlay-nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <a href="../" target="_self"><img alt="Logo" class="logo" src="img/logo.png"></a>
+            <!-- <img alt="Logo" class="logo logo-dark"> -->
+          </div>
+          <div class="col-md-10 text-right">
+            <ul class="menu">
+              <!-- <li><a href=" " target="_self">Apply </a></li> -->
+              <li><a class="inner-link" href="#schedule" target="_self">Schedule</a></li>
+              <li><a href="./projects" target="_blank">Projects</a></li>
+              <li><a class="inner-link" href="#register" target="_self">Register</a></li>
+              <!-- <li><a class="inner-link" href="#prizes" target="_self">Prizes</a></li> -->
+              <li><a href="./leaderboard" target="_self">Leaderboard</a></li>
+              <li><a class="inner-link" href="#faq" target="_self">FAQ</a></li>
+              <!-- <li><a href='#mentors' target="_self">Speakers</a></li> -->
+              <li><a href='./team/' target="_self">Our Team</a></li>
+              <li><a href='http://bit.ly/DWOC_COC' target="_self">Code Of Conduct</a></li>
+
+              <li class="social-link"><a href="https://www.twitter.com/The_DevScript" target="_self"><i
+                    class="icon social_twitter"></i></a></li>
+              <li class="social-link"><a href="https://www.github.com/DevScript/" target="_self"><i
+                    class="fa fa-github fa-lg"></i></a></li>
+              <li class="social-link" style="margin-right:0 !important"><a
+                  href="https://www.linkedin.com/company/devscripts/" target="_self"><i
+                    class="icon social_linkedin"></i></a></li>
+            </ul>
+            <div class="mobile-menu-toggle"><i class="icon icon_menu"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-border"></div>
+    </nav>
+  </div>
+  <div class="main-container">
+    <section class="hero-slider">
+      <ul class="slides">
+        <li class="hero-slide">
+          <div class="background-image-holder parallax-background">
+            <img class="background-image" alt="DevScript winter of code" src="img/WoC (2).png">
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-7" data-aos="fade-right">
+                <h1 class="large-h1 text-white">
+                  <span class="sign__word">DevScript</span><br><br>
+                  <div>
+                    <span class="sign__word">Winter of Code 2020</span></div>
+                  <!-- <span>D</span>
+                  <span>e</span>
+                  <span>v</span>
+                  <span>s</span>
+                  <span>c</span>
+                  <span>r</span>
+                  <span>i</span>
+                  <span>p</span>
+                  <span>t</span>
+                  <span>&nbsp;</span><br><br>
+                  <span>W</span>
+                    <span>i</span>
+                    <span>n</span>
+                    <span>t</span>
+                    <span>e</span>
+                    <span>r</span>
+                    <span>&nbsp;</span>
+                  <span>o</span>
+                  <span>f</span>
+                  <span>&nbsp;</span>
+                  <span>C</span>
+                  <span>o</span>
+                  <span>d</span>
+                  <span>e</span>
+                  <span>&nbsp;</span><br>
+                  <span>2</span>
+                  <span>0</span>
+                  <span>2</span>
+                  <span>0</span> -->
+
+
+                </h1>
+                <div>
+                  <span class="lead text-white">Winter of Code is an open-source program envisioned by DevScript that
+                    helps understand the paradigm of Open Source contribution.
+
+                    It aims to bring students into the world of open source development and see the power of unified
+                    problem solving in real time.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="hero-slide">
+          <div class="background-image-holder parallax-background">
+            <img class="background-image" alt="DevScript winter of code" src="img/carousel_8.jpg">
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-7">
+                <h1 class="large-h1 text-white">
+
+                  <span class="sign__word-1">DevScript</span><br><br>
+                  <div>
+                    <span class="sign__word-1">Winter of Code 2020</span></div>
+
+                </h1>
+                <div>
+                  <span class="lead text-white">Join us on our journey towards building the best students open source
+                    unity.</span></div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="hero-slide">
+          <div class="background-image-holder parallax-background">
+            <img class="background-image" alt="DevScript winter of code" src="img/glow.jpg">
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-7">
+                <h1 class="large-h1 text-white">
+
+                  <span class="sign__word-2">DevScript</span><br><br>
+                  <div>
+                    <span class="sign__word-2">Winter of Code 2020</span></div>
+
+                </h1>
+                <div>
+                  <span class="lead text-white"> Join already !!</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-4 col-12 px-0 py-5 p-2 count count-1">
+              <h3 class="stats-heading">Date</h3>
+              <p class="stats-number">25 Dec - 25 Feb</p>
+          </div>
+          <div class="col-md-2 col-12 px-0 py-5 p-2 count count-2">
+              <h3 class="stats-heading">Participants</h3>
+              <p class="stats-number timer" data-to="1000" data-speed="1500"></p>
+          </div>
+          <div class="col-md-2 col-12 px-0 py-5 p-2 count count-3">
+              <h3 class="stats-heading">Mentors</h3>
+              <p class="stats-number timer" data-to="20" data-speed="1500"></p>
+          </div>
+          <div class="col-md-2 col-12 px-0 py-5 p-2 count count-4">
+              <h3 class="stats-heading">Managers</h3>
+              <p class="stats-number timer" data-to="100" data-speed="1500"></p>
+          </div>
+          <div class="col-md-2 col-12 px-0 py-5 p-2 count count-5 end">
+              <h3 class="stats-heading">nities</h3>
+              <p class="stats-number timer" data-to="20" data-speed="1500"></p>
+          </div>
+      </div>
+    </div> -->
+
+    <a id="schedule" class="in-page-link"></a>
+    <header style='padding-top: 50px'>
+      <div class="container text-center">
+        <h1 class="gradient-head-timeline" data-aos="fade-down" data-aos-offest=200>Timeline</h1>
+      </div>
+    </header>
+
+    <section class="timeline">
+      <div class="container">
+        <div class="timeline-item">
+          <div class="timeline-img-1" data-aos="zoom-in"></div>
+
+          <div class="timeline-content js--fadeInLeft" style="text-align: center;">
+            <h2 class="heading-timeline">Organization and Project Application Open</h2>
+            <div class="date">7 November 2020</div>
+            <!-- <p class="timeline__description">Organization and Project Application Open</p> -->
+
+          </div>
+        </div>
+
+        <div class="timeline-item">
+
+          <div class="timeline-img-2" data-aos="zoom-in"></div>
+
+          <div class="timeline-content js--fadeInLeft" style="text-align: center;">
+            <h2 class="heading-timeline-rt">Projects Announced</h2>
+            <div class="date">30 November 2020</div>
+            <!-- <p class="timeline__description">Projects Announced</p> -->
+
+          </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+          <div class="timeline-img-3" data-aos="zoom-in"></div>
+
+          <div class="timeline-content js--fadeInLeft" style="text-align: center; ">
+            <h2 class="heading-timeline">Participant's Application Open</h2>
+            <div class="date">30 November 2020</div>
+            <!-- <p class="timeline__description">Participant's Application Open</p> -->
+
+          </div>
+
+        </div>
+
+        <!-- <div class="timeline-item">
+
+          <div class="timeline-img-4" data-aos="zoom-in"></div>
+
+          <div class="timeline-content js--fadeInLeft" style="text-align: center;">
+            <h2 class="heading-timeline">Participant's Application period Ends</h2>
+            <div class="date">19 December 2020</div>
+
+          </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+          <div class="timeline-img-5" data-aos="zoom-in"></div>
+
+          <div class="timeline-content js--fadeInLeft" style="text-align: center;">
+            <h2 class="heading-timeline">Participant Evaluation Period</h2>
+            <div class="date">19-22 December 2020</div>
+
+          </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+          <div class="timeline-img-6" data-aos="zoom-in"></div>
+
+          <div class="timeline-content js--fadeInLeft" style="text-align: center;">
+            <h2 class="heading-timeline-rt">Participants Announced</h2>
+            <div class="date">22 December 2020</div>
+
+          </div>
+
+        </div> -->
+
+        <div class="timeline-item">
+
+          <div class="timeline-img-7" data-aos="zoom-in"></div>
+
+          <div class="timeline-content js--fadeInLeft" style="text-align: center;">
+            <h2 class="heading-timeline">Winter Arrives</h2>
+            <div class="date">25 December 2020</div>
+            <!-- <p class="timeline__description">Winter Arrives</p> -->
+          </div>
+
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img-8" data-aos="zoom-in"></div>
+          <div class="timeline-content js--fadeInLeft" style="text-align: center;">
+            <h2 class="heading-timeline">Summer is Coming !!<br> Winter of Code Concludes </h2>
+            <div class="date">25 February 2021</div>
+            <!-- <p class="timeline__description">Winter Arrives</p> -->
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-img-9" data-aos="zoom-in"></div>
+          <div class="timeline-content js--fadeInLeft" style="text-align: center;">
+            <h2 class="heading-timeline">Results Announced !!</h2>
+            <div class="date">7 March 2021</div>
+            <!-- <p class="timeline__description">Winter Arrives</p> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <header style='padding-top: 50px'>
+      <div class="container text-center">
+        <h1 class="gradient-head-timeline" data-aos="fade-down" data-aos-offest=200>PRIZES</h1>
+      </div>
+    </header>
+    <section class="prizes-section" id="prizes">
+      <div class="container">
+        <div class="row text-center d-flex justify-content-center">
+          <!-- <div class="col-12">PRIZES</div> -->
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="box-container">
+              <div class="box-item">
+                <div class="flip-box">
+                  <div class="flip-box-front text-center" style="background-image: url('./img/prizes/swags.png');">
+                    <div class="inner color-white">
+                      <img src="./img/arrow.png" alt="" class="flip-box-img">
+                    </div>
+                  </div>
+                  <div class="flip-box-back text-center"
+                    style="background-image: url('https://img.wallpapersafari.com/phone/1080/1920/68/58/crwtpy.jpg');">
+                    <div class="inner">
+                      <h2>Swags to top 100 contributors</h2>
+                      <ul>
+                        <li>T-Shirts
+                        <li>Hoodies
+                        <li>Badges
+                        <li>Stickers
+                        <li>Cheat Sheet
+                      </ul>
+                      <!-- <button class="flip-box-button">
+                        <a class="SEND">BUTTON</a>
+                      </button> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="box-container">
+              <div class="box-item">
+                <div class="flip-box">
+                  <div class="flip-box-front text-center" style="background-image: url('./img/prizes/subs.png');">
+                    <div class="inner color-white">
+                      <img src="./img/arrow.png" alt="" class="flip-box-img contrast">
+                    </div>
+                  </div>
+                  <div class="flip-box-back text-center"
+                    style="background-image: url('https://img.wallpapersafari.com/phone/1080/1920/68/58/crwtpy.jpg');">
+                    <div class="inner">
+                      <h2>Subscriptions From: </h2>
+                      <ul>
+                        <li>$20 Linode Promo Code
+                        <li>Myjen.ai Product Subs
+                        <li>MTA Certification Vouchers
+                        <li>JetBrains Subscriptions
+                        <li>Course Discount by:
+                          <br>Coding Blocks
+                          <br>Progate
+                      </ul>
+                      <!-- <button class="flip-box-button">
+                        <a class="SEND">BUTTON</a>
+                      </button> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="box-container">
+              <div class="box-item">
+                <div class="flip-box">
+                  <div class="flip-box-front text-center" style="background-image: url('./img/prizes/internship.png');">
+                    <div class="inner color-white">
+                      <img src="./img/arrow.png" alt="" class="flip-box-img">
+                    </div>
+                  </div>
+                  <div class="flip-box-back text-center"
+                    style="background-image: url('https://img.wallpapersafari.com/phone/1080/1920/68/58/crwtpy.jpg');">
+                    <div class="inner internship">
+                      <ul>
+                        <li>Internships at recognized Startup & Companies.
+                          <br>
+                        <li>Incubation support upto 2.5L for novel ideas and strong business models.
+                          <br>
+                        <li>Training from Industry Experts.
+                      </ul>
+                      <!-- <button class="flip-box-button">
+                        <a class="SEND">BUTTON</a>
+                      </button> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!----------------------------REGISTRATION CARDS------------------------------>
+
+    <a id="register" class="in-page-link"></a>
+    <header style='padding-top: 50px'>
+      <div class="container text-center">
+        <h1 class="gradient-head-timeline" data-aos="fade-down" data-aos-offest=200>REGISTRATION</h1>
+      </div>
+    </header>
+    <div class="container form-register-event fadeIn" id="participant_register">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <form method='POST' class="form-group form-event-inner mx-auto" id='register_form'>
+            <h4 class="text-center event-form-heading">Participant</h4>
+            <input type="text" id='name' required class="form-control event-form-main" placeholder="Full Name" />
+            <br />
+            <input type="email" id='email' required class="form-control event-form-main event-form-main"
+              placeholder="Email ID" />
+            <br />
+            <input type="text" id='mobile_number' required class="form-control event-form-main"
+              placeholder="Mobile Number" maxLength="16" />
+            <br />
+            <div class="row no-gutters">
+              <div class="col-md-6 col-12">
+                <select class="form-control event-form-main select-event" id='state' required>
+                  <option class="option-company-main-event" value="State">
+                    State
+                  </option>
+                  <option class="option-company-main-event" value="Andaman and Nicobar Islands">
+                    Andaman and Nicobar Islands
+                  </option>
+                  <option class="option-company-main-event" value="Andhra Pradesh">
+                    Andhra Pradesh
+                  </option>
+                  <option class="option-company-main-event" value="Arunachal Pradesh">
+                    Arunachal Pradesh
+                  </option>
+                  <option class="option-company-main-event" value="Assam">
+                    Assam
+                  </option>
+                  <option class="option-company-main-event" value="Bihar">
+                    Bihar
+                  </option>
+                  <option class="option-company-main-event" value="Chandigarh">
+                    Chandigarh
+                  </option>
+                  <option class="option-company-main-event" value="Chhattisgarh">
+                    Chhattisgarh
+                  </option>
+                  <option class="option-company-main-event" value="Dadra and Nagar Haveli">
+                    Dadra and Nagar Haveli
+                  </option>
+                  <option class="option-company-main-event" value="Daman and Diu">
+                    Daman and Diu
+                  </option>
+                  <option class="option-company-main-event" value="Delhi">
+                    Delhi
+                  </option>
+                  <option class="option-company-main-event" value="Goa">
+                    Goa
+                  </option>
+                  <option class="option-company-main-event" value="Gujarat">
+                    Gujarat
+                  </option>
+                  <option class="option-company-main-event" value="Haryana">
+                    Haryana
+                  </option>
+                  <option class="option-company-main-event" value="Himachal Pradesh">
+                    Himachal Pradesh
+                  </option>
+                  <option class="option-company-main-event" value="Jammu and Kashmir">
+                    Jammu and Kashmir
+                  </option>
+                  <option class="option-company-main-event" value="Jharkhand">
+                    Jharkhand
+                  </option>
+                  <option class="option-company-main-event" value="Karnataka">
+                    Karnataka
+                  </option>
+                  <option class="option-company-main-event" value="Kerala">
+                    Kerala
+                  </option>
+                  <option class="option-company-main-event" value="Lakshadweep">
+                    Lakshadweep
+                  </option>
+                  <option class="option-company-main-event" value="Madhya Pradesh">
+                    Madhya Pradesh
+                  </option>
+                  <option class="option-company-main-event" value="Maharashtra">
+                    Maharashtra
+                  </option>
+                  <option class="option-company-main-event" value="Manipur">
+                    Manipur
+                  </option>
+                  <option class="option-company-main-event" value="Meghalaya">
+                    Meghalaya
+                  </option>
+                  <option class="option-company-main-event" value="Mizoram">
+                    Mizoram
+                  </option>
+                  <option class="option-company-main-event" value="Nagaland">
+                    Nagaland
+                  </option>
+                  <option class="option-company-main-event" value="Orissa">
+                    Orissa
+                  </option>
+                  <option class="option-company-main-event" value="Pondicherry">
+                    Pondicherry
+                  </option>
+                  <option class="option-company-main-event" value="Punjab">
+                    Punjab
+                  </option>
+                  <option class="option-company-main-event" value="Rajasthan">
+                    Rajasthan
+                  </option>
+                  <option class="option-company-main-event" value="Sikkim">
+                    Sikkim
+                  </option>
+                  <option class="option-company-main-event" value="Tamil Nadu">
+                    Tamil Nadu
+                  </option>
+                  <option class="option-company-main-event" value="Telangana">
+                    Telangana
+                  </option>
+                  <option class="option-company-main-event" value="Tripura">
+                    Tripura
+                  </option>
+                  <option class="option-company-main-event" value="Uttaranchal">
+                    Uttaranchal
+                  </option>
+                  <option class="option-company-main-event" value="Uttar Pradesh">
+                    Uttar Pradesh
+                  </option>
+                  <option class="option-company-main-event" value="West Bengal">
+                    West Bengal
+                  </option>
+                  <option class="option-company-main-event" value="N/A">
+                    N/A or Others
+                  </option>
+                </select>
+              </div>
+              <div class="col-md-6 col-12">
+                <input type="text" id='city' required class="form-control event-form-main" placeholder="Your City" />
+              </div>
+            </div>
+            <br />
+
+            <input type="text" id='college' required class="form-control event-form-main" placeholder="College Name" />
+            <br />
+            <div class="row no-gutters">
+              <div class="col-md-6 col-12">
+                <select class="form-control select-event event-form-main" placeholder="Year" id='year' required>
+                  <option value="">Year of Study</option>
+                  <option value="1">1st Year</option>
+                  <option value="2">2nd Year</option>
+                  <option value="3">3rd Year</option>
+                  <option value="4">4th Year</option>
+                </select>
+              </div>
+              <div class="col-md-6 col-12">
+                <input type="text" id='branch' required class="form-control event-form-main" placeholder="Branch" />
+              </div>
+            </div>
+            <br />
+            <input type="text" id='github_id' required class="form-control event-form-main" placeholder="Github ID" />
+            <br />
+            <div class="row mx-auto text-center">
+              <p class="otp-warning">*OTP will be sent to your email.</p>
+            </div>
+            <button class="btn btn-event-register">Send OTP</button>
+          </form>
+          <form method='POST' class="form-group form-event-inner mx-auto" id='verify_otp'>
+            <a class="close" onclick="hideParticipantForm()">&times;</a>
+            <div>
+              <input type="text" id='otp' class="form-control event-form-main" maxLength="4" pattern="[0-9]*"
+                placeholder="OTP" />
+              <br />
+              <p class="otp-warning">
+                *Please check your email for the OTP.
+              </p>
+              <button class="btn btn-event-register">
+                Register
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <header style='padding-top: 50px'>
+      <div class="container text-center">
+        <h1 class="gradient-head-timeline" data-aos="fade-down" data-aos-offest=200>You can also register as</h1>
+      </div>
+    </header>
+    <section class="page-content">
+      <div class="card" data-aos="fade-down" data-aos-delay="0.5s">
+        <div class="content">
+          <h2 class="title" style="font-family: 'Raleway', sans-serif;
+          ">PROJECT</h2>
+          <!-- <p class="copy">Registrations are OPEN! Hurry Up!</p> -->
+          <p class="copy">Oops! Registrations are closed.</p>
+
+          <!-- <a href="https://bit.ly/devscript_woc2020" target="_blank"><button class="btn">Register Now</button></a> -->
+        </div>
+      </div>
+
+      <div class="card" data-aos="fade-down" data-aos-delay="0.2s">
+        <div class="content">
+          <h2 class="title" style="font-family: 'Raleway', sans-serif;
+          ">VOLUNTEER</h2>
+          <p class="copy">Oops! Registrations are closed.</p>
+          <!-- <a href="https://bit.ly/Ds_Volunteer" target="_blank"><button class="btn">Register Now</button></a> -->
+        </div>
+      </div>
+      <div class="card" data-aos="fade-down" data-aos-delay="0.2s">
+        <div class="content">
+          <h2 class="title" style="font-family: 'Raleway', sans-serif;
+          ">MENTOR</h2>
+          <p class="copy">Oops! Registrations are closed.</p>
+          <!-- <a href="https://bit.ly/DWOC_Mentors" target="_blank"><button class="btn">Register Now</button></a> -->
+
+          <!-- <button class="btn" disabled>Register Now</button> -->
+        </div>
+      </div>
+      <!-- <div class="card" data-aos="fade-down" data-aos-delay="0.2s">
+        <div class="content">
+          <h2 class="title" style="font-family: 'Raleway', sans-serif;
+          ">PARTICIPANTS</h2>
+          <p class="copy">OPENING SOON!</p>
+          <p class="copy">Registrations are OPEN! Hurry Up!</p>
+          <button class="btn" onclick="showParticipantForm()">Register Now</button>
+        </div>
+      </div> -->
+    </section>
+
+
+
+    <!----------------------------REGISTRATION CARDS END-------------------------->
+
+    <h1 class='otp_confirm' id='message'> Thanks for registering. Let the OpenSource be with You</h1>
+
+    <section id="socials" class="social-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-lg-6 discord">
+            <a href="https://discord.gg/uutnrnc" class=social-icon><i class="bx bxl-discord"></i></a>
+            <div class="social-text">Join Discord</div>
+          </div>
+          <div class="col-sm-12 col-lg-6 telegram">
+            <a href="https://t.me/DevScript_WOC" class=social-icon><i class="bx bxl-telegram"></i></a>
+            <div class="social-text">Join Our Telegram Community</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="speakers">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-sm-12 d-flex justify-content-center">
+            <h1 class="gradient-head-timeline" data-aos="fade-down" data-aos-offest=200>SPEAKERS</h1>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+            <div class="card-container">
+              <img class="round"
+                src="./../assets/img/speakers/Sarah Williams.jpg"
+                alt="user" />
+              <h3>Sarah WIlliams</h3>
+              <p>Community Program Manager <br /> Microsoft</p>
+              <div class="buttons">
+                <a href="https://www.linkedin.com/in/williams-k-sarah/">
+                  <button class="primary">
+                    Follow
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+            <div class="card-container">
+              <img class="round"
+                src="./../assets/img/speakers/Pooja Sund.jpg"
+                alt="user" />
+              <h3>Pooja Sund</h3>
+              <p>Director of Data Analytics <br /> Microsoft</p>
+              <div class="buttons">
+                <a href="https://www.linkedin.com/in/pooja3p/">
+                  <button class="primary">
+                    Follow
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+            <div class="card-container">
+              <img class="round"
+                src="./../assets/img/speakers/Juan Pablo.jpg"
+                alt="user" />
+              <h3>Juan Pablo Flores Cortés</h3>
+              <p>Program Manager<br/> Github</p>
+              <div class="buttons">
+                <a href="https://www.linkedin.com/in/juanpflores94/">
+                  <button class="primary">
+                    Follow
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+            <div class="card-container">
+              <img class="round"
+                src="./../assets/img/speakers/Shalaka Verma.jpg"
+                alt="user" />
+              <h3>Shalaka Verma</h3>
+              <p>Director, Partner Technology <br /> Microsoft</p>
+              <div class="buttons">
+                <a href="https://www.linkedin.com/in/shalakaverma/">
+                  <button class="primary">
+                    Follow
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+            <div class="card-container">
+              <img class="round"
+                src="./../assets/img/speakers/Prateek Narang.jpg"
+                alt="user" />
+              <h3>Prateek Narang</h3>
+              <p>Software Engineer <br /> Google</p>
+              <div class="buttons">
+                <a href="https://www.linkedin.com/in/prateek-narang-0108b39a/">
+                  <button class="primary">
+                    Follow
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+            <div class="card-container">
+              <img class="round"
+                src="./img/speakers/karan m.v.jpg"
+                alt="user" />
+              <h3>Karan M.V.</h3>
+              <p>Developer Relations Manager <br /> GitHub</p>
+              <div class="buttons">
+                <a href="https://www.linkedin.com/in/mvkaran/">
+                  <button class="primary">
+                    Follow
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+            <div class="card-container">
+              <img class="round"
+                src="./img/speakers/Ido Shamun.jpg"
+                alt="user" />
+              <h3>Ido Shamun</h3>
+              <p>Co-Founder, CTO <br /> daily.dev</p>
+              <div class="buttons">
+                <a href="https://www.linkedin.com/in/ido-shamun-aa8628a3/">
+                  <button class="primary">
+                    Follow
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+            <div class="card-container">
+              <img class="round"
+                src="./img/speakers/praveen.jpg"
+                alt="user" />
+              <h3>Praveen Kumar<br> Purushothaman</h3>
+              <p>Lead Consultant - Technology <br /> Virtusa</p>
+              <div class="buttons">
+                <a href="https://www.linkedin.com/in/praveentech/">
+                  <button class="primary">
+                    Follow
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--<div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
+            <div class="card-container">
+              <img class="round"
+                src="./img/speakers/Ido Shamun.jpg"
+                alt="user" />
+              <h3>Ishaan M.</h3>
+              <p>Mainframe Intern<br /> IBM</p>
+              <div class="buttons">
+                <a href="https://www.linkedin.com/in/himalik/">
+                  <button class="primary">
+                    Follow
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>-->
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+            <div class="card-container">
+              <img class="round"
+                src="./img/speakers/akshaya.jpg"
+                alt="user" />
+              <h3>Akshaya M</h3>
+              <p>Co-Founder <br /> Merge Intern</p>
+              <div class="buttons">
+                <a href="https://www.linkedin.com/in/akshayavm/">
+                  <button class="primary">
+                    Follow
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+            <div class="card-container">
+              <img class="round"
+                src="./img/speakers/Shubhi Khanna.jpg"
+                alt="user" />
+              <h3>Shubhi Khanna</h3>
+              <p>Co-Founder <br /> UAceIt</p>
+              <div class="buttons">
+                <a href="https://www.linkedin.com/in/shubhikhanna31/">
+                  <button class="primary">
+                    Follow
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div> -->
+          
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+            <div class="card-container">
+              <img class="round"
+                src="./../assets/img/speakers/shammi-photo.jpg"
+                alt="user" />
+              <h3>Shammi Pant</h3>
+              <p>Co-founder <br /> Myjen.ai</p>
+              <div class="buttons">
+                <a href="https://www.linkedin.com/in/shammi-pant-511581/">
+                  <button class="primary">
+                    Follow
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <a id="organizers" class="in-page-link"></a> -->
+    <section id="sponsors" class="team-sponsor-gradient">
+      <div class="container">
+        <div class="row title-sponsor">
+          <div class="col-md-12">
+            <div class="sponsor-start" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">Our Sponsors & Partners</div>
+          </div>
+        </div>
+        <!-- <div class="col-md-4">
+                <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://www.elastic.co/" target="_blank"> <img src="assets/img/sponsors/elastic-min.png"
+                  loading=lazy> </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-anchor-placement="top-bottom">
+                        <a href="https://www.postman.com/" target="_blank"> <img src="assets/img/sponsors/postman-min.png"
+                            loading=lazy> </a>
+                        </div>
+                </div>
+                    </div> -->
+
+        <!-- Sponsors -->
+
+        <!-- <hr style="background-color: grey" ; data-aos="fade-up" data-aos-duration="1000"
+          data-aos-anchor-placement="top-bottom"> -->
+        <!-- platinum Sponsors -->
+        <!-- <div class="row general-sponsor">
+          <div class="col-md-12">
+            <div class="sponsor-heading" data-aos="fade-up"  style="color:darkgrey; font-size: 50px;" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">Platinum Sponsor</div>
+          </div>
+          <div class="col-xs-6 col-lg-8 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://skillenza.com/" target="_blank"> <img src="./img/sponsors/skillenza.png" loading=lazy>
+              </a>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- 
+        <hr style="background-color: grey" ; data-aos="fade-up" data-aos-duration="1000"
+          data-aos-anchor-placement="top-bottom"> -->
+
+        <!-- gold sponsors -->
+        <div class="row d-flex justify-content-center  general-sponsor">
+          <div class="col-sm-6">
+            <div class="col-md-12">
+              <div class="sponsor-heading" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-anchor-placement="top-bottom">Open-Source Partner</div>
+            </div>
+            <div class="col-xs-12">
+              <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-anchor-placement="top-bottom">
+                <a href="https://github.com/" target="_blank"> <img src="./img/sponsors/github.png" loading=lazy>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="col-md-12">
+              <div class="sponsor-heading" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-anchor-placement="top-bottom">Internship Partner</div>
+            </div>
+            <div class="col-xs-12">
+              <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-anchor-placement="top-bottom">
+                <a href="https://mergeintern.com/" target="_blank"> <img src="./img/sponsors/Merge.png" loading=lazy>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr style="background-color: grey" ; data-aos="fade-up" data-aos-duration="1000"
+          data-aos-anchor-placement="top-bottom">
+        <div class="row d-flex justify-content-center">
+          <div class="col-sm-6">
+            <div class="col-md-12">
+              <div class="sponsor-heading" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-anchor-placement="top-bottom">Platform Partner</div>
+            </div>
+            <div class="col-md-12">
+              <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-anchor-placement="top-bottom">
+                <a href="https://commudle.com/" target="_blank"> <img src="./img/sponsors/commudle.png" loading=lazy>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6">
+            <div class="sponsor-heading">
+              Education Partner
+            </div>
+            <div class="col-sm-12">
+              <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-anchor-placement="top-bottom">
+                <a href="https://codingninjas.com/" target="_blank"> <img src="./img/sponsors/codingNinja.png"
+                    loading=lazy></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6">
+            <div class="sponsor-heading">
+              Tech Partner
+            </div>
+            <div class="col-sm-12">
+              <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-anchor-placement="top-bottom">
+                <a href="https://auth0.com/" target="_blank"> <img src="https://cdn.auth0.com/website/bob/press/logo-dark.png"
+                    loading=lazy></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr style="background-color: grey" ; data-aos="fade-up" data-aos-duration="1000"
+          data-aos-anchor-placement="top-bottom">
+        <div class="row d-flex justify-content-center ">
+          <div class="col-md-6">
+            <div class="sponsor-heading">
+              Skill Development Partner
+            </div>
+            <div class="col-sm-12">
+              <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-anchor-placement="top-bottom">
+                <a href="https://skillshipfoundation.com/" target="_blank"> <img src="./img/sponsors/SkillShip.png"
+                    loading=lazy></a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+        <hr style="background-color: grey" ; data-aos="fade-up" data-aos-duration="1000"
+          data-aos-anchor-placement="top-bottom">
+        <div class="row d-flex justify-content-center  general-sponsor">
+          <div class="col-md-12">
+            <div class="sponsor-heading" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">Gold Sponsors</div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://www.codingblocks.com/" target="_blank"> <img src="./img/sponsors/cb.png" loading=lazy>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://www.digitalocean.com/" target="_blank"> <img src="./img/sponsors/digital_ocean.png"
+                  loading=lazy> </a>
+            </div>
+          </div>
+        </div>
+        <!-- silver sponsors -->
+        <div class="row d-flex justify-content-center  silver-sponsor">
+          <div class="col-md-12">
+            <div class="sponsor-heading" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">Silver Sponsors
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="http://repl.it/" target="_blank"> <img src="./img/sponsors/replit.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://hackclub.com/bank/"" target="_blank"> <img src="./img/sponsors/hackclubBank.png"
+                  loading=lazy> </a>
+            </div>
+          </div> 
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://9ledgepro.com/" target="_blank"> <img src="./img/sponsors/9ledgepro-logo.png"
+                  loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://www.stickermule.com/en-in" target="_blank"> <img
+                  src="./img/sponsors/01-sticker-mule-logo-dark.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://www.instagram.com/simpledev.js/" target="_blank"> <img style='height: 150px;'
+                  src="./img/sponsors/simpledev.png" loading=lazy> </a>
+            </div>
+          </div>
+        </div>
+        <hr style="background-color: grey" ; data-aos="fade-up" data-aos-duration="1000"
+          data-aos-anchor-placement="top-bottom">
+        <div class="row d-flex justify-content-center  general-sponsor">
+          <div class="col-md-12">
+            <div class="sponsor-heading" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">General Sponsors</div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://api.daily.dev/get?r=VK" target="_blank"> <img src="./img/sponsors/dailydev.png"
+                  loading=lazy> </a>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://neovantium.com/" target="_blank"> <img src="./img/sponsors/neo.png" loading=lazy> </a>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://givemycertificate.com/" target="_blank"> <img src="./img/sponsors/gmc.png" loading=lazy>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://amphantechnologies.xyz/" target="_blank"> <img src="./img/sponsors/amphant.png"
+                  loading=lazy>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://www.linode.com/" target="_blank"> <img src="./img/sponsors/linode.png" loading=lazy> </a>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://myjen.ai/" target="_blank"> <img src="./img/sponsors/myjen.svg" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://progate.com/" target="_blank"> <img src="./img/sponsors/progate.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://funkyturtle.in/" target="_blank"> <img src="./img/sponsors/funkyTurtle.png" loading=lazy> </a>
+            </div>
+          </div>
+          
+          <!--<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://www.axure.com/" target="_blank"> <img src="assets/img/sponsors/axure-min.png"
+                  loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://rosenfeldmedia.com/" target="_blank"> <img src="assets/img/sponsors/rosenfield-min.png"
+                  loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://www.clerky.com/" target="_blank"> <img src="assets/img/sponsors/clerky-min.png"
+                  loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://www.framer.com/" target="_blank"> <img src="assets/img/sponsors/framer-min.png"
+                  loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://www.gobilda.com/" target="_blank"> <img src="assets/img/sponsors/goBILDA-min.png"
+                  loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://repl.it/" target="_blank"> <img src="assets/img/sponsors/replit-min.png" loading=lazy>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://uaceit.com/" target="_blank"> <img src="assets/img/sponsors/UAcelt-min.png" loading=lazy>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://hackp.ac/mlh-stickermule-hackathons" target="_blank"> <img
+                  src="assets/img/sponsors/stickermule-min.png" loading=lazy> </a> 
+            </div>
+          </div>-->
+          <!-- </div>
+        <hr style="background-color: grey" ; data-aos="fade-up" data-aos-duration="1000"
+          data-aos-anchor-placement="top-bottom">
+        <div class="row general-sponsor">
+          <div class="col-md-12">
+            <div class="sponsor-heading" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">Media Partners</div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom"> -->
+          <!-- <a href="https://www.noticebard.com/" target="_blank"> <img src="assets/img/sponsors/noticebard-min.png"
+                  loading=lazy> </a> -->
+          <!-- </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom"> -->
+          <!-- <a href="" target="_blank"> <img src="assets/img/sponsors/du-express-min.png" loading=lazy> </a> -->
+          <!-- </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom"> -->
+          <!-- <a href="https://incampus.in/" target="_blank"> <img src="assets/img/sponsors/inCampus-min.png"
+                  loading=lazy> </a> -->
+          <!-- </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom"> -->
+          <!-- <a href="https://www.facebook.com/DUVibes/" target="_blank"> <img src="assets/img/sponsors/duvibes.png"
+                  loading=lazy> </a> -->
+          <!-- </div>
+          </div> -->
+        </div>
+        <hr style="background-color: grey" ; data-aos="fade-up" data-aos-duration="1000"
+          data-aos-anchor-placement="top-bottom">
+        <div class="row d-flex justify-content-center  general-sponsor">
+          <div class="col-md-12">
+            <div class="sponsor-heading" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">Community Partner</div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://studentambassadors.microsoft.com/" target="_blank"> <img src="img/sponsors/mlsa-logo.png"
+                  loading=lazy>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://uaceit.com/" target="_blank"> <img src="img/sponsors/uaceit.png" loading=lazy>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://qpower-research.tech/" target="_blank"> <img src="img/sponsors/qpower_research.jpg"
+                  loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://www.codeasylums.com/" target="_blank">
+                <img src="img/sponsors/codenasylums.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://twitter.com/wtmnagpur" target="_blank">
+                <img src="img/sponsors/wtm.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="#" target="_blank">
+                <img src="img/sponsors/kotlin-nagpur.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="#" target="_blank">
+                <img src="img/sponsors/Firebase_transparent.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="#" target="_blank">
+                <img src="img/sponsors/mozilla-nagpur.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://www.womenintechpk.com/" target="_blank"> <img src="img/sponsors/womenInTechPK.png"
+                  loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://www.instagram.com/hackclubmrce/" target="_blank"> <img src="img/sponsors/Hackclub.png"
+                  loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-xs-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://owasp.org/www-chapter-nagpur/" target="_blank"> <img src="img/sponsors/OWASP_Nagpur.png"
+                  loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://www.tesseractcoding.tech/" target="_blank"> <img src="./img/sponsors/tesseract.png"
+                  loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="" target="_blank"> <img src="./img/sponsors/training&internships.jpg" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="" target="_blank"> <img src="./img/sponsors/CodeChef_RCOEM.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="" target="_blank"> <img src="./img/sponsors/crowdsource_nagpur.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://devincept.tech/" target="_blank">
+                <img src="img/sponsors/devincept.gif" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://mlsa-sce-club.netlify.app/" target="_blank"> <img src="./img/sponsors/mlsasceclub.jpg"
+                  loading=lazy> </a>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://theonestop.in/" target="_blank"> <img src="./img/sponsors/OneStop.jpeg" loading=lazy>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://dscbitdurg.github.io/bitddsc/#/" target="_blank"> <img
+                  src="./img/sponsors/dscLogo - Kartikey Rawat.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://webwiznitr.xyz" target="_blank"> <img src="./img/sponsors/WebwizLogo - Aniket Pal.jpeg"
+                  loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://thecodingculture.com" target="_blank"> <img
+                  src="./img/sponsors/The_coding_culture-05 - Abhinav Srivastava.jpg" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://dsc.community.dev/national-university-of-sciences-and-technology/" target="_blank"> <img
+                  src="./img/sponsors/DSC-NUST.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://dsc.community.dev/shri-ramdeobaba-college-of-engineering-management/" target="_blank">
+                <img src="img/sponsors/rcoem.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://dsc.community.dev/dayananda-sagar-academy-of-technology-and-management/" target="_blank">
+                <img src="img/sponsors/DSCATM.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://dsc.community.dev/banasthali-university/" target="_blank"> <img
+                  src="img/sponsors/banasthali.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://bit.ly/dsc-amity-discord" target="_blank"> <img
+                  src="./img/sponsors/DSC AmityUniversity.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://dsc.community.dev/sandip-institute-of-technology-and-research-centre/" target="_blank">
+                <img src="./img/sponsors/DSC SITRC.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://dsc.community.dev/sathyabama-institute-of-science-technology/" target="_blank"> <img
+                  src="./img/sponsors/DSC SIST.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://dsc.gtbit.org/" target="_blank"> <img
+                  src="./img/sponsors/DSC Guru Tegh Bahadur Institute of Technology.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://dscpgdav.netlify.app/" target="_blank"> <img src="./img/sponsors/DSC PGDAV.png"
+                  loading=lazy> </a>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://dsc.community.dev/career-point-university/" target="_blank"> <img
+                  src="./img/sponsors/DSC Career Point University.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="https://dsc.community.dev/gmr-institute-of-technology/" target="_blank"> <img
+                  src="./img/sponsors/DSC GMRIT.png" loading=lazy> </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="sponsors-logo" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom">
+              <a href="" target="_blank"> <img src="./img/sponsors/DSC Guru Ghasidas Vishwavidyalaya .png" loading=lazy>
+              </a>
+            </div>
+          </div>
+        </div>
+        <br> <br>
+        <center>
+          <div class="row">
+            <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+              <a href="Sponsorship prospectus.pdf" class="gradient-btn" target="_blank"> <span>SPONSOR US</span>
+              </a>
+            </div>
+          </div>
+        </center>
+      </div>
+    </section>
+    <!-- Mentor's Section -->
+    <!-- <a id="mentors" class="in-page-link"></a>
+    
+    <section id="team" class="team content-section gradient-class">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h2 class="gradient-head">SPEAKERS</h2>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="team-member">
+                  <figure>
+                    <img src="https://www.mauritiusdsilva.com/themes/hallooou/assets/images/lauren-cox.jpg" alt=""
+                      class="img-responsive">
+                    <figcaption>
+                      <ul>
+                        <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                  <h4>Lauren Cox</h4>
+                  <p>Creative Director</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-member">
+                  <figure>
+                    <img src="https://www.mauritiusdsilva.com/themes/hallooou/assets/images/jessie-barnett.jpg" alt=""
+                      class="img-responsive">
+                    <figcaption>
+                      <ul>
+                        <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                  <h4>Jessie Barnett</h4>
+                  <p>UI/UX Designer</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-member">
+                  <figure>
+                    <img src="https://www.mauritiusdsilva.com/themes/hallooou/assets/images/terry-fletcher.jpg" alt=""
+                      class="img-responsive">
+                    <figcaption>
+                      <ul>
+                        <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                  <h4>Terry Fletcher</h4>
+                  <p>Web Developer</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-member">
+                  <figure>
+                    <img src="https://www.mauritiusdsilva.com/themes/hallooou/assets/images/lauren-cox.jpg" alt=""
+                      class="img-responsive">
+                    <figcaption>
+                      <ul>
+                        <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                  <h4>Lauren Cox</h4>
+                  <p>Creative Director</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-member">
+                  <figure>
+                    <img src="https://www.mauritiusdsilva.com/themes/hallooou/assets/images/jessie-barnett.jpg" alt=""
+                      class="img-responsive">
+                    <figcaption>
+                      <ul>
+                        <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                  <h4>Jessie Barnett</h4>
+                  <p>UI/UX Designer</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-member">
+                  <figure>
+                    <img src="https://www.mauritiusdsilva.com/themes/hallooou/assets/images/terry-fletcher.jpg" alt=""
+                      class="img-responsive">
+                    <figcaption>
+                      <ul>
+                        <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                  <h4>Terry Fletcher</h4>
+                  <p>Web Developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Jury -->
+    <!-- <a id="jury" class="in-page-link"></a>
+    <section id="team" class="team content-section gradient-class">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h2 class="gradient-head">JURY</h2>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="team-member">
+                  <figure>
+                    <img src="img/jury_1.jpg" alt="" class="img-responsive">
+                    <figcaption>
+                      <ul>
+                        <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                  <h4>Lauren Cox</h4>
+                  <p>Regional Adviser</p>
+                  <p>UNESCO</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-member">
+                  <figure>
+                    <img src="img/jury_2.jpg" alt="" class="img-responsive">
+                    <figcaption>
+                      <ul>
+                        <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                  <h4>Jessie Barnett</h4>
+                  <p>Dean of Information Technology</p>
+                  <p>Ton Duc Thang Universityr</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-member">
+                  <figure>
+                    <img src="img/jury_3.jpg" alt="" class="img-responsive">
+                    <figcaption>
+                      <ul>
+                        <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                  <h4>Terry Fletcher</h4>
+                  <p>First Secretary</p>
+                  <p>Embassy of Sweden
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-member">
+                  <figure>
+                    <img src="img/jury_4.jpg" alt="" class="img-responsive">
+                    <figcaption>
+                      <ul>
+                        <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                  <h4>Lauren Cox</h4>
+                  <p>Manager, Student Systems</p>
+                  <p>RMIT University</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-member">
+                  <figure>
+                    <img src="img/jury_1.jpg" alt="" class="img-responsive">
+                    <figcaption>
+                      <ul>
+                        <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                  <h4>Jessie Barnett</h4>
+                  <p>UI/UX Designer</p>
+                  <p>UNESCO</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-member">
+                  <figure>
+                    <img src="img/jury_2.jpg" alt="" class="img-responsive">
+                    <figcaption>
+                      <ul>
+                        <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                  <h4>Terry Fletcher</h4>
+                  <p>Lead at jojo</p>
+                  <p>Embassy of Malaysia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </section>
+        <a id="prizes" class="in-page-link"></a>
+        <section class="duplicatable-content visitor-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1>Prizes</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="info-box">
+                            <img alt="Venue" src="img/prizes.jpg">
+                            <h3>Fantastic Hardware Prize</h3>
+                            <p>
+                                Win cool hardware. Value of 1,000 SGD.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="info-box">
+                            <img alt="Venue" src="img/prizes.jpg">
+                            <h3>Awesome Tools Prize</h3>
+                            <p>
+                                Win awesome tools for your hacks at a value of 1,000 SGD.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="info-box">
+                            <img alt="Prizes" src="img/prizes.jpg">
+                            <h3>Amazing Gear Prize</h3>
+                            <p>
+                                Win fantastic gear. Value of 1,000 SGD.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </section> -->
+    <!-- 
+    <section class="image-with-text testimonials preserve-3d">
+      <div class="go-left side-image col-md-6 col-sm-4">
+        <div class="background-image-holder">
+          <img class="background-image" alt="About Image" src="img/15792689510_8aaee85b12_z.jpg">
+        </div>
+      </div>
+      <div class="container vertical-align">
+        <div class="row">
+          <div class="col-md-5 col-md-offset-7 col-sm-7 col-sm-offset-5">
+            <div class="testimonials-slider">
+              <ul class="slides">
+                <li>
+                  <img src="img/events/WhatsApp Image 2020-11-02 at 14.52.42.jpeg"> <h1>TBA</h1>
+                  <p class="lead">Webinar TBA
+                  </p>
+                </li>
+                <li>
+                  <h1>TBA</h1>
+                  <p class="lead">
+                    TBA
+                  </p>
+                </li>
+                <li>
+                  <h1>TBA</h1>
+                  <p class="lead">TBA</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <a id="faq" class="in-page-link"></a>
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+        <!-- <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div> -->
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>Your Questions, Our Answers !</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="faq-list">
+              <ul>
+                <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse"
+                    href="#faq-list-1">What is Open-Source?
+                    <!-- <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i> --></a>
+                  <p>
+                    Original source code is made freely available and can be modified according to the requirement of
+                    the user.
+                  </p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="200">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2"
+                    class="collapsed">Why to join WOC?
+                    <!-- <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i> --></a>
+                  <!-- <div id="faq-list-2" class="collapse" data-parent=".faq-list"> -->
+                  <p>
+                    Being a contributor will give you the superpower to be a part of something that is impacting so many
+                    lives. You will learn the skills essential in the world of programming.
+                  </p>
+                  <!-- </div> -->
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3"
+                    class="collapsed">Are there any charges for joining this program?
+                    <!-- <i
+                      class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i> --></a>
+                  <!-- <div id="faq-list-3" class="collapse" data-parent=".faq-list"> -->
+                  <p>
+                    Registration for this program is completely free of cost. One can join and come on board to showcase
+                    their passion, contribute to projects and boost up their skills.You will receive digital swags.
+                  </p>
+                  <!-- </div> -->
+                </li>
+                <li data-aos="fade-up" data-aos-delay="400">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4"
+                    class="collapsed">What are the requirements for one to get selected ?
+                    <!-- <i
+                      class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i> --></a>
+                  <!-- <div id="faq-list-4" class="collapse" data-parent=".faq-list"> -->
+                  <p>
+                    All you need is passion to learn and a hard working attitude to succeed.
+                  </p>
+                  <!-- </div> -->
+                </li>
+                <li data-aos="fade-up" data-aos-delay="500">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5"
+                    class="collapsed">How will I get to know if I got selected for the program ?
+                    <!-- <i
+                      class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i> --></a>
+                  <!-- <div id="faq-list-5" class="collapse" data-parent=".faq-list"> -->
+                  <p>
+                    All the selected candidates will be receiving mail once they get selected.
+                  </p>
+                  <!-- </div> -->
+                </li>
+                <li data-aos="fade-up" data-aos-delay="500">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-6"
+                    class="collapsed">When will the result of the programme be announced ?
+                    <!-- <i
+                      class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i> --></a>
+                  <!-- <div id="faq-list-6" class="collapse" data-parent=".faq-list"> -->
+                  <p>
+                    The result will be out on the successful completion of the program. So stay connected and keep on
+                    learning.
+                  </p>
+                  <!-- </div> -->
+                </li>
+                <li data-aos="fade-up" data-aos-delay="500">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-7"
+                    class="collapsed">Any age limit for participation?
+                    <!-- <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i> --></a>
+                  <!-- <div id="faq-list-7" class="collapse" data-parent=".faq-list"> -->
+                  <p>
+                    No, there is no age limit for participation in WOC. It is open for all.
+                  </p>
+                  <!-- </div> -->
+                </li>
+                <li data-aos="fade-up" data-aos-delay="500">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-8"
+                    class="collapsed">Where does WOC occur?
+                    <!-- <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i> --></a>
+                  <!-- <div id="faq-list-8" class="collapse" data-parent=".faq-list"> -->
+                  <p>
+                    Winter of Code occurs entirely online; there is no requirement to travel as part of the program.
+                  </p>
+                  <!-- </div> -->
+                </li>
+                <li data-aos="fade-up" data-aos-delay="500">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-9"
+                    class="collapsed">What are the perks available for the participants?
+                    <!-- <i
+                      class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i> --></a>
+                  <!-- <div id="faq-list-9" class="collapse" data-parent=".faq-list"> -->
+                  <p>
+                    The top performers as well as the top projects will be receiving Certificates, swags and various
+                    internship opportunities.
+                  </p>
+                  <!-- </div> -->
+                </li>
+                <li data-aos="fade-up" data-aos-delay="500">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-10"
+                    class="collapsed">How will we receive the certificate?
+                    <!-- <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i> --></a>
+                  <!-- <div id="faq-list-10" class="collapse" data-parent=".faq-list"> -->
+                  <p>
+                    Once WOC ends, all the candidates with atleast one valid PR will receive a certificate in digital
+                    form.
+                  </p>
+                  <!-- </div> -->
+                </li>
+                <li data-aos="fade-up" data-aos-delay="500">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-11"
+                    class="collapsed">What are the criteria for selection as a participant?
+                    <!-- <i
+                      class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i> --></a>
+                  <!-- <div id="faq-list-11" class="collapse" data-parent=".faq-list"> -->
+                  <p>
+                    The only criteria for selection is your dedication and enthusiasm to contribute to open source.
+                  </p>
+                  <!-- </div> -->
+                </li>
+                <li data-aos="fade-up" data-aos-delay="500">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-12"
+                    class="collapsed">From where do we need to start being a beginner as of now so as to contribute
+                    properly in the projects?
+                    <!-- <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i> --></a>
+                  <!-- <div id="faq-list-12" class="collapse" data-parent=".faq-list"> -->
+                  <p>
+                    We’ll be providing you with the links on our official website to start with Github and various other
+                    developments to make sure that everyone is able to aptly contribute for the projects.
+                  </p>
+                  <!-- </div> -->
+                </li>
+                <li data-aos="fade-up" data-aos-delay="500">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-13"
+                    class="collapsed">What if I have more questions?
+                    <!-- <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i> --></a>
+                  <!-- <div id="faq-list-13" class="collapse" data-parent=".faq-list"> -->
+                  <p>
+                    Write us all your queries at tech.devscript@gmail.com, we will reach out to you ASAP.
+                  </p>
+                  <!-- </div> -->
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+    </section>
+    <!-- End Frequently Asked Questions Section -->
+
+    <div class="footer-distributed">
+      <div class="footer-left">
+        <img src="img/logo.png" alt="logo">
+        <div class="footer-icons">
+          <a href="https://www.youtube.com/c/devscript/"><i class="fa fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/company/devscripts/"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.github.com/DevScript/"><i class="fa fa-github"></i></a>
+          <a href="https://www.instagram.com/devscript.tech/"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.twitter.com/The_DevScript"><i class="fa fa-twitter"></i></a>
+          <a href="https://t.me/DevScript"><i class="bx bxl-telegram"></i></a>
+        </div>
+        <div class="footer-mail" style="width: 100% ">
+          <p>Mail Us @ <a href="">tech.devscript@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+      </div>
+    </div>
+    <footer class="footer-down">
+      <p class="footer-company-name">&copy; 2020 DevScript. All Right Reserved</p>
+    </footer>
+
+  </div>
+
+  <div id="preloader">
+    <div class="bars-common bar-one"></div>
+    <div class="bars-common bar-two"></div>
+    <div class="bars-common bar-three"></div>
+
+    <div class="squares-common square-one"></div>
+    <div class="squares-common square-two"></div>
+  </div>
+
+  <img src='./img/WOC-logo.png' class='woc-badge'
+    style='position: fixed; bottom: 0; right: 12px; width: 175px; z-index: 99;' />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/skrollr.min.js"></script>
+  <script src="js/spectragram.min.js"></script>
+  <script src="js/flexslider.min.js"></script>
+  <script src="js/jquery.plugin.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/lightbox.min.js"></script>
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/twitterfetcher.min.js"></script>
+  <script src="js/placeholders.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/timeline.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <style>
+    /* snowflake styling */
+
+    .snowflake {
+      color: #fff;
+      font-size: 1em;
+      font-family: Arial, sans-serif;
+      text-shadow: 0 0 5px #000;
+    }
+
+    @-webkit-keyframes snowflakes-fall {
+      0% {
+        top: -10%
+      }
+
+      100% {
+        top: 100%
+      }
+    }
+
+    @-webkit-keyframes snowflakes-shake {
+
+      0%,
+      100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+      }
+
+      50% {
+        -webkit-transform: translateX(80px);
+        transform: translateX(80px)
+      }
+    }
+
+    @keyframes snowflakes-fall {
+      0% {
+        top: -10%
+      }
+
+      100% {
+        top: 100%
+      }
+    }
+
+    @keyframes snowflakes-shake {
+
+      0%,
+      100% {
+        transform: translateX(0)
+      }
+
+      50% {
+        transform: translateX(80px)
+      }
+    }
+
+    .snowflake {
+      position: fixed;
+      top: -10%;
+      z-index: 9999;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      cursor: default;
+      -webkit-animation-name: snowflakes-fall, snowflakes-shake;
+      -webkit-animation-duration: 5s, 3s;
+      -webkit-animation-timing-function: linear, ease-in-out;
+      -webkit-animation-iteration-count: infinite, infinite;
+      -webkit-animation-play-state: running, running;
+      animation-name: snowflakes-fall, snowflakes-shake;
+      animation-duration: 5s, 3s;
+      animation-timing-function: linear, ease-in-out;
+      animation-iteration-count: infinite, infinite;
+      animation-play-state: running, running
+    }
+
+    .snowflake:nth-of-type(0) {
+      left: 1%;
+      -webkit-animation-delay: 0s, 0s;
+      animation-delay: 0s, 0s
+    }
+
+    .snowflake:nth-of-type(1) {
+      left: 10%;
+      -webkit-animation-delay: 1s, 1s;
+      animation-delay: 1s, 1s
+    }
+
+    .snowflake:nth-of-type(2) {
+      left: 20%;
+      -webkit-animation-delay: 3s, .5s;
+      animation-delay: 3s, .5s
+    }
+
+    .snowflake:nth-of-type(3) {
+      left: 30%;
+      -webkit-animation-delay: 4s, 2s;
+      animation-delay: 4s, 2s
+    }
+
+    .snowflake:nth-of-type(4) {
+      left: 40%;
+      -webkit-animation-delay: 2s, 2s;
+      animation-delay: 2s, 2s
+    }
+
+    .snowflake:nth-of-type(5) {
+      left: 50%;
+      -webkit-animation-delay: 4s, 3s;
+      animation-delay: 4s, 3s
+    }
+
+    .snowflake:nth-of-type(6) {
+      left: 60%;
+      -webkit-animation-delay: 6s, 2s;
+      animation-delay: 3s, 2s
+    }
+
+    .snowflake:nth-of-type(7) {
+      left: 70%;
+      -webkit-animation-delay: 2.5s, 1s;
+      animation-delay: 2.5s, 1s
+    }
+
+    .snowflake:nth-of-type(8) {
+      left: 80%;
+      -webkit-animation-delay: 1s, 0s;
+      animation-delay: 1s, 0s
+    }
+
+    .snowflake:nth-of-type(9) {
+      left: 90%;
+      -webkit-animation-delay: 3s, 1.5s;
+      animation-delay: 3s, 1.5s
+    }
+
+    .snowflake:nth-of-type(10) {
+      left: 25%;
+      -webkit-animation-delay: 2s, 0s;
+      animation-delay: 2s, 0s
+    }
+
+    .snowflake:nth-of-type(11) {
+      left: 65%;
+      -webkit-animation-delay: 4s, 2.5s;
+      animation-delay: 4s, 2.5s
+    }
+  </style>
+  <div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">
+      ❋
+    </div>
+    <div class="snowflake">
+      ●
+    </div>
+    <div class="snowflake">
+      ❋
+    </div>
+    <div class="snowflake">
+      ❅
+    </div>
+    <div class="snowflake">
+      ●
+    </div>
+    <div class="snowflake">
+      ❆
+    </div>
+    <div class="snowflake">
+      ❅
+    </div>
+    <div class="snowflake">
+      ❆
+    </div>
+    <div class="snowflake">
+      ●
+    </div>
+    <div class="snowflake">
+      ❆
+    </div>
+    <div class="snowflake">
+      ❋
+    </div>
+    <div class="snowflake">
+      ●
+    </div>
+  </div>
+</body>
+
+</html>

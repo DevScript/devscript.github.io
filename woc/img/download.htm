@@ -1,0 +1,588 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Free Online Image Editor</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="shortcut icon" href="/favicon.png" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="cache-control" content="no-cache, no-store" />
+	<meta http-equiv="content-language" content="en" />
+	<meta name="Keywords" content="free online image editor gif gifs jpeg jpg bmp convert converter create animated creator animated animate png tiff picture resize crop split frames text to add mask" />
+	<meta name="Description" content="Free Online Image Editor create your own animated gifs resize crop avatars and images. Photo tool for your favorite pictures. Edit an image here fast and easy online." />
+	<meta name="google" content="notranslate" />
+	<meta property="og:title" content="Online Image Editor" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.online-image-editor.com/" />
+	<meta property="og:image" content="https://www.online-image-editor.com/online-image-editor-logo.png" />
+	<meta property="og:site_name" content="Free Online Image Editor" />
+	<meta property="fb:app_id" content="177738572280613" />
+	<meta property="fb:admins" content="100002502694424" />
+	
+	<link rel="stylesheet" type="text/css" href="./styles/2019/app.2021a.min.css"/>
+	<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34316150-1']);
+  _gaq.push(['_setDomainName', 'online-image-editor.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet"> 
+	<script src="https://cdn.adapex.io/hb/aaw.oie.js" async></script>
+</head>	<body>
+	<div id="workbench">
+		<div class="sidebar">
+			<div class="logo">
+				<a href="https://www.online-image-editor.com/">
+					<img src="styles/2019/images/image-editor.png" alt="Online Image Edit Logo">
+				</a>
+			</div>
+			<div id="upload" class="fire upload green_grad"><span><img src="/styles/2019/images/upload.png"/></span>Upload new Photo
+			</div>
+			<div class="buttonbar">
+				<div class="btn fire" id="save_image">
+					<div class="icon small iconsave"></div>
+					<div class="btn_txt">Save</div>
+					<div class="explain"></div>
+				</div>
+				<div class="fire btn" id="previous">
+					<div id="btnUndo" class="icon small iconundo"></div>
+					<div class="btn_txt">Undo</div>
+					<div class="explain"></div>
+				</div>
+				<div class="fire btn" id="next">
+					<div id="btnRedo" class="icon small iconredo"></div>
+					<div class="btn_txt">Redo</div>
+					<div class="explain"></div>
+				</div>
+				<div class="fire btn" id="delete_image">
+					<div class="icon small icondelete"></div>
+					<div class="btn_txt">Delete</div>
+					<div class="explain"></div>
+				</div>
+			</div>
+			<div id="toolbox">
+	<span id='question' class='tbAction'></span>
+	<table class='tb' >
+		<tr id="tbHidden"><td id='tb_oie_title' colspan=2>How it works?</td></tr>
+		<tr id="tbHidden"><td id='tb_oie_explain' colspan=2>Choose in the toolbar how you want to edit your image.<br><br> It's easy and fast to resize, crop and add text to your image. Also to make an image animated is simple.<br><br> For questions about the chosen function click the question mark in the upper right corner. There you can find tutorials of the specified function.</td></tr>
+		<tr><td id='tb_title' colspan=2></td></tr>
+		<tr><td id='tb_explain' colspan=2></td></tr>
+		<tr id='tbNone'><td colspan=2></td></tr>
+		<tr id='tbDynamic'><td colspan=2 id='DynaContent'></td></tr>
+		<tr id='tbFgResize'><td  colspan=2>Resize image:<div id='fg_slider' class="zoom_slider"><div class="ui-slider-handle"></div></div></td></tr>
+		<tr id='tbBgResize'><td  colspan=2>Resize frame:<div id='bg_slider' class="zoom_slider"><div class="ui-slider-handle"></div></div></td></tr>
+		<tr id="tbWidth"><td class='txt'>Width:</td><td><input id="width" class='tbInput' type="text" value='0' autocomplete='off'/></td></tr>
+		<tr id='tbFgOpacity'><td  colspan=2>Set Look Through:<div id='fg_opacity' class="opacity_slider"><div class="ui-slider-handle"></div></div></td></tr>
+		<tr id="tbHeight"><td class='txt'>Height:</td><td><input id="height" class='tbInput' type="text" value='0' autocomplete='off'/></td></tr>
+		<tr id="tbOffsetX"><td class='txt'>Offset-X:</td><td><input id="offsetx" class='tbInput' type="text" value='0' autocomplete='off'/></td></tr>
+		<tr id="tbOffsetY"><td class='txt'>Offset-Y:</td><td><input id="offsety" class='tbInput' type="text" value='0' autocomplete='off'/></td></tr>
+		<tr id="tbAspect"><td class='txt'>Aspect Ratio:</td><td><input id='aspect' class='tbInput' type="checkbox" checked='true'/></td></tr>
+		<tr id="tbTextInput"><td colspan='2'><textarea id="text" class='tbInput tbClear' name='Type Text Here'>Type Text Here</textarea><br />
+		<img src='./styles/2019/images/align_left.png' class='west align focus tbClick' id='align' title='Align Left'/>
+		<img src='./styles/2019/images/align_center.png' class='center align tbClick' id='align'  title='Align Center'/>
+		<img src='./styles/2019/images/align_right.png' class='east align tbClick' id='align'  title='Align Right'/>
+		<div id='fspace' class='fire' title="Line Spacing"></div>
+		<div id='fkerning' class='fire' title="Kerning"></div>
+		<div id='fsymbols' class='fire' title="Add Copyright or other symbols."></div>
+		<input type="button" class='tbClick preview green_grad' value="Preview"></td></tr>
+		<tr id='tbFont'><td class='txt'>Font:</td><td>
+			<select id="font" class='tbInput' size="1">
+			<option value='A-Charming-Font' >A Charming Font</option> <option value='A-Charming-Font-Expanded' >A Charming Font Expanded</option> <option value='A-Charming-Font-Italic' >A Charming Font Italic</option> <option value='A-Charming-Font-Leftleaning' >A Charming Font Leftleaning</option> <option value='A-Charming-Font-Outline' >A Charming Font Outline</option> <option value='A-Charming-Font-Superexpanded' >A Charming Font Superexpanded</option> <option value='AC' >AC</option> <option value='A.C.M.E.-Secret-Agent' >ACME Secret Agent</option> <option value='A.C.M.E.-Secret-Agent-Bold' >ACME Secret Agent Bold</option> <option value='A.C.M.E.-Secret-Agent-Italic' >ACME Secret Agent Italic</option> <option value='Aardvark-Cafe' >Aardvark Cafe</option> <option value='Abaddon' >Abaddon</option> <option value='Abduction' >Abduction</option> <option value='Abduction-II' >Abduction II</option> <option value='Abscissa' >Abscissa</option> <option value='Abscissa-Bold' >Abscissa Bold</option> <option value='Abscissa-Bold-Italic' >Abscissa Bold Italic</option> <option value='Abscissa-Italic' >Abscissa Italic</option> <option value='Ace-Crikey' >Ace Crikey</option> <option value='Achilles' >Achilles</option> <option value='AddCityboy-Normal' >AddCityboy Normal</option> <option value='Adventure-Normal' >Adventure Normal</option> <option value='Aetherfox' >Aetherfox</option> <option value='Aetherfox-Condensed' >Aetherfox Condensed</option> <option value='Aetherfox-Italic' >Aetherfox Italic</option> <option value='African' >African</option> <option value='Agency-' >Agency FB</option> <option value='Agency-Bold' >Agency FB Bold</option> <option value='Airstream' >Airstream</option> <option value='Alba' >Alba</option> <option value='Alba-Matter' >Alba Matter</option> <option value='Alba-Super' >Alba Super</option> <option value='Alexis' >Alexis</option> <option value='Alexis-3D' >Alexis 3D</option> <option value='Alexis-Bold' >Alexis Bold</option> <option value='Alexis-Expanded' >Alexis Expanded</option> <option value='Alexis-Expanded-Italic' >Alexis Expanded Italic</option> <option value='Alexis-Grunge' >Alexis Grunge</option> <option value='Alexis-Italic' >Alexis Italic</option> <option value='Alexis-Laser' >Alexis Laser</option> <option value='Alexis-Laser-Italic' >Alexis Laser Italic</option> <option value='Alexis-Leftalic' >Alexis Leftalic</option> <option value='Alexis-Lower-Case' >Alexis Lower Case</option> <option value='Alexis-Lower-Case-Bold' >Alexis Lower Case Bold</option> <option value='Alexis-Lower-Case-Italic' >Alexis Lower Case Italic</option> <option value='Alexis-Lower-Case-Outline' >Alexis Lower Case Outline</option> <option value='Alexis-Lower-Outline-Italic' >Alexis Lower Outline Italic</option> <option value='Algerian' >Algerian</option> <option value='Aliens' >Aliens</option> <option value='Alterna' >Alterna</option> <option value='Andreas-Pen-MF' >Andreas Pen MF</option> <option value='Andreas-Pen-MF-Bold' >Andreas Pen MF Bold</option> <option value='another_danger' >Another Danger</option> <option value='AntsyPants' >AntsyPants</option> <option value='AppleJuiced' >AppleJuiced</option> <option value='ArabDancesMediumItalic' >ArabDancesMediumItalic</option> <option value='Arabolical' >Arabolical</option> <option value='Arctic' >Arctic</option> <option value='Argos-MF' >Argos MF</option> <option value='Arial' >Arial</option> <option value='Arial-Black' >Arial Black</option> <option value='Arial-Black-Italic' >Arial Black Italic</option> <option value='Arial-Bold' selected>Arial Bold</option> <option value='Arial-Bold-Italic' >Arial Bold Italic</option> <option value='Arial-Italic' >Arial Italic</option> <option value='Arial-Narrow' >Arial Narrow</option> <option value='Arial-Narrow-Bold' >Arial Narrow Bold</option> <option value='Arial-Narrow-Bold-Italic' >Arial Narrow Bold Italic</option> <option value='Arial-Narrow-Italic' >Arial Narrow Italic</option> <option value='Arial-Rounded-Bold' >Arial Rounded MT Bold</option> <option value='ash' >Ash</option> <option value='BN-FontBoy' >BN FontBoy</option> <option value='BN-FontBoy-3D' >BN FontBoy 3D</option> <option value='BN-YEAR-2000' >BN Year 2000</option> <option value='Babelfish' >Babelfish</option> <option value='Baby-Blocks' >Baby Blocks</option> <option value='Baby-Kruffy' >Baby Kruffy</option> <option value='Babylon5-Hollow' >Babylon5 Hollow</option> <option value='Backhand-Brush' >Backhand Brush</option> <option value='Backlash-BRK' >Backlash BRK</option> <option value='Backup-Generation-1' >Backup Generation 1</option> <option value='BadaBoom-BB' >BadaBoom BB</option> <option value='Bailey-MF' >Bailey MF</option> <option value='Bamboo' >Bamboo</option> <option value='Barbecue' >Barbecue</option> <option value='Bardour' >Bardour</option> <option value='Baskerville-Old-Face' >Baskerville Old Face</option> <option value='BatFont' >BatFont</option> <option value='batesshower' >Bates Shower</option> <option value='BatmanForeverAlternate' >BatmanForeverAlternate</option> <option value='BatmanForeverOutline' >BatmanForeverOutline</option> <option value='Battle-Beasts-Normal' >Battle Beasts Normal</option> <option value='BattleLines' >BattleLines</option> <option value='Battlefield' >Battlefield</option> <option value='Battlestar' >Battlestar</option> <option value='Bauhaus-93' >Bauhaus 93</option> <option value='BeautySchoolDropoutII' >BeautySchoolDropoutII</option> <option value='Beech' >Beech</option> <option value='BeetleJ' >BeetleJ</option> <option value='Bell-MT' >Bell MT</option> <option value='Bell-Bold' >Bell MT Bold</option> <option value='Bell-Italic' >Bell MT Italic</option> <option value='Bend-It' >Bend It</option> <option value='Benegraphic' >Benegraphic</option> <option value='Berlin-Sans-' >Berlin Sans FB</option> <option value='Berlin-Sans-Bold' >Berlin Sans FB Bold</option> <option value='Berlin-Sans-Demi-Bold' >Berlin Sans FB Demi Bold</option> <option value='Bernard-Condensed' >Bernard MT Condensed</option> <option value='Beware' >Beware</option> <option value='Bijou-JL' >Bijou JL</option> <option value='BikerBones' >BikerBones</option> <option value='Binner-Gothic' >Binner Gothic</option> <option value='Black-Castle-MF' >Black Castle MF</option> <option value='black_chancery' >Black Chancery</option> <option value='Black-Knight-Regular' >Black Knight Regular</option> <option value='Blackadder' >Blackadder ITC</option> <option value='Blade-Runner-Movie-Font' >Blade Runner Movie Font</option> <option value='Blocked' >Blocked</option> <option value='Blood-Of-Dracula' >Blood Of Dracula</option> <option value='Blown-Away' >Blown Away</option> <option value='Bodoni-' >Bodoni MT</option> <option value='Bodoni-Black' >Bodoni MT Black</option> <option value='Bodoni-Black-Italic' >Bodoni MT Black Italic</option> <option value='Bodoni-Bold' >Bodoni MT Bold</option> <option value='Bodoni-Bold-Italic' >Bodoni MT Bold Italic</option> <option value='Bodoni-Condensed' >Bodoni MT Condensed</option> <option value='Bodoni-Condensed-Bold' >Bodoni MT Condensed Bold</option> <option value='Bodoni-Condensed-Bold-Italic' >Bodoni MT Condensed Bold Italic</option> <option value='Bodoni-Condensed-Italic' >Bodoni MT Condensed Italic</option> <option value='Bodoni-Italic' >Bodoni MT Italic</option> <option value='Bodoni-MT-Poster-Compressed' >Bodoni MT Poster Compressed</option> <option value='Bodoni-Poster-Compressed' >Bodoni MT Poster Compressed</option> <option value='BoisterBlack' >BoisterBlack</option> <option value='BoisterCapitals' >BoisterCapitals</option> <option value='bonnet' >Bonnet</option> <option value='BoogieNightsNF' >BoogieNightsNF</option> <option value='Book-Antiqua' >Book Antiqua</option> <option value='Book-Antiqua-Bold' >Book Antiqua Bold</option> <option value='Book-Antiqua-Bold-Italic' >Book Antiqua Bold Italic</option> <option value='Book-Antiqua-Italic' >Book Antiqua Italic</option> <option value='Bookman-Old-Style' >Bookman Old Style</option> <option value='Bookman-Old-Style-Bold' >Bookman Old Style Bold</option> <option value='Bookman-Old-Style-Bold-Italic' >Bookman Old Style Bold Italic</option> <option value='Bookman-Old-Style-Italic' >Bookman Old Style Italic</option> <option value='Bookworm' >Bookworm</option> <option value='Boomerang' >Boomerang</option> <option value='BoomerangItalic' >BoomerangItalic</option> <option value='Border-Base-Future' >Border Base Future</option> <option value='Bradley-Hand' >Bradley Hand ITC</option> <option value='brewsky' >Brewsky</option> <option value='Brickletter' >Brickletter</option> <option value='Bring-tha-noize' >Bring tha noize</option> <option value='Britannic-Bold' >Britannic Bold</option> <option value='Broadway' >Broadway</option> <option value='brockscript' >Brock Script</option> <option value='Brush-Script-Italic' >Brush Script MT Italic</option> <option value='BulletHolz' >BulletHolz</option> <option value='Burnstown-Dam' >Burnstown Dam</option> <option value='Burnt-MF' >Burnt MF</option> <option value='Burtinomatic' >Burtinomatic</option> <option value='Burtinomatic-DemiBold' >Burtinomatic-DemiBold</option> <option value='buttercup' >Buttercup</option> <option value='CLAW-1-BRK' >CLAW 1 BRK</option> <option value='CLAW-2-BRK' >CLAW 2 BRK</option> <option value='Calaveras' >Calaveras</option> <option value='Californian-' >Californian FB</option> <option value='Californian-Bold' >Californian FB Bold</option> <option value='Californian-Italic' >Californian FB Italic</option> <option value='Calisto-' >Calisto MT</option> <option value='Calisto-Bold' >Calisto MT Bold</option> <option value='Calisto-Bold-Italic' >Calisto MT Bold Italic</option> <option value='Calisto-Italic' >Calisto MT Italic</option> <option value='Camelot-MF' >Camelot MF</option> <option value='Camelot-MF-Bold' >Camelot MF Bold</option> <option value='Carnival-MF-Open' >Carnival MF Open</option> <option value='Carnival-MF-Rimmed' >Carnival MF Rimmed</option> <option value='Castellar' >Castellar</option> <option value='CatholicSchoolGirls-BB' >CatholicSchoolGirls BB</option> <option value='Catwalk' >Catwalk</option> <option value='Celtic-Garamond-the-2nd' >Celtic Garamond the 2nd</option> <option value='Centaur' >Centaur</option> <option value='Century' >Century</option> <option value='Century-Gothic' >Century Gothic</option> <option value='Century-Gothic-Bold' >Century Gothic Bold</option> <option value='Century-Gothic-Bold-Italic' >Century Gothic Bold Italic</option> <option value='Century-Gothic-Italic' >Century Gothic Italic</option> <option value='Century-Schoolbook' >Century Schoolbook</option> <option value='Century-Schoolbook-Bold' >Century Schoolbook Bold</option> <option value='CenturySchoolbookB' >Century Schoolbook Bold</option> <option value='Century-Schoolbook-Bold-Italic' >Century Schoolbook Bold Italic</option> <option value='CenturySchoolbookBI' >Century Schoolbook Bold Italic</option> <option value='Century-Schoolbook-Italic' >Century Schoolbook Italic</option> <option value='CenturySchoolbookI' >Century Schoolbook Italic</option> <option value='CenturySchoolbookRoman' >Century Schoolbook Roman</option> <option value='chasing_embers' >Chasing Embers</option> <option value='Chick' >Chick</option> <option value='Chiller' >Chiller</option> <option value='Chinese-Takeaway' >Chinese Takeaway</option> <option value='chopinscript' >Chopin Script</option> <option value='kingthing_christmas' >Chrismas Kingthings</option> <option value='Christmas-Card-II' >Christmas Card II</option> <option value='xmas_flower' >Christmas Flower</option> <option value='chromalloy' >Chromalloy</option> <option value='ClassyBeautiful' >Classy Beautiful </option> <option value='clickerscript' >Clicker Script</option> <option value='Colonna-' >Colonna MT</option> <option value='Colony-Wars-Normal' >Colony Wars</option> <option value='Comic-Sans' >Comic Sans MS</option> <option value='Comic-Sans-MS-Bold' >Comic Sans MS Bold</option> <option value='Cooper-Black' >Cooper Black</option> <option value='Copperplate-Gothic-Bold' >Copperplate Gothic Bold</option> <option value='Copperplate-Gothic-Light' >Copperplate Gothic Light</option> <option value='Corleone-Due' >Corleone Due</option> <option value='CornFed' >CornFed</option> <option value='Corrida' >Corrida</option> <option value='Courier-New' >Courier New</option> <option value='Courier-New-Bold' >Courier New Bold</option> <option value='Courier-New-Bold-Italic' >Courier New Bold Italic</option> <option value='Courier-New-Italic' >Courier New Italic</option> <option value='Crazy-Harold' >Crazy Harold</option> <option value='Cricket' >Cricket</option> <option value='Crimescene-Afterimage' >Crimescene Afterimage</option> <option value='Croobie' >Croobie</option> <option value='Curlz-' >Curlz MT</option> <option value='Cyberia' >Cyberia</option> <option value='DS_DOWN_CYR' >DS DOWN</option> <option value='Daisy-MF' >Daisy MF</option> <option value='Decor' >Decor</option> <option value='DejaVu-Sans' >DejaVu Sans</option> <option value='DejaVu-Sans-Bold' >DejaVu Sans Bold</option> <option value='DejaVu-Sans-Mono' >DejaVu Sans Mono</option> <option value='DejaVu-Sans-Mono-Bold' >DejaVu Sans Mono Bold</option> <option value='DejaVu-Serif' >DejaVu Serif</option> <option value='DejaVu-Serif-Bold' >DejaVu Serif Bold</option> <option value='Delirium' >Delirium</option> <option value='Die-Nasty' >Die Nasty</option> <option value='Digital-Readout' >Digital Readout</option> <option value='Digital-Readout-CondUpright' >Digital Readout CondUpright</option> <option value='Digital-Readout-Condensed' >Digital Readout Condensed</option> <option value='Digital-Readout-ExpUpright' >Digital Readout ExpUpright</option> <option value='Digital-Readout-Expanded' >Digital Readout Expanded</option> <option value='Digital-Readout-Thick' >Digital Readout Thick</option> <option value='Digital-Readout-Thick-Upright' >Digital Readout Thick Upright</option> <option value='Digital-Readout-Upright' >Digital Readout Upright</option> <option value='dinglesw' >Dingle SW</option> <option value='DirtyBakersDozen' >DirtyBakersDozen</option> <option value='Dodger' >Dodger</option> <option value='Dope-Jam' >Dope Jam</option> <option value='Dragonfly-MF' >Dragonfly MF</option> <option value='Dragonmaster-Normal' >Dragonmaster Normal</option> <option value='Due-Date' >Due Date</option> <option value='Dust-Mites' >Dust Mites</option> <option value='Dyspepsia' >Dyspepsia</option> <option value='Earthquake-MF' >Earthquake MF</option> <option value='Ecliptic--BRK-' >Ecliptic BRK</option> <option value='Edwardian-Script' >Edwardian Script ITC</option> <option value='Elephant' >Elephant</option> <option value='Elephant-Italic' >Elephant Italic</option> <option value='EmpireState' >EmpireState</option> <option value='EmporiumCapitals' >EmporiumCapitals</option> <option value='Endor' >Endor</option> <option value='Endor-Alt' >Endor Alt</option> <option value='Engravers-' >Engravers MT</option> <option value='Engravers-Bold' >Engravers MT Bold</option> <option value='Entangled-BRK' >Entangled BRK</option> <option value='Entangled-Layer-A-BRK' >Entangled Layer A BRK</option> <option value='Entangled-Layer-B-BRK' >Entangled Layer B BRK</option> <option value='Entangled-Plain-BRK' >Entangled Plain BRK</option> <option value='Eras-Bold' >Eras Bold ITC</option> <option value='Eras-Demi' >Eras Demi ITC</option> <option value='Eras-Light' >Eras Light ITC</option> <option value='Eras-Medium' >Eras Medium ITC</option> <option value='Erasmus' >Erasmus</option> <option value='Erasmus-Bold' >Erasmus Bold</option> <option value='ErasmusInline' >ErasmusInline</option> <option value='ErasmusInline-Bold' >ErasmusInline Bold</option> <option value='Eurostile' >Eurostile</option> <option value='Eurostile-Bold' >Eurostile Bold</option> <option value='evanescent' >Evanescent</option> <option value='FFF-Aquarius-Condensed' >FFF Aquarius Condensed</option> <option value='FFF-Atlantis' >FFF Atlantis</option> <option value='FFF-Galaxy' >FFF Galaxy</option> <option value='FFF-Galaxy-Bold' >FFF Galaxy Bold</option> <option value='FFF-Galaxy-Bold-Extended' >FFF Galaxy Bold Extended</option> <option value='FFF-Galaxy-Extra-Bold' >FFF Galaxy Extra Bold</option> <option value='FFF-Harmony' >FFF Harmony</option> <option value='FFF-Intelligent' >FFF Intelligent</option> <option value='FFF-Intelligent-Condensed' >FFF Intelligent Condensed</option> <option value='FFF-Intelligent-Thin-Condensed' >FFF Intelligent Thin Condensed</option> <option value='FashionVictim' >FashionVictim</option> <option value='Fat' >Fat</option> <option value='feathergraphy2' >Feathergraphy</option> <option value='Felix-Titling' >Felix Titling</option> <option value='Fiolex-Girls' >Fiolex Girls</option> <option value='Firefly' >Firefly</option> <option value='Flash' >Flash</option> <option value='Footlight-Light' >Footlight MT Light</option> <option value='Footlight-MT-Light' >Footlight MT Light</option> <option value='Forte' >Forte</option> <option value='Fortuna-Dot' >Fortuna Dot</option> <option value='Foxjump' >Foxjump</option> <option value='Franklin-Gothic-Book' >Franklin Gothic Book</option> <option value='Franklin-Gothic-Book-Italic' >Franklin Gothic Book Italic</option> <option value='Franklin-Gothic-Demi' >Franklin Gothic Demi</option> <option value='Franklin-Gothic-Demi-Cond' >Franklin Gothic Demi Cond</option> <option value='Franklin-Gothic-Demi-Italic' >Franklin Gothic Demi Italic</option> <option value='Franklin-Gothic-Heavy' >Franklin Gothic Heavy</option> <option value='Franklin-Gothic-Heavy-Italic' >Franklin Gothic Heavy Italic</option> <option value='Franklin-Gothic-Medium' >Franklin Gothic Medium</option> <option value='Franklin-Gothic-Medium-Cond' >Franklin Gothic Medium Cond</option> <option value='Franklin-Gothic-Medium-Italic' >Franklin Gothic Medium Italic</option> <option value='Freestyle-Script' >Freestyle Script</option> <option value='French-Script-MT' >French Script MT</option> <option value='Freshbot' >Freshbot</option> <option value='Frosty' >Frosty</option> <option value='Fruitopia' >Fruitopia</option> <option value='funsizes' >Fun Sized</option> <option value='Garamond' >Garamond</option> <option value='Garamond-Bold' >Garamond Bold</option> <option value='Garamond-Italic' >Garamond Italic</option> <option value='Gargoyles-Normal' >Gargoyles Normal</option> <option value='Georgia' >Georgia</option> <option value='Georgia-Bold' >Georgia Bold</option> <option value='Georgia-Bold-Italic' >Georgia Bold Italic</option> <option value='Georgia-Italic' >Georgia Italic</option> <option value='getthemessage' >Get the Message</option> <option value='Gigi' >Gigi</option> <option value='Gill-Sans-' >Gill Sans MT</option> <option value='Gill-Sans-Bold' >Gill Sans MT Bold</option> <option value='Gill-Sans-Bold-Italic' >Gill Sans MT Bold Italic</option> <option value='Gill-Sans-Condensed' >Gill Sans MT Condensed</option> <option value='Gill-Sans-Ext-Condensed-Bold' >Gill Sans MT Ext Condensed Bold</option> <option value='Gill-Sans-Italic' >Gill Sans MT Italic</option> <option value='Gill-Sans-Ultra-Bold' >Gill Sans Ultra Bold</option> <option value='Gill-Sans-Ultra-Bold-Condensed' >Gill Sans Ultra Bold Condensed</option> <option value='ginko' >Ginko</option> <option value='girlsareweird' >Girls are Weird</option> <option value='GlooGun' >GlooGun</option> <option value='Gloucester-Extra-Condensed' >Gloucester MT Extra Condensed</option> <option value='Goudy-Old-Style' >Goudy Old Style</option> <option value='Goudy-Old-Style-Bold' >Goudy Old Style Bold</option> <option value='Goudy-Old-Style-Italic' >Goudy Old Style Italic</option> <option value='Goudy-Stout' >Goudy Stout</option> <option value='Guttman' >Guttman (Hebrew)</option> <option value='hfflightpetals' >HFF Light Petals</option> <option value='Haettenschweiler' >Haettenschweiler</option> <option value='hangboard123' >Hang Board 123</option> <option value='Harlequinade' >Harlequinade</option> <option value='Harlow-Solid-Italic' >Harlow Solid Italic</option> <option value='Harrington' >Harrington</option> <option value='heartbroken' >Heartbroken</option> <option value='Heartles' >Heartles</option> <option value='heartsdelight' >Hearts Delight</option> <option value='heycutie' >Hey Cutie</option> <option value='High-Tower-Text' >High Tower Text</option> <option value='High-Tower-Text-Italic' >High Tower Text Italic</option> <option value='holla' >Holla</option> <option value='honeyscript' >Honey Script</option> <option value='Horror-Hotel' >Horror Hotel</option> <option value='Hot-Pizza' >Hot Pizza</option> <option value='lovewhatyoudo' >I Love What You Do!</option> <option value='iloversyou' >I Lovers You</option> <option value='Impact' >Impact</option> <option value='Imperium' >Imperium</option> <option value='Imprint-Shadow' >Imprint MT Shadow</option> <option value='Informal-Roman' >Informal Roman</option> <option value='Izhitza' >Izhitza</option> <option value='jlrhaulinlove' >JLR Haulin' Love</option> <option value='Jenkins-v2.0' >Jenkins v20</option> <option value='Jenkins-v2.0-Thik' >Jenkins v20 Thik</option> <option value='jennasue' >Jenna Sue</option> <option value='Jerusalem' >Jerusalem</option> <option value='JimNightshade' >JimNightshade</option> <option value='Jokerman' >Jokerman</option> <option value='Jokewood' >Jokewood</option> <option value='JudasPriest' >JudasPriest</option> <option value='Juice' >Juice ITC</option> <option value='kr_holly' >KR Holly</option> <option value='krloveletters' >KR Love Letters</option> <option value='Kartika' >Kartika</option> <option value='kinkie__' >Kinkie</option> <option value='koster_semi_swash' >Koster Semi-Swash</option> <option value='koster_xmas_special' >Koster Xmas Special</option> <option value='Kristen-ITC' >Kristen ITC</option> <option value='Kunstler-Script' >Kunstler Script</option> <option value='lmssummercamplove' >LMS Summer Camp Love</option> <option value='lrcangelichearts' >LRC Angelic Hearts</option> <option value='Laserian' >Laserian</option> <option value='lindaslament' >Linda's Lament</option> <option value='Linux-Biolinum-Shadow' >Linux-Biolinum-Shadow</option> <option value='littledays' >Little Days</option> <option value='Loki-Cola' >Loki Cola</option> <option value='loveletters' >Love Letters</option> <option value='lovenessthree' >LoveNess Three</option> <option value='Lucida-Bright' >Lucida Bright</option> <option value='Lucida-Bright-Demibold' >Lucida Bright Demibold</option> <option value='Lucida-Bright-Demibold-Italic' >Lucida Bright Demibold Italic</option> <option value='Lucida-Bright-Italic' >Lucida Bright Italic</option> <option value='Lucida-Calligraphy-Italic' >Lucida Calligraphy Italic</option> <option value='Lucida-Console' >Lucida Console</option> <option value='Lucida-Fax-Demibold' >Lucida Fax Demibold</option> <option value='Lucida-Fax-Demibold-Italic' >Lucida Fax Demibold Italic</option> <option value='Lucida-Fax-Italic' >Lucida Fax Italic</option> <option value='Lucida-Fax-Regular' >Lucida Fax Regular</option> <option value='Lucida-Handwriting-Italic' >Lucida Handwriting Italic</option> <option value='Lucida-Sans-Demibold-Italic' >Lucida Sans Demibold Italic</option> <option value='Lucida-Sans-Demibold-Roman' >Lucida Sans Demibold Roman</option> <option value='Lucida-Sans-Italic' >Lucida Sans Italic</option> <option value='Lucida-Sans-Regular' >Lucida Sans Regular</option> <option value='Lucida-Sans-Typewriter-Bold' >Lucida Sans Typewriter Bold</option> <option value='Lucida-Sans-Typewriter-Bold-Obli' >Lucida Sans Typewriter Bold Obli</option> <option value='Lucida-Sans-Typewriter-Oblique' >Lucida Sans Typewriter Oblique</option> <option value='Lucida-Sans-Typewriter-Regular' >Lucida Sans Typewriter Regular</option> <option value='Lucida-Sans-Unicode' >Lucida Sans Unicode</option> <option value='Lusa' >Lusa</option> <option value='MADFONT' >MADFONT</option> <option value='mc_blossoms' >MC Blossoms</option> <option value='MadisonSquare-Incised' >MadisonSquare Incised</option> <option value='Magneto-Bold' >Magneto Bold</option> <option value='Maiandra-GD' >Maiandra GD</option> <option value='Maiandra-GD-Demi-Bold' >Maiandra GD Demi Bold</option> <option value='Maiandra-GD-Italic' >Maiandra GD Italic</option> <option value='Matisse' >Matisse ITC</option> <option value='Matura-MT-Script-Capitals' >Matura MT Script Capitals</option> <option value='memoriamii' >Memoriam II</option> <option value='Microsoft-Sans-Serif' >Microsoft Sans Serif</option> <option value='Miroslav' >Miroslav</option> <option value='Mistral' >Mistral</option> <option value='Modern-No-20' >Modern No 20</option> <option value='Mon-Amour-Two' >Mon-Amour-Two</option> <option value='Corsiva' >Monotype Corsiva</option> <option value='Monotype-Corsiva' >Monotype Corsiva</option> <option value='Montez' >Montez</option> <option value='Moonchild' >Moonchild</option> <option value='Morpheus' >Morpheus</option> <option value='Morpheus-Regular' >Morpheus Regular</option> <option value='Niagara-Engraved' >Niagara Engraved</option> <option value='Niagara-Solid' >Niagara Solid</option> <option value='Nickelodeon' >Nickelodeon</option> <option value='Nickodemus-Extremus' >Nickodemus-Extremus</option> <option value='NimbusMonoB' >Nimbus Mono Bold</option> <option value='NimbusMonoBOblique' >Nimbus Mono Bold Oblique</option> <option value='NimbusMono' >Nimbus Mono Regular</option> <option value='NimbusMonoOblique' >Nimbus Mono Regular Oblique</option> <option value='NimbusRomanNo9Medium' >Nimbus Roman No9 Medium</option> <option value='NimbusRomanNo9MediumI' >Nimbus Roman No9 Medium Italic</option> <option value='NimbusRomanNo9' >Nimbus Roman No9 Regular</option> <option value='NimbusRomanNo9I' >Nimbus Roman No9 Regular Italic</option> <option value='NimbusSansB' >Nimbus Sans Bold</option> <option value='NimbusSansBC' >Nimbus Sans Bold Condensed</option> <option value='NimbusSansBCI' >Nimbus Sans Bold Condensed Itali</option> <option value='NimbusSansBI' >Nimbus Sans Bold Italic</option> <option value='NimbusSans' >Nimbus Sans Regular</option> <option value='NimbusSansC' >Nimbus Sans Regular Condensed</option> <option value='NimbusSansCI' >Nimbus Sans Regular Condensed It</option> <option value='NimbusSansI' >Nimbus Sans Regular Italic</option> <option value='Ninjas' >Ninjas</option> <option value='Note' >Note</option> <option value='OCR-A-Extended' >OCR A Extended</option> <option value='Old-English-Text-MT' >Old English Text MT</option> <option value='Olietta' >Olietta</option> <option value='Olympus' >Olympus</option> <option value='Olympus-Bold' >Olympus Bold</option> <option value='Onyx' >Onyx</option> <option value='Palace-Script-' >Palace Script MT</option> <option value='Palatino-Linotype' >Palatino Linotype</option> <option value='Palatino-Linotype-Bold' >Palatino Linotype Bold</option> <option value='Palatino-Linotype-Bold-Italic' >Palatino Linotype Bold Italic</option> <option value='Palatino-Linotype-Italic' >Palatino Linotype Italic</option> <option value='paperhearts' >Paper Hearts</option> <option value='Papyrus' >Papyrus</option> <option value='Parchment' >Parchment</option> <option value='Peace' >Peace</option> <option value='Perpetua' >Perpetua</option> <option value='Perpetua-Bold' >Perpetua Bold</option> <option value='Perpetua-Bold-Italic' >Perpetua Bold Italic</option> <option value='Perpetua-Italic' >Perpetua Italic</option> <option value='Perpetua-Titling-Bold' >Perpetua Titling MT Bold</option> <option value='Pistalka' >Pistalka</option> <option value='Playbill' >Playbill</option> <option value='Playtoy' >Playtoy</option> <option value='Pokemon--Normal' >Pokemon Normal</option> <option value='Poor-Richard' >Poor Richard</option> <option value='Poornut' >Poornut</option> <option value='Porkys' >Porkys</option> <option value='Porkys-Heavy' >Porkys Heavy</option> <option value='Poseidon-AOE' >Poseidon AOE</option> <option value='precious' >Precious</option> <option value='Pristina' >Pristina</option> <option value='Pussycat--Sassy' >Pussycat Sassy</option> <option value='Pussycat-Snickers' >Pussycat Snickers</option> <option value='rmbowheart' >RM Bow Heart</option> <option value='Radio-Space' >Radio Space</option> <option value='Rage-Italic' >Rage Italic</option> <option value='Ravie' >Ravie</option> <option value='Rebecca' >Rebecca</option> <option value='Redstar' >Redstar</option> <option value='RedstarBold' >RedstarBold</option> <option value='Refluxed' >Refluxed</option> <option value='respective' >Respective</option> <option value='Ribbon-Heart' >Ribbon-Heart</option> <option value='Rockwell' >Rockwell</option> <option value='Rockwell-Bold' >Rockwell Bold</option> <option value='Rockwell-Bold-Italic' >Rockwell Bold Italic</option> <option value='Rockwell-Condensed' >Rockwell Condensed</option> <option value='Rockwell-Condensed-Bold' >Rockwell Condensed Bold</option> <option value='Rockwell-Extra-Bold' >Rockwell Extra Bold</option> <option value='Rockwell-Italic' >Rockwell Italic</option> <option value='Romashulka' >Romashulka</option> <option value='rubius' >Rubius</option> <option value='Running-shoe' >Running shoe</option> <option value='Rushin-Regular' >Rushin Regular</option> <option value='SF-Balloons' >SF Balloons</option> <option value='sabrina' >Sabrina</option> <option value='Samarkan-Normal' >Samarkan Normal</option> <option value='Samarkan-Oblique' >Samarkan Oblique</option> <option value='Samba' >Samba</option> <option value='Saved-By-Zero' >Saved By Zero</option> <option value='Sci-Fied-2002' >Sci Fied 2002</option> <option value='Sci-Fied-2002-Italic' >Sci Fied 2002 Italic</option> <option value='Sci-Fied-2002-Ultra' >Sci Fied 2002 Ultra</option> <option value='Script-Bold' >Script MT Bold</option> <option value='Scriptina' >Scriptina</option> <option value='secesja_pl' >Secesja PL</option> <option value='Sever' >Sever</option> <option value='ShangriLaNF' >ShangriLaNF</option> <option value='signerica_thin' >Signerica Thin</option> <option value='SimHei' >SimHei</option> <option value='Sladkoeshka' >Sladkoeshka</option> <option value='Slammer-tag' >Slammer tag</option> <option value='Snap' >Snap ITC</option> <option value='Snesko' >Snesko</option> <option value='almontesnow' >Snow Almonte</option> <option value='xmas_snow' >Snow Christmas</option> <option value='Snowdrift' >Snowdrift</option> <option value='Sophie-MF' >Sophie MF</option> <option value='soundheart' >Sound Heart</option> <option value='stalemate' >Stalemate</option> <option value='Stencil' >Stencil</option> <option value='Submerge' >Submerge</option> <option value='Subway' >Subway</option> <option value='sunflower' >Sunflower</option> <option value='Sylfaen' >Sylfaen</option> <option value='Symbol' >Symbol</option> <option value='Tahoma' >Tahoma</option> <option value='Tahoma-Bold' >Tahoma Bold</option> <option value='tangerine' >Tangerine</option> <option value='TeamSpirit' >TeamSpirit</option> <option value='Teddy-Bear' >Teddy-Bear</option> <option value='Tempus-Sans' >Tempus Sans ITC</option> <option value='Times-New-Roman' >Times New Roman</option> <option value='Times-New-Roman-Bold' >Times New Roman Bold</option> <option value='Times-New-Roman-Bold-Italic' >Times New Roman Bold Italic</option> <option value='Times-New-Roman-Italic' >Times New Roman Italic</option> <option value='timesnewromance' >Times New Romance</option> <option value='Timotheos' >Timotheos</option> <option value='Toothy' >Toothy</option> <option value='Treasure-Map-Deadhand' >Treasure Map Deadhand</option> <option value='Trebuchet-MS' >Trebuchet MS</option> <option value='Trebuchet-MS-Bold' >Trebuchet MS Bold</option> <option value='Trebuchet-MS-Bold-Italic' >Trebuchet MS Bold Italic</option> <option value='Trebuchet-MS-Italic' >Trebuchet MS Italic</option> <option value='Tw-Cen-' >Tw Cen MT</option> <option value='Tw-Cen-Bold' >Tw Cen MT Bold</option> <option value='Tw-Cen-Bold-Italic' >Tw Cen MT Bold Italic</option> <option value='Tw-Cen-Condensed' >Tw Cen MT Condensed</option> <option value='Tw-Cen-Condensed-Bold' >Tw Cen MT Condensed Bold</option> <option value='Tw-Cen-Condensed-Extra-Bold' >Tw Cen MT Condensed Extra Bold</option> <option value='Tw-Cen-Italic' >Tw Cen MT Italic</option> <option value='URWBookmanDbI' >URW Bookman Demi Bold Italic</option> <option value='URWBookmanL' >URW Bookman Light</option> <option value='URWBookmanLI' >URW Bookman Light Italic</option> <option value='URWChanceryMediumI' >URW Chancery Medium Italic</option> <option value='URWGothicBook' >URW Gothic Book</option> <option value='URWGothicBookOblique' >URW Gothic Book Oblique</option> <option value='URWGothicDemi' >URW Gothic Demi</option> <option value='URWGothicDemiOblique' >URW Gothic Demi Oblique</option> <option value='URWPalladioB' >URW Palladio Bold</option> <option value='URWPalladioBI' >URW Palladio Bold Italic</option> <option value='URWPalladioI' >URW Palladio Italic</option> <option value='URWPalladioRoman' >URW Palladio Roman</option> <option value='umbrella_market' >Umbrella Market</option> <option value='Underground' >Underground</option> <option value='vakil' >Vakil Gujarati</option> <option value='Vampiress' >Vampiress</option> <option value='vanessasvalentine' >Vanessa's Valentine</option> <option value='Verdana' >Verdana</option> <option value='Verdana-Bold' >Verdana Bold</option> <option value='Verdana-Bold-Italic' >Verdana Bold Italic</option> <option value='Verdana-Italic' >Verdana Italic</option> <option value='Viner-Hand-ITC' >Viner Hand ITC</option> <option value='Vivaldi-Italic' >Vivaldi Italic</option> <option value='VlaanderenChiseled' >VlaanderenChiseled</option> <option value='Vladimir-Script' >Vladimir Script</option> <option value='Vrinda' >Vrinda</option> <option value='vtksrevolt' >Vtks Revolt</option> <option value='wds052801' >Walt Disney</option> <option value='Waltograph-UI-Bold' >Waltograph UI Bold</option> <option value='Webdings' >Webdings</option> <option value='wednesday' >Wednesday</option> <option value='Weltron-Urban' >Weltron Urban</option> <option value='Wide-Latin' >Wide Latin</option> <option value='Wingdings' >Wingdings</option> <option value='Wingdings-2' >Wingdings 2</option> <option value='Wingdings-3' >Wingdings 3</option> <option value='Wonderland-Stars-Artlime' >Wonderland-Stars-Artlime</option> <option value='xiomarascript' >Xiomara Script</option> <option value='Yahoo' >Yahoo</option> <option value='yellowtale' >Yellow Tale</option> <option value='yesteryear' >YesterYear</option> <option value='Zanesennyj' >Zanesennyj</option> <option value='ZeroHour' >ZeroHour</option> <option value='a_OldTypingCmDcFnt1' >a_OldTypingCmDcFnt1</option> <option value='boyarsky' >boyarsky</option> <option value='cambria_vet' >cambria_vet</option> <option value='geisha' >geisha</option> <option value='heinrich' >heinrich</option> <option value='hooge-05_53' >hooge 05_53</option> <option value='kaliakra' >kaliakra</option> <option value='monte_carlo' >monte_carlo</option> <option value='tkdoodle' >tkdoodle</option> 
+			</select><div id='ffilter' class='fire'></div>
+</td></tr>
+<tr id="tbBorderType"><td class=txt>Border type</td><td>
+	<select class="tbInput" id="bordertype" style="width:100px;">
+		<option value="outline" selected>Outlined</option>
+		<option value="raised">Raised</option>
+		<option value="lowered">Lowered</option>
+	</select></td>
+</tr>
+<tr id="tbBorderRadius"><td class=txt >Radius</td>
+	<td><select class="tbInput" id="radius" name="Radius" size="1">
+		<option value="10">10</option>
+		<option value="15" selected>15</option>
+		<option value="20">20</option>
+		<option value="25">25</option>
+		<option value="30">30</option>
+		<option value="35">35</option>
+		<option value="40">40</option>
+		<option value="45">45</option>
+		<option value="50">50</option>
+		<option value="55">55</option>
+		<option value="60">60</option>
+		<option value="65">65</option>
+		<option value="70">70</option>
+		<option value="75">75</option>
+		<option value="80">80</option>
+		<option value="85">85</option>
+		<option value="90">90</option>
+		<option value="95">95</option>
+		<option value="100">100</option>
+		<option value="110">110</option>
+		<option value="120">120</option>
+		<option value="130">130</option>
+		<option value="140">140</option>
+		<option value="150">150</option>
+		</select>
+	</td>
+</tr>
+<tr id="tbBorderWidth"><td class=txt>
+Border width</td><td>
+	<select class="tbInput" id="borderwidth">
+		<option value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5" selected>5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="12">12</option>
+		<option value="14">14</option>
+		<option value="16">16</option>
+		<option value="18">18</option>
+		<option value="20">20</option>
+		<option value="25">25</option>
+		<option value="30">30</option>
+		<option value="35">35</option>
+	</select></td>
+</tr>
+<tr id='tbSize'><td class='txt'>Size:</td><td><select class='tbInput' id="size" size="1" style="width:65px;">
+  	<option value="10">10</option>
+  	<option value="11">11</option>
+  	<option value="12">12</option>
+  	<option value="13">13</option>
+  	<option value="14">14</option>
+  	<option value="15">15</option>
+  	<option value="16">16</option>
+	<option value="17">17</option>
+	<option value="18">18</option>
+  	<option value="19">19</option>
+	<option value="20">20</option>
+  	<option value="22">22</option>
+  	<option value="24">24</option>
+  	<option value="26">26</option>
+  	<option value="28">28</option>
+  	<option value="30">30</option>
+  	<option value="35">35</option>
+  	<option value="40">40</option>
+  	<option value="45">45</option>
+  	<option value="50">50</option>
+  	<option value="55">55</option>
+  	<option value="60" selected>60</option>
+  	<option value="65">65</option>
+  	<option value="70">70</option>
+  	<option value="75">75</option>
+  	<option value="80">80</option>
+  	<option value="85">85</option>
+	<option value="90">90</option>
+	<option value="95">95</option>
+	<option value="100">100</option>
+	<option value="110">110</option>
+	<option value="120">120</option>
+	<option value="130">130</option>
+	<option value="140">140</option>
+	<option value="150">150</option>
+	<option value="160">160</option>
+	<option value="170">170</option>
+	<option value="180">180</option>
+	<option value="190">190</option>
+	<option value="200">200</option>
+	<option value="220">220</option>
+	<option value="240">240</option>
+	<option value="260">260</option>
+	</select>
+</td></tr>
+<tr id='tbtxtResize'><td  colspan=2>Resize:</td></tr>
+<tr id='tbtxtRotate'><td  colspan=2>Rotate Overlay:</td></tr>
+<tr id='tbaSlider'><td colspan=2><div id='a_slider' class="zoom_slider"><div class="ui-slider-handle"></div></div><input type="text" value="0" autocomplete="off" class='slider_value' /></td></tr>
+<tr id='tbBgTrans'><td colspan=2><input id="bg_trans" class="tbInput" type="checkbox">Background transparent</td></tr>
+<tr id="tbFgColor"><td class='txt'>Color:</td><td class=clrs><input id="fg_color" class='colorSlider' value="ffff00"><div id='fg_color_picker' class='colorPicker'></div></td></tr>
+<tr id="tbBgColor"><td class='txt'>Stroke:</td><td class=clrs><input id="bg_color" class='colorSlider' value="0000ff"><div id='bg_color_picker' class='colorPicker'></div></td></tr>
+<tr id='tbBgOpacity'><td  class='txt'>Set Look Through:</td><td><input id="bg_opacity" type="text" value='1' autocomplete='off'/></td></tr>
+<tr id='tbStrokeWidth'><td  class='txt'>Strokewidth:</td><td>
+<select class="tbInput" id="strokewidth">
+		<option value="0" selected>0</option>
+		<option value="2">1</option>
+		<option value="4">2</option>
+		<option value="6">3</option>
+		<option value="8">4</option>
+		<option value="10">5</option>
+		<option value="12">6</option>
+		<option value="14">7</option>
+		<option value="16">8</option>
+		<option value="18">9</option>
+		<option value="20">10</option>
+		<option value="24">11</option>
+		<option value="28">12</option>
+		<option value="32">13</option>
+	</select>
+</td></tr>
+<tr id="tbFuzz"><td class=txt>Fuzz Factor:</td><td><select  class="tbInput" id="fuzz">
+		<option value="0" >0%</option>
+		<option value="3" selected>3%</option>
+		<option value="5">5%</option>
+		<option value="7">7%</option>
+		<option value="9">9%</option>
+		<option value="11">11%</option>
+		<option value="13">13%</option>
+		<option value="15">15%</option>
+		<option value="18">18%</option>
+		<option value="23">23%</option>
+		<option value="30">30%</option>
+	</select>
+	</td>
+</tr>
+<tr id="tbStars"><td colspan=2><input type="button" id='stars' class='tbClick' style='float:right;cursor:pointer;width:auto;' value="Stars >>"></td></tr>
+<tr id="tbConvert"><td class=txt>Convert to:</td><td>
+	<select class="tbInput" id="convertTo" style="width:100px;">
+		<option value="jpg">JPG</option>
+		<option value="png" selected>PNG</option>
+		<option value="gif">GIF</option>
+		<option value="bmp">BMP</option>
+	</select></td>
+</tr>
+<tr id="font_arc" style="display: table-row;"><td class=txt>Arc</td><td>
+<span style="white-space: nowrap;"><select id="arc_val" class='tbInput' size="1"></select>
+<label><input id="arc_flip" class="tbInput" type="checkbox" value="false">&nbsp;Flip</label></span>
+</td></tr>
+<tr id="tbRotation"><td class=txt >Rotate:</td><td><select class='tbInput' id="rotation"></select></td></tr>
+<tr id="tbShadow"><td class='txt'>Shadow:</td><td class=clrs><input type="checkbox" class='tbInput show_shadow' id='show_shadow' /><input type="hidden" id="shadow_color" class='colorSlider' value="rgba(0, 0, 0, 0.7)"><input id="shadow_opacity" type="hidden" value='1'/><div id='shadow_color_picker' class='colorPicker'></div><div id='shadow_mover' class='fire'></div></td></tr>
+<tr id="tbShadowFull"><td colspan=2><input id="shadow_preview" class="tbInput" type="checkbox">Preview shadow background</td></tr>
+<tr id='tbUploadOverlay'><td colspan=2><div id="infoOverlay" class="abs">
+	<form action="https://imagehost7.online-image-editor.com/oie_upload/index_upload_file_client.php" id="OverlayUploadForm" name="OverlayUploadForm" enctype="multipart/form-data" method="post">
+		<input type="file" class="parameters" name="OverlaytoUpload" size="25" >
+	  	<input type="hidden" name="fa" value="upload_overlay_image">
+	  	<input type="hidden" name="app_server" value="https://www.online-image-editor.com/">
+	  	<input type="hidden" name="CFID" value="OIE_2019NOV_50722008_94554288"><br /><br />
+		<input id='overupload' class='right green_grad' type="submit" value="Upload">
+	</form>
+</div></td></tr>
+<tr id="tbSwap"><td>Swap</td><td><input id="swap" class="tbInput" type="checkbox"></td></tr>
+<tr id='tbOverlayTrans'><td>Overlay:</td>
+	<td><select class="tbInput" id="overlay_style" style="width:100px;">
+		<option value="overlay">On Top</option>
+		<option value="keep_trans">Keep Transparency</option>
+	</select></td></tr>
+<tr id='tbOverlayPixel'><td>Pixel Handling:</td><td><select class="tbInput" id="overlay_pixel" style="width:100px;"><option value="remove">Remove Semi Transparent</option><option value="white">Semi Transparent White</option><option value="black">Semi Transparent Black</option></select></td></tr>	
+<tr id='tbApply'><td colspan=2><input class='tbApply green_grad' type="button" value="Apply">
+<div id="tbStorage"><input type="button" id='storage' class='storage green_grad' value="Save/Restore Settings"></div>
+<input class='tbPerform gray_grad' id='btnCancel' type="button" value="Cancel"></td></tr>
+</table>
+<div id='tbAdd'><div id="banner_box"><div data-aaad='true' data-aa-adunit='/232881841/OIE_160v_2'></div></div></div>
+</div>
+<div id='line_spacing'>
+Line Spacing<br /><br />
+<input type="radio" name="line_space" id="line_space" class='tbInput' value="1.5" /><label for="space05">0.5</label><br />
+<input type="radio" name="line_space" id="line_space" class='tbInput' value="1.4" /><label for="space06">0.6</label> <br />
+<input type="radio" name="line_space" id="line_space" class='tbInput' value="1.3" /><label for="space07">0.7</label> <br />
+<input type="radio" name="line_space" id="line_space" class='tbInput' value="1.2" /><label for="space08">0.8</label> <br />
+<input type="radio" name="line_space" id="line_space" class='tbInput' value="1.1" /><label for="space09">0.9</label> <br />
+<input type="radio" name="line_space" id="line_space" class='tbInput' value="1" checked /><label for="space10">1</label> <br />
+<input type="radio" name="line_space" id="line_space" class='tbInput'  value="0.9" /><label for="space11">1.1</label> <br />
+<input type="radio" name="line_space" id="line_space" class='tbInput' value="0.8" /><label for="space12">1.2</label> <br />
+<input type="radio" name="line_space" id="line_space" class='tbInput' value="0.7" /><label for="space13">1.3</label> <br />
+<input type="radio" name="line_space" id="line_space" class='tbInput' value="0.6" /><label for="space14">1.4</label> <br />
+</div>
+<div id='txt_kerning' style='display:none;'>
+Kerning<br /><br />
+<input type="radio" name="kerning" id="kerning" class='tbInput' value="-27" /><label for="kerning05">-18%</label><br />
+<input type="radio" name="kerning" id="kerning" class='tbInput' value="-24" /><label for="kerning05">-16%</label><br />
+<input type="radio" name="kerning" id="kerning" class='tbInput' value="-21" /><label for="kerning05">-14%</label><br />
+<input type="radio" name="kerning" id="kerning" class='tbInput' value="-18" /><label for="kerning05">-12%</label><br />
+<input type="radio" name="kerning" id="kerning" class='tbInput' value="-15" /><label for="kerning05">-10%</label><br />
+<input type="radio" name="kerning" id="kerning" class='tbInput' value="-12" /><label for="kerning06">-8%</label> <br />
+<input type="radio" name="kerning" id="kerning" class='tbInput' value="-9" /><label for="kerning07">-6%</label> <br />
+<input type="radio" name="kerning" id="kerning" class='tbInput' value="-6" /><label for="kerning08">-4%</label> <br />
+<input type="radio" name="kerning" id="kerning" class='tbInput' value="-3" /><label for="kerning09">-2%</label> <br />
+<input type="radio" name="kerning" id="kerning" class='tbInput' value="0" checked /><label for="kerning0">None</label> <br />
+<input type="radio" name="kerning" id="kerning" class='tbInput'  value="3" /><label for="kerning11">2%</label> <br />
+<input type="radio" name="kerning" id="kerning" class='tbInput' value="6" /><label for="kerning12">4%</label> <br />
+<input type="radio" name="kerning" id="kerning" class='tbInput' value="9" /><label for="kerning13">6%</label> <br />
+<input type="radio" name="kerning" id="kerning" class='tbInput' value="12" /><label for="kerning14">8%</label> <br />
+</div>
+<div id='txt_symbols'>
+Add Copyright or other symbols.<br /><br />
+<table class='symbols_tbl'>
+	<tr><td id="sym" class='tbClick'>©</td><td id="sym" class='tbClick'>®</td><td id="sym" class='tbClick'>™</td><td id="sym" class='tbClick'>¿</td></tr>
+	<tr><td id="sym" class='tbClick'>♥</td><td id="sym" class='tbClick'>♦</td><td id="sym" class='tbClick'>♣</td><td id="sym" class='tbClick'>♠</td></tr>
+	<tr><td id="sym" class='tbClick'>☺</td><td id="sym" class='tbClick'>☻</td><td id="sym" class='tbClick'>♂</td><td id="sym" class='tbClick'>♀</td></tr>
+	<tr><td id="sym" class='tbClick'>♪</td><td id="sym" class='tbClick'>♫</td><td id="sym" class='tbClick'>☼</td><td id="sym" class='tbClick'>€</td></tr>
+</table>
+</div>
+<div id='txt_shadow'>
+	Set shadow type and Position.<br /><br />
+	<table>
+		<tr>
+			<td>Type:<br />
+				<select id='shadow_blur' class='tbInput'>
+					<option value='sharp'>Sharp</option>
+					<option value='hard'>Hard</option>
+					<option value='medium'>Medium</option>
+					<option value='soft'>Soft</option>
+					<option value='weak'>Weak</option>
+					<option value='delicate'>Delicate</option>
+				</select>
+			</td>
+			<td rowspan=2>
+				<div id='touchpad'><div id='touch_ball'></div></div>
+			</td>
+		</tr>
+		<tr>
+		<td id='td_shadow_fall'>Shadow Perspective:<br /><input id="shadow_fall" class='tbInput' name="value" value='0' />
+		</td>
+		</tr>
+	</table>
+</div>
+		</div>
+	<div class="main">
+		<div class="topbar">
+			<div id="topper" class="add"><div data-aaad='true' data-aa-adunit='/232881841/OIE_728v_3'></div></div>
+			<div class="language">
+<script>
+function changeLanguage(){
+	var el = document.getElementById("languageId");
+	var lang = el.options[el.selectedIndex].value;
+	var url = location.href.toLowerCase();
+	var temp = url.split('?');
+	if (temp.length <2){
+		newurl = url+'?language='+lang;
+	}
+	else
+	{
+		var url = temp[0];
+		var param = temp[1].split('&');
+		var found = false;
+		for ( var i=0, len=param.length; i<len; ++i ){
+		  var index= param[i].indexOf('language=');
+		  if (index == 0){
+			param[i] = 'language='+lang;
+		  	found = true;
+		  }
+		}
+		if (found)
+			newurl = url+'?'+param.join("&");
+		else
+			newurl = url+'?'+param.join("&")+'&language='+lang;
+	}
+	location.href = newurl;
+}
+</script>
+
+<select class="language_abs" name="languageId" id="languageId" size="1" onChange="changeLanguage()">
+	<option value="english" selected>English</option> <option value="nederlands">Nederlands</option> <option value="spanish">Spanish</option> <option value="japanese">Japanese</option> <option value="deutsch">Deutsch</option> <option value="french">French</option> <option value="polish">Polish</option> <option value="portuguese">Portuguese</option> <option value="italian">Italian</option> <option value="pycckий">Pycckий</option> 
+</select></div>
+			<div id='settings' class='tbAction'><img src="/styles/2019/images/settings.png"></div>
+				<div id="tabbar">
+					<div id="tab_basic" class="fire tab focus">Basics</div>
+					<div id="tab_wizard" class="fire tab">Advanced</div>
+					<div id="tab_2013" class="fire tab">Animation</div>
+				</div>
+				<div id="button_bar" class="buttonbar">
+		<div id='basic_btns' class="buttonrow">
+			<div class='btn fire' id='resize' >
+				<div class='icon iconresize'></div>
+				<div class=btn_txt>Resize</div>
+				<div class="explain">Move the slider to change image size or fill in the width and height</div>
+			</div>
+			<div class='btn fire' id='crop_frame'>
+				<div class='icon iconcut'></div>
+				<div class=btn_txt>Crop</div>
+				<div class="explain">Drag the red box inside the image or change values below.</div>
+			</div>
+			<div class='btn fire' id='create_text'>
+				<div class='icon iconadd_text'></div>
+				<div class=btn_txt>Add Text</div>
+				<div class="explain">Text will appear after typing. Drag text to desired position.</div>
+			</div>
+			<div class='btn fire' id='rotate_flip'>
+				<div class='icon iconflip_rotate'></div>
+				<div class=btn_txt>Rotate Flip</div>
+				<div class="explain">Click on a button to rotate or flip.</div>
+			</div>
+			<div class='btn fire' id='colour_adjustment'>
+				<div class='icon iconcolor_adjustment'></div>
+				<div class=btn_txt>Color Change</div>
+				<div class="explain">Select a button below.</div>
+			</div>
+			<div class='btn fire'  id='set_border'>
+				<div class='icon iconborder'></div>
+				<div class=btn_txt>Border</div>
+				<div class="explain">Select the type of border, the border width and the border color.</div>
+			</div>
+			<div class='btn fire' id='round_border'>
+				<div class='icon iconround_border'></div>
+				<div class=btn_txt>Round Corners</div>
+				<div class="explain">Choose the radius, thickness and color. Press apply afterwards.</div>
+			</div>
+			<div class='btn fire' id='picture_frames'>
+				<div class='icon iconframe'></div>
+				<div class=btn_txt>Photo Frame</div>
+				<div class="explain">Select a frame and drag the image to a desired position.</div>
+			</div>
+			<div class='btn fire' id='image_in_text'>
+				<div class='icon iconimg_txt'></div>
+				<div class=btn_txt>Image In Text</div>
+				<div class="explain"></div>
+			</div>
+		</div>
+		<div id="wizard_btns" class="buttonrow">
+		<div class='btn fire' id='passe_partout'>
+				<div class='icon iconmask'></div>
+				<div class=btn_txt>Vignette</div>
+				<div class="explain">Press on a passe-partout below, and choose a colour.</div>
+			</div>
+			<div class='btn fire' id='transparency'>
+				<div class='icon icondiamond'></div>
+				<div class=btn_txt>Trans-parency</div>
+				<div class="explain">Add or remove transparency.</div>
+			</div>
+			<div class='btn fire' id='overlay_image'>
+				<div class='icon iconoverlay'></div>
+				<div class=btn_txt>Overlay image</div>
+				<div class="explain">First choose your overlay image and press Apply!</div>
+			</div>
+			<div class='btn fire' id='trim_image'>
+				<div class='icon iconbtn_blob'></div>
+				<div class=btn_txt>Cut Shapes</div>
+				<div class="explain">Cut out a shape and choose blur. <b class="hilit">(blur not working on animated images)</b>.</div>
+			</div>
+			<div class='btn fire' id='speechbubble'>
+				<div class='icon iconspeechbubble'></div>
+				<div class=btn_txt>Speech Bubble</div>
+				<div class="explain"></div>
+			</div>
+			
+			<div class='btn fire' id='expand_canvas'>
+				<div class='icon icon_expand'></div>
+				<div class=btn_txt>Expand Canvas</div>
+				<div class="explain"></div>
+			</div>
+			<div class='btn fire' id='convert_image_type'>
+				<div class='icon iconconvert'></div>
+				<div class=btn_txt>Convert</div>
+				<div class="explain">Convert your image from/to:<br> PNG, GIF, BMP, JPG.</div>
+			</div>
+		</div>
+		<div id="new_btns" class="buttonrow">
+			<div class='btn fire' id='animated_mask'>
+				<div class='icon iconanimated_mask'></div>
+				<div class=btn_txt>Floaties</div>
+				<div class="explain">Click on a floatie below for a preview. When happy, press apply.</div>
+			</div>
+			<div class='btn fire' id='glitters'>
+				<div class='icon iconwizard'></div>
+				<div class=btn_txt>Add Glitters</div>
+				<div class="explain">Click inside your image to add glitters.</div>
+			</div>
+			<div class='btn fire' id='stars'>
+				<div class='icon iconwizard_star'></div>
+				<div class=btn_txt>Add Stars</div>
+				<div class="explain">Choose stars on the right. The stars will appear on your image, where you can move them around. The stars should be placed on DARK parts of the image for best results.<br><br> See the help pages for details.</div>
+			</div>
+			<div class='btn fire' id='glittertext'>
+				<div class='icon iconglittertext'></div>
+				<div class=btn_txt>Glitter Text</div>
+				<div class="explain"></div>
+			</div>
+			<div class='btn fire' id='add_flag'>
+				<div class='icon iconflag'></div>
+				<div class=btn_txt>Flags</div>
+				<div class="explain">Add scrolling flags to your image!</div>
+			</div>
+			<div class='btn fire' id='rain'>
+				<div class='icon iconrain'></div>
+				<div class=btn_txt>Rain</div>
+				<div class="explain"></div>
+			</div>
+			<div class='btn fire' id='gif_only'>
+				<div class='icon icongif_only'></div>
+				<div class=btn_txt>GIF ONLY</div>
+				<div class="explain">Below functions are for animated Gifs only!!!</div>
+			</div>
+		</div>
+		<div id='other2_btns'>
+			<div class='btn_wrapper' style="left:0px;">
+				<div class="fire btn_up" id='animation_generator'>
+					<div class='icon icon_up iconanimation'></div>
+					<div class="btn_txt_up btn_txt">Animation</div>
+					<div class="explain">Upload below your separate frames. When all done, press Apply to create your animation.</div>
+				</div>
+				<div class="fire btn_low" id='add_to_animation'>
+					<div class="btn_txt_low">Add Frame<br>Current&nbsp;<font id=frame_count>0</font></div>
+				</div>
+			</div>
+			<div class='fire btn' id='help_pages'>
+				<div class='icon iconhelp'></div>
+				<div class=btn_txt>Help</div>
+				<div class="explain">Showing the help pages.</div>
+			</div>
+		</div>
+</div>
+			</div>
+			<div id='cover'></div>
+			<div id="canvas" class="chkr_m_gr">
+				<div id="imgInfo">&nbsp;width:<font id='infow'>0</font>px  &nbsp;height:<font id='infoh'>0</font>px  &nbsp;size:<font id='infos'>0</font> &nbsp;<font id='infocolors'>colors:<font id='infoc'>0</font></font></div>
+				<div id='textDiv'><img id='textLayer' src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></div>
+				<div id='imgDiv' class='locked'><img id='img' src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></div>
+			</div>
+			<div id="bottomer" class='add'><div data-aaad='true' data-aa-adunit='/232881841/OIE_728v_4'></div></div>
+<div id='blocked'><div class='inner_block'>You're using an AdBlocker! Thanks to advertising, we can offer this site for free. Would you please make an exception for us? Thank you very much.</div></div>
+<footer>© Marcel | 
+	<a href="https://www.online-image-editor.com//help/contact_info" target="_blank" class="footer">Contact Me</a> |
+	<a href="#" class="bkmrk">Bookmark Me</a> | 
+	<a href="https://www.online-image-editor.com//help/privacy_policy" class="footer">Privacy Policy</a> |
+	<a href="https://www.online-image-editor.com//help/api" class="footer">API</a></footer>
+</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="./js/jquery/3.4.1/jquery.min.js"><\/script><script src="./js/jquery/1.12.1/jquery-ui.min.js"><\/script><link rel="stylesheet" type="text/css" href="./js/jquery/1.12.1/jquery-ui.css" />');
+	</script>	
+	<script type="text/javascript" src="./js/jquery.class.min.js"></script>
+	
+	<script type="text/javascript" src="./js/jquery.colorbox-min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./styles/colorbox.min.css" />
+	
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.min.css">
+	
+    <script type="text/javascript" src="./js/jquery.form.min.js"></script>
+
+	<script type="text/javascript" src="./js/app.2021a.min.js"></script>
+
+	<script type="text/javascript">
+		
+		var data = {"images":[{"colors":0,"frames":1,"size":"12.42  KB","width":144,"height":200,"isTransparent":false,"url":"https:\/\/imagehost7.online-image-editor.com\/oie_upload\/images\/15183338l0l8z40\/zPWgmFzCtlpl.jpg"}],"totals":3,"index":3}
+		$(document).ready(function(){ app = new application('https://www.online-image-editor.com/');})
+	</script>
+	<script>
+	function loadStyleFix(){
+	if('connection' in navigator){
+		if(navigator.connection.saveData){
+			$('html > head').append($('<style>#wrapper img, #overlay img { border:1px solid rgba(0, 0, 0, 0); }</style>'));
+		}}};
+	function loadSocial() {
+    // Facebook like button
+    jQuery.getScript('//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=177738572280613', function () {
+        FB.init({ appId: '177738572280613', status: false, cookie: true, oauth	: true, xfbml: true,version: 'v4.0' });
+    });}
+	$(document).ready(function(){
+	loadStyleFix();
+    loadSocial();
+	app.adsBlocked();
+	});
+</script>
+</body>
+
+</html>
