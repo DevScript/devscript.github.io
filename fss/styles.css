@@ -581,9 +581,8 @@ margin:50px auto
     overflow-x: hidden;
     overflow-y: hidden;
     white-space: nowrap;
-    margin-left: 4%;
     margin-bottom: 2%;
-    padding: 1%;
+
   }
   .ThemeName>img{
       width:100%;
@@ -598,7 +597,7 @@ margin:50px auto
   .ThemeCard {
     top: 0;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-left: 10px;
     position: relative;
     background-color: rgb(0, 0, 0);
@@ -827,7 +826,7 @@ margin:50px auto
 
 footer{
   margin-top:5rem;
-  height:70vh;
+  
   width:100%;
 }
 
