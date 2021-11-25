@@ -937,10 +937,259 @@ margin-bottom: 8px;
 }
 }
 
-
 .text{
 font-size:2rem;
 }
+
+/*-----------sponsor-section-------------------*/
+/* .heading{
+  display:flex;
+  flex-direction: row-reverse;
+  align-items:center;
+  background: transparent;
+}
+.heading1{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  background: transparent;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(GameOfSquids-1GMVL.ttf);
+}
+.title{
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 10px 10px 10px 10px;
+  color: #e22ea6; 
+  font-family: myFirstFont;
+  text-shadow: 1px 1px #ffffff, 
+                2px 2px #ffffff, 
+                3px 3px #ffffff;
+  margin-top: 20px;
+  background-color:transparent;
+}
+
+.title::before{
+  content:"";
+  color:beige;
+  padding-right: 5px;
+  transform: scale(2);
+}
+
+.title::after{
+  content:"";
+  color:beige;
+  transform: scale(2);
+}
+
+.title:hover {
+position: relative; 
+top: -3px; 
+left: -3px; 
+text-shadow: 1px 1px #ffffff, 
+             2px 2px #ffffff, 
+             3px 3px #ffffff, 
+             4px 4px #ffffff, 
+             5px 5px #ffffff, 
+             6px 6px #ffffff;
+}
+
+.line1{
+  margin-top: 20px;
+  width:10%;
+  height: 2px;
+  background-color: #fff;
+box-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #0fa,
+  0 0 82px #0fa,
+  0 0 92px #0fa,
+  0 0 102px #0fa,
+  0 0 151px #0fa;
+}
+
+.line2{
+  margin-top: 20px;
+  width:57%;
+  height: 2px;
+  background-color: #fff;
+box-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #0fa,
+  0 0 82px #0fa,
+  0 0 92px #0fa,
+  0 0 102px #0fa,
+  0 0 151px #0fa;
+}
+
+.line{
+  margin-top: 20px;
+  width:40%;
+  height: 2px;
+  background-color: #fff;
+box-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #0fa,
+  0 0 82px #0fa,
+  0 0 92px #0fa,
+  0 0 102px #0fa,
+  0 0 151px #0fa;
+}
+
+.line3{
+  margin-top: 20px;
+  width:40%;
+  height: 2px;
+  background-color: #fff;
+box-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #0fa,
+  0 0 82px #0fa,
+  0 0 92px #0fa,
+  0 0 102px #0fa,
+  0 0 151px #0fa;
+}
+
+.line4{
+  margin-top: 20px;
+  width:10%;
+  height: 2px;
+  background-color: #fff;
+box-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #0fa,
+  0 0 82px #0fa,
+  0 0 92px #0fa,
+  0 0 102px #0fa,
+  0 0 151px #0fa;
+}
+.maker{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  padding:50px 0;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.Trailblazer{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  padding-top:50px;
+  place-items: center;
+  row-gap: 5rem;
+}
+.Visionary{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  padding:50px 0;
+  place-items: center;
+}
+.title-sponsor{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  padding:50px 0;
+  place-items: center;
+}
+.sponsor-div>a>img{
+  width:100%;
+  height:100%;
+  background-color:#090910;
+}
+.sponsor-div1>a>img{
+  width:100%;
+  height:100%;
+  background-color:#090910;
+}
+.sponsor-div2>a>img{
+  width:100%;
+  height:100%;
+  background-color:#090910;
+}
+.sponsor-div{
+  width:60%;
+  place-self: center;
+  height:150px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.sponsor-div1{
+  width:60%;
+  place-self: center;
+  height:100px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.sponsor-div2{
+  width:60%;
+  place-self: center;
+  height:125px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+@media screen and (max-width: 600px) {
+  .Trailblazer{
+      padding: 0;
+      grid-template-columns: 1fr 1fr;
+      gap:0;
+  }
+  .Visionary{
+      padding: 0;
+  }
+  .title-sponsor{
+      padding:0;
+  }
+  .sponsor-div2{
+      padding:15%;
+      width:100%;
+      height: 20vh;
+  }
+  .sponsor-div1{
+      padding:15%;
+      width:100%;
+      height: 20vh;
+  }
+  .sponsor-div{
+      padding:15%;
+      width:100%;
+      height: 20vh;
+  }
+  .title{
+      font-size: 2rem;
+  }
+  .maker{
+      padding:0;
+      grid-template-columns:1fr 1fr;
+  }
+  .line4{
+      width:10%;
+  }
+  .line3{
+      width:30%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .line4{
+      width:5%;
+  }
+  .line3{
+      width:4%;
+  }
+} */
+
+
 
 
 
