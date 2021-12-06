@@ -346,9 +346,11 @@
     margin-bottom: 5%;
 }
 .hero-div-2>p{
-  font-family: myFirstFont;
+  text-align:center;
+  font-family: myfirstfont;
   font-size: 1.5rem;
   color: #f44786;
+  font-weight: 600;
 }
 .register-p{
     font-size:1.1rem;
@@ -384,10 +386,7 @@
 .reg-anchor{
     margin-left:30%;
 }
-.reg-anchor:hover{
-  margin-left:31%;
-  transform: scale(1.01);
-}
+
 .arrow-img{
 width:100%;
 }
@@ -396,7 +395,7 @@ width:250px;
 float: right;
 margin-right:22%;
 margin-top: -3%;
-transform: scale(0.6);
+transform: scale(0.5);
 }
 .arrow-txt{
 text-align: center;
