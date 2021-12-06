@@ -20,7 +20,6 @@
     background-color: #090910;
     overflow-x: hidden;
     transition: 0.5s;
-    overflow-x: hidden;
   }
   
 
@@ -166,7 +165,11 @@
       justify-content:space-between;
       align-items: center;
   }
-
+  
+  .nav__item>li:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+  }
   ul{
       text-decoration: none;
   }
@@ -767,11 +770,13 @@ section{
   padding-top:5%;
 }
 
-footer{
+.footer-main{
   margin-top:5rem;
   width:100%;
 }
-
+.footer-team{
+  width:100%;
+}
 #contact a {
   color: black;
   margin: 10px;
@@ -1265,6 +1270,171 @@ box-shadow:
 .faq2{
   width:50%;
 }
+
+
+/*---------------------team-------------------------*/
+
+a{
+  text-decoration: none;
+}
+
+#member-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 180px;
+  color: #fff;
+  margin: 0px;
+}
+    
+.team_section{
+  width: 90%;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  background-color: transparent;
+}
+
+@media screen and (max-width:1020px){
+.team-list {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}
+
+@media screen and (max-width:730px){
+.team-list {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+
+#team-image{
+   height: 125px;
+   width:125px;
+   background-position: center;
+   background-size: cover;
+   object-fit: cover;
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+
+.image-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top:2px;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.image-div:hover {
+  transform: scale(1.1);
+  -webkit-animation-name: color-transition;
+animation-name: color-transition;
+-webkit-animation-duration: 5s;
+animation-duration: 5s;
+-webkit-animation-direction: alternate;
+animation-direction: alternate;
+-webkit-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+animation-timing-function: linear;
+margin-bottom: 10px;
+}
+#member-name {
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(255, 0, 179);
+}
+
+#member-role {
+  color: #fff;
+  font-size: 15px;
+  margin-top:10px;
+  text-align: center;
+}
+
+.socials{
+  display: flex;
+  flex-direction: row;
+  column-gap:20px;
+  margin-top: 10px;
+}
+
+i{
+  color:aliceblue;
+}
+
+
+.scale-up-center {
+-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@media screen and (max-width: 500px){
+.team-list {
+    grid-template-columns: 1fr 1fr;
+}
+#member-card{
+    margin:0px;
+    width:100px;
+    height:220px;
+    transform: scale(0.8);
+}
+.image-div{
+  transform: scale(0.8);
+}
+.socials{
+  column-gap: 10px;
+}
+ }
+
+@keyframes color-transition {
+0% {
+  background-color: #f549d0;
+  border-color: #4C6085;
+}
+33% {
+  background-color: #20f366;
+  border-color: #80D39B;
+}
+66% {
+  background-color: #e61e1e;
+  border-color: #BE3E82;
+}
+100% {
+  background-color: #4C6085;
+  border-color: #4C6085;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------mobile view-------------------------*/
 @media screen and (max-width: 550px) {
   .hero{
     flex-direction: column;
