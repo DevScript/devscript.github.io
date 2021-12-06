@@ -1232,7 +1232,7 @@ box-shadow:
   text-align: left;
   outline: none;
   font-size: 1.1rem;
-  transition: 0.4s;
+  transition: 0.2s;
   margin: 10px auto;
   margin-left: 18px;
   color: white;
@@ -1254,7 +1254,17 @@ box-shadow:
   letter-spacing: 1px;
 }
 
+.faq-main{
+  display: flex;
+  flex-direction: row;
+}
 
+.faq1{
+  width:50%;
+}
+.faq2{
+  width:50%;
+}
 @media screen and (max-width: 550px) {
   .hero{
     flex-direction: column;
@@ -1357,6 +1367,15 @@ box-shadow:
 .panel{
   width:90%;
   line-height:20px;
+}
+.faq-main{
+  flex-direction: column;
+}
+.faq1{
+  width:100%;
+}
+.faq2{
+  width:100%;
 }
 }
 
