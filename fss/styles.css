@@ -399,6 +399,8 @@ transform: scale(0.6);
 text-align: center;
 margin-left: 10%;
 color:#E4C68B;
+font-family: 'Kaushan Script', cursive;
+letter-spacing: 2px;
 }
 .overlap-img{
   position: relative;
@@ -506,13 +508,14 @@ section{
 }
 
 @media(max-width: 900px){
-    section{
+    #about{
+        margin-top:30%;
         grid-template-columns: 1fr 1fr;
         width: 100%;
         border-radius: none;
     }
     .image{
-        height: 75vh;
+        height: 55vh;
         border-radius: none;
         
     }
