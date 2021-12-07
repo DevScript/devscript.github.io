@@ -79,7 +79,14 @@
       align-items: center;
       flex-direction: column;
   }
-  
+  .mobile__navbar__items>ul>a>li{
+    font-weight: 600;
+    font-size: 1.25rem;
+    font-family:myfirstfont;
+  }
+  .mobile__navbar__items > ul>a>li:active{
+    color:#f44786;
+  }
 
   .social-icons-list{
       display: flex;
@@ -448,7 +455,7 @@ section{
   
     display: flex;
     border-radius: 12px 0 0 12px;
-    margin:50px auto
+    margin:50px auto;
 }
 .image img{
   height:50vh;
@@ -1225,7 +1232,16 @@ box-shadow:
 
 
 /*---------------------faq-------------------------*/
-
+.faq-title{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 11%;
+  margin-top: 2rem;
+}
+.faq-title-image{
+  width:100%;
+}
 .accordion {
   background-color: #ed1b76;
   color: black;
@@ -1545,6 +1561,9 @@ i{
 }
 .faq2{
   width:100%;
+}
+.faq-title{
+  width:19%;
 }
 }
 
