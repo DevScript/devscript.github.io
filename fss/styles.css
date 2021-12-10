@@ -755,7 +755,13 @@ section{
   
 
 /*----------------footer-------------*/
+.devscript-img{
+  width:100%;
+  background-color: transparent;
+}
+
 .footer-txt{
+  position: relative;
   display:flex;
   justify-content:space-evenly;
   flex-direction: row;
@@ -775,7 +781,12 @@ section{
   background:transparent;
   padding-top:5%;
 }
-
+.devscript-logo{
+  position: absolute;
+  width:20%;
+  background-color: transparent;
+  transform: translateY(-170%);
+}
 .footer-main{
   margin-top:5rem;
   width:100%;
@@ -1260,7 +1271,7 @@ box-shadow:
   border-radius: 5px;
 }
 
-.active, .accordion:hover {
+.accordion:hover {
   background-color: #ccc; 
   color:black;
 }
@@ -1285,7 +1296,9 @@ box-shadow:
 .faq2{
   width:50%;
 }
-
+#faq{
+  padding:15px;
+}
 
 /*---------------------team-------------------------*/
 
@@ -1530,10 +1543,7 @@ i{
   .sponsor_section{
     margin-top: 3rem;
   }
-  .footer-figure{
-    visibility: hidden;
-    display: none;
-  }
+  
   #contact{
     margin-right:18%;
   }
@@ -1566,7 +1576,25 @@ i{
   width:19%;
 }
 }
-
+@media screen and (max-width:1200px) {
+  .devscript-logo{
+    transform: translateY(-250%);
+  }
+}
+@media screen and (max-width:900px) {
+  .devscript-logo{
+    transform: translateY(-300%);
+  }
+}
+@media screen and (max-width: 750px){
+  .devscript-logo{
+    display: none;
+  }
+  .footer-figure{
+    visibility: hidden;
+    display: none;
+  }
+}
 @media screen and (max-width: 1250px) {
   .footer-figure{
     padding-top: 6%;
