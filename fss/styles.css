@@ -993,7 +993,7 @@ font-size:2rem;
 }
 
 /*-----------sponsor-section-------------------*/
-/* .heading{
+.heading{
   display:flex;
   flex-direction: row-reverse;
   align-items:center;
@@ -1128,7 +1128,7 @@ box-shadow:
 }
 .maker{
   display:grid;
-  grid-template-columns:1fr 1fr 1fr 1fr;
+  /* grid-template-columns:1fr 1fr 1fr 1fr; */
   padding:50px 0;
   place-items: center;
   justify-content: center;
@@ -1238,7 +1238,7 @@ box-shadow:
   .line3{
       width:4%;
   }
-} */
+}
 
 
 
