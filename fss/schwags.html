@@ -1,0 +1,324 @@
+
+<html lang="en">
+
+    <head>
+        <title>CSS Cards</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" rel="stylesheet">  
+        
+        <style>
+         body{
+                background-color: #000000;
+            }
+            .contest-title>img{
+                width: 100%;
+            }
+            .contest-title{
+                margin:20px auto;
+                width:30%;
+            }
+            .card-category-2{
+                display: flex;
+                flex-direction:row;
+                gap: 50px;
+                justify-content:center;
+                padding:50px;
+                flex-wrap: wrap;
+            }
+
+            /* Image Card */
+            .img-card {
+            width:260px;
+            position: relative;
+            border-radius: 5px;
+            text-align: left;
+            background-color:black;
+            box-shadow: 0px 5px 5px 0px rgba(255, 255, 255, 0.3);        
+            }
+
+            .img-card .card-image {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 5px 5px 0px 0px;
+            height: 180px;
+            }
+
+            .img-card .card-image img {
+            width:100%;
+            height: 100%;
+            border-radius: 5px 5px 0px 0px;
+            transition: all 0.8s;
+            }
+
+            .img-card .card-image:hover img {
+            transform: scale(1.1);
+            }        
+
+            .img-card .card-text {
+            padding: 10px 15px 15px;
+            line-height: 1.5;   
+            }
+
+            .img-card .card-link {
+            text-align: center;
+            padding:0px 0px 20px;
+            width: -webkit-fill-available;
+            }
+
+            .img-card .card-link a {
+            text-decoration: none;
+            position: relative;
+            padding: 10px 0;
+            font-size: 1.25rem;
+            }
+
+            .img-card .card-link a:after {
+            top: 32px;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            width: 0;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            }
+
+            .img-card .card-link a:hover:after { 
+            width: 100%; 
+            left: 0; 
+            }        
+
+            .img-card.iCard-style1 .card-title {
+            position: absolute;
+            font-family: 'Open Sans', sans-serif;
+            z-index: 1;
+            top: 10px;
+            left: 10px;
+            font-size: 30px;
+            color: #fff;
+            }
+
+            .img-card.iCard-style1 .card-text {            
+            color: #ffffff;
+            }
+
+            .img-card.iCard-style1 .card-link a {
+            color: #ff05ff;                
+            }
+
+            .img-card.iCard-style1 .card-link a:after {            
+            background: #ff05ff;
+            }
+            .categories{
+                margin-top:5rem;
+                font-size:1.3rem;
+            }
+            @media screen and (max-width: 500px) {
+                .contest-title{
+                    width:60%;
+                    margin-bottom: 0;
+                }
+                .card-category-2{
+                flex-direction:column;
+                align-items: center;
+                }
+                .categories{
+                    margin:0;
+                }
+                }
+                .top_sec{
+                display:flex;
+                flex-direction: row;
+                margin:30px 0;
+                }
+
+            .content{
+                width:50%;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-left:5rem;
+            }
+            .leaderboard{
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                gap:20px;
+                width:50%;
+            }
+            @font-face {
+                font-family: myFirstFont;
+                src: url(./GameOfSquids-1GMVL.ttf);
+            }
+
+            h1{
+                color: #ffffff;
+                text-align: center;
+                font-family: myFirstFont;
+            }
+
+            @media screen and (max-width: 700px) {
+            .top_sec{
+                flex-direction: column;
+            }
+            .content{
+                width:100%;
+                padding-left: 0;
+            } 
+            .leaderboard{
+                width:100%;
+            }
+            iframe{
+                width:90%;
+            }
+            .register-p{
+                align-items: center;
+                vertical-align: middle;
+                padding:10px 30px;
+                margin-bottom:20px;
+                text-align: center;
+                letter-spacing: 1px;
+            }
+            }
+            .register-p{
+                font-size:1.25rem;
+                font-weight:500;
+                color: rgb(255, 255, 255);
+                text-align:center;
+                line-height:1.5;
+                letter-spacing: 2px;
+            }
+            
+        </style>
+        
+    </head>
+
+    <body>
+        <div class="contest-title">
+            <img src="https://fontmeme.com/permalink/211222/b0378fccb3741c3e9e65a674e64cfd3d.png" >
+         </div>
+        <div class="top_sec">
+            <div class="content">
+                <p class="register-p">DevScript presents you the most eminent platform and an exhilarating experience through Full Stack Squared to learn from the industry leaders why their services are the topmost in the business!</p>
+                <p class="register-p">In this rapidly emerging full stack world, gaining excellence is all about what makes your web application finer than the ones already present. The way to achieve this is by choosing the best supporting services. </p>
+            </div>
+            <div class="leaderboard">
+                    <div><h1>Leaderboard</h1></div>
+                    <div class="table">
+                        <iframe src="https://onedrive.live.com/embed?cid=3909301B098A2F63&resid=3909301B098A2F63%211550&authkey=AER4xHeoiEVXE2M&em=2" width="402" height="346" frameborder="0" scrolling="no"></iframe>
+                    </div>
+            </div>
+        </div>
+
+        <div class="categories"><h1>Categories</h1></div>
+
+        <!-- Image Cards -->
+        <div class="card-category-2">
+                    <div class="img-card iCard-style1">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <span class="card-title">Cloud Beauty</span>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSFVZ8GHlqT0CZp1pH6YR_Hbgex_SUDiSQkA&usqp=CAU"/>
+                            </div>
+                            
+                            <div class="card-text">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Image by Pixabay</a>
+                                </p>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="card-link">
+                            <a href="#" ><span>Register</span></a>
+                        </div>
+                    </div>  
+                    <div class="img-card iCard-style1">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <span class="card-title">Cloud Beauty</span>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSFVZ8GHlqT0CZp1pH6YR_Hbgex_SUDiSQkA&usqp=CAU"/>
+                            </div>
+                            
+                            <div class="card-text">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Image by Pixabay</a>
+                                </p>
+                            </div>
+                            
+                           </div>
+                        
+                        <div class="card-link">
+                            <a href="#" ><span>Register</span></a>
+                        </div>
+                    </div>
+                    <div class="img-card iCard-style1">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <span class="card-title">Cloud Beauty</span>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSFVZ8GHlqT0CZp1pH6YR_Hbgex_SUDiSQkA&usqp=CAU"/>
+                            </div>
+                            
+                            <div class="card-text">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Image by Pixabay</a>
+                                </p>
+                            </div>
+                            
+                           </div>
+                        
+                        <div class="card-link">
+                            <a href="#" ><span>Register</span></a>
+                        </div>
+                    </div>
+                    <div class="img-card iCard-style1">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <span class="card-title">Cloud Beauty</span>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSFVZ8GHlqT0CZp1pH6YR_Hbgex_SUDiSQkA&usqp=CAU"/>
+                            </div>
+                            
+                            <div class="card-text">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Image by Pixabay</a>
+                                </p>
+                            </div>
+                            
+                           </div>
+                        
+                        <div class="card-link">
+                            <a href="#" ><span>Register</span></a>
+                        </div>
+                    </div>
+                    <div class="img-card iCard-style1">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <span class="card-title">Cloud Beauty</span>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSFVZ8GHlqT0CZp1pH6YR_Hbgex_SUDiSQkA&usqp=CAU"/>
+                            </div>
+                            
+                            <div class="card-text">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Image by Pixabay</a>
+                                </p>
+                            </div>
+                            
+                           </div>
+                        
+                        <div class="card-link">
+                            <a href="#" ><span>Register</span></a>
+                        </div>
+                    </div>
+                                    
+        </div>
+         
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -68,3 +68,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
+function showText(toggleText) {
+  toggleText.classList.toggle("active");
+}
