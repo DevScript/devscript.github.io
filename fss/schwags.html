@@ -8,10 +8,31 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" rel="stylesheet">  
-        
+        <meta property="og:image" content="./images/hero-img.png">
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:title" content="Full Stack Squared" />
+        <meta property="og:url" content="https://devscript.org/fss/" />
+        <meta property="og:description" content="DevScript presents you the most eminent platform and an exhilarating experience through Full Stack Squared to learn from the industry leaders why their services are the topmost in the business!"/>  
+        <link rel="icon" href="./images/Devscript FSS Logo - Transparent.png">
+        <link rel="shortcut icon" type="image/png" href="./images/Devscript FSS Logo - Transparent.png">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="schwags.css" rel="stylesheet"/>
         <style>
+            
          body{
-                background-color: #000000;
+                background-color: #090910;
             }
             .contest-title>img{
                 width: 100%;
@@ -35,7 +56,7 @@
             position: relative;
             border-radius: 5px;
             text-align: left;
-            background-color:black;
+            background-color: #090910;
             box-shadow: 0px 5px 5px 0px rgba(255, 255, 255, 0.3);        
             }
 
@@ -99,6 +120,7 @@
             z-index: 1;
             top: 10px;
             left: 10px;
+            background-color: transparent;
             font-size: 30px;
             color: #fff;
             }
@@ -201,6 +223,114 @@
     </head>
 
     <body>
+
+        <header>
+            <nav class="navbar">
+              <div class="navbar__brand">
+                <img src="images/logo.svg" alt="logo" class="navbar__brand" />
+              </div>
+              <div class="navbar__nav__items">
+                <button
+                class="button__primary hamburger__menu mobile__only"
+                id="hamburgermenu"
+              >
+                <div></div>
+                <div></div>
+                <div></div>
+              </button>
+                <div class="nav__item hide__mobile">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                </div>
+                <div class="nav__item hide__mobile">
+                    <li>
+                      <a href="index.html#about">About</a>
+                    </li>
+                </div>
+                <!-- <div class="nav__item hide__mobile">
+                    <li>
+                      <a href="#">Schedule</a>
+                    </li>
+                </div> -->
+                <div class="nav__item hide__mobile">
+                  <li>
+                    <a href="index.html#theme">Themes</a>
+                  </li>
+              </div>
+              <div class="nav__item hide__mobile">
+                <li>
+                  <a href="index.html#contest-section">Contest</a>
+                </li>
+              </div>
+                <div class="nav__item hide__mobile">
+                    <li>
+                    <a href="index.html#sponsor">Sponsor</a>
+                    </li>
+                </div>
+                <!-- <div class="nav__item hide__mobile">
+                    <li>
+                    <a href="#">Speaker</a>
+                    </li>
+                </div> -->
+                <div class="nav__item hide__mobile">
+                    <li>
+                    <a href="#">Team</a>
+                    </li>
+                </div>
+                <div class="nav__item hide__mobile">
+                  <li>
+                  <a href="index.html#faq">Faq</a>
+                  </li>
+              </div>
+            </div>
+              
+              <div class="social-icons hide__mobile">
+                <ul class="social-icons-list">
+                    <li>
+                      <a target="_blank" href="https://github.com/DevScript">
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://twitter.com/The_DevScript">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://www.youtube.com/c/devscript">
+                        <i class="fab fa-youtube"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://www.linkedin.com/company/devscripts">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://www.instagram.com/the_devscript/">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+              </div>
+            </nav>
+            <div class="mobile__navbar__items mobile__only hamburger__menu__close">
+              <ul>
+                <a href="index.html"><li class="nav__item">Home</li></a>
+                <a href="index.html#about"><li class="nav__item">About</li></a>
+                <a href="index.html#theme"><li class="nav__item">Themes</li></a>
+                <!-- <a><li class="nav__item">Schedule</li></a> -->
+                <a href="index.html#contest-section"><li class="nav__item">Contest</li></a>
+                <a href="index.html#sponsor"><li class="nav__item">Sponsor</li></a>
+                <!-- <a><li class="nav__item">Speaker</li></a> -->
+                <a><li class="nav__item">Team</li></a>
+                <a href="index.html#faq"><li class="nav__item">Faq</li></a>
+              </ul>
+      
+            </div>
+          </header>
+
         <div class="contest-title">
             <img src="https://fontmeme.com/permalink/211222/b0378fccb3741c3e9e65a674e64cfd3d.png" >
          </div>
@@ -319,6 +449,50 @@
                                     
         </div>
          
-        <script src="index.js"></script>
+        <footer class="footer-team">
+            <div class="footer-txt">
+              <div id="contact">
+                <ul>
+                  <div id="icon-container">
+                    <a target="_blank" href="https://twitter.com/The_DevScript">
+                      <div id="icon">
+                        <li><i class="fab fa-twitter"></i></li>
+                      </div>
+                    </a>
+                    <a target="_blank" href="https://instagram.com/the_devscript/">
+                      <div id="icon">
+                        <li><i class="fab fa-instagram"></i></li>
+                      </div>
+                    </a>
+                    <a target="_blank" href="https://www.youtube.com/c/devscript">
+                      <div id="icon">
+                        <li><i class="fab fa-youtube"></i></li>
+                      </div>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/company/devscripts">
+                      <div id="icon">
+                        <li><i class="fab fa-linkedin-in"></i></li>
+                      </div>
+                    </a>
+                    <a target="_blank" href="https://github.com/DevScript">
+                      <div id="icon">
+                        <li><i class="fab fa-github"></i></li>
+                      </div>
+                  </div></a>
+                </ul>
+                <p>&copy 2020-2021, Devscript</p>
+              </div>
+                <div class="footer-figure">
+                  <img src="images/final1.png" class="footer-figure-image">
+                </div>
+            </div>
+          </footer>    
+
+
+          <script src="script.js"></script>
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script>
+          AOS.init();
+          </script>
     </body>
 </html>
