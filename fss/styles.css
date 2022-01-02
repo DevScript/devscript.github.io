@@ -1218,6 +1218,10 @@ box-shadow:
   .title{
       font-size: 2rem;
   }
+  .jaipur{
+    transform: scale(1.5);
+    width:75%;
+  }
   .maker{
       padding:0;
       grid-template-columns:1fr 1fr;
