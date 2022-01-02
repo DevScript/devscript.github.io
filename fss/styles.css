@@ -396,6 +396,7 @@
 
 .arrow-img{
 width:100%;
+background:transparent;
 }
 .arrow-div{
 width:250px;    
@@ -403,6 +404,7 @@ float: right;
 margin-right:22%;
 margin-top: -3%;
 transform: scale(0.5);
+background:transparent;
 }
 .arrow-txt{
 text-align: center;
@@ -444,21 +446,19 @@ letter-spacing: 2px;
 
 section{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     min-height: 60vh;
     width: 100%;
     margin: 20px auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: none
 }
 .image{
-  
     display: flex;
     border-radius: 12px 0 0 12px;
     margin:50px auto;
 }
 .image img{
-  height:50vh;
+  height:70vh;
 }
 .content{
     background-color: #090910;
@@ -523,7 +523,7 @@ section{
         width: 100%;
         border-radius: none;
     }
-    .image{
+    .image img{
         height: 55vh;
         border-radius: none;
         
@@ -542,6 +542,7 @@ section{
     }
     .content p{
         font-size: 14px;
+        width: 80%;
     }
     .links li a{
         font-size: 14px;
@@ -589,7 +590,7 @@ section{
     padding:20px;
   }
   .resp-img{
-      width:70%;
+      width:50%;
   }
   
 /*--------------------------Theme--------------------------*/
@@ -623,9 +624,7 @@ section{
       width:100%;
   }
   .ThemeName {
-    padding: 1%;
-    padding-bottom: 2%;
-    margin-top: 2%;
+    margin-bottom: 3%;
     width:30%;
   }
   
@@ -1128,7 +1127,7 @@ box-shadow:
 }
 .maker{
   display:grid;
-  /* grid-template-columns:1fr 1fr 1fr 1fr; */
+  grid-template-columns:1fr 1fr 1fr 1fr;
   padding:50px 0;
   place-items: center;
   justify-content: center;
@@ -1350,6 +1349,8 @@ a{
    background-position: center;
    background-size: cover;
    object-fit: cover;
+   background-position: center;
+   background-size: cover;
   height: 115px;
   width: 115px;
   border-radius: 50%;
@@ -1525,17 +1526,24 @@ i{
     margin-top:30%;
     padding-top:20px;
   }
-  .image{
+  .image img{
     height:50vh;
   }
+  .image{
+    margin-bottom: 0;
+  }
+  .resp-img{
+    width:65%;
+  }
   .content{
-    height:55vh;
+    
   }
   .ThemeContainer{
     overflow-x: scroll;
   }
   .ThemeName{
     width:50%;
+    margin-bottom:5%;
   }
   .sponsor-image{
     width:60%;
@@ -1598,5 +1606,112 @@ i{
 @media screen and (max-width: 1250px) {
   .footer-figure{
     padding-top: 6%;
+  }
+}
+
+
+
+
+
+.new-btn{
+  position: relative;
+  display: inline-block;
+  padding: 25px 30px;
+  margin: 40px 0;
+  color: #03e9f4;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+  width:20%;
+ 
+}
+.new-btn:hover{
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.new-btn:nth-child(1){
+  filter: hue-rotate(270deg);
+}
+.new-btn:nth-child(2){
+  filter: hue-rotate(110deg);
+}
+.new-btn span{
+  position: absolute;
+  display: block;
+}
+.new-btn span:nth-child(1){
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#03e9f4);
+  animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+  0%{
+      left: -100%;
+  }
+  50%,100%{
+      left: 100%;
+  }
+}
+.new-btn span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#03e9f4);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes animate2{
+  0%{
+      top: -100%;
+  }
+  50%,100%{
+      top: 100%;
+  }
+}
+.new-btn span:nth-child(3){
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#03e9f4);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.50s;
+}
+@keyframes animate3{
+  0%{
+      right: -100%;
+  }
+  50%,100%{
+      right: 100%;
+  }
+}
+
+
+.new-btn span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#03e9f4);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes animate4{
+  0%{
+      bottom: -100%;
+  }
+  50%,100%{
+      bottom: 100%;
   }
 }
