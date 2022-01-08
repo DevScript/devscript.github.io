@@ -36,10 +36,10 @@
 /* Image Card */
 .img-card {
 width:260px;
-position: relative;
+height:100%;
 border-radius: 5px;
-text-align: left;
-background-color: #090910;
+
+background-color: transparent;
 box-shadow: 0px 5px 5px 0px rgba(255, 255, 255, 0.3);        
 }
 
@@ -49,7 +49,7 @@ margin: auto;
 width: 100%;
 overflow: hidden;
 border-radius: 5px 5px 0px 0px;
-height: 180px;
+
 }
 
 .img-card .card-image img {
@@ -67,45 +67,28 @@ transform: scale(1.1);
 padding: 10px 15px 15px;
 line-height: 1.5;   
 }
-
+.card-text>p{
+    font-size:1.05rem;
+    color: #ffffff;
+}
 .img-card .card-link {
 text-align: center;
-padding:0px 0px 20px;
-width: -webkit-fill-available;
+margin-bottom :20px;
+font-size:1.25rem;
 }
 
-.img-card .card-link a {
-text-decoration: none;
-position: relative;
-padding: 10px 0;
-font-size: 1.25rem;
-}
 
-.img-card .card-link a:after {
-top: 32px;
-content: "";
-display: block;
-height: 2px;
-left: 50%;
-position: absolute;
-width: 0;
-transition: width 0.3s ease 0s, left 0.3s ease 0s;
-}
 
-.img-card .card-link a:hover:after { 
-width: 100%; 
-left: 0; 
-}        
+      
 
 .img-card.iCard-style1 .card-title {
 background-color: transparent;
-position: absolute;
-font-family: 'Open Sans', sans-serif;
-z-index: 1;
-top: 10px;
-left: 10px;
+font-family: myfirstfont;
 font-size: 20px;
-color: #fff;
+color: #ff05ff;
+text-align: center;
+margin:auto;
+display: table;
 }
 
 .img-card.iCard-style1 .card-text {            
@@ -119,7 +102,11 @@ color: #ff05ff;
 .img-card.iCard-style1 .card-link a:after {            
 background: #ff05ff;
 }
-
+.see-more-div{
+    font-family: bold;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
 .see-more-div {
     background-color:transparent;
     padding: 10px 30px;
@@ -130,7 +117,7 @@ background: #ff05ff;
     cursor: pointer;
     position: relative;
     z-index: 0;
-    border-radius: 100px;
+    border-radius: 80px;
 }
 
 .see-more-div:before {
@@ -183,12 +170,10 @@ background: #ff05ff;
 @media screen and (max-width: 500px) {
  .card-category-2{
      flex-direction:column;
-     gap:20px;
+     row-gap:40px;
      align-items: center;
  }
-    .img-card{
-        transform: scale(0.9);
-    }
+    
     .contest-title{
         width:60%;
         margin-bottom: 0;
@@ -220,4 +205,34 @@ h1{
    iframe{
        width:80%;
    }
+   .cont-btn{
+    margin-top: 1rem;
+   }
+   .glow-button:focus{
+    box-shadow: 0 5px 15px rgba(241, 61, 196, 0.8);
+  }
 }
+
+.button {
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border:1px solid white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(241, 61, 196, 0.8);
+  }
+  .img-card{
+      text-align: center;
+  }
+
+  .cont-btn{
+      height:40px;
+  }
