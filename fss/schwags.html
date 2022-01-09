@@ -1,582 +1,651 @@
-
 <html lang="en">
 
-    <head>
-        <title>Schwags here!</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" rel="stylesheet">  
-        <meta property="og:image" content="./images/hero-img.png">
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:title" content="Full Stack Squared" />
-        <meta property="og:url" content="https://devscript.org/fss/" />
-        <meta property="og:description" content="DevScript presents you the most eminent platform and an exhilarating experience through Full Stack Squared to learn from the industry leaders why their services are the topmost in the business!"/>  
-        <link rel="icon" href="./images/Devscript FSS Logo - Transparent.png">
-        <link rel="shortcut icon" type="image/png" href="./images/Devscript FSS Logo - Transparent.png">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link href="schwags.css" rel="stylesheet"/>
-        <style>
-            
-         body{
-                background-color: #090910;
-            }
-            .contest-title>img{
-                width: 100%;
-            }
-            .contest-title{
-                margin:20px auto;
-                width:30%;
-            }
-            .card-category-2{
-                display: flex;
-                flex-direction:row;
-                gap: 70px;
-                justify-content:center;
-                padding:50px;
-                flex-wrap: wrap;
-            }
+<head>
+	<title>Schwags here!</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" rel="stylesheet">
+	<meta property="og:image" content="./images/hero-img.png">
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:title" content="Full Stack Squared" />
+	<meta property="og:url" content="https://devscript.org/fss/" />
+	<meta property="og:description"
+		content="DevScript presents you the most eminent platform and an exhilarating experience through Full Stack Squared to learn from the industry leaders why their services are the topmost in the business!" />
+	<link rel="icon" href="./images/Devscript FSS Logo - Transparent.png">
+	<link rel="shortcut icon" type="image/png" href="./images/Devscript FSS Logo - Transparent.png">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href="schwags.css" rel="stylesheet" />
+	<style>
+		body {
+			background-color: #090910;
+		}
 
-            /* Image Card */
-            .img-card {
-            width:260px;
-            height:100%;
-            border-radius: 5px;
-            background-color: transparent;
-            box-shadow: 0px 5px 5px 0px rgba(255, 255, 255, 0.3);        
-            }
+		.contest-title>img {
+			width: 100%;
+		}
 
-            .img-card .card-image {
-            width: 100%;
-            overflow: hidden;
-            border-radius: 5px 5px 0px 0px;
-            
-            }
+		.contest-title {
+			margin: 20px auto;
+			width: 30%;
+		}
 
-            .img-card .card-image img {
-            width:100%;
-            height: 100%;
-            border-radius: 5px 5px 0px 0px;
-            transition: all 0.8s;
-            }
+		.card-category-2 {
+			display: flex;
+			flex-direction: row;
+			gap: 70px;
+			justify-content: center;
+			padding: 50px;
+			flex-wrap: wrap;
+		}
 
-            .img-card .card-image:hover img {
-            transform: scale(1.1);
-            }        
+		/* Image Card */
+		.img-card {
+			width: 260px;
+			height: 100%;
+			border-radius: 5px;
+			background-color: transparent;
+			box-shadow: 0px 5px 5px 0px rgba(255, 255, 255, 0.3);
+		}
 
-            .img-card .card-text {
-            padding: 10px 15px 15px;
-            line-height: 1.5;  
-            text-align: center; 
-            
-            }
+		.img-card .card-image {
+			width: 100%;
+			overflow: hidden;
+			border-radius: 5px 5px 0px 0px;
 
-            
-            .img-card.iCard-style1 .card-title {
-            
-            font-family: myfirstfont;
-            background-color: transparent;
-            font-size: 20px;
-            color: #ff05ff;
-            text-align: center;
-            margin:auto;
-            display: table;
-            }
+		}
 
-            .img-card.iCard-style1 .card-text {            
-            color: #ffffff;
-            }
+		.img-card .card-image img {
+			width: 100%;
+			height: 100%;
+			border-radius: 5px 5px 0px 0px;
+			transition: all 0.8s;
+		}
 
-            .img-card.iCard-style1 .card-link a {
-            color: #ff05ff;                
-            }
-            .card-link>a>span{
-              font-weight: bold;
-            }
-            .img-card.iCard-style1 .card-link a:after {            
-            background: #ff05ff;
-            }
-            .categories{
-                margin-top:5rem;
-                font-size:1.3rem;
-            }
-            @media screen and (max-width: 500px) {
-                .contest-title{
-                    width:60%;
-                    margin-bottom: 0;
-                }
-                .card-category-2{
-                flex-direction:column;
-                align-items: center;
-                }
-                .categories{
-                    margin:0;
-                }
-                .glow-button:focus{
-    box-shadow: 0 5px 15px rgba(241, 61, 196, 0.8);
-  }
-  .cont-btn{
-    margin-top: 1rem;
-   }
-                }
-                .top_sec{
-                display:flex;
-                flex-direction: row;
-                margin:30px 0;
-                }
+		.img-card .card-image:hover img {
+			transform: scale(1.1);
+		}
 
-            .content{
-                width:50%;
-                display:flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                padding-left:5rem;
-            }
-            .leaderboard{
-                display:flex;
-                flex-direction: column;
-                justify-content: center;
-                text-align: center;
-                gap:20px;
-                width:50%;
-            }
-            @font-face {
-                font-family: myFirstFont;
-                src: url(./GameOfSquids-1GMVL.ttf);
-            }
+		.img-card .card-text {
+			padding: 10px 15px 15px;
+			line-height: 1.5;
+			text-align: center;
 
-            h1{
-                color: #ffffff;
-                text-align: center;
-                font-family: myFirstFont;
-            }
+		}
 
-            @media screen and (max-width: 700px) {
-            .top_sec{
-                flex-direction: column;
-            }
-            .content{
-                width:100%;
-                padding-left: 0;
-            } 
-            .leaderboard{
-                width:100%;
-            }
-            iframe{
-                width:90%;
-            }
-            .register-p{
-                align-items: center;
-                vertical-align: middle;
-                padding:10px 30px;
-                margin-bottom:20px;
-                text-align: center;
-                letter-spacing: 1px;
-            }
-            }
-            .register-p{
-                font-size:1.25rem;
-                font-weight:500;
-                color: rgb(255, 255, 255);
-                text-align:center;
-                line-height:1.5;
-                letter-spacing: 2px;
-            }
-            .cont-btn{
-              margin-top: 10px;
-              height: 40px;
-            }
-            .button {
-    text-decoration: none;
-    color: white;
-    background: transparent;
-    border:1px solid white;
-    padding: 10px 20px;
-    border-radius: 4px;
-    font-weight: normal;
-    text-transform: uppercase;
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .glow-button:hover {
-    color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px rgba(241, 61, 196, 0.8);
-  }
-  .img-card{
-      text-align: center;
-  }
-            
-        </style>
-        
-    </head>
 
-    <body>
+		.img-card.iCard-style1 .card-title {
 
-        <header>
-            <nav class="navbar">
-              <div class="navbar__brand">
-                <img src="images/logo.svg" alt="logo" class="navbar__brand" />
-              </div>
-              <div class="navbar__nav__items">
-                <button
-                class="button__primary hamburger__menu mobile__only"
-                id="hamburgermenu"
-              >
-                <div></div>
-                <div></div>
-                <div></div>
-              </button>
-                <div class="nav__item hide__mobile">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                </div>
-                <div class="nav__item hide__mobile">
-                    <li>
-                      <a href="index.html#about">About</a>
-                    </li>
-                </div>
-                <!-- <div class="nav__item hide__mobile">
+			font-family: myfirstfont;
+			background-color: transparent;
+			font-size: 20px;
+			color: #ff05ff;
+			text-align: center;
+			margin: auto;
+			display: table;
+		}
+
+		.img-card.iCard-style1 .card-text {
+			color: #ffffff;
+		}
+
+		.img-card.iCard-style1 .card-link a {
+			color: #ff05ff;
+		}
+
+		.card-link>a>span {
+			font-weight: bold;
+		}
+
+		.img-card.iCard-style1 .card-link a:after {
+			background: #ff05ff;
+		}
+
+		.categories {
+			margin-top: 5rem;
+			font-size: 1.3rem;
+		}
+
+		@media screen and (max-width: 500px) {
+			.contest-title {
+				width: 60%;
+				margin-bottom: 0;
+			}
+
+			.card-category-2 {
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.categories {
+				margin: 0;
+			}
+
+			.glow-button:focus {
+				box-shadow: 0 5px 15px rgba(241, 61, 196, 0.8);
+			}
+
+			.cont-btn {
+				margin-top: 1rem;
+			}
+		}
+
+		.top_sec {
+			display: flex;
+			flex-direction: row;
+			margin: 30px 0;
+		}
+
+		.content {
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding-left: 5rem;
+		}
+
+		.leaderboard {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+			gap: 20px;
+			width: 50%;
+		}
+
+		@font-face {
+			font-family: myFirstFont;
+			src: url(./GameOfSquids-1GMVL.ttf);
+		}
+
+		h1 {
+			color: #ffffff;
+			text-align: center;
+			font-family: myFirstFont;
+		}
+
+		@media screen and (max-width: 700px) {
+			.top_sec {
+				flex-direction: column;
+			}
+
+			.content {
+				width: 100%;
+				padding-left: 0;
+			}
+
+			.leaderboard {
+				width: 100%;
+			}
+
+			iframe {
+				width: 90%;
+			}
+
+			.register-p {
+				align-items: center;
+				vertical-align: middle;
+				padding: 10px 30px;
+				margin-bottom: 20px;
+				text-align: center;
+				letter-spacing: 1px;
+			}
+		}
+
+		.register-p {
+			font-size: 1.25rem;
+			font-weight: 500;
+			color: rgb(255, 255, 255);
+			text-align: center;
+			line-height: 1.5;
+			letter-spacing: 2px;
+		}
+
+		.cont-btn {
+			margin-top: 10px;
+			height: 40px;
+		}
+
+		.button {
+			text-decoration: none;
+			color: white;
+			background: transparent;
+			border: 1px solid white;
+			padding: 10px 20px;
+			border-radius: 4px;
+			font-weight: normal;
+			text-transform: uppercase;
+			transition: all 0.2s ease-in-out;
+		}
+
+		.glow-button:hover {
+			color: rgba(255, 255, 255, 1);
+			box-shadow: 0 5px 15px rgba(241, 61, 196, 0.8);
+		}
+
+		.img-card {
+			text-align: center;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<header>
+		<nav class="navbar">
+			<div class="navbar__brand">
+				<img src="images/logo.svg" alt="logo" class="navbar__brand" />
+			</div>
+			<div class="navbar__nav__items">
+				<button class="button__primary hamburger__menu mobile__only" id="hamburgermenu">
+					<div></div>
+					<div></div>
+					<div></div>
+				</button>
+				<div class="nav__item hide__mobile">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+				</div>
+				<div class="nav__item hide__mobile">
+					<li>
+						<a href="index.html#about">About</a>
+					</li>
+				</div>
+				<!-- <div class="nav__item hide__mobile">
                     <li>
                       <a href="#">Schedule</a>
                     </li>
                 </div> -->
-                <div class="nav__item hide__mobile">
-                  <li>
-                    <a href="index.html#theme">Themes</a>
-                  </li>
-              </div>
-              <div class="nav__item hide__mobile">
-                <li>
-                  <a href="index.html#contest-section">Contest</a>
-                </li>
-              </div>
-                <div class="nav__item hide__mobile">
-                    <li>
-                    <a href="index.html#sponsor">Sponsor</a>
-                    </li>
-                </div>
-                <!-- <div class="nav__item hide__mobile">
+				<div class="nav__item hide__mobile">
+					<li>
+						<a href="index.html#theme">Themes</a>
+					</li>
+				</div>
+				<div class="nav__item hide__mobile">
+					<li>
+						<a href="index.html#contest-section">Contest</a>
+					</li>
+				</div>
+				<div class="nav__item hide__mobile">
+					<li>
+						<a href="index.html#sponsor">Sponsor</a>
+					</li>
+				</div>
+				<!-- <div class="nav__item hide__mobile">
                     <li>
                     <a href="#">Speaker</a>
                     </li>
                 </div> -->
-                <div class="nav__item hide__mobile">
-                    <li>
-                    <a href="team.html">Team</a>
-                    </li>
-                </div>
-                <div class="nav__item hide__mobile">
-                  <li>
-                  <a href="index.html#faq">Faq</a>
-                  </li>
-              </div>
-              <div class="nav__item hide__mobile">
-                <li>
-                <a href="https://devscript.org/fss/coc.pdf">Code of Conduct</a>
-                </li>
-            </div>
-            </div>
-              
-              <div class="social-icons hide__mobile">
-                <ul class="social-icons-list">
-                    <li>
-                      <a target="_blank" href="https://github.com/DevScript">
-                        <i class="fab fa-github"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a target="_blank" href="https://twitter.com/The_DevScript">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a target="_blank" href="https://www.youtube.com/c/devscript">
-                        <i class="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a target="_blank" href="https://www.linkedin.com/company/devscripts">
-                        <i class="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a target="_blank" href="https://www.instagram.com/the_devscript/">
-                        <i class="fab fa-instagram"></i>
-                      </a>
-                    </li>
-                  </ul>
-              </div>
-            </nav>
-            <div class="mobile__navbar__items mobile__only hamburger__menu__close">
-              <ul>
-                <a href="index.html"><li class="nav__item">Home</li></a>
-                <a href="index.html#about"><li class="nav__item">About</li></a>
-                <a href="index.html#theme"><li class="nav__item">Themes</li></a>
-                <!-- <a><li class="nav__item">Schedule</li></a> -->
-                <a href="index.html#contest-section"><li class="nav__item">Contest</li></a>
-                <a href="index.html#sponsor"><li class="nav__item">Sponsor</li></a>
-                <!-- <a><li class="nav__item">Speaker</li></a> -->
-                <a href="team.html"><li class="nav__item">Team</li></a>
-                <a href="index.html#faq"><li class="nav__item">Faq</li></a>
-                <a href="https://devscript.org/fss/coc.pdf"><li class="nav__item">Code of Conduct</li></a>
-              </ul>
-      
-            </div>
-          </header>
+				<div class="nav__item hide__mobile">
+					<li>
+						<a href="team.html">Team</a>
+					</li>
+				</div>
+				<div class="nav__item hide__mobile">
+					<li>
+						<a href="index.html#faq">Faq</a>
+					</li>
+				</div>
+				<div class="nav__item hide__mobile">
+					<li>
+						<a href="https://devscript.org/fss/coc.pdf">Code of Conduct</a>
+					</li>
+				</div>
+			</div>
 
-        <div class="contest-title">
-            <img src="https://fontmeme.com/permalink/211222/b0378fccb3741c3e9e65a674e64cfd3d.png" >
-         </div>
-        <div class="top_sec">
-            <div class="content">
-                <p class="register-p">DevScript presents you the most eminent platform and an exhilarating experience through Full Stack Squared to learn from the industry leaders why their services are the topmost in the business!</p>
-                <p class="register-p">In this rapidly emerging full stack world, gaining excellence is all about what makes your web application finer than the ones already present. The way to achieve this is by choosing the best supporting services. </p>
-            </div>
-            <div class="leaderboard">
-                    <div><h1>Leaderboard</h1></div>
-                    <div class="table">
-                        <iframe src="https://onedrive.live.com/embed?cid=3909301B098A2F63&resid=3909301B098A2F63%211550&authkey=AER4xHeoiEVXE2M&em=2" width="402" height="346" frameborder="0" scrolling="no"></iframe>
-                    </div>
-            </div>
-        </div>
+			<div class="social-icons hide__mobile">
+				<ul class="social-icons-list">
+					<li>
+						<a target="_blank" href="https://github.com/DevScript">
+							<i class="fab fa-github"></i>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://twitter.com/The_DevScript">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://www.youtube.com/c/devscript">
+							<i class="fab fa-youtube"></i>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://www.linkedin.com/company/devscripts">
+							<i class="fab fa-linkedin"></i>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://www.instagram.com/the_devscript/">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="mobile__navbar__items mobile__only hamburger__menu__close">
+			<ul>
+				<a href="index.html">
+					<li class="nav__item">Home</li>
+				</a>
+				<a href="index.html#about">
+					<li class="nav__item">About</li>
+				</a>
+				<a href="index.html#theme">
+					<li class="nav__item">Themes</li>
+				</a>
+				<!-- <a><li class="nav__item">Schedule</li></a> -->
+				<a href="index.html#contest-section">
+					<li class="nav__item">Contest</li>
+				</a>
+				<a href="index.html#sponsor">
+					<li class="nav__item">Sponsor</li>
+				</a>
+				<!-- <a><li class="nav__item">Speaker</li></a> -->
+				<a href="team.html">
+					<li class="nav__item">Team</li>
+				</a>
+				<a href="index.html#faq">
+					<li class="nav__item">Faq</li>
+				</a>
+				<a href="https://devscript.org/fss/coc.pdf">
+					<li class="nav__item">Code of Conduct</li>
+				</a>
+			</ul>
 
-        <div class="categories"><h1>Categories</h1></div>
+		</div>
+	</header>
 
-        <!-- Image Cards -->
-        <div class="card-category-2">
-                    <div class="img-card iCard-style1">
-                        <div class="card-content">
-                            <div class="card-image">
-                                <span class="card-title">Design a Mascot character for DevScript</span>
-                               
-                            </div>
-                            
-                            <div class="card-text">
-                                <p>
-                                  Bring in your creativity and show it to us by designing a Mascot for DevScript. Tweet or share your design on Instagram. Share the link in the Challenge Form.
-                                </p>
-                            </div>
+	<div class="contest-title">
+		<!-- <img src="https://fontmeme.com/permalink/211222/b0378fccb3741c3e9e65a674e64cfd3d.png"> -->
 
-                        </div>
+		<img src="https://fontmeme.com/permalink/211209/4a4d94ac9ccd53c257fbdd1fbce9bed3.png">
 
-                        <div class="cont-btn">
-                          <a href="#" class="button glow-button" target="_blank">Register</a>
-                        </div> 
-                    </div>  
-                    <div class="img-card iCard-style1">
-                        <div class="card-content">
-                            <div class="card-image">
-                                <span class="card-title">Share your Chrome Dino Score</span>
-                               
-                            </div>
-                            
-                            <div class="card-text">
-                                <p>
-                                  Chrome Dino is one of our favorite games and we bet it's going to be your favorite too. Head to chrome://dino to play this classic game and share your score with us on our Challenge Form
-                                </p>
-                            </div>
-                            
-                           </div>
-                        
-                        <div class="cont-btn">
-                          <a href="#" class="button glow-button" target="_blank">Register</a>
-                        </div>
-                    </div>
-                    <div class="img-card iCard-style1">
-                        <div class="card-content">
-                            <div class="card-image">
-                                <span class="card-title">Show the musical YOU.</span>
-                               
-                            </div>
-                            
-                            <div class="card-text">
-                                <p>
-                                  Create your happy tune (Instrumental music) and submit the link in the challenge form.
-                                </p>
-                            </div>
-                            
-                           </div>
-                        
-                        <div class="cont-btn">
-                          <a href="#" class="button glow-button" target="_blank">Register</a>
-                        </div>
-                    </div>
-                    <div class="img-card iCard-style1">
-                        <div class="card-content">
-                            <div class="card-image">
-                                <span class="card-title">Post your work desk photo</span>
-                               
-                            </div>
-                            
-                            <div class="card-text">
-                                <p>
-                                  Being a techie, work desk is our home. Share your work desk photo on your Social media and tag us. Submit the link in the challenge form.
-                                </p>
-                            </div>
-                            
-                           </div>
-                        
-                        <div class="cont-btn">
-                          <a href="#" class="button glow-button" target="_blank">Register</a>
-                        </div>
-                    </div>
-                    <div class="img-card iCard-style1">
-                        <div class="card-content">
-                            <div class="card-image">
-                                <span class="card-title">Work teddy-buddy </span>
-                               
-                            </div>
-                            
-                            <div class="card-text">
-                                <p>
-                                  You can share any of your tech toy which you keep it with you. Submit the link in the challenge form. 
-                                </p>
-                            </div>
-                            
-                           </div>
-                        
-                        <div class="cont-btn">
-                          <a href="#" class="button glow-button" target="_blank">Register</a>
-                        </div>
-                    </div>
-                    <div class="img-card iCard-style1">
-                      <div class="card-content">
-                          <div class="card-image">
-                              <span class="card-title">Show off your geek collection! </span>
-                             
-                          </div>
-                          
-                          <div class="card-text">
-                              <p>
-                                Share your swags collection on the socials, tag us and submit the link in the challenge form. 
-                              </p>
-                          </div>
-                          
-                         </div>
-                      
-                         <div class="cont-btn">
-                          <a href="#" class="button glow-button" target="_blank">Register</a>
-                        </div>
-                  </div>
-                  <div class="img-card iCard-style1">
-                    <div class="card-content">
-                        <div class="card-image">
-                            <span class="card-title">Your 2022 Tech To-Do list!</span>
-                           
-                        </div>
-                        
-                        <div class="card-text">
-                            <p>
-                              Publicly announcing your goals impacts more! Create a 2022 Season To-Do list, share it on your socials, tag us and submit the screenshot (if story) or link (if posted) in the challenge form.  
-                            </p>
-                        </div>
-                        
-                       </div>
-                    
-                       <div class="cont-btn">
-                        <a href="#" class="button glow-button" target="_blank">Register</a>
-                      </div>
-                </div>
-                <div class="img-card iCard-style1">
-                  <div class="card-content">
-                      <div class="card-image">
-                          <span class="card-title">Pen down your journey!</span>
-                         
-                      </div>
-                      
-                      <div class="card-text">
-                          <p>
-                            Share your lockdown learning experience/internship/ first job experience. Submit the link in the challenge form. 
-                          </p>
-                      </div>
-                      
-                     </div>
-                  
-                     <div class="cont-btn">
-                      <a href="#" class="button glow-button" target="_blank">Register</a>
-                    </div>
-              </div>
-              <div class="img-card iCard-style1">
-                <div class="card-content">
-                    <div class="card-image">
-                        <span class="card-title">Coding Blocks</span>
-                       
-                    </div>
-                    
-                    <div class="card-text">
-                        <p>
-                          Test your coding skills, attempt the coding challenge and win awesome schwags. 
-                        </p>
-                    </div>
-                    
-                   </div>
-                
-                   <div class="cont-btn">
-                    <a href="#" class="button glow-button" target="_blank">Register</a>
-                  </div>
-            </div>
-                                    
-        </div>
-         
-        <footer class="footer-team">
-            <div class="footer-txt">
-              <div id="contact">
-                <ul>
-                  <div id="icon-container">
-                    <a target="_blank" href="https://twitter.com/The_DevScript">
-                      <div id="icon">
-                        <li><i class="fab fa-twitter"></i></li>
-                      </div>
-                    </a>
-                    <a target="_blank" href="https://instagram.com/the_devscript/">
-                      <div id="icon">
-                        <li><i class="fab fa-instagram"></i></li>
-                      </div>
-                    </a>
-                    <a target="_blank" href="https://www.youtube.com/c/devscript">
-                      <div id="icon">
-                        <li><i class="fab fa-youtube"></i></li>
-                      </div>
-                    </a>
-                    <a target="_blank" href="https://www.linkedin.com/company/devscripts">
-                      <div id="icon">
-                        <li><i class="fab fa-linkedin-in"></i></li>
-                      </div>
-                    </a>
-                    <a target="_blank" href="https://github.com/DevScript">
-                      <div id="icon">
-                        <li><i class="fab fa-github"></i></li>
-                      </div>
-                  </div></a>
-                </ul>
-                <p>&copy 2020-2021, Devscript</p>
-              </div>
-                <div class="footer-figure">
-                  <img src="images/final1.png" class="footer-figure-image">
-                </div>
-            </div>
-          </footer>    
+	</div>
+	</br>
+	<div>
+		<h1>Ambassador Program</h1>
+	</div>
+	<div class="top_sec">
+
+		<div class="content">
+			<p class="register-p">DevScript presents you the most eminent platform and an exhilarating experience
+				through Full
+				Stack Squared to learn from the industry leaders why their services are the topmost in the business!</p>
+			<p class="register-p">In this rapidly emerging full stack world, gaining excellence is all about what makes
+				your
+				web application finer than the ones already present. The way to achieve this is by choosing the best
+				supporting
+				services. </p>
+		</div>
+
+		<div class="leaderboard">
+			<div>
+				<h2 style="color: #ff05ff;">Leaderboard</h2>
+			</div>
+			<div class="table">
+				<iframe
+					src="https://onedrive.live.com/embed?cid=3909301B098A2F63&resid=3909301B098A2F63%211550&authkey=AER4xHeoiEVXE2M&em=2"
+					width="402" height="346" frameborder="0" scrolling="no"></iframe>
+			</div>
+		</div>
+	</div>
+
+	<div class="categories">
+		<h1>Categories</h1>
+	</div>
+
+	<!-- Image Cards -->
+	<div class="card-category-2">
+		<div class="img-card iCard-style1">
+			<div class="card-content">
+				<div class="card-image">
+					<span class="card-title">Design a Mascot character for DevScript</span>
+
+				</div>
+
+				<div class="card-text">
+					<p>
+						Bring in your creativity and show it to us by designing a Mascot for DevScript. Tweet or share
+						your design
+						on Instagram. Share the link in the Challenge Form.
+					</p>
+				</div>
+
+			</div>
+
+			<div class="cont-btn">
+				<a href="#" class="button glow-button" target="_blank">Register</a>
+			</div>
+		</div>
+		<div class="img-card iCard-style1">
+			<div class="card-content">
+				<div class="card-image">
+					<span class="card-title">Share your Chrome Dino Score</span>
+
+				</div>
+
+				<div class="card-text">
+					<p>
+						Chrome Dino is one of our favorite games and we bet it's going to be your favorite too. Head to
+						chrome://dino to play this classic game and share your score with us on our Challenge Form
+					</p>
+				</div>
+
+			</div>
+
+			<div class="cont-btn">
+				<a href="#" class="button glow-button" target="_blank">Register</a>
+			</div>
+		</div>
+		<div class="img-card iCard-style1">
+			<div class="card-content">
+				<div class="card-image">
+					<span class="card-title">Show the musical YOU.</span>
+
+				</div>
+
+				<div class="card-text">
+					<p>
+						Create your happy tune (Instrumental music) and submit the link in the challenge form.
+					</p>
+				</div>
+
+			</div>
+
+			<div class="cont-btn">
+				<a href="#" class="button glow-button" target="_blank">Register</a>
+			</div>
+		</div>
+		<div class="img-card iCard-style1">
+			<div class="card-content">
+				<div class="card-image">
+					<span class="card-title">Post your work desk photo</span>
+
+				</div>
+
+				<div class="card-text">
+					<p>
+						Being a techie, work desk is our home. Share your work desk photo on your Social media and tag
+						us. Submit
+						the link in the challenge form.
+					</p>
+				</div>
+
+			</div>
+
+			<div class="cont-btn">
+				<a href="#" class="button glow-button" target="_blank">Register</a>
+			</div>
+		</div>
+		<div class="img-card iCard-style1">
+			<div class="card-content">
+				<div class="card-image">
+					<span class="card-title">Work teddy-buddy </span>
+
+				</div>
+
+				<div class="card-text">
+					<p>
+						You can share any of your tech toy which you keep it with you. Submit the link in the challenge
+						form.
+					</p>
+				</div>
+
+			</div>
+
+			<div class="cont-btn">
+				<a href="#" class="button glow-button" target="_blank">Register</a>
+			</div>
+		</div>
+		<div class="img-card iCard-style1">
+			<div class="card-content">
+				<div class="card-image">
+					<span class="card-title">Show off your geek collection! </span>
+
+				</div>
+
+				<div class="card-text">
+					<p>
+						Share your swags collection on the socials, tag us and submit the link in the challenge form.
+					</p>
+				</div>
+
+			</div>
+
+			<div class="cont-btn">
+				<a href="#" class="button glow-button" target="_blank">Register</a>
+			</div>
+		</div>
+		<div class="img-card iCard-style1">
+			<div class="card-content">
+				<div class="card-image">
+					<span class="card-title">Your 2022 Tech To-Do list!</span>
+
+				</div>
+
+				<div class="card-text">
+					<p>
+						Publicly announcing your goals impacts more! Create a 2022 Season To-Do list, share it on your
+						socials, tag
+						us and submit the screenshot (if story) or link (if posted) in the challenge form.
+					</p>
+				</div>
+
+			</div>
+
+			<div class="cont-btn">
+				<a href="#" class="button glow-button" target="_blank">Register</a>
+			</div>
+		</div>
+		<div class="img-card iCard-style1">
+			<div class="card-content">
+				<div class="card-image">
+					<span class="card-title">Pen down your journey!</span>
+
+				</div>
+
+				<div class="card-text">
+					<p>
+						Share your lockdown learning experience/internship/ first job experience. Submit the link in the
+						challenge
+						form.
+					</p>
+				</div>
+
+			</div>
+
+			<div class="cont-btn">
+				<a href="#" class="button glow-button" target="_blank">Register</a>
+			</div>
+		</div>
+		<div class="img-card iCard-style1">
+			<div class="card-content">
+				<div class="card-image">
+					<span class="card-title">Coding Blocks</span>
+
+				</div>
+
+				<div class="card-text">
+					<p>
+						Test your coding skills, attempt the coding challenge and win awesome schwags.
+					</p>
+				</div>
+
+			</div>
+
+			<div class="cont-btn">
+				<a href="#" class="button glow-button" target="_blank">Register</a>
+			</div>
+		</div>
+
+	</div>
+
+	<footer class="footer-team">
+		<div class="footer-txt">
+			<div id="contact">
+				<ul>
+					<div id="icon-container">
+						<a target="_blank" href="https://twitter.com/The_DevScript">
+							<div id="icon">
+								<li><i class="fab fa-twitter"></i></li>
+							</div>
+						</a>
+						<a target="_blank" href="https://instagram.com/the_devscript/">
+							<div id="icon">
+								<li><i class="fab fa-instagram"></i></li>
+							</div>
+						</a>
+						<a target="_blank" href="https://www.youtube.com/c/devscript">
+							<div id="icon">
+								<li><i class="fab fa-youtube"></i></li>
+							</div>
+						</a>
+						<a target="_blank" href="https://www.linkedin.com/company/devscripts">
+							<div id="icon">
+								<li><i class="fab fa-linkedin-in"></i></li>
+							</div>
+						</a>
+						<a target="_blank" href="https://github.com/DevScript">
+							<div id="icon">
+								<li><i class="fab fa-github"></i></li>
+							</div>
+					</div></a>
+				</ul>
+				<p>&copy 2020-2021, Devscript</p>
+			</div>
+			<div class="footer-figure">
+				<img src="images/final1.png" class="footer-figure-image">
+			</div>
+		</div>
+	</footer>
 
 
-          <script src="script.js"></script>
-          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-          <script>
-          AOS.init();
-          </script>
-    </body>
+	<script src="script.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+
 </html>

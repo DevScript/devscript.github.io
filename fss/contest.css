@@ -1,114 +1,122 @@
-
-#contest-section{
-    margin:2rem 0;
+#contest-section {
+    margin: 2rem 0;
 }
-.contest-title>img{
+
+.contest-title>img {
     width: 100%;
 }
-.contest-title{
-    margin:20px auto;
-    width:30%;
+
+.contest-title {
+    margin: 20px auto;
+    width: 30%;
 }
-.card-category-2{
+
+.card-category-2 {
     display: flex;
-    flex-direction:row;
-    justify-content:center;
-    gap:10%;
-    padding:3%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    padding: 3%;
 }
-.parent-div{
+
+.parent-div {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
 }
 
-#btn{
-    background-color:transparent;
+#btn {
+    background-color: transparent;
     text-decoration: none;
     color: #ff05ff;
-    font-size:1.25rem;
+    font-size: 1.25rem;
 }
-#btn:hover{
+
+#btn:hover {
     color: #ffffff;
 }
 
 /* Image Card */
 .img-card {
-width:260px;
-height:100%;
-border-radius: 5px;
+    width: 260px;
+    height: 100%;
+    border-radius: 5px;
 
-background-color: transparent;
-box-shadow: 0px 5px 5px 0px rgba(255, 255, 255, 0.3);        
+    background-color: transparent;
+    box-shadow: 0px 5px 5px 0px rgba(255, 255, 255, 0.3);
 }
 
 .img-card .card-image {
-position: relative;
-margin: auto;
-width: 100%;
-overflow: hidden;
-border-radius: 5px 5px 0px 0px;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px 5px 0px 0px;
 
 }
 
 .img-card .card-image img {
-width:100%;
-height: 100%;
-border-radius: 5px 5px 0px 0px;
-transition: all 0.8s;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0px 0px;
+    transition: all 0.8s;
 }
 
 .img-card .card-image:hover img {
-transform: scale(1.1);
-}        
+    transform: scale(1.1);
+}
 
 .img-card .card-text {
-padding: 10px 15px 15px;
-line-height: 1.5;   
+    padding: 10px 15px 15px;
+    line-height: 1.5;
 }
-.card-text>p{
-    font-size:1.05rem;
+
+.card-text>p {
+    font-size: 1.05rem;
     color: #ffffff;
 }
+
 .img-card .card-link {
-text-align: center;
-margin-bottom :20px;
-font-size:1.25rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
 }
 
 
 
-      
+
 
 .img-card.iCard-style1 .card-title {
-background-color: transparent;
-font-family: myfirstfont;
-font-size: 20px;
-color: #ff05ff;
-text-align: center;
-margin:auto;
-display: table;
+    background-color: transparent;
+    font-family: myfirstfont;
+    font-size: 20px;
+    color: #ff05ff;
+    text-align: center;
+    margin: auto;
+    display: table;
 }
 
-.img-card.iCard-style1 .card-text {            
-color: #ffffff;
+.img-card.iCard-style1 .card-text {
+    color: #ffffff;
 }
 
 .img-card.iCard-style1 .card-link a {
-color: #ff05ff;                
+    color: #ff05ff;
 }
 
-.img-card.iCard-style1 .card-link a:after {            
-background: #ff05ff;
+.img-card.iCard-style1 .card-link a:after {
+    background: #ff05ff;
 }
-.see-more-div{
+
+.see-more-div {
     font-family: bold;
     font-weight: 700;
     letter-spacing: 1px;
 }
+
 .see-more-div {
-    background-color:transparent;
+    background-color: transparent;
     padding: 10px 30px;
     border: none;
     outline: none;
@@ -122,10 +130,10 @@ background: #ff05ff;
 
 .see-more-div:before {
     content: '';
-    background: linear-gradient(45deg,  #ff00c8, #ff0000);
+    background: linear-gradient(45deg, #ff00c8, #ff0000);
     position: absolute;
     top: -2px;
-    left:-2px;
+    left: -2px;
     background-size: 400%;
     z-index: -1;
     filter: blur(5px);
@@ -162,20 +170,28 @@ background: #ff05ff;
 }
 
 @keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
 }
 
 @media screen and (max-width: 500px) {
- .card-category-2{
-     flex-direction:column;
-     row-gap:40px;
-     align-items: center;
- }
-    
-    .contest-title{
-        width:60%;
+    .card-category-2 {
+        flex-direction: column;
+        row-gap: 40px;
+        align-items: center;
+    }
+
+    .contest-title {
+        width: 60%;
         margin-bottom: 0;
     }
 }
@@ -184,55 +200,61 @@ background: #ff05ff;
 @font-face {
     font-family: myFirstFont;
     src: url(./GameOfSquids-1GMVL.ttf);
-  }
+}
 
-h1{
+h1 {
     color: #e22ea6;
     text-align: center;
     font-family: myFirstFont;
 }
 
 @media screen and (max-width: 700px) {
-  .top_sec{
-      flex-direction: column;
-  }
-   .content{
-       width:100%;
-   } 
-   .leaderboard{
-       width:100%;
-   }
-   iframe{
-       width:80%;
-   }
-   .cont-btn{
-    margin-top: 1rem;
-   }
-   .glow-button:focus{
-    box-shadow: 0 5px 15px rgba(241, 61, 196, 0.8);
-  }
+    .top_sec {
+        flex-direction: column;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .leaderboard {
+        width: 100%;
+    }
+
+    iframe {
+        width: 80%;
+    }
+
+    .cont-btn {
+        margin-top: 1rem;
+    }
+
+    .glow-button:focus {
+        box-shadow: 0 5px 15px rgba(241, 61, 196, 0.8);
+    }
 }
 
 .button {
     text-decoration: none;
     color: white;
     background: transparent;
-    border:1px solid white;
+    border: 1px solid white;
     padding: 10px 20px;
     border-radius: 4px;
     font-weight: normal;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
-  }
-  
-  .glow-button:hover {
+}
+
+.glow-button:hover {
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 5px 15px rgba(241, 61, 196, 0.8);
-  }
-  .img-card{
-      text-align: center;
-  }
+}
 
-  .cont-btn{
-      height:40px;
-  }
+.img-card {
+    text-align: center;
+}
+
+.cont-btn {
+    height: 40px;
+}
