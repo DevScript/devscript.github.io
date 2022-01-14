@@ -1983,3 +1983,11 @@ i {
 		text-shadow: 0 0 10px #fff, 0 0 15px #ff4da6, 0 0 20px #ff4da6, 0 0 25px #ff4da6, 0 0 30px #ff4da6, 0 0 35px #ff4da6, 0 0 40px #ff4da6;
 	}
 }
+
+#loader{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgb(0, 0, 0);
+	z-index: 99999;
+}
