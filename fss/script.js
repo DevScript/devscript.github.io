@@ -71,3 +71,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 function showText(toggleText) {
   toggleText.classList.toggle("active");
 }
+
+var preloader = document.getElementById("loader");
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
