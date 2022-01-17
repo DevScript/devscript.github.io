@@ -31,7 +31,10 @@
 	<link href="https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akebono&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="myFunction()">
+	<div id="loader">
+		<lottie-player src="https://assets1.lottiefiles.com/packages/lf20_2khcyazm.json"  background="transparent"  speed="2"  style="width: 100%; height: 100vh;"  loop  autoplay></lottie-player>
+	</div>
 	<header>
 		<nav class="navbar">
 			<div class="navbar__brand">
@@ -783,7 +786,8 @@
 					<a href="https://www.interviewcake.com/" target="_blank"> <img src="https://images.squarespace-cdn.com/content/v1/5e5c456628b6773d197e9209/1619838000828-4ENNU641JANB19YO309K/interview-cake.png" loading="lazy">
 					</a>
 				</div>
-				<div class="sponsor-div1 amphan" style="padding-top: 50px;">
+
+				<div class="sponsor-div1 sashido">
 					<a href="https://www.sashido.io/" target="_blank"> <img src="./sponsors/sashido.png" loading="lazy">
 					</a>
 				</div>
@@ -903,7 +907,7 @@
 		</div>
 	</footer>
 
-
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 	<script src="script.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
