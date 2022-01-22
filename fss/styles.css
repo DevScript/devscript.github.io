@@ -1332,7 +1332,7 @@ section {
 }
 
 .sashido{
-	margin-top: 20%;
+	margin-top: 15%;
 }
 @media screen and (max-width: 600px) {
 	.Trailblazer {
@@ -1390,6 +1390,10 @@ section {
 	.hackclub {
 		width: 90%;
 		height: 20vh;
+	}
+
+	.sashido{
+		margin-top: 5%;
 	}
 
 	.maker {
