@@ -2036,7 +2036,7 @@ i {
 		transform: translateX(0);
    }
 	100% {
-		transform: translateX(calc(-250px * 4));
+		transform: translateX(calc(-250px * 6));
    }
 }
 .slider {
@@ -2068,7 +2068,7 @@ i {
 .slider .slide-track {
 	animation: scroll 20s linear infinite;
 	display: flex;
-	width: calc(250px * 16);
+	width: calc(250px * 22);
 	background:transparent;
 }
 .logos{
@@ -2076,11 +2076,11 @@ i {
 	margin-top: 1rem;
 }
 
+
 .cms{
 	background:#ffffff00;
 	margin-top: 3rem;
 }
-
 
 .slide1{
 	width:250px;
