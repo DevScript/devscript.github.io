@@ -1,267 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Full Stack Squared</title>
-        <meta property="og:image" content="./images/hero-img.png">
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:title" content="Full Stack Squared" />
-        <meta property="og:url" content="https://devscript.org/fss/" />
-        <meta property="og:description" content="DevScript presents you the most eminent platform and an exhilarating experience through Full Stack Squared to learn from the industry leaders why their services are the topmost in the business!"/>  
-        <link rel="icon" href="./images/Devscript FSS Logo - Transparent.png">
-        <link rel="shortcut icon" type="image/png" href="./images/Devscript FSS Logo - Transparent.png">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        </head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Full Stack Squared</title>
+	<meta property="og:image" content="./images/hero-img.png">
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:title" content="Full Stack Squared" />
+	<meta property="og:url" content="https://devscript.org/fss/" />
+	<meta property="og:description"
+		content="DevScript presents you the most eminent platform and an exhilarating experience through Full Stack Squared to learn from the industry leaders why their services are the topmost in the business!" />
+	<link rel="icon" href="./images/Devscript FSS Logo - Transparent.png">
+	<link rel="shortcut icon" type="image/png" href="./images/Devscript FSS Logo - Transparent.png">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
 <body>
-    <header>
-        <nav class="navbar">
-          <div class="navbar__brand">
-            <img src="images/logo.svg" alt="logo" class="navbar__brand" />
-          </div>
-          <div class="navbar__nav__items">
-            <button
-            class="button__primary hamburger__menu mobile__only"
-            id="hamburgermenu"
-          >
-            <div></div>
-            <div></div>
-            <div></div>
-          </button>
-            <div class="nav__item hide__mobile">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-            </div>
-            <div class="nav__item hide__mobile">
-                <li>
-                  <a href="index.html#about">About</a>
-                </li>
-            </div>
-            <!-- <div class="nav__item hide__mobile">
+	<header>
+		<nav class="navbar">
+			<div class="navbar__brand">
+				<img src="images/logo.svg" alt="logo" class="navbar__brand" />
+			</div>
+			<div class="navbar__nav__items">
+				<button class="button__primary hamburger__menu mobile__only" id="hamburgermenu">
+					<div></div>
+					<div></div>
+					<div></div>
+				</button>
+				<div class="nav__item hide__mobile">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+				</div>
+				<div class="nav__item hide__mobile">
+					<li>
+						<a href="index.html#about">About</a>
+					</li>
+				</div>
+				<!-- <div class="nav__item hide__mobile">
                 <li>
                   <a href="#">Schedule</a>
                 </li>
             </div> -->
-            <div class="nav__item hide__mobile">
-              <li>
-                <a href="index.html#theme">Themes</a>
-              </li>
-          </div>
-          <div class="nav__item hide__mobile">
-            <li>
-              <a href="index.html#contest-section">Contest</a>
-            </li>
-          </div>
-            <div class="nav__item hide__mobile">
-                <li>
-                <a href="index.html#sponsor">Sponsor</a>
-                </li>
-            </div>
-            <!-- <div class="nav__item hide__mobile">
+				<div class="nav__item hide__mobile">
+					<li>
+						<a href="index.html#theme">Themes</a>
+					</li>
+				</div>
+				<div class="nav__item hide__mobile">
+					<li>
+						<a href="index.html#contest-section">Contest</a>
+					</li>
+				</div>
+				<div class="nav__item hide__mobile">
+					<li>
+						<a href="index.html#sponsor">Sponsor</a>
+					</li>
+				</div>
+				<!-- <div class="nav__item hide__mobile">
                 <li>
                 <a href="#">Speaker</a>
                 </li>
             </div> -->
-            <div class="nav__item hide__mobile">
-                <li>
-                <a href="#">Team</a>
-                </li>
-            </div>
-            <div class="nav__item hide__mobile">
-              <li>
-              <a href="index.html#faq">Faq</a>
-              </li>
-          </div>
-          <div class="nav__item hide__mobile">
-            <li>
-            <a href="https://devscript.org/fss/coc.pdf">Code of Conduct</a>
-            </li>
-        </div>
-        </div>
-          
-          <div class="social-icons hide__mobile">
-            <ul class="social-icons-list">
-                <li>
-                  <a target="_blank" href="https://github.com/DevScript">
-                    <i class="fab fa-github"></i>
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" href="https://twitter.com/The_DevScript">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" href="https://www.youtube.com/c/devscript">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" href="https://www.linkedin.com/company/devscripts">
-                    <i class="fab fa-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" href="https://www.instagram.com/the_devscript/">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-          </div>
-        </nav>
-        <div class="mobile__navbar__items mobile__only hamburger__menu__close">
-          <ul>
-            <a href="index.html"><li class="nav__item">Home</li></a>
-            <a href="index.html#about"><li class="nav__item">About</li></a>
-            <a href="index.html#theme"><li class="nav__item">Themes</li></a>
-            <!-- <a><li class="nav__item">Schedule</li></a> -->
-            <a href="index.html#contest-section"><li class="nav__item">Contest</li></a>
-            <a href="index.html#sponsor"><li class="nav__item">Sponsor</li></a>
-            <!-- <a><li class="nav__item">Speaker</li></a> -->
-            <a><li class="nav__item">Team</li></a>
-            <a href="index.html#faq"><li class="nav__item">Faq</li></a>
-            <a href="https://devscript.org/fss/coc.pdf"><li class="nav__item">Code of Conduct</li></a>
-          </ul>
-  
-        </div>
-      </header>
+				<div class="nav__item hide__mobile">
+					<li>
+						<a href="#">Team</a>
+					</li>
+				</div>
+				<div class="nav__item hide__mobile">
+					<li>
+						<a href="index.html#faq">Faq</a>
+					</li>
+				</div>
+				<div class="nav__item hide__mobile">
+					<li>
+						<a href="https://devscript.org/fss/coc.pdf">Code of Conduct</a>
+					</li>
+				</div>
+			</div>
 
-     
-        <div class="team_section">
-            <div class="team-title">
-              <div>
-                <h1 style="color: #e22ea6;text-align: center;font-family: myFirstFont;font-size: 50px;">Our Amazing Team</h1>
-              </div>
+			<div class="social-icons hide__mobile">
+				<ul class="social-icons-list">
+					<li>
+						<a target="_blank" href="https://github.com/DevScript">
+							<i class="fab fa-github"></i>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://twitter.com/The_DevScript">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://www.youtube.com/c/devscript">
+							<i class="fab fa-youtube"></i>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://www.linkedin.com/company/devscripts">
+							<i class="fab fa-linkedin"></i>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://www.instagram.com/the_devscript/">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="mobile__navbar__items mobile__only hamburger__menu__close">
+			<ul>
+				<a href="index.html">
+					<li class="nav__item">Home</li>
+				</a>
+				<a href="index.html#about">
+					<li class="nav__item">About</li>
+				</a>
+				<a href="index.html#theme">
+					<li class="nav__item">Themes</li>
+				</a>
+				<!-- <a><li class="nav__item">Schedule</li></a> -->
+				<a href="index.html#contest-section">
+					<li class="nav__item">Contest</li>
+				</a>
+				<a href="index.html#sponsor">
+					<li class="nav__item">Sponsor</li>
+				</a>
+				<!-- <a><li class="nav__item">Speaker</li></a> -->
+				<a>
+					<li class="nav__item">Team</li>
+				</a>
+				<a href="index.html#faq">
+					<li class="nav__item">Faq</li>
+				</a>
+				<a href="https://devscript.org/fss/coc.pdf">
+					<li class="nav__item">Code of Conduct</li>
+				</a>
+			</ul>
 
-            </div>
-            <div class="team-list">
-                    <div id="member-card" data-aos="fade-right">
-                        <div class="image-div ">
-                            <a href="" target="_blank" rel="noreferrer"> <img id="team-image" src="images/Vedant Khairnar.jpg" alt=" not found"> </a>
-                        </div>
-                        <span id="member-name">Vedant Khairnar</span>
-                        <span id="member-role">Lead Organiser</span>
-                        <div class="socials">
-                            <a href="https://twitter.com/VedantKhairnar3"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/in/vedantkhairnar/"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://github.com/VedantKhairnar"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <div id="member-card" data-aos="fade-right">
-                        <div class="image-div ">
-                            <a href="" target="_blank" rel="noreferrer"> <img id="team-image" src="images/Shreya Santoshwar alt.jpg" alt=" not found"> </a>
-                        </div>
-                        <span id="member-name">Shreya Santoshwar</span>
-                        <span id="member-role">Lead Organiser</span>
-                        <div class="socials">
-                            <a href="https://twitter.com/ShreyaSantoshw1?s=09"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/in/shreya-santoshwar-666447197"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://github.com/ShreyaSS02"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <div id="member-card" data-aos="fade-right">
-                        <div class="image-div ">
-                            <a href="" target="_blank" rel="noreferrer"> <img id="team-image" src="https://devscript.org/assets/img/team/Smriti%20Singh.jpg" alt=" not found"> </a>
-                        </div>
-                        <span id="member-name">Smriti Singh</span>
-                        <span id="member-role">Community Manager</span>
-                        <div class="socials">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="www.linkedin.com/in/smriti-singh-1307"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="www.github.com/smriti1313/"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <div id="member-card" data-aos="fade-right">
-                      <div class="image-div ">
-                          <a href="" target="_blank" rel="noreferrer"> <img id="team-image" src="./images/vedant-img - Vedant Kakde.png" alt=" not found"> </a>
-                      </div>
-                      <span id="member-name">Vedant Kakde</span>
-                      <span id="member-role">Community Manager</span>
-                      <div class="socials">
-                          <a href="https://twitter.com/vedantstwt"><i class="fab fa-twitter"></i></a>
-                          <a href="https://www.linkedin.com/in/vedant-kakde/"><i class="fab fa-linkedin-in"></i></a>
-                          <a href="https://github.com/vedant-kakde"><i class="fab fa-github"></i></a>
-                      </div>
-                  </div>
-          
-                    <div id="member-card" data-aos="fade-right">
-                        <div class="image-div ">
-                            <a href="" target="_blank" rel="noreferrer"> <img id="team-image" src="./images/Vipasha Chikate.jpeg" alt=" not found"> </a>
-                        </div>
-                        <span id="member-name">Vipasha Chikate</span>
-                        <span id="member-role">Creatives Expert</span>
-                        <div class="socials">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/in/vipasha-chikate-88077a1a0/"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://github.com/vipashachikate"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <div id="member-card" data-aos="fade-right">
-                        <div class="image-div ">
-                            <a href="" target="_blank" rel="noreferrer"> <img id="team-image" src="https://devscript.org/assets/img/team/Swati%20Sandhya.jpg" alt=" not found"> </a>
-                        </div>
-                        <span id="member-name">Swati Sandhya</span>
-                        <span id="member-role">Community Manager</span>
-                        <div class="socials">
-                            <a href="https://twitter.com/SSD142"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/in/swatisandhya/"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://github.com/swati2000"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <div id="member-card" data-aos="fade-right">
-                        <div class="image-div ">
-                            <a href="" target="_blank" rel="noreferrer"> <img id="team-image" src="./images/Pranjal.jpeg" alt=" not found"> </a>
-                        </div>
-                        <span id="member-name">Pranjal</span>
-                        <span id="member-role">Creatives Expert</span>
-                        <div class="socials">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/in/pranjal-patil-2057b3198/"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://github.com/Pranjal-2001"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <div id="member-card" data-aos="fade-right">
-                        <div class="image-div ">
-                            <a href="" target="_blank" rel="noreferrer"> <img id="team-image" src="./images/photo.png" alt=" not found"> </a>
-                        </div>
-                        <span id="member-name">Thejaswin S</span>
-                        <span id="member-role">Web Developer</span>
-                        <div class="socials">
-                            <a href="https://twitter.com/Thejaswin6"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/in/thejaswin-s-22252318b/"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://github.com/thejaswin123"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <div id="member-card" data-aos="fade-right">
-                        <div class="image-div ">
-                            <a href="" target="_blank" rel="noreferrer"> <img id="team-image" src="./images/Dipesh Sindhav.jpg" alt=" not found"> </a>
-                        </div>
-                        <span id="member-name">Dipesh Sindhav</span>
-                        <span id="member-role">Community Manager</span>
-                        <div class="socials">
-                            <a href="https://twitter.com/SindhavDipesh"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/in/dip-sindhav"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://github.com/sindhavdipesh"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <!-- <div id="member-card" data-aos="fade-right">
+		</div>
+	</header>
+
+
+	<div class="team_section">
+		<div class="team-title">
+			<div>
+				<h1 style="color: #e22ea6;text-align: center;font-family: myFirstFont;font-size: 50px;">Our Amazing Team
+				</h1>
+			</div>
+
+		</div>
+		<div class="team-list">
+			<div id="member-card" data-aos="fade-right">
+				<div class="image-div ">
+					<a href="" target="_blank" rel="noreferrer"> <img id="team-image" src="images/Vedant Khairnar.jpg"
+							alt=" not found"> </a>
+				</div>
+				<span id="member-name">Vedant Khairnar</span>
+				<span id="member-role">Lead Organiser</span>
+				<div class="socials">
+					<a href="https://twitter.com/VedantKhairnar3"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/vedantkhairnar/"><i class="fab fa-linkedin-in"></i></a>
+					<a href="https://github.com/VedantKhairnar"><i class="fab fa-github"></i></a>
+				</div>
+			</div>
+			<div id="member-card" data-aos="fade-right">
+				<div class="image-div ">
+					<a href="" target="_blank" rel="noreferrer"> <img id="team-image"
+							src="images/Shreya Santoshwar alt.jpg" alt=" not found"> </a>
+				</div>
+				<span id="member-name">Shreya Santoshwar</span>
+				<span id="member-role">Lead Organiser</span>
+				<div class="socials">
+					<a href="https://twitter.com/ShreyaSantoshw1?s=09"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/shreya-santoshwar-666447197"><i
+							class="fab fa-linkedin-in"></i></a>
+					<a href="https://github.com/ShreyaSS02"><i class="fab fa-github"></i></a>
+				</div>
+			</div>
+			<div id="member-card" data-aos="fade-right">
+				<div class="image-div ">
+					<a href="" target="_blank" rel="noreferrer"> <img id="team-image"
+							src="https://devscript.org/assets/img/team/Smriti%20Singh.jpg" alt=" not found"> </a>
+				</div>
+				<span id="member-name">Smriti Singh</span>
+				<span id="member-role">Community Manager</span>
+				<div class="socials">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="www.linkedin.com/in/smriti-singh-1307"><i class="fab fa-linkedin-in"></i></a>
+					<a href="www.github.com/smriti1313/"><i class="fab fa-github"></i></a>
+				</div>
+			</div>
+
+
+			<div id="member-card" data-aos="fade-right">
+				<div class="image-div ">
+					<a href="" target="_blank" rel="noreferrer"> <img id="team-image"
+							src="./images/Vipasha Chikate.jpeg" alt=" not found"> </a>
+				</div>
+				<span id="member-name">Vipasha Chikate</span>
+				<span id="member-role">Creatives Expert</span>
+				<div class="socials">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/vipasha-chikate-88077a1a0/"><i
+							class="fab fa-linkedin-in"></i></a>
+					<a href="https://github.com/vipashachikate"><i class="fab fa-github"></i></a>
+				</div>
+			</div>
+			<div id="member-card" data-aos="fade-right">
+				<div class="image-div ">
+					<a href="" target="_blank" rel="noreferrer"> <img id="team-image"
+							src="https://devscript.org/assets/img/team/Swati%20Sandhya.jpg" alt=" not found"> </a>
+				</div>
+				<span id="member-name">Swati Sandhya</span>
+				<span id="member-role">Community Manager</span>
+				<div class="socials">
+					<a href="https://twitter.com/SSD142"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/swatisandhya/"><i class="fab fa-linkedin-in"></i></a>
+					<a href="https://github.com/swati2000"><i class="fab fa-github"></i></a>
+				</div>
+			</div>
+			<div id="member-card" data-aos="fade-right">
+				<div class="image-div ">
+					<a href="" target="_blank" rel="noreferrer"> <img id="team-image" src="./images/Pranjal.jpeg"
+							alt=" not found"> </a>
+				</div>
+				<span id="member-name">Pranjal</span>
+				<span id="member-role">Creatives Expert</span>
+				<div class="socials">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/pranjal-patil-2057b3198/"><i
+							class="fab fa-linkedin-in"></i></a>
+					<a href="https://github.com/Pranjal-2001"><i class="fab fa-github"></i></a>
+				</div>
+			</div>
+			<div id="member-card" data-aos="fade-right">
+				<div class="image-div ">
+					<a href="" target="_blank" rel="noreferrer"> <img id="team-image" src="./images/photo.png"
+							alt=" not found">
+					</a>
+				</div>
+				<span id="member-name">Thejaswin S</span>
+				<span id="member-role">Web Developer</span>
+				<div class="socials">
+					<a href="https://twitter.com/Thejaswin6"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/thejaswin-s-22252318b/"><i class="fab fa-linkedin-in"></i></a>
+					<a href="https://github.com/thejaswin123"><i class="fab fa-github"></i></a>
+				</div>
+			</div>
+			<div id="member-card" data-aos="fade-right">
+				<div class="image-div ">
+					<a href="" target="_blank" rel="noreferrer"> <img id="team-image" src="./images/Dipesh Sindhav.jpg"
+							alt=" not found"> </a>
+				</div>
+				<span id="member-name">Dipesh Sindhav</span>
+				<span id="member-role">Community Manager</span>
+				<div class="socials">
+					<a href="https://twitter.com/SindhavDipesh"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/dip-sindhav"><i class="fab fa-linkedin-in"></i></a>
+					<a href="https://github.com/sindhavdipesh"><i class="fab fa-github"></i></a>
+				</div>
+			</div>
+			<!-- <div id="member-card" data-aos="fade-right">
                         <div class="image-div ">
                             <a href="" target="_blank" rel="noreferrer"> <img id="team-image" src="./images/download.jpg" alt=" not found"> </a>
                         </div>
@@ -285,53 +307,54 @@
                             <a href="#"><i class="fab fa-github"></i></a>
                         </div>
                     </div> -->
-            </div>
-        </div>
-    
-        <footer class="footer-team">
-            <div class="footer-txt">
-              <div id="contact">
-                <ul>
-                  <div id="icon-container">
-                    <a target="_blank" href="https://twitter.com/The_DevScript">
-                      <div id="icon">
-                        <li><i class="fab fa-twitter"></i></li>
-                      </div>
-                    </a>
-                    <a target="_blank" href="https://instagram.com/the_devscript/">
-                      <div id="icon">
-                        <li><i class="fab fa-instagram"></i></li>
-                      </div>
-                    </a>
-                    <a target="_blank" href="https://www.youtube.com/c/devscript">
-                      <div id="icon">
-                        <li><i class="fab fa-youtube"></i></li>
-                      </div>
-                    </a>
-                    <a target="_blank" href="https://www.linkedin.com/company/devscripts">
-                      <div id="icon">
-                        <li><i class="fab fa-linkedin-in"></i></li>
-                      </div>
-                    </a>
-                    <a target="_blank" href="https://github.com/DevScript">
-                      <div id="icon">
-                        <li><i class="fab fa-github"></i></li>
-                      </div>
-                  </div></a>
-                </ul>
-                <p>&copy 2020-2021, Devscript</p>
-              </div>
-                <div class="footer-figure">
-                  <img src="images/final1.png" class="footer-figure-image">
-                </div>
-            </div>
-          </footer>    
+		</div>
+	</div>
+
+	<footer class="footer-team">
+		<div class="footer-txt">
+			<div id="contact">
+				<ul>
+					<div id="icon-container">
+						<a target="_blank" href="https://twitter.com/The_DevScript">
+							<div id="icon">
+								<li><i class="fab fa-twitter"></i></li>
+							</div>
+						</a>
+						<a target="_blank" href="https://instagram.com/the_devscript/">
+							<div id="icon">
+								<li><i class="fab fa-instagram"></i></li>
+							</div>
+						</a>
+						<a target="_blank" href="https://www.youtube.com/c/devscript">
+							<div id="icon">
+								<li><i class="fab fa-youtube"></i></li>
+							</div>
+						</a>
+						<a target="_blank" href="https://www.linkedin.com/company/devscripts">
+							<div id="icon">
+								<li><i class="fab fa-linkedin-in"></i></li>
+							</div>
+						</a>
+						<a target="_blank" href="https://github.com/DevScript">
+							<div id="icon">
+								<li><i class="fab fa-github"></i></li>
+							</div>
+					</div></a>
+				</ul>
+				<p>&copy 2020-2021, Devscript</p>
+			</div>
+			<div class="footer-figure">
+				<img src="images/final1.png" class="footer-figure-image">
+			</div>
+		</div>
+	</footer>
 
 
-          <script src="script.js"></script>
-          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-          <script>
-          AOS.init();
-          </script>
+	<script src="script.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
+
 </html>
