@@ -25,7 +25,12 @@ body {
 
 
 /*---------------------navbar-------------------------*/
-
+/* header{
+	position: sticky;
+	top:0;
+	z-index: 99;
+	background:transparent;
+} */
 a {
 	text-decoration: none;
 }
@@ -857,7 +862,7 @@ section {
 	display: flex;
 	justify-content: space-evenly;
 	flex-direction: row;
-	background: url("images/background.png") no-repeat;
+	background: url("webimages/background.png") no-repeat;
 	background-size: cover;
 	overflow-y: hidden;
 	overflow-x: hidden;
@@ -2043,7 +2048,7 @@ i {
 	}
 
 	100% {
-		transform: translateX(calc(-250px * 6));
+		transform: translateX(calc(-250px * 8));
 	}
 }
 
@@ -2079,19 +2084,19 @@ i {
 }
 
 .slider .slide-track {
-	animation: scroll 20s linear infinite;
+	animation: scroll 30s linear infinite;
 	display: flex;
-	width: calc(250px * 22);
+	width: calc(250px * 32);
 	background: transparent;
 }
 
-.logos {
+.cms1 {
 	background: #ffffff00;
 	margin-top: 1rem;
 }
 
 
-.cms {
+.cms2 {
 	background: #ffffff00;
 	margin-top: 3rem;
 }
@@ -2141,7 +2146,7 @@ i {
 .slider1 .slide-track1 {
 	animation: scroll1 40s linear infinite;
 	display: flex;
-	width: calc(250px * 30);
+	width: calc(250px * 38);
 	background: transparent;
 }
 
