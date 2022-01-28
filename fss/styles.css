@@ -25,12 +25,12 @@ body {
 
 
 /*---------------------navbar-------------------------*/
-/* header{
+header{
 	position: sticky;
 	top:0;
 	z-index: 99;
 	background:transparent;
-} */
+}
 a {
 	text-decoration: none;
 }
@@ -645,6 +645,9 @@ section {
 
 	.scrolling-wrapper {
 		-webkit-overflow-scrolling: touch;
+	}
+	.navbar__brand{
+		display: none;
 	}
 }
 
