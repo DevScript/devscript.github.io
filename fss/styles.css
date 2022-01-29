@@ -2191,10 +2191,11 @@ i {
 
 .badge{
 	position: absolute;
-	width: 100px;
-	height: 100px;
+	width: 130px;
+	height: 130px;
 	z-index: 11;
-	right:16%;
+	top:-15px;
+	right:15%;
 	background-color: transparent;
 }
 .badge-img{
