@@ -77,7 +77,7 @@ button {
 }
 
 .hamburger__menu__close {
-	display: none !important;
+	display: none;
 }
 
 .mobile__navbar__items>ul>a {
@@ -976,11 +976,6 @@ section {
 	width: 32%;
 }
 
-.speakers>h1 {
-	text-align: center;
-	font-size: 70px;
-}
-
 .container {
 	display: flex;
 	justify-content: center;
@@ -988,51 +983,33 @@ section {
 
 .speakers {
 	margin-top: 30px;
-	width: 90%;
+	width: 100%;
 	position: relative;
 	border-radius: 15px;
-
 	border: 5px ridge rgba(28, 110, 164, 0.05);
-
-}
-
-.speakers::before {
-	content: "";
-	background-image: url('https://wallpapercave.com/wp/wp9938392.jpeg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
-	left: 0px;
-	opacity: 0.3;
-	z-index: -1;
 }
 
 .list {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
-	column-gap: 10px;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
 .card-wrap {
-	width: 180px;
+	width: 160px;
 	background: transparent;
 	border-radius: 20px;
 	overflow: hidden;
-	color: var(--color-text);
 	cursor: pointer;
 	transition: all .2s ease-in-out;
-	transform: scale(0.7);
+	
 }
 
 .card-wrap:hover {
-	transform: scale(0.8);
+	transform: scale(0.98);
 }
 
 .card-header {
@@ -1049,7 +1026,7 @@ section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 60%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -1058,14 +1035,14 @@ section {
 	text-transform: uppercase;
 	font-size: 20px;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	color: white;
 }
 
 .card-text {
 	text-align: center;
-	font-size: 12px;
-	margin-bottom: 10px;
+	font-size: 13px;
+	margin-bottom: 5px;
 	color: white;
 }
 
@@ -1079,10 +1056,7 @@ section {
 
 @media only screen and (max-width:500px) {
 	.card-wrap {
-		width: 120px;
-		height: 180px;
-		padding: auto;
-		margin: auto;
+		width: 140px;
 	}
 
 	.card-header {
@@ -1090,7 +1064,7 @@ section {
 	}
 
 	.list {
-		gap: 0px;
+		gap: 25px;
 	}
 
 	.card-content {
@@ -1105,6 +1079,9 @@ section {
 		margin: auto;
 		margin-top: 8px;
 		margin-bottom: 8px;
+	}
+	.card-content .socials{
+		margin:10px;
 	}
 }
 
@@ -1451,6 +1428,9 @@ section {
 	.line3 {
 		width: 30%;
 	}
+	.navbar__nav__items{
+		background: transparent;
+	}
 }
 
 @media screen and (max-width: 400px) {
@@ -1553,7 +1533,7 @@ a {
 
 .team-list {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	justify-items: center;
 	background-color: transparent;
 }
@@ -2219,3 +2199,188 @@ i {
 	}
 }
 
+/***************timeline*************/
+
+.tabset > input[type="radio"] {
+    position: absolute;
+    left: -200vw;
+  }
+  
+  .tabset .tab-panel {
+    display: none;
+  }
+  
+  .tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+  .tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+  .tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+  .tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+  .tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+  .tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+    display: block;
+  }
+  
+  .tabset > label {
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px 25px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .tabset > label::after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    width: 22px;
+    height: 4px;
+    background: #f44786;
+  }
+  
+  .tabset > label:hover,
+  .tabset > input:focus + label {
+    color: #f44786;
+  }
+  
+  .tabset > label:hover::after,
+  .tabset > input:focus + label::after,
+  .tabset > input:checked + label::after {
+    background: #fdcee3;
+  }
+  
+  .tabset > input:checked + label {
+    border-color: #fdcee3;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+  }
+  
+  .tab-panel {
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  .tabset {
+    width: 100%;
+	padding:0 2%;
+  }
+
+.timeline {
+    border-left: 3px solid #ed1b76;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: #757575;
+    margin: 0 auto;
+    letter-spacing: 0.2px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    max-width: 90%;
+}
+
+@media (max-width: 767px) {
+    .timeline {
+        max-width: 98%;
+        padding: 25px;
+    }
+}
+
+.timeline h1 {
+    font-weight: 300;
+    font-size: 1.4em;
+
+}
+
+.timeline h2,
+.timeline h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10px;
+	background: transparent;
+	color:white;
+}
+
+.timeline .event {
+    border-bottom: 1px dashed #fdcee3;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+	background: transparent;
+}
+
+@media (max-width: 767px) {
+    .timeline .event {
+        padding-top: 30px;
+    }
+}
+
+.timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .event:before {
+    left: -207px;
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 120px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:before {
+        left: 0px;
+        text-align: left;
+    }
+}
+
+.timeline .event:after {
+    
+    box-shadow: 0 0 0 3px #ed1b76;
+    left: -55.8px;
+    background: #fdcee3;
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    content: "";
+    top: 5px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:after {
+        left: -31.8px;
+    }
+}
+
+.rtl .timeline {
+    border-left: 0;
+    text-align: right;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-right: 3px solid #ed1b76;
+}
+
+.rtl .timeline .event::before {
+    left: 0;
+    right: -170px;
+}
+
+.rtl .timeline .event::after {
+    left: 0;
+    right: -55.8px;
+}
