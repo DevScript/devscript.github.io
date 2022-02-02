@@ -3,10 +3,16 @@ const mobileNavDropDown = document.querySelector(
 	".mobile__navbar__items"
 );
 hamburgermenu.addEventListener("click", () => {
-	if (mobileNavDropDown.classList.contains("hamburger__menu__close"))
+	if (mobileNavDropDown.classList.contains("hamburger__menu__close")){
 		return mobileNavDropDown.classList.remove("hamburger__menu__close");
+	}
 	return mobileNavDropDown.classList.add("hamburger__menu__close");
 });
+
+const dum=document.querySelector('.mobile__navbar__items ul');
+dum.addEventListener("click", ()=>{
+	return mobileNavDropDown.classList.add("hamburger__menu__close");
+})
 
 document.querySelectorAll(".Description").forEach(function (p) {
 	p.querySelector("a").addEventListener("click", function () {
@@ -58,15 +64,15 @@ for (i = 0; i < acc.length; i++) {
 	});
 }
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-	anchor.addEventListener('click', function (e) {
-		e.preventDefault();
+// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+// 	anchor.addEventListener('click', function (e) {
+// 		e.preventDefault();
 
-		document.querySelector(this.getAttribute('href')).scrollIntoView({
-			behavior: 'smooth'
-		});
-	});
-});
+// 		document.querySelector(this.getAttribute('href')).scrollIntoView({
+// 			behavior: 'smooth'
+// 		});
+// 	});
+// });
 
 function showText(toggleText) {
 	toggleText.classList.toggle("active");
