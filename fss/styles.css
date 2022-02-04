@@ -1006,7 +1006,7 @@ section {
 	overflow: hidden;
 	cursor: pointer;
 	transition: all .2s ease-in-out;
-	
+	padding: 5px;
 }
 
 .card-wrap:hover {
@@ -2271,7 +2271,7 @@ i {
     border-left: 3px solid #ed1b76;
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
-    background: #757575;
+    background: #090910;
     margin: 0 auto;
     letter-spacing: 0.2px;
     position: relative;
@@ -2300,14 +2300,14 @@ i {
 .timeline h3 {
     font-weight: 600;
     font-size: 1rem;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 	background: transparent;
 	color:white;
 }
 
 .timeline .event {
     border-bottom: 1px dashed #fdcee3;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
     margin-bottom: 25px;
     position: relative;
 	background: transparent;
