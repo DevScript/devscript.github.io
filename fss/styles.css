@@ -986,9 +986,6 @@ section {
 .speakers {
 	margin-top: 30px;
 	width: 90%;
-	position: relative;
-	border-radius: 15px;
-	border: 5px ridge rgba(28, 110, 164, 0.05);
 }
 
 .list {
@@ -1062,9 +1059,7 @@ section {
 		width: 140px;
 	}
 
-	.card-header {
-		height: 100px;
-	}
+	
 
 	.list {
 		gap: 25px;
@@ -1198,6 +1193,20 @@ section {
 		0 0 151px #0fa;
 }
 
+.lin{
+	width: 30%;
+	height: 2px;
+	background-color: #fff;
+	box-shadow:
+		0 0 7px #fff,
+		0 0 10px #fff,
+		0 0 21px #fff,
+		0 0 42px #0fa,
+		0 0 82px #0fa,
+		0 0 92px #0fa,
+		0 0 102px #0fa,
+		0 0 151px #0fa;
+}
 .line {
 	margin-top: 20px;
 	width: 40%;
@@ -2408,4 +2417,48 @@ i {
 	.buttons{
 		margin-right:0;
 	}
+}
+
+.keynote{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	column-gap: 50px;
+	margin-bottom: 50px;
+	align-items: center;
+}
+
+.keynote-desc{
+width:30%;
+display:flex;
+align-items: center;
+justify-content: center;
+letter-spacing:2px;
+line-height:1.5em;
+font-weight: 700;
+text-align: center;
+}
+
+.keynote-heading{
+	margin:30px 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background: transparent;
+	justify-content: center;
+}
+
+@media screen and (max-width:600px) {
+	.keynote{
+		flex-direction:column;
+		gap:30px;
+	}
+	.keynote-desc{
+		width:95%;
+		
+	}
+	.keynote-img{
+		width:50%;
+	}
+	
 }
