@@ -2188,11 +2188,11 @@ i {
 
 .badge{
 	position: absolute;
-	width: 130px;
-	height: 130px;
+	width: 170px;
+	height: 160px;
 	z-index: 11;
 	top:-20px;
-	right:15%;
+	right:13%;
 	background-color: transparent;
 }
 .badge-img{
