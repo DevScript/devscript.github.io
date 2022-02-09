@@ -502,7 +502,7 @@ section {
 	grid-template-columns: 1fr 2fr;
 	min-height: 60vh;
 	width: 100%;
-	margin: 20px auto;
+	margin: 25px auto;
 	border-radius: none
 }
 
@@ -2461,4 +2461,10 @@ text-align: center;
 		width:50%;
 	}
 	
+}
+
+.join{
+	display:flex;
+	flex-direction: row;
+	gap:3px;
 }
