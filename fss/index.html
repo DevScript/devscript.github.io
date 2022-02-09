@@ -29,6 +29,7 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akebono&display=swap" rel="stylesheet">
+	<link href="https://icons8.com/icon/m3ZGMVwfwmA4/join"></link>
 </head>
 
 <body onload="myFunction()">
@@ -46,9 +47,9 @@
 			</div>
 			<div class="navbar__nav__items">
 				<button class="button__primary hamburger__menu mobile__only" id="hamburgermenu">
-				
-					
-				
+				<div></div>
+				<div></div>	
+				<div></div>
 				</button>
 				<div class="nav__item hide__mobile">
 					<li>
@@ -56,20 +57,11 @@
 					</li>
 				</div>
 				<div class="nav__item hide__mobile">
-					<li>
-						<a href="#about">About</a>
-					</li>
-				</div>
-				<div class="nav__item hide__mobile">
                 <li>
                   <a href="#schedule">Schedule</a>
                 </li>
-            </div>
-				<div class="nav__item hide__mobile">
-					<li>
-						<a href="#theme">Themes</a>
-					</li>
-				</div>
+            	</div>
+				
 				<div class="nav__item hide__mobile">
 					<li>
 						<a href="#contest-section">Contests</a>
@@ -303,6 +295,9 @@
 
 	<!--Timeline--> 
 	<div id="schedule">
+		<div class="schedule-image">
+			<img class="gif" src="https://fontmeme.com/permalink/220209/96002ada86e392433362c7838f150f7f.png" alt="squid-game-font" >
+		</div>
 		<div class="tabset">
 			
 			<input type="radio" name="tabset" id="tab1" aria-controls="marzen" checked>
@@ -325,28 +320,46 @@
 								<div class="card-body">
 									<div id="content">
 										<ul class="timeline">
+											
 											<li class="event" data-date="11:00 AM">
+												<div class="join">
 												<h3>Opening Ceremony</h3>
+												<a href="https://crater.club/session/1174"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
 												Vedant & Shreya
 												<p></p>
 											</li>
-											<!-- <li class="event" data-date="11:15 AM">
-												<h3>Keynote </h3>
-												Bill Mulligan
+
+											<li class="event" data-date="11:30 AM">
+												<div class="join">
+												<h3>Launching your career in Cloud Native</h3>
+												<a href="https://crater.club/session/1191"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
+												Bill Mulligan, Marketing Manager at CNCF
 												<p></p>
-											</li> -->
+											</li>
+								
 											<li class="event" data-date="12:00 PM">
+												<div class="join">
 												<h3>Getting Started with Angular</h3>
+												<a href="https://crater.club/session/1192"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
 												Santosh Yadav, GDE Angular | GitHub Star
 												<p></p>
 											</li>
 											<li class="event" data-date="1:00 PM">
+												<div class="join">
 												<h3>Power of Open-source and our role in it! </h3>
+												<a href="https://streamyard.com/h9by8bew7w"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
 												Chris Swan, Engineer at The @ Company
 												<p></p>
 											</li>
 											<li class="event" data-date="2:00 PM">
+												<div class="join">
 												<h3>Symbl.ai 101  </h3>
+												<a href="https://crater.club/session/1193"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
 												Akanksha Bhasin, DevRel at Symbl.ai
 												<p></p>
 											</li>
@@ -366,25 +379,47 @@
 								<div class="card-body">
 									<div id="content">
 										<ul class="timeline">
+											<li class="event" data-date="11:00 AM">
+												<div class="join">
+												<h3>Building products using Python/Django</h3>
+												<a href="https://crater.club/session/1194"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
+												Nishant Parashar(Principal Engineer at Crater.club ) & Vighnesh Prasad (Lead Developer at ShareAcre)
+												<p></p>
+											</li>
 											<li class="event" data-date="12:00 PM">
+												<div class="join">
 												<h3>Insights to Azure HDInsight</h3>
+												<a href="https://crater.club/session/1176"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
 												Niti Gupta, Software Engineer 2 at Microsoft
 												<p></p>
 											</li>
+											<li class="event" data-date="1:00 PM">
+												<div class="join">
+												<h3>Build E2EE Applications without worrying about Backend & Infrastructure</h3>
+												<a href="https://streamyard.com/f45rrebf22"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
+												Kevin Nickels & Colin Constable, Co-founder of The @ Company
+												<p></p>
+											</li>
 											<li class="event" data-date="2:00 PM">
+												<div class="join">
 												<h3>APIs 101 using Postman</h3>
+												<a href="https://crater.club/session/1175"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
 												Ali Mustufa Shaikh, Student Community Lead at Postman
 												<p></p>
 											</li>
 											<li class="event" data-date="3:00 PM">
+												<div class="join">
 												<h3>Building a file server on Supabase</h3>
-												Thor Shaeff,	DevRel & DX at Supabase
+												<a href="https://crater.club/session/1174"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
+												Thor Shaeff,DevRel & DX at Supabase
 												<p></p>
 											</li>
-											<!-- <li class="event" data-date="9:30pm">
-												<h3>Closing Ceremony</h3>
-												<p></p>
-											</li> -->
+											
 										</ul>
 									</div>
 								</div>
@@ -401,25 +436,47 @@
 								<div class="card-body">
 									<div id="content">
 										<ul class="timeline">
-											<li class="event" data-date="11:00 PM">
+											<li class="event" data-date="11:00 AM">
+												<div class="join">
 												<h3>Hands on with SAWO</h3>
+												<a href="https://aviyel.com/events/284/hands-on-with-sawo-by-koishore"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
 												Koishore Roy, Engineering Manager at SAWO Labs
 												<p></p>
 											</li>
+											<li class="event" data-date="12:00 PM">
+												<div class="join">
+												<h3>Getting started with Node JS</h3>
+												<a href="https://i.imgur.com/wbUfjzd.png"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
+												Praveen Kumar, Full Stack JavaScript Specialist / YouTuber
+												<p></p>
+											</li>
 											<li class="event" data-date="1:00 PM">
+												<div class="join">
 												<h3> Machine Learning for the Web : An introduction to TensorFlow.JS</h3>
+												<a href="https://aviyel.com/events/285/machine-learning-for-the-web-an-introduction-to-tensorflow-js"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
 												Shivay Lamba, CTO at DarkHorse
 												<p></p>
 											</li>
-											<li class="event" data-date="3:00 PM">
-												<h3>From production with security bugs</h3>
-												Nikhil Srivastava, Synack Legend, Lead Pentester at Cobalt.io | Kainat Kamal,	 Advanced Cyber Security Engineer at Honeywell
+											<li class="event" data-date="2:00 PM">
+												<div class="join">
+												<h3> Knowledge of Product Management a dev needs to know!</h3>
+												<a href="https://aviyel.com/events/292/knowledge-of-product-management-a-dev-needs-to-know"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
+												Ashish Ramamurthy, Associate Product Manager at SAWO Labs
 												<p></p>
 											</li>
-											<!-- <li class="event" data-date="9:30pm">
-												<h3>Closing Ceremony</h3>
+											<li class="event" data-date="3:00 PM">
+												<div class="join">
+												<h3>From production with security bugs</h3>
+												<a href="https://aviyel.com/events/287/from-production-with-security-bugs"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
+												Nikhil Srivastava, Synack Legend, Lead Pentester at Cobalt.io | Kainat Kamal, Advanced Cyber Security Engineer at Honeywell
 												<p></p>
-											</li> -->
+											</li>
+											
 										</ul>
 									</div>
 								</div>
@@ -438,22 +495,34 @@
 									<div id="content">
 										<ul class="timeline">
 											<li class="event" data-date="11:00 AM">
-												<h3>Building Scalable Product for Startups</h3>
-												Jeph Paul, Lead - Web Engineering at Aviyel & Vineeth G S, Product Designer at Aviyel
+												<div class="join">
+												<h3>Building sustainable Open Source communities by Jose</h3>
+												<a href="https://aviyel.com/events/290/building-sustainable-open-source-communities-by-jose"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
+												Jose Kuttan,Founder of Aviyel
 												<p></p>
 											</li>
 											<li class="event" data-date="1:00 PM">
+												<div class="join">
 												<h3> Hyperledger Blockchain</h3>
+												<a href="https://aviyel.com/events/288/hyperledger-opensource-blockchain-technology"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
 												Kamlesh Nagware, CTO at Snapper Future Tech
 												<p></p>
 											</li>
 											<li class="event" data-date="2:00 PM">
+												<div class="join">
 												<h3>Python Microservices and its Frameworks (Sanic)</h3>
+												<a href="https://aviyel.com/events/293/python-microservices-and-its-frameworks-featuring-sanic"><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
 												Nikhil Kumar, Software Engineer at Deloitte
 												<p></p>
 											</li>
 											<li class="event" data-date="3:00 PM">
+												<div class="join">
 												<h3>Closing Ceremony</h3>
+												<a href=""><img style="width:25px; height:25px;" src="./webimages/join.png" /></a>
+												</div>
 												DevScript Team
 												<p></p>
 											</li>
